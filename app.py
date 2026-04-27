@@ -19,10 +19,10 @@ def home():
     user_answer = request.form["answer"]
 
     
-  if user_answer.lower().strip() == quiz_data[session["question_index"]]["answer"].lower():
+    if user_answer.lower().strip() == quiz_data[session["question_index"]]["answer"].lower():
         session["score"] += 1
         session["question_index"] = session["question_index"] + 1
-  else:
+    else:
         session["question_index"] = session["question_index"] + 1
   
   if session["question_index"] >= len(quiz_data):
