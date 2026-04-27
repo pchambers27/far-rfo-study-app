@@ -21,7 +21,7 @@ def home():
         if user_answer.lower().strip() == quiz_data[session["question_index"]]["answer"].lower():
             session["score"] += 1
   
-    session["question_index"] += 1
+        session["question_index"] += 1
         
   
     if session["question_index"] >= len(quiz_data):
