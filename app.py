@@ -25,8 +25,10 @@ def home():
         
   
     if session["question_index"] >= len(quiz_data):
+        final_score = session["score"]
+        total = len(quiz_data)
         session.clear()
-        return (f"Quiz Complete! Your final score is: {session['score']} out of {len(quiz_data)}")
+        return (f"Quiz Complete! Your final score is: {final_score} out of {total}")
      
     first_question = quiz_data[session["question_index"]]
     return render_template("index.html", question=first_question)
