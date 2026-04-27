@@ -17,13 +17,14 @@ def home():
     
   if request.method == "POST":
     user_answer = request.form["answer"]
+    session_advance = session["score"]
 
     
     if user_answer.lower().strip() == quiz_data[session["question_index"]]["answer"].lower():
         session["score"] += 1
-        session["question_index"] = session["question_index"] + 1
+        session_advance
     else:
-        session["question_index"] = session["question_index"] + 1
+        session_advance
   
   if session["question_index"] >= len(quiz_data):
       return (f"Quiz Complete! Your final score is: {session['score']} out of {len(quiz_data)}")
