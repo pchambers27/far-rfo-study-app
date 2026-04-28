@@ -1,22 +1,39 @@
 [
   {
+    "id": 1,
+    "far_part": "Part 15",
+    "topic": "Contracting by Negotiation",
+    "qtype": "multiple_choice",
     "question": "Under the RFO, what word replaced 'discussions' in FAR part 15?",
-    "answer": "negotiations"
+    "choices": ["Communications", "Negotiations", "Clarifications", "Exchanges"],
+    "answer": "Negotiations",
+    "explanation": "The RFO Part 15 replaced the word 'discussions' with 'negotiations' to better reflect the deliberative, exchange-based nature of the dialogue between the government and offerors."
   },
   {
+    "id": 2,
+    "far_part": "Part 12",
+    "topic": "Commercial Products and Services",
+    "qtype": "fill_in",
     "question": "What is the new simplified procedures threshold under RFO Part 12 (in millions)?",
-    "answer": "9"
+    "answer": "9",
+    "explanation": "The RFO Part 12 simplified procedures threshold is $9 million."
   },
   {
-    "question": "How many years unitl a non-statutory FAR provision expires under FAR 1.109?",
-    "answer": "4"
+    "id": 3,
+    "far_part": "Part 1",
+    "topic": "FAR System and Sunset Rule",
+    "qtype": "true_false",
+    "question": "Under the FAR 1.109, all FAR provisions \u2014 including those required by statute \u2014 expire after 4 years unless renewed by the FAR Council.",
+    "answer": "False",
+    "explanation": "the 4-year sunset under FAR 1.109 applies only to NON-statutory FAR provisions. Statutory provisions are not subject to the sunset because they're requried by law, not by FAR Council policy."
   },
   {
-    "question": "What is Part 13 of the RFO now called?",
-    "answer": "simplified procedures for noncommercial acquisitions" 
-  },
-  {
-    "question": "What is the new Micro Purchase Threshold limit now?",
-    "answer": "$15,000" 
+    "id": 4,
+    "far_part": "Part 12",
+    "topic": "Commercial Products and Services",
+    "qtype": "scenario",
+    "question": "CO Martinez is buying $7.5M of commercial IT services. She wants to use streamlined procedures with minimal documentation, no formal evaluation plan, and an RFQ-to-PO process. Under RFO Part 12, is this approach allowed?",
+    "choices": ["Yes \u2014 it's within the $9M streamlined threshold", "No\u2014 streamlined procedures cap at $250k under the old SAT", "Yes \u2014 but only with HCA approval", "No \u2014 IT services are excluded from streamlined procedures."]
+    "answer": "Yes \u2014 it's within the $9M streamlined threshold" 
   }
 ]

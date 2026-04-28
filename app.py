@@ -30,8 +30,8 @@ def home():
         session.clear()
         return (f"Quiz Complete! Your final score is: {final_score} out of {total}")
      
-    first_question = quiz_data[session["question_index"]]
-    return render_template("index.html", question=first_question)
+    current_question = quiz_data[session["question_index"]]
+    return render_template("index.html", question=current_question)
 
 if __name__ == "__main__":
   app.run(host="0.0.0.0", port=3000)
