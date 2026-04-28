@@ -33,7 +33,7 @@
     "topic": "Commercial Products and Services",
     "qtype": "scenario",
     "question": "CO Martinez is buying $7.5M of commercial IT services. She wants to use streamlined procedures with minimal documentation, no formal evaluation plan, and an RFQ-to-PO process. Under RFO Part 12, is this approach allowed?",
-    "choices": ["Yes \u2014 it's within the $9M streamlined threshold", "No\u2014 streamlined procedures cap at $250k under the old SAT", "Yes \u2014 but only with HCA approval", "No \u2014 IT services are excluded from streamlined procedures."]
+    "choices": ["Yes \u2014 it's within the $9M streamlined threshold", "No\u2014 streamlined procedures cap at $250k under the old SAT", "Yes \u2014 but only with HCA approval", "No \u2014 IT services are excluded from streamlined procedures."],
     "answer": "Yes \u2014 it's within the $9M streamlined threshold" 
   }
 ]
