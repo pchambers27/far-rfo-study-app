@@ -3,19 +3,50 @@
 <head>
   <title> My RFO App</title>
 </head>
+<p> DEBUG: last_result is "{{ last_result }}"</p>
 
+  
 <body>
 
   <h1> FAR RFO Study App</h1>
 
+
+  {% if last_result == "correct" %}
+      <p style="color: green;"> Correct!</p>
+  {% elif last_result == "incorrect" %}
+      <p style="color: red;"> Incorrect. The correct answer is: <strong>{{ last_correct_answer }}</strong></p>
+          <details>
+              <summary>Show explanation</summary>
+              <p>{{ last_explanation }}</p>
+          </details>
+  {% endif %}
+
+  
   <p>
     {{ question.question }}
   </p>
-
+  
   <form method ="POST" action="/">
-    <input type="text" name="answer">
-    <button type="submit">Submit</button>
+      {% if question.qtype == "fill_in" %}
+          <input type="text" name="answer" autofocus required>
+          <button type="submit">Submit</button>
+
+      {% elif question.qtype == "true_false" %}
+          <button type="submit" name="answer" value="True">True</button>
+          <button type="submit" name="answer" value="False">False</button>
+
+      {% elif question.qtype == "multiple_choice" or question.qtype == "scenario" %}
+          {% for choice in question.choices %}
+              <label>
+                  <input type="radio" name="answer" value="{{ choice }}" required>
+                      {{ choice }}
+              </label><br>
+          {% endfor %}
+          <button type="submit">Submit</button>
+      {% endif %}
   </form>
+  
+  <p><a href="/reset"> Reset </a></p>
   
 </body>
 </html>
