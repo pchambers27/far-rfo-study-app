@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Log In - FAR RFO Study App
+    </title>
+  </head>
+<body>
+  <h1>Log In</h1>
+  {% if error %}
+    <p style="color: red;">{{ error }}</p>
+     {% endif %}
+
+   <form method="POST" action="/login">
+     <p>
+       <label>Email:<br><input type="email" name="email" required autofocus></label>
+     </p>
+      <p>
+        <label>Password:<br><input type="password" name="password" required></label>
+      </p>
+       <button type="submit">Log In</button>
+        </form>
+
+  <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+</body>
+</html>

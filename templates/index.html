@@ -3,13 +3,15 @@
 <head>
   <title> My RFO App</title>
 </head>
-<p> DEBUG: last_result is "{{ last_result }}"</p>
-
   
 <body>
 
+<p style="text-align: right;">
+    Logged in as <strong>{{ user_email }}</strong> | <a href="/logout">Log out</a>
+</p>
   <h1> FAR RFO Study App</h1>
 
+    
 
   {% if last_result == "correct" %}
       <p style="color: green;"> Correct!</p>
