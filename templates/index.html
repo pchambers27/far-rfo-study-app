@@ -2,53 +2,84 @@
 <html>
 <head>
   <title> My RFO App</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
   
-<body>
+<body class="bg-gray-50 min-h-screen">
 
-<p style="text-align: right;">
-    Logged in as <strong>{{ user_email }}</strong> | <a href="/logout">Log out</a>
-</p>
-  <h1> FAR RFO Study App</h1>
+    <!-- Top navbar -->
+    <nav class=bg-blue-900 text-white shadow-md">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-white"> FAR RFO Study App</h1>
+            <div class="text-sm">
+                <span class="opacity-75">{{ user_email }}</span>
+                <a href="/logout" class="ml-4 underline hover:opacity-75">Log Out</a>
+            </div>
+        </div>
+    </nav>
 
-    
+    <!-- Main content -->
+    <main class="max-w-2xl mx-auto px-4 py-8">
 
-  {% if last_result == "correct" %}
-      <p style="color: green;"> Correct!</p>
-  {% elif last_result == "incorrect" %}
-      <p style="color: red;"> Incorrect. The correct answer is: <strong>{{ last_correct_answer }}</strong></p>
-          <details>
-              <summary>Show explanation</summary>
-              <p>{{ last_explanation }}</p>
-          </details>
-  {% endif %}
+        <!-- Feedback from previous question -->
+        {% if last_result == "correct" %}
+            <div class="mb-6 p-4 bg-green-50 border-1-4 border-green-600 rounded">
+                <p class="text-green-800 font-semibold">Correct!</p>
+            </div>
+        {% elif last_result == "incorrect" %}
+            <div class="mb-6 p-4 bg-red-50 border-1-4 border-red-600 rounded">
+                <p class="text-red-800 font-semibold">Incorrect.</p>
+                <p class="mt-2 text-gray-700">The correct answer was: <strong>{{ last_correct_answer }}</strong></p>
+                <details class="mt-3">
+                    <summary class="cursor-pointer text-blue-700 hover:text-blue-900 font-medium">Show explanation</summary>
+                    <p class="mt-2 text-gray-700">{{ last_explanation }}</p>
+                </details> 
+            </div>
+        {% endif %}
 
-  
-  <p>
-    {{ question.question }}
-  </p>
-  
-  <form method ="POST" action="/">
-      {% if question.qtype == "fill_in" %}
-          <input type="text" name="answer" autofocus required>
-          <button type="submit">Submit</button>
+        <!-- Current questions card -->
+        <div class="bg-white rounded-lg shadow-md p-6 sm:p-8">
+            <p class="text-xs text-gray-500 uppercase tracking-wide mb-2">{{ question.far_part }} - {{ question.topic }}</p>
+            <p class="text-lg text-gray-900 leading-relaxed mb-6">{{ question.question }}</p>
 
-      {% elif question.qtype == "true_false" %}
-          <button type="submit" name="answer" value="True">True</button>
-          <button type="submit" name="answer" value="False">False</button>
+            <form method="POST" action="/" class="space-y-3">
+                {% if question.qtype == "fill_in" %}
+                <input type="text" name="answer" autofocus required
+                    class="w-full px-4 py-2 border border-gray-300 rounded focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-200">
+                <button type="submit"
+                    class="w-full sm:w-auto px-6 py-2 bg-blue-900 text-white rounded hover:bg-blue-800 transition">Submit</button>
 
-      {% elif question.qtype == "multiple_choice" or question.qtype == "scenario" %}
-          {% for choice in question.choices %}
-              <label>
-                  <input type="radio" name="answer" value="{{ choice }}" required>
-                      {{ choice }}
-              </label><br>
-          {% endfor %}
-          <button type="submit">Submit</button>
-      {% endif %}
-  </form>
-  
-  <p><a href="/reset"> Reset </a></p>
-  
+                {% elif question.qtype == "true_false" %}
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <button type="submit" name="answer" value="True"
+                            class="flex-1 px-6 py-3 bg-blue-900 text-white rounded hover:bg-blue-800 transition font-medium">
+                            True
+                        </button>
+                        <button type="submit" name="answer" value="False"
+                            class="flex-1 px-6 py-3 bg-blue-900 text-white rounded hover:bg-blue-800 transition font-medium">
+                            False
+                        </button>
+                    </div>
+                {% elif question.qtype == "multiple_choice" or question.qtype == "scenario" %}
+                    {% for choice in question.choices %}
+                <label class="block p-3 border border-gray-300 rounded cursor-pointer hover:bg-blue-50 hover:border-blue-400 transition">
+                    <input type="radio" name="answer" value="{{ choice }}" required class="mr-2">
+                    {{ choice }}
+                </label>
+                {% endfor %}
+                <button type="submit"
+                    class="w-full sm:w-auto mt-4 px-6 py-2 bg-blue-900 text-white rounded hover:bg-blue-800 transition">Submit</button>
+                {% endif %}
+            </form>
+        </div>
+
+        <!-- Reset link, less prominent -->
+        <p class="mt-6 text-center text-sm">
+            <a href="/reset" class="text-gray-500 hover:text-gray-700 underline">Reset Quiz</a>
+        </p>
+        
+    </main>
+
 </body>
 </html>

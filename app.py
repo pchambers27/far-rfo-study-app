@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template, request, session, redirect, url_for
-from database import get_all_questions, create_user, get_user_by_email
+from database import get_all_questions, create_user, get_user_by_email, get_connection, record_attempt
 from werkzeug.security import check_password_hash
 from functools import wraps
 
@@ -46,15 +46,25 @@ def home():
         user_answer = request.form["answer"]
         current_q = quiz_data[session["question_index"]]
 
-        if user_answer.lower().strip() == current_q["answer"].lower().strip():
+        is_correct = user_answer.lower().strip() == current_q["answer"].lower().strip()
+
+        if is_correct:
             session["score"] += 1
             session["last_result"] = "correct"
-
         else:
             session["last_result"] = "incorrect"
-            session["last_correct_answer"] = current_q["answer"]
-            session["last_explanation"] = current_q["explanation"]
-  
+
+        session["last_correct_answer"] = current_q["answer"]
+
+        session["last_explanation"] = current_q["explanation"]
+
+        # Record the attempt to the database
+        record_attempt(
+            user_id=session["user_id"],
+            question_id=current_q["id"],
+            user_answer=user_answer,
+            was_correct=is_correct
+            )
         session["question_index"] += 1
         
   

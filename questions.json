@@ -36,5 +36,282 @@
     "choices": ["Yes \u2014 it's within the $9M streamlined threshold", "No\u2014 streamlined procedures cap at $250k under the old SAT", "Yes \u2014 but only with HCA approval", "No \u2014 IT services are excluded from streamlined procedures."],
     "answer": "Yes \u2014 it's within the $9M streamlined threshold",
     "explanation": "The RFO Part 12 streamlined procedures threshold is $9M. IT services are included in streamlined procedures."
+  },
+  {
+    "id": 5,
+    "far_part": "Part 1",
+    "topic": "FAR system Framework",
+    "qtype": "multiple_choice",
+    "question": "Under FAR 1.101, the FAR System consists of three components. Which of the following is NOT part of the System?",
+    "choices": ["The Federal Acquisition Regulation (FAR)", "Agency acquisition regulations that implement or supplement the FAR", "Acquisition guides showing best practices (FAR Companion)", "Internal agency guidance supplementing agency acquisition regulations"],
+    "answer": "Internal agency guidance supplementing agency acquisition regulations",
+    "explanation": "Per FAR 1.101(b), the System does NOT include internal guidance supplementing agency acquisition regulations. The three components are the FAR, agency acquisition regulations, and acquitision guides like the FAR companion."
+  },
+  {
+    "id": 6,
+    "far_part": "Part 1",
+    "topic": "Guiding Principles",
+    "qtype": "fill_in",
+    "question": "Per FAR 1.102, the System should delegate the authority to make decisions and the accountability for the decisions to which level within the System (one word)?",
+    "answer": "lowest",
+    "explanation": "FAR 1.102(a)(7) directs delegation of authority to the LOWEST level within the System, consistent with law. The contracting officer must have the authority, to the maximum extent practicable, to determine how and when to apply rules to a specific contract."
+  },
+  {
+      "id": 7,
+      "far_part": "Part 1",
+      "topic": "Guiding Principles - Acquisition Team",
+      "qtype": "true_false",
+      "question": "Under FAR 1.102, if a specific strategy is in the best interests of the Government and is not addressed in the FAR, nor prohibited by law, Executive order, or other regulation, acquisition team members may assume they are allowed to use it.",
+      "answer": "True",
+      "explanation": "FAR 1.102(b)(4) explicitly permits this 'permissive' approach. This is one of the most significant philosophical shifts of the RFO — moving from 'only what's allowed' to 'anything not prohibited.'"
+  },
+  {
+    "id": 8,
+    "far_part": "Part 1",
+    "topic": "Risk Management",
+    "qtype": "fill_in",
+    "question": "Per FAR 1.102(c), to achieve efficient operations, the System must focus on what (two words)?",
+    "answer": "risk management",
+    "explanation": "FAR 1.102(c) states the System must focus on 'risk management' because attempting to eliminate all risk is prohibitive in terms of cost to the taxpayer."
+  },
+  {
+    "id": 9,
+    "far_part": "Part 1",
+    "topic": "Regulatory Sunset",
+    "qtype": "multiple_choice",
+    "question": "Under FAR 1.109, when do non-statutory FAR sections expire?",
+    "choices": [
+        "2 years after the effective date, unless renewed",
+        "4 years after the effective date, unless renewed by the FAR Council",
+        "5 years after the effective date, automatically",
+        "10 years after the effective date, unless renewed by Congress"
+    ],
+    "answer": "4 years after the effective date, unless renewed by the FAR Council",
+    "explanation": "FAR 1.109 establishes that all FAR sections not required by statute must expire 4 years after their effective date, unless renewed by the FAR Council. Statutory provisions are NOT subject to this sunset."
+  },
+  {
+    "id": 10,
+    "far_part": "Part 1",
+    "topic": "FAR Conventions - Delegation",
+    "qtype": "true_false",
+    "question": "Per FAR 1.107(b), each authority in the FAR is delegable unless specifically stated otherwise.",
+    "answer": "True",
+    "explanation": "FAR 1.107(b) states 'Each authority is delegable unless specifically stated otherwise.' This default-to-delegation reinforces the RFO's emphasis on pushing decisions to the lowest level."
+  },
+  {
+    "id": 11,
+    "far_part": "Part 1",
+    "topic": "Class Deviations",
+    "qtype": "scenario",
+    "question": "An agency wants a class deviation from a FAR provision. The agency submits the request to the FAR Secretariat. Under FAR 1.304(c), what is the standard review timeline for a non-urgent class deviation request?",
+    "choices": [
+        "24 hours",
+        "5 business days",
+        "30 calendar days",
+        "60 calendar days"
+    ],
+    "answer": "5 business days",
+    "explanation": "FAR 1.304(c) requires the FAR Council to review and provide a decision within 5 business days for non-urgent requests, or within 24 hours for urgent ones. If the FAR Council does not respond within these timeframes, the agency may proceed."
+  },
+  {
+    "id": 12,
+    "far_part": "Part 1",
+    "topic": "Contracting Officer Authority",
+    "qtype": "true_false",
+    "question": "Under FAR 1.402-1, contracting officers have wide latitude to exercise business judgment.",
+    "answer": "True",
+    "explanation": "FAR 1.402-1(b) explicitly states 'Contracting officers have wide latitude to exercise business judgment.' This is paired with 1.402-1(a), which requires the appointing authority to provide clear written instructions about the CO's authority."
+  },
+  {
+    "id": 13,
+    "far_part": "Part 1",
+    "topic": "COR Assignment",
+    "qtype": "scenario",
+    "question": "A CO is awarding a firm fixed-price contract for office supplies. Under FAR 1.404(b), is the CO required to assign a contracting officer's representative (COR) to the contract?",
+    "choices": [
+        "Yes — all contracts require a COR",
+        "No — for firm fixed-price contracts, COR assignment is optional",
+        "Yes — but only if the contract value exceeds the SAT",
+        "No — CORs are only assigned to cost-reimbursement contracts"
+    ],
+    "answer": "No — for firm fixed-price contracts, COR assignment is optional",
+    "explanation": "FAR 1.404(b) requires the CO to assign a COR to all contracts and orders OTHER than firm fixed-price. For FFP contracts and orders, the CO MAY assign a COR, but it is not required."
+  },
+  {
+    "id": 14,
+    "far_part": "Part 1",
+    "topic": "Ratification of Unauthorized Commitments",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 1.405, agencies may delegate ratification authority for unauthorized commitments. What is the lowest level to which this authority may be delegated?",
+    "choices": [
+        "The contracting officer's level",
+        "The chief of the contracting office",
+        "The head of the contracting activity",
+        "The agency head only — it cannot be delegated"
+    ],
+    "answer": "The chief of the contracting office",
+    "explanation": "FAR 1.405(b)(2)(ii) states agencies may delegate ratification authority, but cannot delegate it below the level of the chief of the contracting office. The default authority resides with the head of the contracting activity per 1.405(b)(2)(i)."
+  },
+  {
+    "id": 15,
+    "far_part": "Part 2",
+    "topic": "Simplified Acquisition Threshold",
+    "qtype": "multiple_choice",
+    "question": "Under FAR 2.101, what is the standard simplified acquisition threshold (SAT)?",
+    "choices": ["$250,000", "$350,000", "$500,000", "$1,000,000"],
+    "answer": "$350,000",
+    "explanation": "FAR 2.101 sets the simplified acquisition threshold at $350,000 (raised under the RFO from the previous $250,000). Higher thresholds apply for contingency operations, cyber/CBRN response, disaster relief, and humanitarian/peacekeeping operations."
+  },
+  {
+    "id": 16,
+    "far_part": "Part 2",
+    "topic": "Micro-Purchase Threshold",
+    "qtype": "multiple_choice",
+    "question": "Under FAR 2.101, what is the standard micro-purchase threshold?",
+    "choices": ["$10,000", "$15,000", "$25,000", "$50,000"],
+    "answer": "$15,000",
+    "explanation": "FAR 2.101 sets the standard micro-purchase threshold at $15,000. Lower thresholds apply for construction subject to wage rate requirements ($2,000) and services subject to the Service Contract Labor Standards ($2,500)."
+  },
+  {
+    "id": 17,
+    "far_part": "Part 2",
+    "topic": "FAR Conventions - Shall, May, Should",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 2.101 definitions, which term denotes 'the imperative' (a mandatory action)?",
+    "choices": ["May", "Should", "Shall", "Must"],
+    "answer": "Shall",
+    "explanation": "FAR 2.101 defines 'Shall' as denoting the imperative (mandatory). 'May' denotes the permissive. 'Should' means an expected course of action unless inappropriate. 'Must' is treated synonymously with 'shall' in the FAR."
+  },
+  {
+    "id": 18,
+    "far_part": "Part 2",
+    "topic": "Commercial Product Definition",
+    "qtype": "true_false",
+    "question": "Under FAR 2.101, a product that has been only OFFERED for sale, lease, or license to the general public — without ever having been sold — can still qualify as a commercial product.",
+    "answer": "True",
+    "explanation": "FAR 2.101's definition of 'commercial product' includes products that have been sold, leased, or licensed to the general public OR offered for sale, lease, or license to the general public. The offer itself is sufficient — actual sales aren't required."
+  },
+  {
+    "id": 19,
+    "far_part": "Part 2",
+    "topic": "COTS Item",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 2.101, which of the following is required for a product to qualify as a commercially available off-the-shelf (COTS) item?",
+    "choices": [
+        "Sold in any quantity to any government agency",
+        "Sold in substantial quantities in the commercial marketplace, offered to the Government without modification",
+        "Custom-made for the Government using commercial parts",
+        "Available only through GSA Schedules"
+    ],
+    "answer": "Sold in substantial quantities in the commercial marketplace, offered to the Government without modification",
+    "explanation": "FAR 2.101 defines COTS as a commercial product (per paragraph (1) of that definition) that is sold in substantial quantities in the commercial marketplace AND offered to the Government without modification, in the same form sold commercially. Bulk cargo (like agricultural and petroleum products) is excluded."
+  },
+  {
+    "id": 20,
+    "far_part": "Part 2",
+    "topic": "Inherently Governmental Functions",
+    "qtype": "scenario",
+    "question": "An agency is considering contracting out several functions. Per FAR 2.101's definition of 'inherently governmental function,' which of the following is MOST clearly inherently governmental and cannot be performed by a contractor?",
+    "choices": [
+        "Operating the agency cafeteria",
+        "Building security and mail operations",
+        "Determining whether to bind the United States by contract",
+        "Gathering information and providing recommendations to officials"
+    ],
+    "answer": "Determining whether to bind the United States by contract",
+    "explanation": "FAR 2.101 defines inherently governmental functions as those involving the discretionary exercise of Government authority — including binding the U.S. by contract. The other options are explicitly listed as NOT inherently governmental: cafeteria operations, security, mail, and information-gathering/advice are routine or ministerial."
+  },
+  {
+    "id": 21,
+    "far_part": "Part 2",
+    "topic": "Claim Definition",
+    "qtype": "fill_in",
+    "question": "Per FAR 2.101, a written demand by a contractor seeking payment of money exceeding what dollar amount is not a 'claim' under the Contract Disputes Act until it is certified?",
+    "answer": "100000",
+    "explanation": "FAR 2.101 states a written demand by a contractor seeking money exceeding $100,000 is NOT a claim under 41 U.S.C. chapter 71 (Contract Disputes) until certified as required by statute. Below $100,000, no certification is required."
+  },
+  {
+    "id": 22,
+    "far_part": "Part 2",
+    "topic": "Acquisition Definition",
+    "qtype": "true_false",
+    "question": "Under FAR 2.101, the acquisition process begins at the point of solicitation issuance.",
+    "answer": "False",
+    "explanation": "FAR 2.101 defines 'acquisition' as beginning at the point when agency needs are established — well before solicitation issuance. The acquisition process includes describing requirements, soliciting and selecting sources, awarding contracts, financing, performance, and administration."
+  },
+  {
+    "id": 23,
+    "far_part": "Part 2",
+    "topic": "Best Value Definition",
+    "qtype": "fill_in",
+    "question": "Per FAR 2.101, 'best value' means the expected outcome of an acquisition that, in the Government's estimation, provides the greatest overall ___ in response to the requirement (one word).",
+    "answer": "benefit",
+    "explanation": "FAR 2.101 defines 'best value' as the expected outcome of an acquisition that provides the greatest overall BENEFIT in response to the requirement. Note that the RFO definition is intentionally broad — it doesn't prescribe how that benefit is determined."
+  },
+  {
+    "id": 24,
+    "far_part": "Part 2",
+    "topic": "Day Definition",
+    "qtype": "true_false",
+    "question": "Per FAR 2.101, unless otherwise specified, a 'day' in the FAR means a business day (Monday through Friday, excluding Federal holidays).",
+    "answer": "False",
+    "explanation": "FAR 2.101 defines 'day' as meaning a CALENDAR day, unless otherwise specified. This is a common trap — many timelines in the FAR are calendar days, not business days, which means weekends and holidays count."
+  },
+  {
+    "id": 25,
+    "far_part": "Part 2",
+    "topic": "Contract Definition",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 2.101, which of the following is NOT considered a contract?",
+    "choices": [
+        "A purchase order accepted in writing by the contractor",
+        "A bilateral contract modification",
+        "A grant or cooperative agreement under 31 U.S.C. 6301",
+        "A letter contract"
+    ],
+    "answer": "A grant or cooperative agreement under 31 U.S.C. 6301",
+    "explanation": "FAR 2.101 expressly excludes grants and cooperative agreements covered by 31 U.S.C. 6301 et seq. from the definition of 'contract.' All the other options — purchase orders, bilateral modifications, and letter contracts — are included as contracts."
+  },
+  {
+    "id": 26,
+    "far_part": "Part 2",
+    "topic": "Offer vs. Quotation",
+    "qtype": "true_false",
+    "question": "Per FAR 2.101, a quotation submitted in response to a request for quotations (RFQ) is considered an 'offer' that, if accepted, binds the offeror to perform.",
+    "answer": "False",
+    "explanation": "FAR 2.101's definition of 'offer' explicitly states that it does NOT include responses to requests for quotations or 'quotations.' A quotation is not a binding offer — this is why purchase orders issued in response are themselves the offer (from the Government), which the contractor accepts by performance or written acknowledgment."
+  },
+  {
+    "id": 27,
+    "far_part": "Part 2",
+    "topic": "Sole Source Acquisition",
+    "qtype": "fill_in",
+    "question": "Per FAR 2.101, a sole source acquisition is one entered into after soliciting and negotiating with only how many sources (write the number)?",
+    "answer": "1",
+    "explanation": "FAR 2.101 defines 'sole source acquisition' as a contract for the purchase of supplies or services that is entered into or proposed to be entered into by an agency after soliciting and negotiating with only ONE source."
+  },
+  {
+    "id": 28,
+    "far_part": "Part 2",
+    "topic": "Bundling vs. Consolidation",
+    "qtype": "scenario",
+    "question": "A contracting activity combines two prior small business contracts into one larger solicitation. The combined requirement is unlikely to be suitable for award to a small business due to its aggregate dollar value. Per FAR 2.101 definitions, this best describes:",
+    "choices": [
+        "Consolidation only",
+        "Bundling (a subset of consolidation)",
+        "A multiple-award contract",
+        "An interagency acquisition"
+    ],
+    "answer": "Bundling (a subset of consolidation)",
+    "explanation": "Per FAR 2.101, BUNDLING is a subset of consolidation that combines two or more requirements previously provided under separate smaller contracts (which were performed by or suitable for small business) into a single solicitation that is unlikely to be suitable for small business award. The aggregate dollar value is one of the listed factors."
+  },
+  {
+    "id": 29,
+    "far_part": "Part 2",
+    "topic": "Source Selection Information",
+    "qtype": "true_false",
+    "question": "Per FAR 2.101, technical evaluations of proposals and competitive range determinations qualify as 'source selection information' protected from public disclosure.",
+    "answer": "True",
+    "explanation": "FAR 2.101's definition of 'source selection information' explicitly includes technical evaluations of proposals (item 5) and competitive range determinations that identify proposals with a reasonable chance of award (item 7). This information is protected because its premature disclosure would jeopardize the procurement's integrity."
   }
 ]

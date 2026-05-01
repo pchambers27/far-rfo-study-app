@@ -9,6 +9,10 @@ def migrate():
     conn = get_connection()
     cursor = conn.cursor()
 
+    # Wipe existing data so re-runs don't create duplication
+    cursor.execute("DELETE FROM attempts")
+    cursor.execute("DELETE FROM questions")
+
     for q in questions:
         choices_json = json.dumps(q.get("choices")) if q.get("choices") else  None
 

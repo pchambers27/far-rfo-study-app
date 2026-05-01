@@ -70,5 +70,16 @@ def get_user_by_email(email):
     conn.close()
     return row
 
+def record_attempt(user_id, question_id, user_answer, was_correct):
+    """Record one quiz attempt. Returns the new row's id."""
+    conn = get_connection()
+    cursor = conn.execute(
+        """ INSERT INTO attempts (user_id, question_id, user_answer, was_correct) VALUES (?, ?, ?, ?)""",
+        (user_id, question_id, user_answer, 1 if was_correct else 0))
+    conn.commit()
+    attempt_id = cursor.lastrowid
+    conn.close()
+    return attempt_id
+
 if __name__ == "__main__":
     init_db()
