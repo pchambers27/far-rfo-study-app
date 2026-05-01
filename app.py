@@ -191,7 +191,7 @@ def login():
 @login_required
 def stats():
     user_stats = get_user_stats(session["user_id"])
-    return render_template("stats.html", stats=user_stats)
+    return render_template("stats.html", user_stats = user_stats)
 
 
 

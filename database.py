@@ -140,7 +140,7 @@ def get_user_stats(user_id):
             "far_part": row["far_part"],
             "lifetime_total": row["total"],
             "lifetime_correct": row["correct"],
-            "rlifetime_accuracy": round(100.0 * row["correct"] / row["total"], 1) if row["total"] else 0,
+            "lifetime_accuracy": round(100.0 * row["correct"] / row["total"], 1) if row["total"] else 0,
             "recent_total": 0,
             "recent_correct": 0,
             "recent_accuracy": None,
