@@ -20,11 +20,11 @@
   <main class="max-w-md mx-auto px-4 py-12">
     <div class="bg-white roudned-lg shadow-md p-6 sm:p-8">
       <h2 class="text-2xl font-bold text-gray-900 mb-6">Create an Account</h2>
-      { % if error %}
+      {% if error %}
         <div class="mb-4 p-3 bg-red-50 border-l-4 border-red-600 rounded">
           <p class="text-red-800 text-sm">{{ error }}</p>
     </div>
-      { % endif % }
+      {% endif %}
       <form method="POST" action="/signup" class="space-y-4">
         <div>
           <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>

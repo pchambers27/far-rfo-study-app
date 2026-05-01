@@ -20,23 +20,31 @@ def init_db():
         conn.close()
         print("Database initialized.")
 
-def get_all_questions():
+def get_all_questions(far_parts=None):
     """Fetch all questions from the database as a list of dicts."""
     conn = get_connection()
-    rows = conn.execute("SELECT * FROM questions ORDER BY id").fetchall()
+
+    if far_parts:
+        # Build dynamic placeholder string: "?, ?, ?," for however many parts
+        placeholders = ",".join(["?"] * len(far_parts))
+        query = f"SELECT * FROM questions WHERE far_part IN ({placeholders}) ORDER BY id"
+        rows = conn.execute(query, far_parts).fetchall()
+    else:
+        rows = conn.execute("SELECT * FROM questions ORDER BY id").fetchall()
+
     conn.close()
 
     questions = []
     for row in rows:
         questions.append({
-            "id": row["id"],
-            "far_part": row["far_part"],
-            "topic": row["topic"],
-            "qtype": row["qtype"],
-            "question": row["question"],
-            "choices": json.loads(row["choices"]) if row["choices"] else None,
-            "answer": row["answer"],
-            "explanation": row["explanation"],
+             "id": row["id"],
+             "far_part": row["far_part"],
+             "topic": row["topic"],
+             "qtype": row["qtype"],
+             "question": row["question"],
+             "choices": json.loads(row["choices"]) if row["choices"] else None,
+             "answer": row["answer"],
+             "explanation": row["explanation"]
         })
     return questions
 
@@ -80,6 +88,72 @@ def record_attempt(user_id, question_id, user_answer, was_correct):
     attempt_id = cursor.lastrowid
     conn.close()
     return attempt_id
+
+def get_far_parts():
+    """Return a list of (far_part, count) tuples for all Parts in the database, sorted."""
+    conn = get_connection()
+    rows = conn.execute(
+        """SELECT far_part, COUNT(*) as count
+        FROM questions
+        GROUP BY far_part
+        ORDER BY far_part"""
+    ).fetchall()
+    conn.close()
+    return[(row["far_part"], row["count"]) for row in rows]
+
+def get_user_stats(user_id):
+    """
+    Return per-FAR-part stats for a user.
+    Returns: list of dicts with far_part, lifetime stats, and recent stats."""
+    conn = get_connection()
+
+    # Lifetime stats per FAR Part
+    lifetime_rows = conn.execute("""
+        SELECT
+            q.far_part,
+            COUNT(*) as total,
+            SUM(a.was_correct) as correct
+        FROM attempts a
+        JOIN questions q ON a.question_id = q.id
+        WHERE a.user_id = ?
+        GROUP BY q.far_part""", (user_id,)).fetchall()
+
+    # Recent stats: only attempts within last 30 days
+    recent_rows = conn.execute("""
+        SELECT
+            q.far_part,
+            COUNT(*) as total,
+            SUM(a.was_correct) as correct
+        FROM attempts a
+        JOIN questions q ON a.question_id = q.id
+        WHERE a.user_id = ?
+            AND a.timestamp >= datetime('now', '-30 days')
+        GROUP BY q.far_part""", (user_id,)).fetchall()
+
+    conn.close()
+
+    # Combine into one structure keyed by far_part
+    stats_by_part = {}
+
+    for row in lifetime_rows:
+        stats_by_part[row["far_part"]] = {
+            "far_part": row["far_part"],
+            "lifetime_total": row["total"],
+            "lifetime_correct": row["correct"],
+            "rlifetime_accuracy": round(100.0 * row["correct"] / row["total"], 1) if row["total"] else 0,
+            "recent_total": 0,
+            "recent_correct": 0,
+            "recent_accuracy": None,
+        }
+    for row in recent_rows:
+        if row["far_part"] in stats_by_part:
+            stats_by_part[row["far_part"]]["recent_total"] = row["total"]
+            stats_by_part[row["far_part"]]["recent_correct"] = row["correct"]
+            stats_by_part[row["far_part"]]["recent_accuracy"] = (
+                round(100.0 * row["correct"] / row["total"], 1) if row["total"] else None
+            )
+    # Sort weakest-first by lifetime accuracy
+    return sorted(stats_by_part.values(), key=lambda s: s["lifetime_accuracy"])
 
 if __name__ == "__main__":
     init_db()
