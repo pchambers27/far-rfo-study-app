@@ -1,10 +1,15 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.pyc
+.venv/
+venv/
+.env
+quiz.db
+.replit
+replit.nix
 build/
 dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+

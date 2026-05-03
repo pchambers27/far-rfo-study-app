@@ -1,3 +1,5 @@
+from jinja2.ext import debug
+from database import init_db
 import os
 import random
 from flask import Flask, render_template, request, session, redirect, url_for
@@ -5,10 +7,10 @@ from database import get_all_questions, create_user, get_user_by_email, get_conn
 from werkzeug.security import check_password_hash
 from functools import wraps
 
-
-
 app = Flask(__name__)
-app.secret_key = "any-string-will-do-for-now"
+app.secret_key =os.environ.get("SECRET_KEY", "dev-only-key-change-in-production")
+
+init_db()
 
 # ======== Decorators ========
 
@@ -212,4 +214,4 @@ def reset():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=port, debug=False)

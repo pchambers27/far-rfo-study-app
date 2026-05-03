@@ -313,5 +313,325 @@
     "question": "Per FAR 2.101, technical evaluations of proposals and competitive range determinations qualify as 'source selection information' protected from public disclosure.",
     "answer": "True",
     "explanation": "FAR 2.101's definition of 'source selection information' explicitly includes technical evaluations of proposals (item 5) and competitive range determinations that identify proposals with a reasonable chance of award (item 7). This information is protected because its premature disclosure would jeopardize the procurement's integrity."
+  },
+  {
+    "id": 30,
+    "far_part": "Part 3",
+    "topic": "Standards of Conduct",
+    "qtype": "true_false",
+    "question": "Under FAR 3.101-1, the general rule is to avoid actual conflicts of interest, but the appearance of a conflict of interest is acceptable as long as no actual conflict exists.",
+    "answer": "False",
+    "explanation": "FAR 3.101-1 states the general rule is to avoid 'any conflict of interest or even the appearance of a conflict of interest in Government-contractor relationships.' Appearance matters as much as actuality."
+  },
+  {
+    "id": 31,
+    "far_part": "Part 3",
+    "topic": "Gratuities by Government Personnel",
+    "qtype": "multiple_choice",
+    "question": "Under FAR 3.101-2, which Executive Order generally prohibits Government employees from accepting gratuities from contractors?",
+    "choices": ["Executive Order 12731", "Executive Order 14275", "Executive Order 11491", "Executive Order 12549"],
+    "answer": "Executive Order 12731",
+    "explanation": "FAR 3.101-2(a) cites Executive Order 12731 as the basis for the rule that no Government employee may solicit or accept any gratuity, gift, favor, entertainment, loan, or anything of monetary value from anyone seeking Government business with the employee's agency."
+  },
+  {
+    "id": 32,
+    "far_part": "Part 3",
+    "topic": "Procurement Integrity - Cooling-Off Period",
+    "qtype": "fill_in",
+    "question": "Per FAR 3.104-3(d), a former official who served in certain key roles cannot accept compensation from a contractor for how many year(s) after leaving Government service (write the number)?",
+    "answer": "1",
+    "explanation": "FAR 3.104-3(d)(1) imposes a 1-year prohibition during which a former official cannot accept compensation from a contractor as employee, officer, director, or consultant if the official served in certain key roles on contracts exceeding $10,000,000."
+  },
+  {
+    "id": 33,
+    "far_part": "Part 3",
+    "topic": "Procurement Integrity - Dollar Threshold",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 3.104-3(d), the post-employment compensation restrictions apply to former officials who served on contracts exceeding what dollar threshold?",
+    "choices": ["$1,000,000", "$5,000,000", "$10,000,000", "$25,000,000"],
+    "answer": "$10,000,000",
+    "explanation": "FAR 3.104-3(d)(1) repeatedly references contracts 'in excess of $10,000,000.' This threshold applies to procuring contracting officers, source selection authorities, program managers, administrative contracting officers, and officials making key contract decisions."
+  },
+  {
+    "id": 34,
+    "far_part": "Part 3",
+    "topic": "Employment Discussions",
+    "qtype": "scenario",
+    "question": "An agency official participating personally and substantially in a procurement above the SAT is contacted by an offeror about possible non-Federal employment. Per FAR 3.104-3(c)(1), the official must take which action?",
+    "choices": [
+        "Continue work but document the contact in their personnel file",
+        "Promptly report the contact to their supervisor and agency ethics official, and either reject the employment possibility or disqualify themselves",
+        "Wait to see if the offer becomes formal before taking action",
+        "Recuse themselves only if they decide to pursue the employment"
+    ],
+    "answer": "Promptly report the contact to their supervisor and agency ethics official, and either reject the employment possibility or disqualify themselves",
+    "explanation": "FAR 3.104-3(c)(1) requires both actions: (i) prompt written report to supervisor and ethics official, and (ii) either reject the employment possibility or disqualify themselves from further participation. Even unsolicited communications count as contacts per 3.104-3(c)(2)."
+  },
+  {
+    "id": 35,
+    "far_part": "Part 3",
+    "topic": "Employment Contact Records Retention",
+    "qtype": "fill_in",
+    "question": "Per FAR 3.104-3(c)(3), agencies must retain reports of employment contacts for how many years from the date of submission (write the number)?",
+    "answer": "2",
+    "explanation": "FAR 3.104-3(c)(3) requires agencies to retain employment contact reports for 2 years from the date the report was submitted."
+  },
+  {
+    "id": 36,
+    "far_part": "Part 3",
+    "topic": "Independent Pricing Certification",
+    "qtype": "true_false",
+    "question": "Under FAR 3.103-1, the Certificate of Independent Price Determination is required in all solicitations regardless of acquisition method.",
+    "answer": "False",
+    "explanation": "FAR 3.103-1 requires the certificate in firm-fixed-price or fixed-price-with-EPA solicitations, except when (a) the purchase uses simplified acquisition procedures, (b) only technical proposals are requested under two-step sealed bidding, or (c) the solicitation is for utility services with rates established by law or regulation."
+  },
+  {
+    "id": 37,
+    "far_part": "Part 3",
+    "topic": "Buying-In",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 3.501-1, 'buying-in' is defined as submitting an offer below anticipated costs, expecting to do what?",
+    "choices": [
+        "Provide better value to the Government through aggressive pricing",
+        "Win market share by underbidding competitors fairly",
+        "Increase the contract amount through change orders, or receive follow-on contracts at artificially high prices to recover losses",
+        "Establish a long-term relationship with the agency"
+    ],
+    "answer": "Increase the contract amount through change orders, or receive follow-on contracts at artificially high prices to recover losses",
+    "explanation": "FAR 3.501-1 defines buying-in as bidding below anticipated costs expecting to either (1) increase the contract amount after award through unnecessary or excessively priced change orders, or (2) receive follow-on contracts at artificially high prices to recover losses incurred on the buy-in contract."
+  },
+  {
+    "id": 38,
+    "far_part": "Part 3",
+    "topic": "Anti-Kickback Threshold",
+    "qtype": "fill_in",
+    "question": "Per FAR 3.502-3, the Anti-Kickback Procedures clause (52.203-7) must be inserted in solicitations and contracts exceeding what dollar amount? (Write the number with no commas or symbols.)",
+    "answer": "200000",
+    "explanation": "FAR 3.502-3 requires the Anti-Kickback Procedures clause in solicitations and contracts exceeding $200,000, other than those for commercial products or commercial services."
+  },
+  {
+    "id": 39,
+    "far_part": "Part 3",
+    "topic": "Government Employees as Contractors",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 3.602, who may authorize an exception to the policy prohibiting contracts with Government employees?",
+    "choices": [
+        "Any contracting officer with proper warrant",
+        "The chief of the contracting office",
+        "The agency head, or a designee not below the level of head of the contracting activity",
+        "Only the agency head — this authority cannot be delegated"
+    ],
+    "answer": "The agency head, or a designee not below the level of head of the contracting activity",
+    "explanation": "FAR 3.602 states the agency head, or a designee not below the level of the head of the contracting activity, may authorize an exception only if there is a compelling reason, such as when the Government's needs cannot reasonably be otherwise met."
+  },
+  {
+    "id": 40,
+    "far_part": "Part 3",
+    "topic": "Voiding and Rescinding Contracts",
+    "qtype": "fill_in",
+    "question": "Per FAR 3.705(c)(2), after receiving notice of a proposed action to void and rescind a contract, the contractor has how many calendar days to submit pertinent information before a final decision is made (write the number)?",
+    "answer": "30",
+    "explanation": "FAR 3.705(c)(2) provides a 30 calendar day period after receipt of the notice for the contractor to submit pertinent information before any final decision is made on voiding and rescinding the contract."
+  },
+  {
+    "id": 41,
+    "far_part": "Part 3",
+    "topic": "Lobbying - Certification Threshold",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 3.804, contracting officers must obtain certifications and disclosures regarding payments to influence Federal transactions before awarding contracts exceeding what dollar amount?",
+    "choices": ["$100,000", "$150,000", "$200,000", "$350,000"],
+    "answer": "$200,000",
+    "explanation": "FAR 3.804 requires the contracting officer to obtain certifications and disclosures (per provision 52.203-11) prior to the award of any contract exceeding $200,000."
+  },
+  {
+    "id": 42,
+    "far_part": "Part 3",
+    "topic": "Whistleblower Complaints - Filing Deadline",
+    "qtype": "fill_in",
+    "question": "Per FAR 3.904-1, a contractor or subcontractor employee whistleblower complaint under 41 U.S.C. 4712 must be filed within how many years from the date the alleged reprisal occurred (write the number)?",
+    "answer": "3",
+    "explanation": "FAR 3.904-1 requires whistleblower complaints under 41 U.S.C. 4712 to be filed with the agency Inspector General within three years from the date on which the alleged reprisal occurred."
+  },
+  {
+    "id": 43,
+    "far_part": "Part 3",
+    "topic": "Code of Business Ethics - Contract Threshold",
+    "qtype": "scenario",
+    "question": "A contracting officer is preparing a solicitation for a contract expected to be valued at $8 million with a 9-month performance period. Per FAR 3.1004(a), must the clause at 52.203-13 (Contractor Code of Business Ethics and Conduct) be inserted?",
+    "choices": [
+        "Yes — value exceeds $7.5M and performance is at least 120 days",
+        "No — performance period is less than 12 months",
+        "No — value must exceed $10M to require the clause",
+        "Only if the contract is for non-commercial services"
+    ],
+    "answer": "Yes — value exceeds $7.5M and performance is at least 120 days",
+    "explanation": "FAR 3.1004(a) requires the clause when the contract value is expected to exceed $7.5 million AND the performance period is 120 days or more. Both conditions are met: $8M exceeds $7.5M, and 9 months (~270 days) exceeds 120 days."
+  },
+  {
+    "id": 44,
+    "far_part": "Part 3",
+    "topic": "Personal Conflicts of Interest - Acquisition Functions",
+    "qtype": "true_false",
+    "question": "Per FAR 3.1106(a), the Preventing Personal Conflicts of Interest clause (52.203-16) must be inserted in solicitations and contracts that exceed the simplified acquisition threshold and include services involving acquisition functions closely associated with inherently governmental functions.",
+    "answer": "True",
+    "explanation": "FAR 3.1106(a) requires the clause when both conditions are met: (1) the contract exceeds the SAT, and (2) it includes a requirement for services by contractor employee(s) that involve performance of acquisition functions closely associated with inherently governmental functions."
+  },
+  {
+    "id": 45,
+    "far_part": "Part 4",
+    "topic": "PIID Structure",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 4.201(b), the Procurement Instrument Identifier (PIID) must consist of how many alpha and/or numeric characters?",
+    "choices": ["10 to 13 characters", "13 to 17 characters", "15 to 20 characters", "Exactly 17 characters"],
+    "answer": "13 to 17 characters",
+    "explanation": "FAR 4.201(b) requires the PIID consist of a combination of thirteen to seventeen alpha and/or numeric characters sequenced to convey certain information. Special characters such as hyphens, dashes, or spaces must not be used."
+  },
+  {
+    "id": 46,
+    "far_part": "Part 4",
+    "topic": "PIID Letter Designations",
+    "qtype": "multiple_choice",
+    "question": "Per Table 4-1 in FAR 4.201, which letter designation in PIID position 9 identifies a Request for Proposals (RFP)?",
+    "choices": ["P", "Q", "R", "B"],
+    "answer": "R",
+    "explanation": "Per Table 4-1, the letter R designates Requests for Proposals. P designates purchase orders, Q designates requests for quotations, and B designates invitations for bids."
+  },
+  {
+    "id": 47,
+    "far_part": "Part 4",
+    "topic": "SAM Registration Exceptions",
+    "qtype": "scenario",
+    "question": "A contracting officer is awarding a $30,000 contract to a foreign vendor for work to be performed entirely outside the United States. Per FAR 4.203-1(b)(7), is SAM registration required?",
+    "choices": [
+        "Yes — all contracts require SAM registration regardless of value",
+        "No — contract actions at or below $40,000 awarded to foreign vendors for work performed outside the U.S. are exempt if SAM registration is impractical",
+        "Only if the contractor expects future U.S. work",
+        "Yes — but the registration deadline is extended to 90 days"
+    ],
+    "answer": "No — contract actions at or below $40,000 awarded to foreign vendors for work performed outside the U.S. are exempt if SAM registration is impractical",
+    "explanation": "FAR 4.203-1(b)(7) exempts contract actions at or below $40,000 awarded to foreign vendors for work performed outside the United States, if it is impractical to obtain SAM registration."
+  },
+  {
+    "id": 48,
+    "far_part": "Part 4",
+    "topic": "SAM Registration - Urgency Exception",
+    "qtype": "fill_in",
+    "question": "Per FAR 4.203-1(c), if a contract is awarded without SAM registration due to unusual or compelling urgency, the contractor must register in SAM within how many days after contract award (write the number)?",
+    "answer": "30",
+    "explanation": "FAR 4.203-1(c) requires the contractor to register in SAM within 30 days after contract award OR at least three days before submitting the first invoice, whichever occurs first."
+  },
+  {
+    "id": 49,
+    "far_part": "Part 4",
+    "topic": "Executive Compensation Reporting",
+    "qtype": "multiple_choice",
+    "question": "Per FAR 4.208(e), the clause at 52.204-10 (Reporting Executive Compensation and First-Tier Subcontract Awards) must be inserted in solicitations and contracts valued over what amount?",
+    "choices": ["$10,000", "$25,000", "$40,000", "$100,000"],
+    "answer": "$40,000",
+    "explanation": "FAR 4.208(e) requires the clause in solicitations and contracts valued over $40,000 that are not for the acquisition of commercial products or commercial services AND when the award is required to be reported in FPDS."
+  },
+  {
+    "id": 50,
+    "far_part": "Part 4",
+    "topic": "FPDS Reporting Timeline",
+    "qtype": "fill_in",
+    "question": "Per FAR 4.301(f)(2)(ii), the contracting officer must complete the Contract Action Report (CAR) in FPDS within how many business days after contract award (write the number)?",
+    "answer": "3",
+    "explanation": "FAR 4.301(f)(2)(ii) requires the contracting officer to complete the CAR in FPDS within three business days after contract award. For unusual urgency or emergency acquisitions, the timeline extends to 30 days per 4.301(f)(2)(iii)."
+  },
+  {
+    "id": 51,
+    "far_part": "Part 4",
+    "topic": "Contract Closeout - Firm-Fixed-Price",
+    "qtype": "multiple_choice",
+    "question": "Per Table 4-2 in FAR 4.308-2, firm-fixed-price contracts (other than those using simplified acquisition procedures) should be closed within what timeframe after the contracting officer receives evidence of physical completion?",
+    "choices": ["3 months", "6 months", "12 months", "20 months"],
+    "answer": "6 months",
+    "explanation": "Table 4-2 specifies firm-fixed-price contracts must be closed within 6 months after the date on which the contracting officer receives evidence of physical completion. Contracts requiring settlement of indirect cost rates have 36 months; all other contracts have 20 months."
+  },
+  {
+    "id": 52,
+    "far_part": "Part 4",
+    "topic": "Contract Closeout - Indirect Cost Rates",
+    "qtype": "fill_in",
+    "question": "Per Table 4-2 in FAR 4.308-2, contracts requiring settlement of indirect cost rates should be closed within how many months of the month in which the contracting officer receives evidence of physical completion (write the number)?",
+    "answer": "36",
+    "explanation": "Table 4-2 specifies 36 months for closing out contracts that require settlement of indirect cost rates. This longer timeline accommodates the audit and rate-settlement process required for cost-reimbursement contracts."
+  },
+  {
+    "id": 53,
+    "far_part": "Part 4",
+    "topic": "Closeout - Simplified Acquisitions",
+    "qtype": "true_false",
+    "question": "Per Table 4-2 in FAR 4.308-2, contracts using simplified acquisition procedures should be closed within 6 months after physical completion.",
+    "answer": "False",
+    "explanation": "Table 4-2 states contracts using simplified acquisition procedures should be 'considered closed when the contracting officer receives evidence of receipt of property and final payment, unless otherwise specified by agency regulations.' There is no fixed month-based timeline for SAP contracts."
+  },
+  {
+    "id": 54,
+    "far_part": "Part 4",
+    "topic": "Agency Records Retention - Contracts",
+    "qtype": "multiple_choice",
+    "question": "Per Table 4-3 in FAR 4.309, agencies must retain contracts and related records (including successful and unsuccessful proposals) for how long?",
+    "choices": [
+        "3 years after final payment",
+        "6 years after final payment",
+        "10 years after final payment",
+        "Until contract closeout, then 1 year"
+    ],
+    "answer": "6 years after final payment",
+    "explanation": "Table 4-3 specifies that contracts and related records or documents must be retained for 6 years after final payment. The same 6-year period applies to cancelled solicitation files (counted from cancellation) and FPDS data submissions."
+  },
+  {
+    "id": 55,
+    "far_part": "Part 4",
+    "topic": "Agency Records - Construction Payrolls",
+    "qtype": "fill_in",
+    "question": "Per Table 4-3 in FAR 4.309, contractor's payrolls submitted under construction contracts (with related certifications and anti-kickback affidavits) must be retained for how many years after contract completion (write the number)?",
+    "answer": "3",
+    "explanation": "Table 4-3 specifies 3 years after contract completion for construction contract payrolls per Department of Labor regulations (29 CFR 5.5(a)(3)), unless contract performance is the subject of an enforcement action on that date."
+  },
+  {
+    "id": 56,
+    "far_part": "Part 4",
+    "topic": "Contractor Records Retention - General",
+    "qtype": "fill_in",
+    "question": "Per FAR 4.703(a), contractors generally must make records available for how many years after final payment (write the number)?",
+    "answer": "3",
+    "explanation": "FAR 4.703(a) requires contractors to retain records for 3 years after final payment OR for the period specified in 4.705 (Table 4-4) for certain records, whichever expires first."
+  },
+  {
+    "id": 57,
+    "far_part": "Part 4",
+    "topic": "Contractor Records - Time and Attendance",
+    "qtype": "multiple_choice",
+    "question": "Per Table 4-4 in FAR 4.705, what is the retention period for clock cards or other time and attendance cards?",
+    "choices": ["1 year", "2 years", "3 years", "4 years"],
+    "answer": "2 years",
+    "explanation": "Table 4-4 specifies 2 years for clock cards/time and attendance cards, paid checks for wages, labor cost distribution cards, petty cash records, and store requisitions. Most other categories (financial records, accounts payable, payroll registers, equipment records) require 4 years."
+  },
+  {
+    "id": 58,
+    "far_part": "Part 4",
+    "topic": "Imaging Original Records",
+    "qtype": "true_false",
+    "question": "Per FAR 4.703(c), if a contractor uses photographic or electronic imaging to preserve records, original paper records may be destroyed immediately after imaging.",
+    "answer": "False",
+    "explanation": "FAR 4.703(c)(3) requires the contractor to retain original records for a minimum of one year after imaging to permit periodic validation of the imaging systems. Imaging procedures must also preserve accurate images including signatures and maintain integrity."
+  },
+  {
+    "id": 59,
+    "far_part": "Part 4",
+    "topic": "Calculating Retention Periods",
+    "qtype": "scenario",
+    "question": "A contractor's records contain a series of entries spanning multiple fiscal years. Per FAR 4.704(a), the retention period for that record is calculated from when?",
+    "choices": [
+        "The date of the first entry in the series",
+        "The end of the contractor's fiscal year in which the FINAL entry is made",
+        "The end of the calendar year in which the contract was awarded",
+        "The date of contract closeout"
+    ],
+    "answer": "The end of the contractor's fiscal year in which the FINAL entry is made",
+    "explanation": "FAR 4.704(a) states retention periods are calculated from the end of the contractor's fiscal year in which an entry is made. If a record contains a series of entries, the retention period is calculated from the end of the fiscal year in which the FINAL entry is made. Records should be cut off in annual blocks for block disposal."
   }
 ]
