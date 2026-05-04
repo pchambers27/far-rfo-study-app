@@ -22,9 +22,9 @@ def migrate():
       fact.get("display_order", 0),
       ),
                   )
-    conn.comit()
-    conn.close()
-    print(f"Migrated {len(facts)} study facts to the database.")
+  conn.commit()
+  conn.close()
+  print(f"Migrated {len(facts)} study facts to the database.")
 
 if __name__ == "__main__":
   migrate()

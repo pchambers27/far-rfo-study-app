@@ -22,84 +22,82 @@
             <h2 class="text-2xl font-bold text-gray-900">{{ part_name }}</h2>
             <span class="text-sm text-gray-600" id="counter">Card 1 of {{ questions|length }}</span>
           </div>
-          <p class="text-sm text-gray-600 mb-4">Click the card to reveal the answer.</p>
 
-          {% for q in questions %}
-          <div class="card-container {% if not loop.first %} hidden{% endif %}" data-card-index="{{ loop.index0}}">
-            <div class="card-clickable bg-white rounded-lg shadow-md p-6 sm:p-8 cursor-pointer min-h-[300px] flex flex-col" onclick="flipCard(this)">
+          <p class="text-sm text-gray-600 mb-4">Click the card to reveal the key takeaway.</p>
 
+          {% for fact in facts %}
+          <div class="card-container {% if not loop.first %}hidden{% endif %}" data-card-index="{{ loop.index0 }}">
+            <div class="card-clickable bg-white rounded-lg shadow-md p-6 sm:p-8 cursor-pointer min-h-[300px] flex flex-col" onclick"flipCard(this)">
               <div class="card-front flex-1 flex flex-col">
-                <p class="text-xs text-gray-500 uppercase tracking-wide mb-2">{{ q.topic }}</p>
-                <p class="text-lg text-gray-900 leading-relaxed mb-6">{{ q.question }}</p>
-                {% if q.qtype == "multiple_choice" or q.qtype == "scenario" %}
-                <ul class="space-y-2 mt-auto">
-                  {% for choice in q.choices %}
-                  <li class="p-3 border border-gray-300 rounded text-gray-800">
-                    {{ choice }}
-                  </li>
-                  {% endfor %}
-                </ul>
-                {% elif q.qtype == "true_false" %}
-                <div class="flex gap-3 mt-auto">
-                  <div class="flex-1 px-6 py-3 border border-gray-300 rounded text-center text-gray-800 font-medium">True</div>
-                  <div class="flex-1 px-6 py-3 border border-gray-300 rounded text-center text-gray-800 font-medium">False</div>
+                <div class="flex items-baseline justify-between mb-2">
+                  <p class="text-xs text-gray-500 uppercase tracking-wide">{{ fact.topic }}</p>
+                  {% if fact.fact_type %}
+                  <span class="text-xs px-2 py-0.5 rounded {% if fact.fact_type == 'granular' %}bg-blue-100 text-blue-800{% else %}bg-purple-100 text-purple-800{% endif %}">
+                    {{ fact.fact_type }}
+                  </span>
+                  {% endif %}
           </div>
-          {% endif %}
-                <p class="text-xs text-gray-400 italic mt-6 text-center"> Click to reveal answer</p>
+                <p class="text-base text-gray-900 leading-relaxed mb-4">{{ fact.content }}</p>
+                {% if fact.citation %}
+                <p class="text-xs text-gray-500 mt-auto">{{ fact.citation }}</p>
+                {% endif %}
+                <p class="text-xs text-gray-400 italic mt-4 text-center">Click to reveal key takeaway</p>
                  </div>
-
-              <div class="card-back hidden flex-1 flex flex-col">
-                <p class="text-xs text-gray-500 uppercase tracking-wide mb-2">{{ q.topic }}</p>
-                
-                <div class="mb-4 p-4 bg-green-50 border-l-4 border-green-600 rounded">
-                  <p class="text-sm text-green-800 font-semibold">Answer:</p>
-                  <p class="text-gray-900 mt-1">{{ q.answer }}</p>
-                </div>
-                <div>
-                  <p class="text-sm text-gray-700 font-semibold mb-1">Explanation:</p>
-                  <p class="text-gray-700 leading-relaxed">{{ q.explanation }}</p>
+              <div class="card-back hidden flex-1 flex flex-col justify-center">
+                <p class="text-xs text-gray-500 uppercase tracking-wide mb-2">{{ fact.topic }}</p>
+                <div class="p-6 bg-blue-50 border-l-4 border-blue-600 rounded">
+                  <p class="text-sm text-blue-800 font-semibold mb-2">Key Takeaway:</p>
+                  <p class="text-lg text-gray-900 leading-relaxed">{{ fact.key_takeaway }}</p>
               </div>
-              <p class="text-xs text-gray-400 italic mt-auto pt-4 text-center">Click to flip back</p>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-
-          <div class="mt-6 flex justify-between gap-3">
-            <button onclick="prevCard()" class="flex-1 px-6 py-3 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition font-medium disabled:opacity-50" id="prev-btn"><- Previous</button>
-            <button onclick="nextCard()" class="flex-1 px-6 py-3 bg-blue-900 text-white rounded hover:bg-blue-800 transition font-medium disabled:opacity-50" id="next-btn">Next -></button>
+                {% if fact.citation %}
+                <p class="text-xs text-gray-500 mt-4">{{ fact.citation }}</p>
+                {% endif %}
+                <p class="text-xs text-gray-400 italic mt-auto pt-4 text-center">Click to flip back</p>
+                 </div>
+               </div>
              </div>
-             <p class="mt-6 text-center">
-               <a href="/learn" class="text-sm text-gray-500 hover:text-gray-700 underline">Done studying - back to Parts</a>
-             </p>
-              </main>
-               <script>
-                 let currentIndex = 0
-                 const totalCards = {{ questions|length }};
-                 function flipCard(cardElement) {
-                   const front = cardElement.querySelector('.card-front');
-                   const back = cardElement.querySelector('.card-back');
-                   front.classList.toggle('hidden');
-                   back.classList.toggle('hidden');
-                 }
-                 function showCard(index) {
-                   document.querySelectorAll('.card-container').forEach(c => c.classList.add('hidden'));
-                   const target = document.querySelector(`[data-card-index="${index}"]`);
-                   target.classList.remove('hidden');
-                   target.querySelector('.card-front').classList.remove('hidden');
-                   target.querySelector('.card-back').classList.add('hidden');
-                   document.getElementById('counter').textContent = `Card ${index + 1} of ${totalCards}`;
-                   document.getElementById('prev-btn').disabled = (index === 0);
-                   document.getElementById('next-btn').disabled = (index === totalCards - 1);
-                 }
-                 function nextCard() {
-                   if (currentIndex < totalCards - 1) {currentIndex++ ; showCard(currentIndex);}
-              
-                 }
-                 function prevCard() {
-                   if (currentIndex > 0) {currentIndex--; showCard(currentIndex);}
-                 }
-                 showCard(0);
-                  </script>
-                   </body>
-                    </html>
+           {% endfor %}
+
+          <div class="mt-6 flex justif-between gap-3">
+            <button onclick="prevCard()" class="flex-1 px-6 py3 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition font-medium disabled:opacity-50" id="prev-btn"><- Previous</button>
+            <button onclick="nextCard()" class="flex-1 px-6 py3 bg-blue-900 text-white rounded hover:bg-blue-800 transition font-medium disabled:opacity-50" id="next-btn">Next -></button>
+          </div>
+          <p class="mt-6 text-center">
+            <a href="/learn" class="text-sm text-gray-500 hover:text-gray-700 underline">Done studying -- back to Parts</a>
+          </p>
+        </main>
+        <script>
+          let currentIndex = 0
+          const totalCards = {{ facts|length }};
+          function flipCard(cardElement) {
+            const front = cardElement.querySelector('.card-front');
+            const back = cardElement.querySelector('.card-back');
+            front.classList.toggle('hidden');
+            back.classList.toggle('hidden');
+          }
+          function showCard(index) {
+            document.querySelectorAll('.card-container').forEach(c => c.classList.add('hidden'));
+            const target = document.querySelector(`[data-card-index="${index}"]`);
+            target.classList.remove('hidden');
+            target.querySelector('.card-front').classList.remove('hidden');
+            target.querySelector('.card-back').classList.add('hidden');
+            document.getElementById('counter').textContent = `Card ${index + 1} of ${totalCards}`;
+            document.getElementById('prev-btn').disabled = index === 0;
+            document.getElementById('next-btn').disabled = index === totalCards - 1;
+          }
+          function nextCard() {
+            if (currentIndex < totalCards - 1) {
+              currentIndex++;
+              showCard(currentIndex);
+            }
+          }
+          function prevCard() {
+            if (currentIndex > 0) {
+              currentIndex--;
+              showCard(currentIndex);
+            }
+          }
+showCard(0);
+  </script>
+    </body>
+</html>
