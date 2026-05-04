@@ -24,7 +24,7 @@
         <p class="text-gray-600 mb-6">Read through questions and explanations as flashcards. No scoring, no pressure - just absorb the material.</p>
         <div class="space-y-2">
           {% for part_name, count in far_parts %}
-          <a href="/learn/{{ part_name | urlencode }}" class="felx items-center p-4 border border-gray-300 rounded hover:bg-blue-50 hover:border-blue-400 transition">
+          <a href="/learn/{{ part_name | urlencode }}" class="flex items-center p-4 border border-gray-300 rounded hover:bg-blue-50 hover:border-blue-400 transition">
             <span class="flex-1 font-medium text-gray-900">{{ part_name }}</span>
             <span class="text-sm text-gray-500 mr-2">{{ count }} cards</span>
             <span class="text-blue-700">-></span>
