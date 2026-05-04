@@ -86,7 +86,7 @@
                    document.querySelectorAll('.card-container').forEach(c => c.classList.add('hidden'));
                    const target = document.querySelector(`[data-card-index="${index}"]`);
                    target.classList.remove('hidden');
-                   target.querySelector('.card-front').classList.add('hidden');
+                   target.querySelector('.card-front').classList.remove('hidden');
                    target.querySelector('.card-back').classList.add('hidden');
                    document.getElementById('counter').textContent = `Card ${index + 1} of ${totalCards}`;
                    document.getElementById('prev-btn').disabled = (index === 0);

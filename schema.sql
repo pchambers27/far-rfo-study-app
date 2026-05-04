@@ -25,3 +25,14 @@ CREATE TABLE IF NOT EXISTS attempts (
   FOREIGN KEY (user_id) REFERENCES users(id),
   FOREIGN KEY (question_id) REFERENCES questions
 );
+
+CREATE TABLE IF NOT EXISTS study_facts(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  far_part TEXT NOT NULL,
+  topic TEXT NOT NULL,
+  fact_type TEXT,
+  content TEXT NOT NULL,
+  key_takeaway TEXT,
+  citation TEXT,
+  display_order INTEGER DEFAULT 0
+)

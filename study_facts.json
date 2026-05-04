@@ -1,0 +1,57 @@
+[
+  {
+    "far_part": "Part 1",
+    "topic": "Overview of the FAR System",
+    "fact_type": "conceptual",
+    "content": "The Federal Acquisition Regulation (FAR) System under the RFO consists of three componenets: (1) the FAR itself, (2) agency acquisition regulations that implement the FAR, and (3) acquisition guides that demonstrate best practices, like the FAR companion. Internal agency guidance supplementing agency regulations is NOT part of the System.",
+    "key_takeaway": "Three componenets: FAR + agency regs + acquisition guides. Internal agency memos don't count.",
+    "citation": "FAR 1.101",
+    "display_order": 10
+  },
+  {
+    "far_part": "Part 1",
+    "topic": "Guiding Principle - Lowest Level Authority",
+    "fact_type": "granular",
+    "content": "FAR 1.102 directs that authority to make decisions and accountability for those decisions should be delegated to the LOWEST level within the System, consistent with law. This is one of the most significant philosophical commitments of the RFO.",
+    "key_takeaway": "Push decisions DOWN. Contracting officers have wide latitude to apply rules to specific contracts.",
+    "citation": "FAR 1.102(a)(7)",
+    "display_order": 20
+  },
+  {
+    "far_part": "Part 1",
+    "topic": "Guiding Principle - The Permissive Approach",
+    "fact_type": "conceptual",
+    "content": "Under FAR 1.102(b)(4), if a strategy is in the best interest of the Government, not addressed by the FAR, and not prohibited by law, Executive order, or regulation, the acquisition team may assume it is permitted. This is a fundamental shift from the pre-RFO mindset of 'only what is explicitly allowed.'",
+    "key_takeaway": "Old way: 'is this allowed?' New way: 'is this prohibited?' If not prohibited, it's allowed.",
+    "citation": "FAR 1.102(b)(4)",
+    "display_order": 30
+  },
+  {
+    "far_part": "Part 1",
+    "topic": "Risk Management Philosophy",
+    "fact_type": "granular",
+    "content": "Per FAR 1.102(c), the System must focus on RISK MANAGEMENT, not risk elimination. The RFO acknowledges that attempting to eliminate all risk is prohibitively costly to taxpayers.",
+    "key_takeaway": "Manage risk, don't eliminate it. Cost vs. risk is always a tradoff.",
+    "citation": "FAR 1.102(c)",
+    "display_order": 40
+  },
+  {
+    "far_part": "Part 1",
+    "topic": "Sunset Rule",
+    "fact_type": "granular",
+    "content": "FAR 1.109 establishes that all FAR sections NOT required by statute expire 4 years afer their effective date, unless renewed by the FAR Council. Statutory provisions are NOT subject to sunset.",
+    "key_takeaway": "Non-statutory FAR provisions expire after 4 years unless renewed. Statutory ones don't sunset.",
+    "citation": "FAR 1.109",
+    "display_order": 50
+  },
+  {
+    "far_part": "Part 1",
+    "topic": "Default to Delegation",
+    "fact_type": "granular",
+    "content": "FAR 1.107(b): Each authority in the FAR is delegable unless specifically stated otherwise. Dfault is delegation, not retention. This reinforces the 'lowest level' principle from 1.102.",
+    "key_takeaway": "Authorities are delegable BY DEFAULT. The FAR must explicitly say 'cannot be delegated' to make something non-delegable.",
+    "citation": "FAR 1.107(b)",
+    "display_order": 60
+  }
+
+]

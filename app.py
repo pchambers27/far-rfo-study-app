@@ -3,7 +3,7 @@ from database import init_db
 import os
 import random
 from flask import Flask, render_template, request, session, redirect, url_for
-from database import get_all_questions, create_user, get_user_by_email, get_connection, record_attempt, get_far_parts, get_user_stats
+from database import get_all_questions, create_user, get_user_by_email, get_connection, record_attempt, get_far_parts, get_user_stats, get_far_parts_with_study_facts, get_study_facts
 from werkzeug.security import check_password_hash
 from functools import wraps
 
@@ -149,16 +149,16 @@ def study():
 @app.route("/learn")
 @login_required
 def learn():
-    far_parts = get_far_parts()
+    far_parts = get_far_parts_with_study_facts()
     return render_template("learn.html", far_parts=far_parts)
 
 @app.route("/learn/<part_name>")
 @login_required
 def learn_part(part_name):
-    questions = get_all_questions(far_parts=[part_name])
-    if not questions:
-        return redirect(url_for("learn"))
-    return render_template("learn_part.html", part_name=part_name, questions=questions)
+    facts = get_study_facts(part_name)
+    if not facts:
+        return redirct(url_for("learn"))
+    return render_template("learn_part.html", part_name=part_name, facts=facts)
 
 
 

@@ -155,5 +155,27 @@ def get_user_stats(user_id):
     # Sort weakest-first by lifetime accuracy
     return sorted(stats_by_part.values(), key=lambda s: s["lifetime_accuracy"])
 
+def get_study_facts(far_part):
+    """Fetch all study facts for a given FAR Part, in display order."""
+    conn = get_connection()
+    rows = conn.execute("""
+        SELECT id, far_part, topic, fact_type, content, key_takeaway, citation, display_order
+        FROM study_facts
+        WHERE far_part = ?
+        ORDER BY display_order ASC, id ASC""", (far_part,)).fetchall()
+    conn.close()
+    return [dict(row) for row in rows]
+
+def get_far_parts_with_study_facts():
+    """Return list of (far_part, count) tuples for Parts that have study facts."""
+    conn = get_connection()
+    rows = conn.execute("""
+        SELECT far_part, COUNT(*) as count
+        FROM study_facts
+        GROUP BY far_part
+        ORDER BY far_part""").fetchall()
+    conn.close()
+    return [(row["far_part"], row["count"]) for row in rows]
+
 if __name__ == "__main__":
     init_db()
