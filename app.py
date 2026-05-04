@@ -157,7 +157,7 @@ def learn():
 def learn_part(part_name):
     facts = get_study_facts(part_name)
     if not facts:
-        return redirct(url_for("learn"))
+        return redirect(url_for("learn"))
     return render_template("learn_part.html", part_name=part_name, facts=facts)
 
 
