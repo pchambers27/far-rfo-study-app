@@ -146,6 +146,12 @@ def study():
         
     return render_template("study.html", far_parts=far_parts)
 
+@app.route("/learn")
+@login_required
+def learn():
+    far_parts = get_far_parts()
+    return render_template("learn.html", far_parts=far_parts)
+
 @app.route("/learn/<part_name>")
 @login_required
 def learn_part(part_name):
