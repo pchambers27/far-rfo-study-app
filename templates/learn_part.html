@@ -17,10 +17,10 @@
             <a href="/learn" class="text-sm underline hover:opacity-75"><- Back to Study Mode</a>
           </div>
         </nav>
-        <main class=max-w-2xl mx-auto px-4 py-8">
+        <main class="max-w-2xl mx-auto px-4 py-8">
           <div class = "mb-4 flex items-baseline justify-between">
-            <h2 class="text-2xl font-bold text-gray-900" id="counter">{{ part_name }}</h2>
-            <span class="text-sm text-gray-600" id="counter">Card 1 of  of {{ questions|length }}</span>
+            <h2 class="text-2xl font-bold text-gray-900">{{ part_name }}</h2>
+            <span class="text-sm text-gray-600" id="counter">Card 1 of {{ questions|length }}</span>
           </div>
           <p class="text-sm text-gray-600 mb-4">Click the card to reveal the answer.</p>
 
@@ -39,10 +39,10 @@
                   </li>
                   {% endfor %}
                 </ul>
-                { elif q.qtype == "true_false" %}
+                {% elif q.qtype == "true_false" %}
                 <div class="flex gap-3 mt-auto">
-                  <div class="flex-1 px-6 py-3 border border-gray-300 roudned text-center text-gray-800 font-medium">True</div>
-                  <div class="flex-1 px-6 py-3 border border-gray-300 roudned text-center text-gray-800 font-medium">False</div>
+                  <div class="flex-1 px-6 py-3 border border-gray-300 rounded text-center text-gray-800 font-medium">True</div>
+                  <div class="flex-1 px-6 py-3 border border-gray-300 rounded text-center text-gray-800 font-medium">False</div>
           </div>
           {% endif %}
                 <p class="text-xs text-gray-400 italic mt-6 text-center"> Click to reveal answer</p>
@@ -70,7 +70,7 @@
             <button onclick="nextCard()" class="flex-1 px-6 py-3 bg-blue-900 text-white rounded hover:bg-blue-800 transition font-medium disabled:opacity-50" id="next-btn">Next -></button>
              </div>
              <p class="mt-6 text-center">
-               <a href="learn" class="text-sm text-gray-500 hover:text-gray-700 underline">Done studying - back to Parts</a>
+               <a href="/learn" class="text-sm text-gray-500 hover:text-gray-700 underline">Done studying - back to Parts</a>
              </p>
               </main>
                <script>
@@ -84,12 +84,12 @@
                  }
                  function showCard(index) {
                    document.querySelectorAll('.card-container').forEach(c => c.classList.add('hidden'));
-                   const target = document.querySelector('[data-card-index="${index}"]');
+                   const target = document.querySelector(`[data-card-index="${index}"]`);
                    target.classList.remove('hidden');
-                   target.querySelector('/card-front').classList.add('hidden');
+                   target.querySelector('.card-front').classList.add('hidden');
                    target.querySelector('.card-back').classList.add('hidden');
-                   document.getElementById('counter').textContent = 'Card ${index + 1} of ${totalCards}';
-                   document.getElementbyId('prev-btn').disabled = (index === 0):
+                   document.getElementById('counter').textContent = `Card ${index + 1} of ${totalCards}`;
+                   document.getElementById('prev-btn').disabled = (index === 0);
                    document.getElementById('next-btn').disabled = (index === totalCards - 1);
                  }
                  function nextCard() {
