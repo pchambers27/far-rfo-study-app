@@ -146,6 +146,14 @@ def study():
         
     return render_template("study.html", far_parts=far_parts)
 
+@app.route("/learn/<part_name>")
+@login_required
+def learn_part(part_name):
+    questions = get_all_questions(far_parts=[part_name])
+    if not questions:
+        return redirect(url_for("learn"))
+    return render_template("learn_part.html", part_name=part_name, questions=questions)
+
 
 
 @app.route("/signup", methods=["GET", "POST"])
