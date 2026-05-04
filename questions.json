@@ -633,5 +633,2048 @@
     ],
     "answer": "The end of the contractor's fiscal year in which the FINAL entry is made",
     "explanation": "FAR 4.704(a) states retention periods are calculated from the end of the contractor's fiscal year in which an entry is made. If a record contains a series of entries, the retention period is calculated from the end of the fiscal year in which the FINAL entry is made. Records should be cut off in annual blocks for block disposal."
+  },
+  {
+    "id": 60,
+    "far_part": "Part 5",
+    "topic": "Publicizing Thresholds",
+    "qtype": "scenario",
+    "question": "Contracting Officer (CO) Davis is processing a proposed contract action for non-commercial supplies expected to cost $20,000. Under RFO Part 5, what is the minimum required method for publicizing this action?",
+    "choices": [
+      "It must be posted to the Governmentwide Point of Entry (GPE).",
+      "It must be displayed in a public place or by any appropriate electronic means for at least 10 days.",
+      "No publicizing is required because it is under the $25,000 threshold.",
+      "It must be published in a nationally circulated trade journal."
+    ],
+    "answer": "It must be displayed in a public place or by any appropriate electronic means for at least 10 days.",
+    "explanation": "For actions expected to exceed $15,000 but not exceed $25,000, FAR 5.101 requires the unclassified notice to be displayed in a public place or electronic posting system for at least 10 days."
+  },
+  {
+    "id": 61,
+    "far_part": "Part 5",
+    "topic": "Presolicitation Timeframes",
+    "qtype": "multiple_choice",
+    "question": "When required by RFO FAR Part 5, what is the standard minimum posting timeframe for a presolicitation notice at the GPE prior to the issuance of a solicitation?",
+    "choices": [
+      "10 days",
+      "15 days",
+      "30 days",
+      "45 days"
+    ],
+    "answer": "15 days",
+    "explanation": "Agencies must publish a notice of proposed contract action at least 15 days before issuance of a solicitation, unless a valid exception applies or it is for commercial products/services."
+  },
+  {
+    "id": 62,
+    "far_part": "Part 5",
+    "topic": "Exceptions to Publicizing",
+    "qtype": "true_false",
+    "question": "True or False: If a proposed contract action is being made under the conditions of unusual and compelling urgency, the CO is still strictly required to post a 15-day presolicitation notice to the GPE prior to award.",
+    "answer": "False",
+    "explanation": "FAR 5.202 outlines exceptions to publicizing. When the agency's need is of such unusual and compelling urgency that the Government would be seriously injured by the delay of publicizing, the CO is not required to post the presolicitation notice."
+  },
+  {
+    "id": 63,
+    "far_part": "Part 5",
+    "topic": "GPE Terminology",
+    "qtype": "fill_in",
+    "question": "The RFO replaced redundant phrasing with standardized acronyms. The primary electronic point of access for publicizing federal procurements is the _________ Point of Entry (GPE).",
+    "answer": "Governmentwide",
+    "explanation": "The Governmentwide Point of Entry (GPE), which is accessed via SAM.gov, is the single point where government business opportunities greater than $25,000 must be posted."
+  },
+  {
+    "id": 64,
+    "far_part": "Part 5",
+    "topic": "J&A Posting Timelines",
+    "qtype": "scenario",
+    "question": "A CO awards a contract using other than full and open competition citing 'Only one responsible source' (10 U.S.C. 3204(a)(1)). According to RFO Part 5 award notice tables, when must the justification be posted to the GPE?",
+    "choices": [
+      "Prior to contract award",
+      "Within 14 days after contract award",
+      "Within 30 days after contract award",
+      "Posting the justification is not required for this exception"
+    ],
+    "answer": "Within 14 days after contract award",
+    "explanation": "Justifications for other than full and open competition must generally be posted to the GPE within 14 days after contract award, except for unusual and compelling urgency."
+  },
+  {
+    "id": 65,
+    "far_part": "Part 5",
+    "topic": "Award Notices",
+    "qtype": "multiple_choice",
+    "question": "An award notice must be posted to the GPE for a contract action exceeding $25,000 primarily if the award ____________.",
+    "choices": [
+      "Is awarded to a small business concern",
+      "Will likely result in the award of subcontracts",
+      "Uses a firm-fixed-price structure",
+      "Takes place at the end of the fiscal year"
+    ],
+    "answer": "Will likely result in the award of subcontracts",
+    "explanation": "FAR 5.301 requires posting award notices for actions exceeding $25,000 if there are likely to be subcontracting opportunities, helping small businesses find prime contractors to partner with."
+  },
+  {
+    "id": 66,
+    "far_part": "Part 5",
+    "topic": "Response Times",
+    "qtype": "true_false",
+    "question": "True or False: If a non-commercial acquisition exceeds the Simplified Acquisition Threshold (SAT), the CO must establish a solicitation response time of at least 30 days for receipt of bids or proposals.",
+    "answer": "True",
+    "explanation": "FAR 5.203 establishes that for contract actions over the SAT (except for commercial products/services), agencies shall allow at least a 30-day response time."
+  },
+  {
+    "id": 67,
+    "far_part": "Part 5",
+    "topic": "Commercial Products and Services",
+    "qtype": "scenario",
+    "question": "CO Ramirez is acquiring commercial IT equipment using streamlined procedures. Does she still have to enforce the standard 30-day response time for the solicitation?",
+    "choices": [
+      "Yes, the 30-day timeframe is mandated for all competitive actions.",
+      "No, commercial products do not require any solicitation posting.",
+      "No, for commercial products/services, the CO may establish a shorter response time that affords a reasonable opportunity to respond.",
+      "Yes, unless she gets head of the contracting activity (HCA) approval."
+    ],
+    "answer": "No, for commercial products/services, the CO may establish a shorter response time that affords a reasonable opportunity to respond.",
+    "explanation": "For commercial products and services, the CO is not bound by the strict 30-day rule and may establish a response time that affords vendors a 'reasonable opportunity to respond' based on market dynamics."
+  },
+  {
+    "id": 68,
+    "far_part": "Part 5",
+    "topic": "RFO Structure",
+    "qtype": "fill_in",
+    "question": "To make referencing thresholds and timelines easier for practitioners, RFO Part 5 removed long narrative paragraphs regarding dollar thresholds and replaced them with streamlined ________.",
+    "answer": "Tables",
+    "explanation": "A hallmark of the RFO is the transition from dense narrative text into easy-to-read tables, specifically utilized in FAR 5.101 and 5.301."
+  },
+  {
+    "id": 69,
+    "far_part": "Part 5",
+    "topic": "RFO Terminology",
+    "qtype": "multiple_choice",
+    "question": "In an effort to use plain language, RFO FAR Part 5 systematically removed which outdated term, replacing it with the simpler phrase 'presolicitation notice' or 'notice'?",
+    "choices": [
+      "Synopsis",
+      "Proclamation",
+      "Abstract",
+      "Gazette"
+    ],
+    "answer": "Synopsis",
+    "explanation": "The overhaul specifically targeted and removed the term 'synopsis' throughout Part 5, opting for clearer, plain-language terms like 'notice' or 'presolicitation notice'."
+  },
+  {
+    "id": 70,
+    "far_part": "Part 5",
+    "topic": "Exceptions to Publicizing",
+    "qtype": "scenario",
+    "question": "You are acquiring utility services from a regulated utility provider where only one source is available. Are you required to post a presolicitation notice to the GPE?",
+    "choices": [
+      "Yes, all sole-source actions require a presolicitation notice.",
+      "No, utility services from a regulated source where only one exists is a specific exception to publicizing.",
+      "Yes, but the posting time is reduced to 5 days.",
+      "No, because utility services are exempt from the FAR entirely."
+    ],
+    "answer": "No, utility services from a regulated source where only one exists is a specific exception to publicizing.",
+    "explanation": "Under FAR 5.202(a)(5), an exception to posting a presolicitation notice exists if the action is for utility services and only one source is available."
+  },
+  {
+    "id": 71,
+    "far_part": "Part 5",
+    "topic": "Market Research",
+    "qtype": "true_false",
+    "question": "True or False: A Sources Sought notice or a Request for Information (RFI) posted to the GPE satisfies the regulatory requirement to post a presolicitation notice.",
+    "answer": "False",
+    "explanation": "Sources Sought notices and RFIs are market research tools. If a requirement materializes, a separate, formal presolicitation notice must still be published unless an exception applies."
+  },
+  {
+    "id": 72,
+    "far_part": "Part 5",
+    "topic": "J&A Timelines (Urgency)",
+    "qtype": "multiple_choice",
+    "question": "If a CO awards a contract utilizing the 'unusual and compelling urgency' exception to full and open competition, what is the required timeline for posting the justification to the GPE?",
+    "choices": [
+      "Prior to award",
+      "Within 14 days after award",
+      "Within 30 days after award",
+      "The justification is never posted for this exception"
+    ],
+    "answer": "Within 30 days after award",
+    "explanation": "While most J&As must be posted within 14 days after award, actions awarded under unusual and compelling urgency are given an extended timeframe of 30 days post-award."
+  },
+  {
+    "id": 73,
+    "far_part": "Part 5",
+    "topic": "Smart Accelerators",
+    "qtype": "scenario",
+    "question": "To maximize competition and reach non-traditional vendors, the RFO Part 5 Smart Accelerators recommend that COs do not limit their outreach to just SAM.gov. What is the recommended strategy?",
+    "choices": [
+      "Cross-posting notices to digital platforms and social media.",
+      "Mailing solicitations to the local Chamber of Commerce.",
+      "Publishing the requirement in the Federal Register.",
+      "Using oral solicitations exclusively for all actions under $1 Million."
+    ],
+    "answer": "Cross-posting notices to digital platforms and social media.",
+    "explanation": "The RFO emphasizes modernizing outreach by cross-posting to other interactive portals and social media platforms to attract nontraditional government contractors."
+  },
+  {
+    "id": 74,
+    "far_part": "Part 5",
+    "topic": "Posting Content",
+    "qtype": "fill_in",
+    "question": "RFO guidance directs practitioners to write notices using plain language, removing highly specific, nested romanettes, and avoiding the use of obscure technical ________ to ensure the notice is clearly understood by industry.",
+    "answer": "Jargon",
+    "explanation": "To ensure maximum competition and clarity, notices should be written in plain language without unnecessary technical jargon or complex acronyms."
+  },
+  {
+    "id": 75,
+    "far_part": "Part 6",
+    "topic": "RFO Structure",
+    "qtype": "multiple_choice",
+    "question": "How did the RFO significantly streamline FAR Part 6 structure regarding its Subparts?",
+    "choices": [
+      "It increased the subparts from three to five to better address socioeconomic set-asides.",
+      "It reduced the total number of subparts from five to three, renaming Subpart 6.1 to 'Presolicitation'.",
+      "It completely eliminated Part 6 and merged competition requirements into Part 7.",
+      "It retained the original five subparts but removed all numerical subsections."
+    ],
+    "answer": "It reduced the total number of subparts from five to three, renaming Subpart 6.1 to 'Presolicitation'.",
+    "explanation": "As part of a massive streamlining effort, RFO Part 6 was reduced from five subparts to three, with Subpart 6.1 serving as the consolidated 'Presolicitation' phase rules."
+  },
+  {
+    "id": 76,
+    "far_part": "Part 6",
+    "topic": "J&A Approval Thresholds",
+    "qtype": "scenario",
+    "question": "Contracting Officer (CO) Miller is executing a contract action for $500,000 using other than full and open competition. Under the baseline FAR 6.104-2 (Table 6-1), who holds the authority to approve this Justification and Approval (J&A)?",
+    "choices": [
+      "The Contracting Officer",
+      "The Advocate for Competition",
+      "The Head of the Procuring Activity",
+      "The Senior Procurement Executive"
+    ],
+    "answer": "The Contracting Officer",
+    "explanation": "According to the RFO FAR 6.104-2 approval tier table, J&As for proposed actions not exceeding $750,000 are approved directly by the Contracting Officer."
+  },
+  {
+    "id": 77,
+    "far_part": "Part 6",
+    "topic": "Unusual and Compelling Urgency",
+    "qtype": "true_false",
+    "question": "True or False: Under RFO FAR 6.103-2 for unusual and compelling urgency, the overhauled text eliminated the one-year limitation on the period of performance for contracts awarded under this authority.",
+    "answer": "False",
+    "explanation": "The RFO maintained the strict one-year limitation for contracts awarded under unusual and compelling urgency, though it significantly simplified the documentation requirements."
+  },
+  {
+    "id": 78,
+    "far_part": "Part 6",
+    "topic": "Subpart Renaming",
+    "qtype": "fill_in",
+    "question": "Reflecting its streamlined lifecycle approach, RFO FAR Subpart 6.3 was renamed from 'Other Than Full and Open Competition' to simply '________'.",
+    "answer": "Postaward",
+    "explanation": "Subpart 6.3 is now titled 'Postaward' and exclusively contains justification posting requirements."
+  },
+  {
+    "id": 79,
+    "far_part": "Part 6",
+    "topic": "Statutory Exceptions (Commissaries)",
+    "qtype": "scenario",
+    "question": "An Air Force Base commissary requires a specific brand-name soda for resale to patrons. Which streamlined RFO FAR 6.103 authority provides a specific example permitting this brand-name acquisition?",
+    "choices": [
+      "6.103-1: Only one responsible source",
+      "6.103-5: Authorized or required by statute",
+      "6.103-7: Public interest",
+      "6.102-2: Small business set-aside"
+    ],
+    "answer": "6.103-5: Authorized or required by statute",
+    "explanation": "RFO FAR 6.103-5 explicitly includes a helpful example clarifying that agencies may have a need for a 'brand-name commercial product for authorized resale' (e.g., commissaries) under this statutory authority."
+  },
+  {
+    "id": 80,
+    "far_part": "Part 6",
+    "topic": "Practitioner Tips: On/Off Ramping",
+    "qtype": "multiple_choice",
+    "question": "The RFO Part 6 Practitioner Album encourages acquisition professionals to utilize 'on/off ramping.' What is the primary strategic impact of this practice for multi-year IDIQ contracts?",
+    "choices": [
+      "To quickly terminate contracts for default without legal review.",
+      "To keep the contract competitive by adding new vendors and removing under-performers.",
+      "To shift funding between different fiscal years seamlessly.",
+      "To allow vendors to pause work if their supply chains are disrupted."
+    ],
+    "answer": "To keep the contract competitive by adding new vendors and removing under-performers.",
+    "explanation": "On/off ramping allows agencies to adapt to changed market conditions by adding new providers and removing under-performers without needing to initiate an entirely new procurement."
+  },
+  {
+    "id": 81,
+    "far_part": "Part 6",
+    "topic": "J&A Approval Thresholds",
+    "qtype": "scenario",
+    "question": "You are preparing a J&A for a sole-source contract valued at $12 Million. According to the standard baseline approval tiers in FAR 6.104-2, who must approve this justification?",
+    "choices": [
+      "The Contracting Officer",
+      "The Advocate for Competition",
+      "The Head of the Procuring Activity",
+      "The Senior Procurement Executive"
+    ],
+    "answer": "The Advocate for Competition",
+    "explanation": "For actions over $750,000 but not exceeding $15 million, the RFO FAR approval table designates the Advocate for Competition as the approving official."
+  },
+  {
+    "id": 82,
+    "far_part": "Part 6",
+    "topic": "Brand-Name Descriptions",
+    "qtype": "true_false",
+    "question": "True or False: Using a 'brand-name or equal' description in a solicitation is treated as precluding competition and requires a Justification and Approval (J&A) under FAR Part 6.",
+    "answer": "False",
+    "explanation": "The revised Part 6 clearly distinguishes between 'brand-name' descriptions (which preclude competition and require a J&A) and 'brand-name or equal' descriptions (which provide for full and open competition)."
+  },
+  {
+    "id": 83,
+    "far_part": "Part 6",
+    "topic": "Advocates for Competition",
+    "qtype": "fill_in",
+    "question": "The original FAR Subpart 6.5 detailing duties for Advocates for Competition was eliminated and heavily streamlined into two paragraphs now found in RFO FAR section 6.________.",
+    "answer": "003",
+    "explanation": "To reduce bloat, the dedicated subpart was removed, and the essential roles of Advocates for Competition were moved to the introductory section at FAR 6.003."
+  },
+  {
+    "id": 84,
+    "far_part": "Part 6",
+    "topic": "Local Firm Set-Asides",
+    "qtype": "multiple_choice",
+    "question": "Following the RFO consolidation of set-aside provisions, where will a Contracting Officer find the authority to set aside an acquisition for local firms during a major disaster or emergency?",
+    "choices": [
+      "FAR 6.102-3",
+      "FAR 6.103-2",
+      "FAR 6.302-5",
+      "FAR Part 18 exclusively"
+    ],
+    "answer": "FAR 6.102-3",
+    "explanation": "Overhauled FAR 6.102-3 now specifically addresses set-asides for local firms during major disasters or emergencies, separating it cleanly from general small business set-asides in 6.102-2."
+  },
+  {
+    "id": 85,
+    "far_part": "Part 6",
+    "topic": "Urgency Determinations",
+    "qtype": "true_false",
+    "question": "True or False: The RFO Practitioner's Album clarifies that 'unusual and compelling urgency' can only be cited during times of declared war or armed conflict.",
+    "answer": "False",
+    "explanation": "The Album's 'Do's and Don'ts' module specifically clarifies that urgent circumstances are not limited to wartime; they also include situations where delay may result in serious financial or other injury to the government."
+  },
+  {
+    "id": 86,
+    "far_part": "Part 6",
+    "topic": "Consolidated Set-Asides",
+    "qtype": "scenario",
+    "question": "Your acquisition strategy involves an SBIR Phase I set-aside and a HUBZone set-aside. In the past, these authorities were scattered across multiple sections. Under the RFO structure, which single section consolidated all of these general small business set-aside authorities?",
+    "choices": [
+      "FAR 6.001",
+      "FAR 6.102-2",
+      "FAR 6.103-6",
+      "FAR 6.301"
+    ],
+    "answer": "FAR 6.102-2",
+    "explanation": "Overhauled FAR 6.102-2 consolidated all standard small business set-asides, including SBIR/STTR programs and all socioeconomic categories, referring to Part 19 for the operational details."
+  },
+  {
+    "id": 87,
+    "far_part": "Part 6",
+    "topic": "Practitioner Tips",
+    "qtype": "multiple_choice",
+    "question": "When crafting a Justification and Approval (J&A), the RFO Part 6 Practitioner's Album provides a specific 'Do's and Don'ts' tip regarding how to approach the justification. What is this overarching tip?",
+    "choices": [
+      "Prioritize legal technicalities over mission priorities.",
+      "Prioritize mission priorities over legal technicalities.",
+      "Ensure every J&A is a minimum of 10 pages.",
+      "Always default to the highest approval authority to avoid audits."
+    ],
+    "answer": "Prioritize mission priorities over legal technicalities.",
+    "explanation": "To foster a more agile acquisition system, the Practitioner Album explicitly advises contracting officers to focus their J&As on clearly articulating mission priorities rather than getting bogged down in legal technicalities."
+  },
+  {
+    "id": 88,
+    "far_part": "Part 6",
+    "topic": "Sealed Bidding",
+    "qtype": "fill_in",
+    "question": "The original FAR Subpart 6.4 for 'Sealed Bidding and Competitive Proposals' was eliminated as a standalone subpart, with its essential content moved directly into overhauled FAR 6.101(________).",
+    "answer": "b",
+    "explanation": "To streamline the structure, the core rules regarding when to use sealed bidding versus competitive proposals were folded directly into 6.101(b) under 'Presolicitation'."
+  },
+  {
+    "id": 89,
+    "far_part": "Part 6",
+    "topic": "Other Than Full and Open Competition",
+    "qtype": "scenario",
+    "question": "Under the legacy FAR, the seven statutory exceptions to full and open competition were found at 6.302-1 through 6.302-7. You are writing a J&A today. Which overhauled section numbering block must you cite for these seven exceptions?",
+    "choices": [
+      "6.101-1 through 6.101-7",
+      "6.103-1 through 6.103-7",
+      "6.201 through 6.207",
+      "6.302-1 through 6.302-7 (unchanged)"
+    ],
+    "answer": "6.103-1 through 6.103-7",
+    "explanation": "The seven circumstances permitting other than full and open competition were renumbered and simplified into sections 6.103-1 through 6.103-7."
+  },
+  {
+    "id": 90,
+    "far_part": "Part 7",
+    "topic": "Written vs. Oral Acquisition Plans",
+    "qtype": "multiple_choice",
+    "question": "Under the streamlined RFO Part 7, contracting officers are no longer universally required to draft highly prescriptive written acquisition plans for all actions. However, a written plan remains strictly required for which of the following contract types?",
+    "choices": [
+      "Firm-fixed-price contracts over the SAT",
+      "Cost-reimbursement and 'high-risk' contracts",
+      "Time-and-materials contracts for commercial services",
+      "All contracts exceeding $10 Million"
+    ],
+    "answer": "Cost-reimbursement and 'high-risk' contracts",
+    "explanation": "RFO FAR 7.102 shifted the paradigm so that plans may be written or oral depending on the acquisition, but it specifically mandates written plans for cost-reimbursement and other 'high-risk' contracts."
+  },
+  {
+    "id": 91,
+    "far_part": "Part 7",
+    "topic": "Acquisition Plan Contents (FAR 7.105)",
+    "qtype": "true_false",
+    "question": "True or False: To assist Contracting Officers, RFO FAR 7.105 was expanded to include a comprehensive, 20-point checklist detailing every required element of a written acquisition plan.",
+    "answer": "False",
+    "explanation": "Under the RFO, the highly prescriptive list of specific elements formerly required for written acquisition plans was eliminated, and FAR 7.105 is now marked as '[Reserved].' Relevant procedural guidance is now handled by agency-level procedures and the FAR Companion Guide."
+  },
+  {
+    "id": 92,
+    "far_part": "Part 7",
+    "topic": "Bundling and Consolidation",
+    "qtype": "scenario",
+    "question": "You are a Contracting Officer structuring a complex IT procurement and need to review the regulatory requirements regarding the consolidation and bundling of contract requirements to minimize the impact on small businesses. Based on the RFO reorganization, where must you look for these specific rules?",
+    "choices": [
+      "FAR Part 10",
+      "FAR Part 19",
+      "FAR 7.107",
+      "FAR 6.202"
+    ],
+    "answer": "FAR 7.107",
+    "explanation": "The RFO imported the requirements for small business concerns regarding bundling and consolidation from legacy FAR Part 10 and centralized them into the new FAR 7.107 ('Additional requirements for acquisitions involving consolidation, bundling, or substantial bundling')."
+  },
+  {
+    "id": 93,
+    "far_part": "Part 7",
+    "topic": "A-76 Competitions",
+    "qtype": "fill_in",
+    "question": "The RFO completely deleted former Subpart 7.3, 'Contractor Versus Government Performance,' because Congress has consistently placed a statutory hold on A-________ competitions since 2008.",
+    "answer": "76",
+    "explanation": "The OMB Circular A-76 competitive sourcing process has been under a statutory moratorium since 2008, rendering the extensive regulatory text in FAR 7.3 unnecessary and leading to its deletion in the RFO."
+  },
+  {
+    "id": 94,
+    "far_part": "Part 7",
+    "topic": "Acquisition Planning Initiation",
+    "qtype": "multiple_choice",
+    "question": "According to the RFO Companion Guide for Part 7, when is the appropriate time for the acquisition team to formally begin acquisition planning?",
+    "choices": [
+      "Only after a complete procurement package is submitted by the requiring activity.",
+      "As soon as a need is identified, rather than waiting for funding.",
+      "Immediately after the market research report is finalized.",
+      "Once the funds have been certified by the comptroller."
+    ],
+    "answer": "As soon as a need is identified, rather than waiting for funding.",
+    "explanation": "The RFO Practitioner Album explicitly directs that acquisition planning should begin proactively as soon as a need is identified, rather than waiting reactively for funding to be approved."
+  },
+  {
+    "id": 95,
+    "far_part": "Part 7",
+    "topic": "Broadening Vendor Base",
+    "qtype": "scenario",
+    "question": "A Program Manager wants to procure a highly customized software system because it fits their unique workflow perfectly. The RFO Part 7 Practitioner Album advises you, the Contracting Officer, to challenge this. What should you explore first before agreeing to a custom development?",
+    "choices": [
+      "Issuing a Broad Agency Announcement (BAA).",
+      "Exploring commercial solutions that can meet the need.",
+      "Requesting an increase in the program's budget.",
+      "Drafting a J&A for a sole-source award to a bespoke developer."
+    ],
+    "answer": "Exploring commercial solutions that can meet the need.",
+    "explanation": "The RFO guidance encourages acquisition teams to structure requirements to open the field, specifically noting that teams should explore commercial solutions before resorting to custom, government-unique development."
+  },
+  {
+    "id": 96,
+    "far_part": "Part 7",
+    "topic": "Inherently Governmental Functions",
+    "qtype": "true_false",
+    "question": "True or False: The RFO entirely removed FAR Subpart 7.5, 'Inherently Governmental Functions,' deferring all guidance on the topic exclusively to the Office of Federal Procurement Policy (OFPP) Policy Letter 11-01.",
+    "answer": "False",
+    "explanation": "While heavily streamlined to remove bloat, Subpart 7.5 was retained in the RFO to maintain the critical core policies governing the performance of inherently governmental functions."
+  },
+  {
+    "id": 97,
+    "far_part": "Part 7",
+    "topic": "Terminology Updates",
+    "qtype": "fill_in",
+    "question": "In alignment with plain language and modern workforce practices, RFO Part 7 replaced outdated terms like 'telecommuting' with the modern term '________'.",
+    "answer": "telework",
+    "explanation": "FAR 7.108 was updated to use the standard, plain-language term 'telework' rather than the older phrasing 'telecommuting'."
+  },
+  {
+    "id": 98,
+    "far_part": "Part 7",
+    "topic": "Core Planning Mandates",
+    "qtype": "multiple_choice",
+    "question": "Even though the rigid formatting requirements of legacy FAR 7.105 were removed, RFO FAR 7.102 dictates that all acquisition plans (whether written or oral) must promote several core objectives. Which of the following is NOT one of those universally mandatory core objectives?",
+    "choices": [
+      "Acquisition of commercial products and services",
+      "Full and open competition",
+      "Maximizing the use of firm-fixed-price structures for all services",
+      "Selection of the appropriate contract type"
+    ],
+    "answer": "Maximizing the use of firm-fixed-price structures for all services",
+    "explanation": "The core mandates for all acquisition plans under RFO 7.102 are promoting commercial products/services, full and open competition, appropriate contract type selection, and using existing contracts. A universal mandate for FFP structures is not included."
+  },
+  {
+    "id": 99,
+    "far_part": "Part 7",
+    "topic": "Agency-Head Responsibilities",
+    "qtype": "scenario",
+    "question": "As a senior policy analyst for your agency, you notice RFO FAR 7.103 ('Agency-head responsibilities') no longer lists specific, granular tasks for the agency head regarding acquisition plans. What is your agency required to do now under this streamlined section?",
+    "choices": [
+      "Adopt the DoD DFARS planning procedures as the government-wide standard.",
+      "Create agency-specific procedures for acquisition planning based on high-level mandates.",
+      "Rely entirely on the Office of Management and Budget (OMB) for planning directives.",
+      "Eliminate all internal agency planning regulations."
+    ],
+    "answer": "Create agency-specific procedures for acquisition planning based on high-level mandates.",
+    "explanation": "RFO FAR 7.103 rewrote agency-head responsibilities from a prescriptive list of specific tasks to high-level mandates, tasking agencies with creating their own specific procedures tailored to their unique acquisition planning environments."
+  },
+  {
+    "id": 100,
+    "far_part": "Part 7",
+    "topic": "Structuring Requirements",
+    "qtype": "true_false",
+    "question": "True or False: The RFO Companion Guide encourages contracting officers to combine small, distinct needs into massive, consolidated contracts whenever possible to reduce administrative burden.",
+    "answer": "False",
+    "explanation": "The Guide actually encourages the opposite strategy to boost competition: structuring requirements to open the field by breaking large needs into smaller, more competitive packages."
+  },
+  {
+    "id": 101,
+    "far_part": "Part 7",
+    "topic": "GSA Guidance Deletion",
+    "qtype": "fill_in",
+    "question": "Former FAR 7.403, which contained specific guidance regarding equipment acquisition from the ________ Services Administration (GSA), was deleted from the RFO because it was deemed purely 'informational.'",
+    "answer": "General",
+    "explanation": "Text providing informational guidance about the General Services Administration in FAR 7.403 was removed in accordance with the RFO mandate to eliminate non-regulatory, informational provisions from the FAR."
+  },
+  {
+    "id": 102,
+    "far_part": "Part 7",
+    "topic": "Equipment Leasing vs. Purchase",
+    "qtype": "multiple_choice",
+    "question": "What is the primary focus of RFO FAR Subpart 7.4, 'Equipment Acquisition'?",
+    "choices": [
+      "Determining the depreciation schedule for Government Furnished Equipment (GFE).",
+      "Deciding whether it is more economical to lease or to purchase equipment.",
+      "Establishing the mandatory use of GSA Advantage! for all IT equipment.",
+      "Outlining the disposal process for hazardous equipment."
+    ],
+    "answer": "Deciding whether it is more economical to lease or to purchase equipment.",
+    "explanation": "The scope of FAR Subpart 7.4 (and FAR 7.000(c)) is specifically dedicated to the policies and procedures for analyzing and deciding whether it is more economical to lease or to purchase equipment."
+  },
+  {
+    "id": 103,
+    "far_part": "Part 7",
+    "topic": "Mitigating Barriers to Competition",
+    "qtype": "scenario",
+    "question": "You are reviewing an acquisition strategy for a follow-on logistics contract. The requiring activity wants to mandate highly unique, site-specific certifications that only the incumbent currently holds. Based on RFO Part 7 principles, how should you address this?",
+    "choices": [
+      "Approve the requirement, as incumbents naturally have an advantage.",
+      "Identify this as a barrier and mitigate the unnecessarily unique requirement to broaden the vendor base.",
+      "Convert the acquisition to a sole-source award citing 'only one responsible source.'",
+      "Require all new offerors to hire the incumbent's staff."
+    ],
+    "answer": "Identify this as a barrier and mitigate the unnecessarily unique requirement to broaden the vendor base.",
+    "explanation": "The Practitioner Album calls for the early identification and mitigation of barriers to competition, such as incumbent advantage or unnecessarily unique requirements, to broaden the potential vendor base."
+  },
+  {
+    "id": 104,
+    "far_part": "Part 7",
+    "topic": "Use of Existing Contracts",
+    "qtype": "fill_in",
+    "question": "According to the streamlined mandates of RFO 7.102, acquisition planning must promote the use of ________ contracts before establishing new, duplicative contracting vehicles.",
+    "answer": "existing",
+    "explanation": "To reduce contract duplication and administrative waste, RFO FAR 7.102 explicitly requires that all acquisition plans promote the use of existing contracts (such as government-wide acquisition contracts or multi-agency contracts) where appropriate."
+  },
+  {
+    "id": 105,
+    "far_part": "Part 8",
+    "topic": "FSS Ordering Procedures Relocation",
+    "qtype": "multiple_choice",
+    "question": "Under the Revolutionary FAR Overhaul (RFO) for Part 8, where have the detailed ordering procedures for the Federal Supply Schedules (FSS) been relocated?",
+    "choices": [
+      "FAR Part 16",
+      "GSAM Subpart 538.71",
+      "FAR Part 38",
+      "They were deleted entirely and are no longer required"
+    ],
+    "answer": "GSAM Subpart 538.71",
+    "explanation": "The RFO removed the highly prescriptive FSS ordering procedures from FAR Subpart 8.4 and shifted them into the GSA Acquisition Manual (GSAM) Subpart 538.71."
+  },
+  {
+    "id": 106,
+    "far_part": "Part 8",
+    "topic": "Best-in-Class (BIC) Contracts",
+    "qtype": "scenario",
+    "question": "CO Jenkins needs to acquire commercial IT hardware. After checking mandatory statutory sources, he discovers a Best-In-Class (BIC) contract designated by OFPP and a local open-market option. Under the new RFO Part 8 policy, how must he proceed?",
+    "choices": [
+      "He may choose either option based on whichever provides the lowest price.",
+      "He must use the BIC contract unless he obtains an exception from the Head of the Contracting Activity.",
+      "He must post a synopsis to the GPE for 15 days before using the BIC contract.",
+      "He must set the requirement aside for small business on the open market before using the BIC."
+    ],
+    "answer": "He must use the BIC contract unless he obtains an exception from the Head of the Contracting Activity.",
+    "explanation": "RFO Part 8 adopts a 'BIC-first' sourcing policy, making the use of Best-In-Class contracts mandatory for non-statutory commercial needs unless an exception is granted by the head of contracting."
+  },
+  {
+    "id": 107,
+    "far_part": "Part 8",
+    "topic": "Legacy Subpart 8.4",
+    "qtype": "true_false",
+    "question": "True or False: RFO FAR Subpart 8.4 still houses all the operational mechanics, streamlined sole-source justifications, and Request for Quote (RFQ) requirements for ordering from the GSA Schedules.",
+    "answer": "False",
+    "explanation": "FAR Subpart 8.4 no longer houses the detailed mechanics for FSS ordering; it has been streamlined to simply direct users to the GSAM for the operative steps."
+  },
+  {
+    "id": 108,
+    "far_part": "Part 8",
+    "topic": "Best In Class Mandate",
+    "qtype": "fill_in",
+    "question": "The updated RFO rules for Part 8 instruct agencies to prioritize obtaining commercial products and services from a ________-In-Class contract before attempting an open-market acquisition.",
+    "answer": "Best",
+    "explanation": "The Office of Federal Procurement Policy (OFPP) designates certain mature, government-wide contracts as 'Best-In-Class' (BIC), and RFO Part 8 mandates their prioritized use to streamline acquisitions."
+  },
+  {
+    "id": 109,
+    "far_part": "Part 8",
+    "topic": "Mandatory Sources Exhaustion",
+    "qtype": "scenario",
+    "question": "You are procuring commercial administrative services. The requirement cannot be met by AbilityOne or other mandatory sources, and there are no BIC contracts available for these specific services. What is your next required step under RFO Part 8?",
+    "choices": [
+      "Immediately default to an open-market procurement.",
+      "Seek a waiver from the SBA to cancel the requirement.",
+      "Attempt to use other existing governmentwide contracts or multi-agency BPAs before turning to the open market.",
+      "Create a new agency-specific indefinite-delivery contract."
+    ],
+    "answer": "Attempt to use other existing governmentwide contracts or multi-agency BPAs before turning to the open market.",
+    "explanation": "If mandatory sources and BIC contracts cannot fulfill the need, RFO Part 8 directs agencies to try other governmentwide contracts or multi-agency BPAs prior to initiating a new open-market procurement."
+  },
+  {
+    "id": 110,
+    "far_part": "Part 8",
+    "topic": "Executive Order",
+    "qtype": "multiple_choice",
+    "question": "The Revolutionary FAR Overhaul (RFO) of Part 8 was implemented to align with Executive Order 14275. What is the stated goal of this Executive Order regarding federal procurement?",
+    "choices": [
+      "Advancing Racial Equity in Federal Government",
+      "Restoring Common Sense to Federal Procurement",
+      "Improving the Nation's Cybersecurity",
+      "Tackling the Climate Crisis at Home and Abroad"
+    ],
+    "answer": "Restoring Common Sense to Federal Procurement",
+    "explanation": "The RFO initiative, including the Part 8 rewrite, implements Executive Order 14275, 'Restoring Common Sense to Federal Procurement,' signed in April 2025, which mandates the elimination of non-statutory language."
+  },
+  {
+    "id": 111,
+    "far_part": "Part 8",
+    "topic": "AbilityOne Program",
+    "qtype": "true_false",
+    "question": "True or False: In its effort to eliminate non-statutory language, the RFO completely removed the mandatory sourcing priorities for the AbilityOne Program from FAR Part 8.",
+    "answer": "False",
+    "explanation": "The RFO model deviation language explicitly retains the focus on the importance of the AbilityOne Program, as its status as a mandatory source is established by statute (41 U.S.C. chapter 85)."
+  },
+  {
+    "id": 112,
+    "far_part": "Part 8",
+    "topic": "Federal Supply Schedules Agency",
+    "qtype": "fill_in",
+    "question": "Because the Federal Supply Schedules are managed by the ________ Services Administration, the detailed ordering procedures were appropriately moved out of the FAR and into their specific agency acquisition manual.",
+    "answer": "General",
+    "explanation": "The General Services Administration (GSA) manages the FSS program, which is why the ordering procedures were shifted to the General Services Administration Acquisition Manual (GSAM)."
+  },
+  {
+    "id": 113,
+    "far_part": "Part 8",
+    "topic": "Lifecycle Structure",
+    "qtype": "scenario",
+    "question": "You need to review the policies regarding presolicitation mandatory sources of supplies. Unlike legacy FAR Part 8 which was strictly topic-based, the RFO reorganized the part to follow the acquisition lifecycle. Which subpart will contain the presolicitation rules?",
+    "choices": [
+      "Subpart 8.1",
+      "Subpart 8.2",
+      "Subpart 8.4",
+      "Subpart 8.5"
+    ],
+    "answer": "Subpart 8.1",
+    "explanation": "RFO Part 8 was restructured into the logical flow of the acquisition lifecycle, with Subpart 8.1 now titled 'Presolicitation' to house initial mandatory sourcing and existing contract rules."
+  },
+  {
+    "id": 114,
+    "far_part": "Part 8",
+    "topic": "Contractor Use of Govt Sources",
+    "qtype": "multiple_choice",
+    "question": "Under the reorganized RFO Part 8, guidance regarding a contractor's permitted use of Government supply sources (such as the GSA Fleet) is located in which phase of the acquisition lifecycle?",
+    "choices": [
+      "Subpart 8.1 - Presolicitation",
+      "Subpart 8.2 - Evaluation",
+      "Subpart 8.3 - Postaward",
+      "Subpart 8.4 - Administration"
+    ],
+    "answer": "Subpart 8.1 - Presolicitation",
+    "explanation": "Guidance for contractor use of Government supply sources (FAR 8.105) is housed under Subpart 8.1 (Presolicitation), as it must be planned for and authorized before or during the solicitation phase."
+  },
+  {
+    "id": 115,
+    "far_part": "Part 8",
+    "topic": "Statutory Foundation",
+    "qtype": "true_false",
+    "question": "True or False: The primary goal of the RFO Part 8 rewrite was to add more prescriptive, non-statutory steps to ensure agencies thoroughly document every open-market purchasing decision.",
+    "answer": "False",
+    "explanation": "The stated goal of the RFO is the exact opposite: to eliminate non-statutory language, remove redundancy, and simplify the text to focus only on core procurement requirements."
+  },
+  {
+    "id": 116,
+    "far_part": "Part 8",
+    "topic": "Definitions",
+    "qtype": "fill_in",
+    "question": "Under FAR 8.001 definitions, the operating name for the Committee for Purchase From People Who are Blind or Severely Disabled is the ________ Commission.",
+    "answer": "AbilityOne",
+    "explanation": "The definition in FAR 8.001 officially establishes 'AbilityOne Commission' as the operating name for the statutory committee."
+  },
+  {
+    "id": 117,
+    "far_part": "Part 8",
+    "topic": "Exception to BIC",
+    "qtype": "scenario",
+    "question": "A Program Manager wants to bypass an available BIC contract that meets the agency's needs because they prefer to work with a local open-market vendor they have used previously. According to RFO Part 8, who must provide an exception to allow this?",
+    "choices": [
+      "The Contracting Officer can self-certify the exception in the contract file.",
+      "The agency Small Business Specialist.",
+      "The Head of the Contracting Activity (HCA).",
+      "The Office of Federal Procurement Policy (OFPP)."
+    ],
+    "answer": "The Head of the Contracting Activity (HCA).",
+    "explanation": "Agencies must use BIC contracts unless the Head of the Contracting Activity (or delegated authority) provides a specific exception justifying the bypass."
+  },
+  {
+    "id": 118,
+    "far_part": "Part 8",
+    "topic": "Central Nonprofit Agencies",
+    "qtype": "multiple_choice",
+    "question": "As defined in RFO FAR 8.001, which organization is designated to represent AbilityOne participating nonprofit agencies serving people with severe disabilities other than blindness?",
+    "choices": [
+      "National Industries for the Blind (NIB)",
+      "Federal Prison Industries (FPI)",
+      "SourceAmerica (NISH)",
+      "The Small Business Administration"
+    ],
+    "answer": "SourceAmerica (NISH)",
+    "explanation": "The FAR defines the central nonprofit agencies for the AbilityOne program: NIB represents agencies for the blind, and SourceAmerica (formerly NISH) represents agencies for other severe disabilities."
+  },
+  {
+    "id": 119,
+    "far_part": "Part 8",
+    "topic": "Priority of Sources",
+    "qtype": "true_false",
+    "question": "True or False: Under RFO Part 8, the mandate to use Best-In-Class (BIC) contracts supersedes the statutory requirement to purchase from Federal Prison Industries or AbilityOne participating nonprofit agencies.",
+    "answer": "False",
+    "explanation": "Statutory mandatory sources (such as AbilityOne and FPI, when applicable) maintain their top priority and must be exhausted before turning to commercial priority contract vehicles like BIC contracts."
+  },
+  {
+    "id": 120,
+    "far_part": "Part 9",
+    "topic": "Organizational Conflicts of Interest (OCI)",
+    "qtype": "scenario",
+    "question": "Contracting Officer (CO) Thomas is planning an acquisition that may involve a significant potential organizational conflict of interest (OCI). According to RFO FAR 9.504, what must CO Thomas do before issuing the solicitation?",
+    "choices": [
+      "Recommend a course of action for resolving the conflict to the head of the contracting activity.",
+      "Require all potential offerors to submit an OCI mitigation plan with their initial proposal.",
+      "Immediately exclude any contractor with a potential OCI from competing.",
+      "Request a waiver from the agency head."
+    ],
+    "answer": "Recommend a course of action for resolving the conflict to the head of the contracting activity.",
+    "explanation": "RFO FAR 9.504 requires the contracting officer to recommend a course of action for resolving a significant potential conflict to the head of the contracting activity before issuing the solicitation."
+  },
+  {
+    "id": 121,
+    "far_part": "Part 9",
+    "topic": "Debarment Causes",
+    "qtype": "true_false",
+    "question": "True or False: Following updates to RFO Part 9 in 2026, failure to comply with the requirements of the clause at 52.222-90, Addressing DEI Discrimination by Federal Contractors, is now explicitly listed as a cause for debarment or suspension.",
+    "answer": "True",
+    "explanation": "In accordance with Executive Order 14398, RFO Part 9 was updated to incorporate failure to comply with the clause addressing DEI Discrimination by Federal Contractors as a cause for debarment or suspension."
+  },
+  {
+    "id": 122,
+    "far_part": "Part 9",
+    "topic": "Interagency Coordination",
+    "qtype": "multiple_choice",
+    "question": "When more than one agency has an interest in the debarment or suspension of a contractor, which entity is responsible for resolving the lead agency issue?",
+    "choices": [
+      "The Office of Federal Procurement Policy (OFPP)",
+      "The Interagency Suspension and Debarment Committee (ISDC)",
+      "The Government Accountability Office (GAO)",
+      "The Department of Justice (DOJ)"
+    ],
+    "answer": "The Interagency Suspension and Debarment Committee (ISDC)",
+    "explanation": "RFO FAR 9.402(d) designates the Interagency Suspension and Debarment Committee (ISDC) to resolve the lead agency issue and coordinate resolution among interested agencies."
+  },
+  {
+    "id": 123,
+    "far_part": "Part 9",
+    "topic": "OCI Waivers",
+    "qtype": "multiple_choice",
+    "question": "Under RFO FAR 9.503, the agency head or a designee may waive any general rule or procedure of Subpart 9.5 if its application in a particular situation would not be in the Government's interest. What is the lowest level this waiver authority can be delegated?",
+    "choices": [
+      "The Contracting Officer",
+      "The Head of the Contracting Activity (HCA)",
+      "The Advocate for Competition",
+      "The Senior Procurement Executive"
+    ],
+    "answer": "The Head of the Contracting Activity (HCA)",
+    "explanation": "Agency heads must not delegate OCI waiver authority below the level of head of a contracting activity."
+  },
+  {
+    "id": 124,
+    "far_part": "Part 9",
+    "topic": "Affiliates",
+    "qtype": "fill_in",
+    "question": "According to RFO FAR 9.403, business concerns, organizations, or individuals are considered '________' of each other if, directly or indirectly, either one controls or has the power to control the other, or a third party controls both.",
+    "answer": "Affiliates",
+    "explanation": "The definition of 'Affiliates' in FAR 9.403 outlines the standards for control that establish an affiliate relationship for suspension and debarment purposes."
+  },
+  {
+    "id": 125,
+    "far_part": "Part 9",
+    "topic": "Subcontracting with Debarred Contractors",
+    "qtype": "scenario",
+    "question": "You are awarding a contract for commercial IT hardware. At what contract value must you include the clause at 52.209-6, Protecting the Government's Interest when Subcontracting with Contractors Debarred, Suspended, Proposed for Debarment, or Voluntarily Excluded?",
+    "choices": [
+      "For all contracts over the micro-purchase threshold.",
+      "In solicitations and contracts where the contract value exceeds $25,000.",
+      "In solicitations and contracts where the contract value exceeds $45,000.",
+      "In all contracts over the Simplified Acquisition Threshold (SAT)."
+    ],
+    "answer": "In solicitations and contracts where the contract value exceeds $45,000.",
+    "explanation": "RFO FAR Part 9 requires the insertion of clause 52.209-6 in solicitations and contracts where the contract value exceeds $45,000."
+  },
+  {
+    "id": 126,
+    "far_part": "Part 9",
+    "topic": "Non-Regulatory Resources",
+    "qtype": "true_false",
+    "question": "True or False: In keeping with the RFO's push to remove non-statutory language, all procedural advice and best practices for contractor qualifications were moved out of the FAR and into non-regulatory resources like the Practitioner Album and the FAR Companion Guide.",
+    "answer": "True",
+    "explanation": "A core tenet of the RFO is moving non-statutory buying strategies and best practices out of the FAR and into OFPP-endorsed non-regulatory resources like the Practitioner Album and the FAR Companion Guide."
+  },
+  {
+    "id": 127,
+    "far_part": "Part 9",
+    "topic": "Marketing Consultants",
+    "qtype": "fill_in",
+    "question": "RFO FAR 9.501 defines a '________ consultant' as any independent contractor who furnishes advice, information, direction, or assistance to an offeror in support of the preparation or submission of an offer for a Government contract.",
+    "answer": "Marketing",
+    "explanation": "The definition of a 'marketing consultant' is specifically established in FAR 9.501 to help COs evaluate potential conflicts of interest."
+  },
+  {
+    "id": 128,
+    "far_part": "Part 9",
+    "topic": "Marketing Consultant Exclusions",
+    "qtype": "multiple_choice",
+    "question": "Which of the following services rendered by an independent contractor would NOT classify them as a marketing consultant under RFO FAR 9.5?",
+    "choices": [
+      "Advising an offeror on pricing strategies for a specific solicitation.",
+      "Routine engineering and technical services, such as equipment installation.",
+      "Writing the technical volume of an offeror's proposal.",
+      "Providing strategic direction on teaming arrangements for a bid."
+    ],
+    "answer": "Routine engineering and technical services, such as equipment installation.",
+    "explanation": "RFO FAR 9.501 explicitly states that an independent contractor is not a marketing consultant when rendering routine engineering and technical services, routine legal/accounting services, or training services."
+  },
+  {
+    "id": 129,
+    "far_part": "Part 9",
+    "topic": "Responsibility Systems",
+    "qtype": "fill_in",
+    "question": "To evaluate a prospective contractor's responsibility, RFO FAR 9.104-6 directs contracting officers to review the Federal Awardee Performance and ________ Information System (FAPIIS).",
+    "answer": "Integrity",
+    "explanation": "FAPIIS (Federal Awardee Performance and Integrity Information System) is the mandatory system COs must review to assess a contractor's past performance and integrity for responsibility determinations."
+  },
+  {
+    "id": 130,
+    "far_part": "Part 9",
+    "topic": "Formal Documentation",
+    "qtype": "scenario",
+    "question": "CO Jenkins is evaluating potential organizational conflicts of interest for an upcoming advisory and assistance services contract. According to RFO FAR 9.504(d), when is CO Jenkins formally required to document his judgment regarding potential conflicts?",
+    "choices": [
+      "For every acquisition exceeding the SAT.",
+      "Only when a substantive issue concerning a potential OCI exists.",
+      "Whenever the procurement utilizes a cost-reimbursement contract type.",
+      "He must formally document an OCI review for every contract action regardless of issues."
+    ],
+    "answer": "Only when a substantive issue concerning a potential OCI exists.",
+    "explanation": "To avoid burdensome documentation, RFO FAR 9.504(d) states that the contracting officer's judgment need be formally documented only when a substantive issue concerning potential organizational conflict of interest exists."
+  },
+  {
+    "id": 131,
+    "far_part": "Part 9",
+    "topic": "First Article Approval",
+    "qtype": "multiple_choice",
+    "question": "When authorizing a contractor to purchase material or commence production before first article approval, which clause and alternate must the CO use?",
+    "choices": [
+      "52.209-3, First Article Approval—Contractor Testing, Alternate I",
+      "52.209-4, First Article Approval—Government Testing, Alternate II",
+      "52.209-6, Protecting the Government's Interest, Alternate I",
+      "52.209-1, Qualification Requirements"
+    ],
+    "answer": "52.209-4, First Article Approval—Government Testing, Alternate II",
+    "explanation": "RFO FAR Part 9 instructs the use of clause 52.209-4, Alternate II, to authorize the contractor to purchase material or commence production before first article approval."
+  },
+  {
+    "id": 132,
+    "far_part": "Part 9",
+    "topic": "Ineligibility Scope",
+    "qtype": "true_false",
+    "question": "True or False: Subpart 9.4 prescribes all policies and procedures governing declarations of ineligibility for contractors across all Federal statutes.",
+    "answer": "False",
+    "explanation": "FAR 9.400(b) clarifies that while the subpart covers the listing and effect of ineligible contractors, it does not prescribe policies and procedures governing declarations of ineligibility, except for those declared ineligible under 10 USC 983."
+  },
+  {
+    "id": 133,
+    "far_part": "Part 9",
+    "topic": "Systems Engineering OCI",
+    "qtype": "scenario",
+    "question": "Contractor X helps an agency develop a system and process applications. According to the OCI examples in RFO Subpart 9.5, what restriction should be placed on Contractor X?",
+    "choices": [
+      "Contractor X must be suspended from all federal contracting for 3 years.",
+      "Contractor X should be prohibited from acting as a consultant to any of the applicants during its period of performance and for a reasonable period thereafter.",
+      "Contractor X can consult for applicants as long as they disclose the relationship to the CO.",
+      "Contractor X must divest its consulting division before award."
+    ],
+    "answer": "Contractor X should be prohibited from acting as a consultant to any of the applicants during its period of performance and for a reasonable period thereafter.",
+    "explanation": "The examples in 9.502 explicitly state that a contractor developing a system and processing applications should be prohibited from consulting for those applicants due to an organizational conflict of interest."
+  },
+  {
+    "id": 134,
+    "far_part": "Part 9",
+    "topic": "Administrative Agreements",
+    "qtype": "fill_in",
+    "question": "As defined in RFO FAR 9.403, an agreement between an agency suspending and debarring official and a contractor used to resolve a suspension or debarment proceeding is called an ________ agreement.",
+    "answer": "Administrative",
+    "explanation": "An administrative agreement is the formal tool used to resolve suspension or debarment proceedings while allowing the contractor to implement compliance measures."
+  },
+  {
+    "id": 135,
+    "far_part": "Part 10",
+    "topic": "Market Research Procedures",
+    "qtype": "multiple_choice",
+    "question": "What happened to the detailed 'menu' of nine market research techniques (e.g., Industry Days, RFIs, catalog reviews) previously found in legacy FAR Part 10?",
+    "choices": [
+      "They were expanded to include modern social media outreach.",
+      "They were retained but made strictly mandatory for all actions over $10 Million.",
+      "They were completely eliminated from the FAR and moved to the non-regulatory FAR Companion Guide.",
+      "They were relocated to FAR Part 5 (Publicizing)."
+    ],
+    "answer": "They were completely eliminated from the FAR and moved to the non-regulatory FAR Companion Guide.",
+    "explanation": "Consistent with the RFO's mandate to remove non-statutory procedural bloat, the list of specific market research techniques was deleted from the FAR to give acquisition teams greater flexibility. Best practices are now found in the FAR Companion Guide."
+  },
+  {
+    "id": 136,
+    "far_part": "Part 10",
+    "topic": "Market Research Triggers",
+    "qtype": "scenario",
+    "question": "CO Sarah is reviewing the overhauled FAR Part 10 to determine if market research is strictly required for her upcoming procurement. Under the RFO, which of the following scenarios is NOT one of the remaining mandatory triggers for market research?",
+    "choices": [
+      "A brand-new requirement",
+      "Any acquisition over the Simplified Acquisition Threshold (SAT)",
+      "IDIQ orders over the SAT",
+      "All administrative modifications to existing contracts"
+    ],
+    "answer": "All administrative modifications to existing contracts",
+    "explanation": "The RFO stripped the market research triggers down to a bare-bones set of three core scenarios: for a brand-new requirement, for any acquisition over the SAT, and for IDIQ orders over the SAT."
+  },
+  {
+    "id": 137,
+    "far_part": "Part 10",
+    "topic": "Commercial Solutions Preference",
+    "qtype": "true_false",
+    "question": "True or False: Despite the massive reductions in FAR Part 10, the RFO retained the specific statutory language emphasizing that market research must be used to determine whether commercial products or services can meet the agency's needs.",
+    "answer": "True",
+    "explanation": "While much of the procedural bloat was eliminated, the FAR Council retained the core statutory emphasis on using market research to maximize the acquisition of commercial solutions."
+  },
+  {
+    "id": 138,
+    "far_part": "Part 10",
+    "topic": "Executive Order 14275",
+    "qtype": "fill_in",
+    "question": "The RFO changes to FAR Part 10 implement Executive Order ________, known as 'Restoring Common Sense to Federal Procurement.'",
+    "answer": "14275",
+    "explanation": "The Revolutionary FAR Overhaul, including the massive streamlining of FAR Part 10, is driven by EO 14275, signed in April 2025, which mandates the removal of non-statutory provisions to restore common sense to procurement."
+  },
+  {
+    "id": 139,
+    "far_part": "Part 10",
+    "topic": "Small Business and Consolidation",
+    "qtype": "scenario",
+    "question": "You are planning a consolidated acquisition that will likely impact small business incumbents. Under the legacy FAR, Part 10 instructed you to consult with the Small Business Specialist and SBA PCR. Under the RFO, where must you look for these bundling and consolidation requirements?",
+    "choices": [
+      "They were completely deleted and are no longer required.",
+      "FAR Part 7 and Part 19",
+      "FAR Part 6",
+      "The agency-specific supplements only"
+    ],
+    "answer": "FAR Part 7 and Part 19",
+    "explanation": "All small business references, including bundling notifications and SBA coordination, were removed from Part 10 because they were redundant. Those critical statutory requirements remain strictly enforced under FAR Parts 7 and 19."
+  },
+  {
+    "id": 140,
+    "far_part": "Part 10",
+    "topic": "RFO Structure",
+    "qtype": "multiple_choice",
+    "question": "Under the RFO, FAR sections 10.001 (Policy) and 10.002 (Procedures) were consolidated into a single, highly streamlined section. What is the title of this new consolidated section?",
+    "choices": [
+      "Market research procedures",
+      "Market research requirements",
+      "Market research exemptions",
+      "Commercial market practices"
+    ],
+    "answer": "Market research requirements",
+    "explanation": "To simplify the compliance framework, the old 'Policy' and 'Procedures' sections were merged into a single section titled '10.001 Market research requirements.'"
+  },
+  {
+    "id": 141,
+    "far_part": "Part 10",
+    "topic": "Mandatory Techniques",
+    "qtype": "true_false",
+    "question": "True or False: RFO FAR Part 10 explicitly dictates that contracting officers must use formal Industry Days and written Requests for Information (RFIs) for all procurements exceeding $10 Million.",
+    "answer": "False",
+    "explanation": "The RFO completely eliminated the prescriptive requirement to use specific market research techniques like Industry Days and RFIs, shifting from a rules-based approach to a principles-based approach that allows COs to choose the most appropriate method."
+  },
+  {
+    "id": 142,
+    "far_part": "Part 10",
+    "topic": "RFO Philosophy",
+    "qtype": "fill_in",
+    "question": "By stripping out procedural bloat, the FAR Council's 'Revolutionary FAR Overhaul' shifted FAR Part 10 from a highly prescriptive approach to a leaner set of ________ requirements.",
+    "answer": "minimum",
+    "explanation": "The stated goal of the RFO for Part 10 was to transition the regulation from dictating prescriptive steps to establishing only the 'minimum requirements' necessary for conducting market research."
+  },
+  {
+    "id": 143,
+    "far_part": "Part 10",
+    "topic": "IDIQ Triggers",
+    "qtype": "scenario",
+    "question": "CO Vance is procuring $500,000 of commercial IT services via a task order under an existing multiple-award IDIQ contract. Is he required to conduct market research under the RFO Part 10 triggers?",
+    "choices": [
+      "Yes, because market research is triggered for IDIQ orders over the Simplified Acquisition Threshold (SAT).",
+      "No, market research is never required for IDIQ orders.",
+      "Yes, but only if the IDIQ is a Best-in-Class (BIC) vehicle.",
+      "No, because the requirement is under $1 Million."
+    ],
+    "answer": "Yes, because market research is triggered for IDIQ orders over the Simplified Acquisition Threshold (SAT).",
+    "explanation": "One of the three core market research triggers retained in the overhauled FAR Part 10 is the requirement to conduct market research for task or delivery orders issued under IDIQ contracts that exceed the SAT."
+  },
+  {
+    "id": 144,
+    "far_part": "Part 10",
+    "topic": "Eliminated Content",
+    "qtype": "multiple_choice",
+    "question": "Which of the following legacy FAR Part 10 policy statements was completely eliminated during the RFO because it was deemed unnecessary regulatory bloat?",
+    "choices": [
+      "The requirement to determine if commercial items are available",
+      "Market research for ongoing contingency operations, defense against attacks, and disaster relief",
+      "The requirement to document market research results",
+      "The trigger for acquisitions over the SAT"
+    ],
+    "answer": "Market research for ongoing contingency operations, defense against attacks, and disaster relief",
+    "explanation": "Detailed, highly specific policy statements regarding ongoing market research for contingency operations and disaster relief were stripped out of Part 10 to streamline the regulation to its core statutory mandates."
+  },
+  {
+    "id": 145,
+    "far_part": "Part 10",
+    "topic": "Removed Redundancies",
+    "qtype": "fill_in",
+    "question": "The RFO stripped all references to ________ business programs from FAR Part 10, recognizing that those statutory considerations are already thoroughly mandated and governed by FAR Parts 7 and 19.",
+    "answer": "small",
+    "explanation": "A major change in the RFO Part 10 was the removal of all 'small business' language, shifting the burden of those procedures back to their primary FAR parts (7 and 19) to eliminate redundancy."
+  },
+  {
+    "id": 146,
+    "far_part": "Part 10",
+    "topic": "Contracting Officer Flexibility",
+    "qtype": "true_false",
+    "question": "True or False: The RFO Part 10 changes restrict the contracting officer's flexibility by imposing stricter, more rigid compliance steps before reaching out to industry.",
+    "answer": "False",
+    "explanation": "The RFO Part 10 changes do the exact opposite. By removing the mandatory procedural 'menu' of techniques, the overhaul gives contracting officers maximum flexibility and discretion to utilize the market research techniques most appropriate for their specific acquisition."
+  },
+  {
+    "id": 147,
+    "far_part": "Part 10",
+    "topic": "Best Practices Resources",
+    "qtype": "scenario",
+    "question": "You are a new Contract Specialist trying to learn best practices for conducting market research, such as how to review catalogs or search vendor databases. Since these techniques were removed from FAR Part 10, which OFPP-endorsed resource should you consult?",
+    "choices": [
+      "The FAR Companion Guide",
+      "The Code of Federal Regulations (CFR)",
+      "The GAO Red Book",
+      "The Interagency Suspension and Debarment Committee (ISDC) guidelines"
+    ],
+    "answer": "The FAR Companion Guide",
+    "explanation": "Non-regulatory best practices, 'how-to' guidance, and procedural techniques for market research that were stripped from the FAR have been relocated to the FAR Companion Guide."
+  },
+  {
+    "id": 148,
+    "far_part": "Part 10",
+    "topic": "Core Requirements",
+    "qtype": "multiple_choice",
+    "question": "According to RFO FAR 10.001, what are the two core actions agencies are now required to do under the heavily simplified compliance framework?",
+    "choices": [
+      "Draft a 10-page market research report and notify the SBA.",
+      "Describe their legitimate needs and conduct market research appropriate to the acquisition's scope and complexity.",
+      "Issue a formal RFI and host an Industry Day.",
+      "Synopsize the requirement on the GPE and wait 30 days before researching."
+    ],
+    "answer": "Describe their legitimate needs and conduct market research appropriate to the acquisition's scope and complexity.",
+    "explanation": "Under the new lean framework, agencies are simply required to describe their legitimate needs and conduct market research that is appropriate to the acquisition's scope and complexity, without prescriptive step-by-step mandates."
+  },
+  {
+    "id": 149,
+    "far_part": "Part 10",
+    "topic": "Brand-New Requirements",
+    "qtype": "fill_in",
+    "question": "Under the RFO, if a requirement is entirely brand-________, the contracting officer is explicitly triggered to conduct market research regardless of the dollar value.",
+    "answer": "new",
+    "explanation": "One of the three surviving market research triggers in FAR Part 10 is that market research must be conducted for any brand-new requirement, ensuring that the agency understands the current commercial landscape before proceeding."
+  },
+  {
+    "id": 150,
+    "far_part": "Part 11",
+    "topic": "Requirement Descriptions",
+    "qtype": "multiple_choice",
+    "question": "Under the RFO Part 11 'Policy' section, in what order of preference should agencies describe their requirements to ensure maximum competition?",
+    "choices": [
+      "1) Design specifications, 2) Performance-based requirements, 3) Brand-name descriptions.",
+      "1) Performance-based requirements, 2) Brand-name descriptions, 3) Design specifications.",
+      "1) Performance-based requirements, 2) Functional or essential physical characteristics, 3) Design specifications.",
+      "1) Design specifications, 2) Essential physical characteristics, 3) Performance-based requirements."
+    ],
+    "answer": "1) Performance-based requirements, 2) Functional or essential physical characteristics, 3) Design specifications.",
+    "explanation": "RFO FAR 11.102 prioritizes performance-based requirements and functional descriptions over prescriptive design specifications to encourage innovation and commercial solutions."
+  },
+  {
+    "id": 151,
+    "far_part": "Part 11",
+    "topic": "Delivery and Performance Schedules",
+    "qtype": "multiple_choice",
+    "question": "The RFO entirely eliminated legacy FAR Subpart 11.4, 'Delivery or Performance Schedules.' Where has the procedural guidance for establishing these schedules been relocated?",
+    "choices": [
+      "FAR Part 12 (Commercial)",
+      "The FAR Companion Guide",
+      "FAR Part 42 (Contract Administration)",
+      "The GSAM (General Services Administration Manual)"
+    ],
+    "answer": "The FAR Companion Guide",
+    "explanation": "To provide acquisition teams with greater flexibility and discretion, the non-statutory techniques for establishing delivery and performance schedules were moved from the FAR to the FAR Companion Guide."
+  },
+  {
+    "id": 152,
+    "far_part": "Part 11",
+    "topic": "Liquidated Damages Renumbering",
+    "qtype": "fill_in",
+    "question": "Under the RFO structural reorganization, the policy and procedures for Liquidated Damages were renumbered from legacy Subpart 11.5 to the new Subpart ________.",
+    "answer": "11.4",
+    "explanation": "As part of the streamlining of Part 11, Liquidated Damages was moved from 11.5 to 11.4, following the deletion of the original 11.4 content."
+  },
+  {
+    "id": 153,
+    "far_part": "Part 11",
+    "topic": "Brand-Name Restrictions",
+    "qtype": "scenario",
+    "question": "CO Miller is procuring high-end networking equipment and believes only a 'Cisco-only' solution will work. According to RFO FAR 11.204, what must he do to use a brand-name description peculiar to one manufacturer?",
+    "choices": [
+      "He must obtain a waiver from the Small Business Administration.",
+      "He must justify the brand-name requirement in writing and include it with the solicitation.",
+      "He may use the brand-name without a justification if the acquisition is under $10 Million.",
+      "Brand-name descriptions are strictly prohibited under the RFO regardless of justification."
+    ],
+    "answer": "He must justify the brand-name requirement in writing and include it with the solicitation.",
+    "explanation": "RFO FAR 11.204 (Items peculiar to one manufacturer) requires that brand-name descriptions be justified in writing and, in many cases, posted with the solicitation to ensure transparency."
+  },
+  {
+    "id": 154,
+    "far_part": "Part 11",
+    "topic": "Liquidated Damages Policy",
+    "qtype": "true_false",
+    "question": "True or False: According to RFO FAR 11.401, Liquidated Damages should be used primarily as a negative incentive or penalty to ensure contractors deliver on time.",
+    "answer": "False",
+    "explanation": "RFO FAR 11.401 explicitly states that liquidated damages are not to be used as a penalty; they are only authorized when the government expects to suffer a loss that is difficult to estimate."
+  },
+  {
+    "id": 155,
+    "far_part": "Part 11",
+    "topic": "Voluntary Consensus Standards",
+    "qtype": "fill_in",
+    "question": "To align with commercial practices, RFO FAR 11.201 directs agencies to prioritize the use of ________ consensus standards (VCS) over developing unique government specifications.",
+    "answer": "Voluntary",
+    "explanation": "Voluntary Consensus Standards (VCS) are established by private sector bodies and are preferred in federal procurement to reduce costs and leverage industry innovation."
+  },
+  {
+    "id": 156,
+    "far_part": "Part 11",
+    "topic": "Variation in Quantity",
+    "qtype": "scenario",
+    "question": "A Contracting Officer is procuring custom-manufactured aircraft parts and expects a slight variation in the final delivered quantity. Since the RFO removed standard variation clauses from Part 11, how should she handle this?",
+    "choices": [
+      "Variations are no longer allowed in any federal contract.",
+      "She should use her discretion to address acceptable variations within the specific contract's terms and conditions.",
+      "She must use the variation clauses found in FAR Part 13 instead.",
+      "All quantity variations must now be approved by the Head of the Contracting Activity (HCA)."
+    ],
+    "answer": "She should use her discretion to address acceptable variations within the specific contract's terms and conditions.",
+    "explanation": "By removing prescriptive, non-statutory clauses, the RFO encourages COs to use their discretion and address specific performance realities (like quantity variations) directly within the contract text."
+  },
+  {
+    "id": 157,
+    "far_part": "Part 11",
+    "topic": "Recovered Materials",
+    "qtype": "true_false",
+    "question": "True or False: Despite the RFO's removal of informational links like the 'Green Procurement Compilation,' the statutory mandate requiring agencies to procure supplies containing the highest percentage of recovered materials practicable remains in effect.",
+    "answer": "True",
+    "explanation": "Statutory requirements for sustainable procurement and recovered materials were retained in the RFO to ensure compliance with federal environmental laws, even as non-statutory advice was removed."
+  },
+  {
+    "id": 158,
+    "far_part": "Part 11",
+    "topic": "Selecting Requirement Documents",
+    "qtype": "scenario",
+    "question": "A technical team provides a CO with a specification that includes obscure, non-standard testing requirements. According to the RFO 'Selecting and Developing Requirements Documents' guidance, what should the CO do?",
+    "choices": [
+      "Adopt the testing requirements exactly as written to support the technical experts.",
+      "Challenge the requirements and encourage the use of market-accepted or voluntary consensus standards.",
+      "Require the winning contractor to pay for the cost of the unique government tests.",
+      "Ignore the testing requirements entirely and award a standard firm-fixed-price contract."
+    ],
+    "answer": "Challenge the requirements and encourage the use of market-accepted or voluntary consensus standards.",
+    "explanation": "The RFO pushes acquisition teams to use commercial and voluntary consensus standards to avoid unnecessarily limiting competition with unique, non-market-driven requirements."
+  },
+  {
+    "id": 159,
+    "far_part": "Part 11",
+    "topic": "Definitions",
+    "qtype": "fill_in",
+    "question": "Under RFO FAR 11.101, a description of a requirement that focuses on the results to be achieved rather than the method of performance is known as a ________-based requirement.",
+    "answer": "Performance",
+    "explanation": "Performance-based requirements are the gold standard in the RFO because they define 'what' is needed rather than dictating to the contractor 'how' it should be done."
+  },
+  {
+    "id": 160,
+    "far_part": "Part 11",
+    "topic": "Market Acceptance",
+    "qtype": "multiple_choice",
+    "question": "According to RFO FAR 11.203, when may an agency require 'market acceptance' (proof that an item has been successfully sold to the public) for an item?",
+    "choices": [
+      "Only for acquisitions exceeding $100 Million.",
+      "When necessary to satisfy the agency's needs and where commercial practice supports it.",
+      "It is strictly prohibited to require market acceptance under the RFO.",
+      "Only for products acquired under a sole-source justification."
+    ],
+    "answer": "When necessary to satisfy the agency's needs and where commercial practice supports it.",
+    "explanation": "Market acceptance is a legitimate tool to ensure quality and reliability, but under the RFO, it should be used only when it is consistent with standard commercial practices."
+  },
+  {
+    "id": 161,
+    "far_part": "Part 11",
+    "topic": "Statutory Deletions",
+    "qtype": "true_false",
+    "question": "True or False: The RFO initiative deleted all text from Part 11 that provided 'informational' guidance but was not required by law or essential to the execution of a procurement.",
+    "answer": "True",
+    "explanation": "The 'Restoring Common Sense' Executive Order mandates that the FAR only contain provisions required by statute or absolutely essential to procurement, leading to the removal of vast amounts of informational text."
+  },
+  {
+    "id": 162,
+    "far_part": "Part 11",
+    "topic": "Liquidated Damages Calculation",
+    "qtype": "scenario",
+    "question": "CO Jackson is setting a liquidated damages rate for a major facility renovation. The RFO guidance in 11.402 dictates that the rate established must be ________.",
+    "choices": [
+      "A flat fee of 10% of the total contract value.",
+      "A reasonable forecast of just compensation for the harm that is caused by late performance.",
+      "The highest possible amount to deter any contractor delays.",
+      "Calculated by the Department of Labor (DOL) annually."
+    ],
+    "answer": "A reasonable forecast of just compensation for the harm that is caused by late performance.",
+    "explanation": "Liquidated damages must represent a 'reasonable forecast' of actual financial loss to the government to be legally enforceable and to avoid being classified as an impermissible penalty."
+  },
+  {
+    "id": 163,
+    "far_part": "Part 11",
+    "topic": "Practitioner Tips",
+    "qtype": "fill_in",
+    "question": "The RFO Part 11 Practitioner Album recommends that instead of using highly prescriptive design specs, acquisition teams should utilize '________-based' statements of work to foster industry innovation.",
+    "answer": "Objective",
+    "explanation": "Objective-based (or performance-based) statements of work allow industry experts to propose the best, most innovative solutions to meet the government's desired end-state."
+  },
+  {
+    "id": 164,
+    "far_part": "Part 11",
+    "topic": "Standardization Program",
+    "qtype": "multiple_choice",
+    "question": "What is the primary goal of the standardization program as outlined in RFO FAR 11.202?",
+    "choices": [
+      "To ensure every federal agency uses the exact same brand of office supplies.",
+      "To minimize the number of different types and sizes of items in the federal supply system.",
+      "To require all contractors to use the same manufacturing equipment.",
+      "To eliminate the use of commercial standards in favor of rigid military specifications."
+    ],
+    "answer": "To minimize the number of different types and sizes of items in the federal supply system.",
+    "explanation": "Standardization aims to reduce logistical complexity and maintenance costs by limiting the unnecessary variety of items required to support government operations."
+  },
+  {
+    "id": 165,
+    "far_part": "Part 12",
+    "topic": "Streamlined Procedures Threshold",
+    "qtype": "scenario",
+    "question": "CO Martinez is buying $8.5M of commercial IT services. She wants to use streamlined procedures with minimal documentation, no formal evaluation plan, and a simple RFQ-to-PO process. Under RFO Part 12, is this approach allowed?",
+    "choices": [
+      "Yes — it is within the $9M streamlined procedures threshold for commercial products and services.",
+      "No — streamlined procedures cap at $250k under the standard SAT.",
+      "Yes — but only if she obtains Head of the Contracting Activity (HCA) approval.",
+      "No — IT services are excluded from streamlined commercial procedures."
+    ],
+    "answer": "Yes — it is within the $9M streamlined procedures threshold for commercial products and services.",
+    "explanation": "RFO Part 12 raised the threshold for simplified, streamlined procedures for commercial products and services to $9 million, allowing COs to use an RFQ-to-PO lane for much larger dollar values."
+  },
+  {
+    "id": 166,
+    "far_part": "Part 12",
+    "topic": "Structural Reorganization",
+    "qtype": "multiple_choice",
+    "question": "How did the Revolutionary FAR Overhaul (RFO) fundamentally restructure FAR Part 12 to make it more user-centric?",
+    "choices": [
+      "It organized the part alphabetically by commercial item types.",
+      "It consolidated all guidance into process-oriented, lifecycle subparts (Presolicitation, Solicitation/Evaluation/Award, Postaward, Micro-purchases).",
+      "It merged Part 12 directly into FAR Part 15 (Contracting by Negotiation).",
+      "It eliminated all subparts and replaced them with a single master checklist."
+    ],
+    "answer": "It consolidated all guidance into process-oriented, lifecycle subparts (Presolicitation, Solicitation/Evaluation/Award, Postaward, Micro-purchases).",
+    "explanation": "The revised Part 12 structure consolidates all relevant guidance into a logical, process-oriented lifecycle structure spanning Subparts 12.1 through 12.4."
+  },
+  {
+    "id": 167,
+    "far_part": "Part 12",
+    "topic": "Commercial Construction",
+    "qtype": "true_false",
+    "question": "True or False: Under the RFO, FAR 2.101 was updated to explicitly clarify that 'construction' can never be classified or procured as a commercial service under Part 12.",
+    "answer": "False",
+    "explanation": "The RFO explicitly clarified the definition of 'commercial service' at FAR 2.101 to include construction, meaning COs can utilize Part 12 streamlined commercial procedures for certain construction requirements."
+  },
+  {
+    "id": 168,
+    "far_part": "Part 12",
+    "topic": "Clause Reduction",
+    "qtype": "fill_in",
+    "question": "In an effort to restore common sense to federal procurement, the RFO removed approximately ________ percent of the clauses and provisions that were previously applicable to commercial contracts.",
+    "answer": "30",
+    "explanation": "The RFO eliminated 46 clauses and provisions from other FAR parts that were no longer required for commercial contracts, achieving an approximate 30% reduction in commercial clause bloat."
+  },
+  {
+    "id": 169,
+    "far_part": "Part 12",
+    "topic": "Eliminated Clauses",
+    "qtype": "multiple_choice",
+    "question": "Which notoriously long and burdensome clause—previously used to implement various statutes and Executive Orders for commercial items—was completely removed from RFO Part 12 because it was deemed unnecessary?",
+    "choices": [
+      "52.212-1, Instructions to Offerors",
+      "52.212-2, Evaluation",
+      "52.212-4, Terms and Conditions",
+      "52.212-5, Contract Terms and Conditions Required to Implement Statutes or Executive Orders"
+    ],
+    "answer": "52.212-5, Contract Terms and Conditions Required to Implement Statutes or Executive Orders",
+    "explanation": "FAR clause 52.212-5 was entirely removed under the RFO, as the majority of its references were no longer required for commercial items or were retained through simpler means."
+  },
+  {
+    "id": 170,
+    "far_part": "Part 12",
+    "topic": "Late Submissions",
+    "qtype": "scenario",
+    "question": "You are running a commercial procurement under RFO Part 12 simplified procedures. A highly rated vendor submits their quote 30 minutes after the deadline due to a technical glitch. How does RFO Part 12 advise you to handle this?",
+    "choices": [
+      "You must reject it immediately because the strict 'late is late' rule always applies.",
+      "You may use your business judgment to accept the late quote if it is in the Government's best interest and doesn't delay the evaluation.",
+      "You must request permission from the GAO to evaluate the late quote.",
+      "You must cancel the solicitation and re-solicit the requirement."
+    ],
+    "answer": "You may use your business judgment to accept the late quote if it is in the Government's best interest and doesn't delay the evaluation.",
+    "explanation": "Under the new RFO Part 12 evaluation guidelines for streamlined commercial procedures, the rigid 'late is late' rule is relaxed, allowing the Contracting Officer discretion to accept a late quote if it benefits the government."
+  },
+  {
+    "id": 171,
+    "far_part": "Part 12",
+    "topic": "Evaluation Methods",
+    "qtype": "multiple_choice",
+    "question": "To speed up the award process, RFO FAR 12.203 encourages Contracting Officers to abandon rigid, point-based scoring systems in favor of what evaluation technique?",
+    "choices": [
+      "Lowest Price Technically Acceptable (LPTA) exclusively",
+      "Comparative evaluations",
+      "Sealed bidding",
+      "Cost-realism modeling"
+    ],
+    "answer": "Comparative evaluations",
+    "explanation": "The RFO strongly champions the use of 'comparative evaluations' (comparing quotes directly against each other rather than against a rigid scoring matrix) to foster faster, more innovative commercial awards."
+  },
+  {
+    "id": 172,
+    "far_part": "Part 12",
+    "topic": "Information Navigation",
+    "qtype": "fill_in",
+    "question": "To help readers easily find prescribed provisions, clauses, and authority citations without digging through dense paragraphs, RFO Part 12 introduced a series of four new ________.",
+    "answer": "Tables",
+    "explanation": "RFO Part 12 replaced dense narrative text with Tables (Table 12-1 through 12-4) to clearly lay out provisions, clauses, and authority citations."
+  },
+  {
+    "id": 173,
+    "far_part": "Part 12",
+    "topic": "Tailoring Clauses",
+    "qtype": "scenario",
+    "question": "You are buying a commercial software license. The vendor's customary commercial practice directly conflicts with the 'Payment' paragraph in FAR 52.212-4. Can you tailor the 52.212-4 Payment paragraph to match the commercial practice?",
+    "choices": [
+      "Yes, all paragraphs in 52.212-4 can be tailored to match commercial practice.",
+      "No, the Payment paragraph is one of the specific statutory paragraphs in 52.212-4 that cannot be tailored.",
+      "Yes, but only with a waiver from the Agency Head.",
+      "No, software licenses are not considered commercial products."
+    ],
+    "answer": "No, the Payment paragraph is one of the specific statutory paragraphs in 52.212-4 that cannot be tailored.",
+    "explanation": "While most of 52.212-4 can be tailored to reflect customary commercial practice, certain paragraphs that implement statute (such as Assignments, Disputes, and Payment) cannot be tailored."
+  },
+  {
+    "id": 174,
+    "far_part": "Part 12",
+    "topic": "Combined Synopsis/Solicitation",
+    "qtype": "true_false",
+    "question": "True or False: To reduce the time required to solicit and award commercial contracts over the SAT, RFO Part 12 mandates the use of the 'Combined Synopsis/Solicitation' format on the GPE whenever practical.",
+    "answer": "True",
+    "explanation": "FAR 12.202 explicitly directs COs to combine the presolicitation notice and the solicitation notice using the GPE's Combined Synopsis/Solicitation format to significantly reduce procurement lead times."
+  },
+  {
+    "id": 175,
+    "far_part": "Part 12",
+    "topic": "Contract Type Preference",
+    "qtype": "multiple_choice",
+    "question": "Which contract type is heavily preferred and mandated to the maximum extent practicable for commercial products and services under RFO FAR 12.104?",
+    "choices": [
+      "Cost-Plus-Fixed-Fee (CPFF)",
+      "Time-and-Materials (T&M)",
+      "Fixed-price contracts",
+      "Cost-Sharing"
+    ],
+    "answer": "Fixed-price contracts",
+    "explanation": "New section 12.104 retains and emphasizes the strict statutory preference to utilize fixed-price contracts to the maximum extent practicable for commercial acquisitions."
+  },
+  {
+    "id": 176,
+    "far_part": "Part 12",
+    "topic": "Subpart Relocation",
+    "qtype": "fill_in",
+    "question": "Because of the massive consolidation of simplified acquisition procedures into the commercial lane, guidance for Micro-purchases was relocated directly into RFO Part 12 under Subpart ________.",
+    "answer": "12.4",
+    "explanation": "Micro-purchase procedures, previously housed in Part 13, were absorbed into the process-oriented lifecycle of RFO Part 12 as Subpart 12.4."
+  },
+  {
+    "id": 177,
+    "far_part": "Part 12",
+    "topic": "Priority of Sources",
+    "qtype": "scenario",
+    "question": "Before using the standalone, open-market commercial procedures found in RFO Part 12, what does FAR 12.200 require the Contracting Officer to do first?",
+    "choices": [
+      "Publish a Sources Sought notice for 30 days.",
+      "Check if the commercial product is available from a priority source identified in Part 8 (such as a Best-in-Class vehicle or FSS).",
+      "Draft a formal commerciality determination memo.",
+      "Set the requirement aside for small business."
+    ],
+    "answer": "Check if the commercial product is available from a priority source identified in Part 8 (such as a Best-in-Class vehicle or FSS).",
+    "explanation": "FAR 12.200 requires COs to procure commercial items from priority sources identified in Part 8 (like BIC contracts and Federal Supply Schedules) before resorting to the standalone open-market procedures in Part 12."
+  },
+  {
+    "id": 178,
+    "far_part": "Part 12",
+    "topic": "Applicability of Other Parts",
+    "qtype": "true_false",
+    "question": "True or False: If a policy in FAR Part 15 directly conflicts with a streamlined commercial policy in FAR Part 12, the policy in FAR Part 15 takes precedence.",
+    "answer": "False",
+    "explanation": "FAR 12.001 explicitly states that while acquisitions of commercial products are subject to other parts of the FAR, Part 12 takes precedence whenever there is an inconsistency."
+  },
+  {
+    "id": 179,
+    "far_part": "Part 12",
+    "topic": "Solicitation Instruments",
+    "qtype": "multiple_choice",
+    "question": "When soliciting for commercial products under the RFO simplified procedures (12.201-1), which solicitation instrument is considered the standard, preferred method to maximize agility?",
+    "choices": [
+      "Request for Proposals (RFP)",
+      "Invitation for Bids (IFB)",
+      "Request for Quotations (RFQ)",
+      "Broad Agency Announcement (BAA)"
+    ],
+    "answer": "Request for Quotations (RFQ)",
+    "explanation": "For acquisitions under the $9M simplified threshold, the RFO strongly pushes the 'RFQ-to-PO' (Purchase Order) lane as the fastest and most agile method for commercial acquisitions, avoiding the heavier burden of an RFP."
+  },
+  {
+    "id": 180,
+    "far_part": "Part 13",
+    "topic": "Part 13 Renaming and Scope",
+    "qtype": "multiple_choice",
+    "question": "To reflect its new, narrower scope under the Revolutionary FAR Overhaul (RFO), FAR Part 13 was officially renamed from 'Simplified Acquisition Procedures' to what?",
+    "choices": [
+      "Micro-purchases and Simplified Procedures",
+      "Simplified Procedures for Noncommercial Acquisitions",
+      "Commercial and Noncommercial Simplified Procedures",
+      "Acquisitions at or Below the Simplified Acquisition Threshold"
+    ],
+    "answer": "Simplified Procedures for Noncommercial Acquisitions",
+    "explanation": "Because commercial acquisitions (even those using simplified procedures) were shifted entirely to Part 12, Part 13 was renamed 'Simplified Procedures for Noncommercial Acquisitions' to clearly define its remaining scope."
+  },
+  {
+    "id": 181,
+    "far_part": "Part 13",
+    "topic": "Applicability of Part 13",
+    "qtype": "scenario",
+    "question": "You are a Contracting Officer (CO) planning to buy commercially available software licenses valued at $150,000. Under the legacy FAR, you would use Part 13. Under the RFO structure, which FAR Part dictates the simplified procedures for this purchase?",
+    "choices": [
+      "FAR Part 13",
+      "FAR Part 12",
+      "FAR Part 14",
+      "FAR Part 15"
+    ],
+    "answer": "FAR Part 12",
+    "explanation": "Under the RFO, all procedures for acquiring commercial products and services—including those below the Simplified Acquisition Threshold—have been relocated to FAR Part 12. Part 13 is now exclusively for noncommercial acquisitions."
+  },
+  {
+    "id": 182,
+    "far_part": "Part 13",
+    "topic": "Dynamic List of Laws",
+    "qtype": "multiple_choice",
+    "question": "Historically, FAR 13.005 provided a static list of laws that did not apply to acquisitions at or below the SAT. How does RFO FAR 13.001 handle this requirement now?",
+    "choices": [
+      "It completely eliminates the exemptions; all laws now apply below the SAT.",
+      "It provides a link to a dynamic, continuously updated list of laws hosted online.",
+      "It requires the CO to check with agency legal counsel for every SAT acquisition.",
+      "It delegates the list to the individual agency supplements."
+    ],
+    "answer": "It provides a link to a dynamic, continuously updated list of laws hosted online.",
+    "explanation": "To prevent the FAR text from becoming quickly outdated, RFO FAR 13.001 replaces the static text with a link to a dynamic, continuously updated official list of laws that are inapplicable at or below the SAT."
+  },
+  {
+    "id": 183,
+    "far_part": "Part 13",
+    "topic": "Cross-Referencing Procedures",
+    "qtype": "true_false",
+    "question": "True or False: Because the RFO deleted almost all of the procedural text previously found in Subpart 13.1, new FAR Subpart 13.2 instructs contracting officers to simply use the flexible, best-practice procedures found in RFO FAR 12.201-1 for noncommercial acquisitions.",
+    "answer": "True",
+    "explanation": "Rather than duplicating text, the RFO leverages a cross-referencing strategy. It explicitly directs COs conducting simple noncommercial acquisitions under Part 13 to utilize the flexible, innovative techniques established in Part 12."
+  },
+  {
+    "id": 184,
+    "far_part": "Part 13",
+    "topic": "Clause Prohibitions",
+    "qtype": "scenario",
+    "question": "You are using the flexible evaluation techniques from Part 12 for a noncommercial acquisition under Part 13. Because you are using Part 12 techniques, you decide to include the commercial clauses 52.212-1 and 52.212-4 in your noncommercial solicitation. Is this permitted under RFO Part 13?",
+    "choices": [
+      "Yes, because Part 13 cross-references Part 12 procedures, the clauses also apply.",
+      "No, RFO FAR 13.204 explicitly prohibits using Part 12 commercial clauses in noncommercial acquisitions.",
+      "Yes, but only if the acquisition is under the micro-purchase threshold.",
+      "No, because noncommercial items require a formal RFP rather than clauses."
+    ],
+    "answer": "No, RFO FAR 13.204 explicitly prohibits using Part 12 commercial clauses in noncommercial acquisitions.",
+    "explanation": "While Part 13 allows COs to use the 'flexible techniques' of Part 12 for evaluations, RFO FAR 13.204(c) strictly forbids the use of Part 12 commercial clauses (like 52.212-1 or 52.212-4) in noncommercial procurements."
+  },
+  {
+    "id": 185,
+    "far_part": "Part 13",
+    "topic": "Small Business Set-Asides",
+    "qtype": "fill_in",
+    "question": "FAR 13.102 retains the strict statutory requirement that acquisitions with an anticipated value above the micro-purchase threshold but at or below the SAT must be ________ aside for small business concerns.",
+    "answer": "set",
+    "explanation": "Despite the massive eliminations in Part 13, the core statutory mandate requiring the 'rule of two' set-aside for small businesses between the MPT and the SAT remains fully in effect."
+  },
+  {
+    "id": 186,
+    "far_part": "Part 13",
+    "topic": "Micro-purchases Lifecycle",
+    "qtype": "multiple_choice",
+    "question": "Reflecting the RFO's commitment to organizing by the acquisition lifecycle, where are the specific procedures and applicability rules for micro-purchases housed within the overhauled Part 13?",
+    "choices": [
+      "Subpart 13.1",
+      "Subpart 13.2",
+      "Subpart 13.4",
+      "They were moved to FAR Part 8."
+    ],
+    "answer": "Subpart 13.4",
+    "explanation": "Under the new, logical lifecycle structure of Part 13, micro-purchase regulations are distinctly housed at the end in Subpart 13.4."
+  },
+  {
+    "id": 187,
+    "far_part": "Part 13",
+    "topic": "Splitting Requirements",
+    "qtype": "true_false",
+    "question": "True or False: The RFO removed the prohibition on 'splitting requirements' to allow Contracting Officers maximum flexibility to stay under the Simplified Acquisition Threshold.",
+    "answer": "False",
+    "explanation": "The prohibition on splitting requirements (breaking a larger requirement into smaller pieces merely to avoid using standard, non-simplified procedures) is a core statutory protection and was strictly retained in RFO FAR 13.001."
+  },
+  {
+    "id": 188,
+    "far_part": "Part 13",
+    "topic": "Postaward Notifications",
+    "qtype": "scenario",
+    "question": "CO Davis awards a noncommercial contract using simplified procedures under RFO Part 13. An unsuccessful quoter asks why they were not selected. According to RFO FAR 13.301 (Notifications), what is CO Davis required to do?",
+    "choices": [
+      "Provide a formal, written debriefing within 5 days.",
+      "Provide a 'brief explanation' of the basis for the award decision.",
+      "Deny the request because debriefings do not apply below the SAT.",
+      "Refer the quoter to the agency's Freedom of Information Act (FOIA) office."
+    ],
+    "answer": "Provide a 'brief explanation' of the basis for the award decision.",
+    "explanation": "RFO FAR 13.301 consolidated postaward notification instructions, explicitly retaining the requirement that COs must provide a 'brief explanation' to unsuccessful quoters upon request."
+  },
+  {
+    "id": 189,
+    "far_part": "Part 13",
+    "topic": "FAR 52.213-4 Clause Updates",
+    "qtype": "multiple_choice",
+    "question": "The primary clause for Part 13, FAR 52.213-4, was retitled to 'Terms and Conditions Simplified Acquisitions (Noncommercial)' and highly streamlined. Under the RFO, what must a CO issue to a contractor prior to a Termination for Cause under this clause?",
+    "choices": [
+      "A Show Cause Notice",
+      "A Cure Notice, unless the termination is specifically for late delivery.",
+      "A Stop Work Order",
+      "An Alternative Dispute Resolution (ADR) request"
+    ],
+    "answer": "A Cure Notice, unless the termination is specifically for late delivery.",
+    "explanation": "The overhauled version of FAR 52.213-4 explicitly adds the requirement that the Government must send a cure notice prior to terminating for cause, unless the termination is based on late delivery."
+  },
+  {
+    "id": 190,
+    "far_part": "Part 13",
+    "topic": "Inspection and Acceptance",
+    "qtype": "fill_in",
+    "question": "Under the revised FAR 52.213-4 clause, if repair, replacement, or reperformance will not correct a defect in noncommercial goods or services, the Government explicitly retains the right to seek a price ________.",
+    "answer": "reduction",
+    "explanation": "The streamlined clause clarifies inspection and acceptance by explicitly granting the Government the right to demand a price reduction or other consideration if a defect cannot be physically corrected."
+  },
+  {
+    "id": 191,
+    "far_part": "Part 13",
+    "topic": "Contract Financing Prohibition",
+    "qtype": "scenario",
+    "question": "A small business requests a 20% advance payment to begin work on a $100,000 noncommercial contract under Part 13. According to the revised FAR 13.303 (Contract financing and payments), how should the CO respond?",
+    "choices": [
+      "Approve the advance payment immediately to support the small business.",
+      "Deny the request because FAR 13.303 strictly prohibits financing below the SAT unless specifically permitted by agency regulations.",
+      "Approve the request, but require a 10% discount on the total contract price.",
+      "Forward the request to the Small Business Administration for direct funding."
+    ],
+    "answer": "Deny the request because FAR 13.303 strictly prohibits financing below the SAT unless specifically permitted by agency regulations.",
+    "explanation": "RFO FAR 13.303 specifically directs contracting officers NOT to provide contract financing for purchases at or below the SAT, unless the individual agency's regulations expressly permit it."
+  },
+  {
+    "id": 192,
+    "far_part": "Part 13",
+    "topic": "Eliminated Content",
+    "qtype": "multiple_choice",
+    "question": "Where did the RFO relocate the definition of the 'governmentwide commercial purchase card' that used to be found in FAR 13.001?",
+    "choices": [
+      "It was deleted entirely.",
+      "FAR Part 2 (Definitions of Words and Terms)",
+      "FAR Part 12 (Commercial)",
+      "The Department of Treasury guidelines"
+    ],
+    "answer": "FAR Part 2 (Definitions of Words and Terms)",
+    "explanation": "To centralize and standard terminology, the definition for the governmentwide commercial purchase card was removed from Part 13 and placed appropriately into FAR Part 2."
+  },
+  {
+    "id": 193,
+    "far_part": "Part 13",
+    "topic": "Evaluation Consistency",
+    "qtype": "true_false",
+    "question": "True or False: By pointing noncommercial evaluations in Part 13 to the procedures in Part 12, the RFO seeks to establish a single, consistent 'best practice' evaluation standard for all simple acquisitions, whether commercial or noncommercial.",
+    "answer": "True",
+    "explanation": "The RFO purposefully cross-referenced Part 12 within Part 13 so that contracting officials no longer have to apply two completely distinct sets of procedures for simple acquisitions, driving a unified 'best practice' approach."
+  },
+  {
+    "id": 194,
+    "far_part": "Part 13",
+    "topic": "Deleted Clauses",
+    "qtype": "fill_in",
+    "question": "In an effort to reduce clause bloat for small acquisitions, the RFO deleted FAR clause 52.213-1, which previously governed '________ Payment Procedures'.",
+    "answer": "Fast",
+    "explanation": "FAR 52.213-1 (Fast Payment Procedure) and its associated clauses were entirely deleted from Part 52 as part of the RFO's effort to streamline procedures and remove obsolete or redundant payment mechanics below the SAT."
+  },
+  {
+    "id": 195,
+    "far_part": "Part 14",
+    "topic": "Structural Reorganization",
+    "qtype": "multiple_choice",
+    "question": "Unlike legacy FAR Part 14 which had numerous topic-based subparts, RFO Part 14 was reorganized to align with the acquisition lifecycle. How many subparts does RFO Part 14 now contain?",
+    "choices": [
+      "Two (Presolicitation and Award)",
+      "Four (General, Presolicitation, Evaluation and Award, Postaward)",
+      "Six (incorporating all Two-Step processes)",
+      "It has no subparts; it is a single consolidated checklist."
+    ],
+    "answer": "Four (General, Presolicitation, Evaluation and Award, Postaward)",
+    "explanation": "To make the regulation more accessible and logical, RFO Part 14 was restructured into exactly four subparts that track the chronological lifecycle of a sealed bid acquisition."
+  },
+  {
+    "id": 196,
+    "far_part": "Part 14",
+    "topic": "Outdated Technology",
+    "qtype": "true_false",
+    "question": "True or False: To modernize the regulation, RFO Part 14 completely deleted provisions and clauses relating to 'Facsimile Bids' (such as 52.214-31) and physical 'bid envelopes.'",
+    "answer": "True",
+    "explanation": "As part of the modernization effort, outdated technology references like facsimile/telegraphic bids and physical bid envelopes were purged from the FAR."
+  },
+  {
+    "id": 197,
+    "far_part": "Part 14",
+    "topic": "Electronic Bidding",
+    "qtype": "scenario",
+    "question": "You are conducting a sealed bid procurement via an online portal. At the public bid opening, one of the submitted electronic bids is completely corrupted and cannot be opened. Did the RFO add guidance to FAR 14.302 to handle this modern issue?",
+    "choices": [
+      "Yes, the revised Part 14 specifically adds guidance on handling unreadable electronic bids.",
+      "No, the CO must cancel the entire solicitation if any electronic bid fails.",
+      "Yes, but it requires the CO to halt the opening and wait 5 days for a physical copy.",
+      "No, electronic bids are prohibited in sealed bidding under the RFO."
+    ],
+    "answer": "Yes, the revised Part 14 specifically adds guidance on handling unreadable electronic bids.",
+    "explanation": "While removing outdated technology references, the FAR Council updated FAR 14.302 to provide modern, practical guidance on how contracting officers should handle unreadable or corrupted electronic bids."
+  },
+  {
+    "id": 198,
+    "far_part": "Part 14",
+    "topic": "Relocated Content",
+    "qtype": "multiple_choice",
+    "question": "Legacy FAR sections concerning 'Pre-bid conferences' and establishing 'Bidding time' were deemed non-statutory best practices. Where were these relocated under the RFO?",
+    "choices": [
+      "FAR Part 5 (Publicizing)",
+      "The GSAM",
+      "The FAR Companion Guide",
+      "They were deleted without relocation."
+    ],
+    "answer": "The FAR Companion Guide",
+    "explanation": "Consistent with the RFO's goal to remove non-regulatory procedural bloat from the FAR, guidance on pre-bid conferences and bidding time strategies was moved to the non-regulatory FAR Companion Guide."
+  },
+  {
+    "id": 199,
+    "far_part": "Part 14",
+    "topic": "Uniform Contract Format",
+    "qtype": "scenario",
+    "question": "CO Ramirez is drafting an Invitation for Bids (IFB) for the construction of a new readiness center. According to RFO FAR 14.201-1, must she use the Uniform Contract Format (Parts I-IV) for this IFB?",
+    "choices": [
+      "Yes, it is strictly mandatory for all IFBs without exception.",
+      "No, the Uniform Contract Format is not required when contracting for Construction.",
+      "Yes, but she can omit Part IV (Representations and Instructions).",
+      "No, the Uniform Contract Format was completely abolished by the RFO."
+    ],
+    "answer": "No, the Uniform Contract Format is not required when contracting for Construction.",
+    "explanation": "While RFO 14.201-1 mandates the Uniform Contract Format to the maximum extent practicable for standard IFBs, it explicitly exempts Construction and Shipbuilding from this requirement."
+  },
+  {
+    "id": 200,
+    "far_part": "Part 14",
+    "topic": "Contract Types in Sealed Bidding",
+    "qtype": "fill_in",
+    "question": "According to RFO FAR Subpart 14.1, a contracting officer must use a firm-fixed-price contract or a fixed-price contract with economic price ________ when using sealed bidding.",
+    "answer": "adjustment",
+    "explanation": "Sealed bidding requires definitive pricing due to the lack of negotiations. Therefore, only firm-fixed-price or fixed-price with economic price adjustment contracts are permitted."
+  },
+  {
+    "id": 201,
+    "far_part": "Part 14",
+    "topic": "Mistakes After Award",
+    "qtype": "multiple_choice",
+    "question": "A contractor discovers a mistake in their bid only after the contract has been awarded. According to RFO FAR 14.401, the CO may correct the mistake by contract modification under what condition?",
+    "choices": [
+      "Only if the contractor agrees to a 10% penalty fee.",
+      "If the correction would be favorable to the Government without changing the essential requirements of the specifications.",
+      "Under no circumstances; post-award mistakes strictly require a Termination for Convenience.",
+      "Only if the Comptroller General approves the modification."
+    ],
+    "answer": "If the correction would be favorable to the Government without changing the essential requirements of the specifications.",
+    "explanation": "FAR 14.401 allows a contracting officer to correct a mistake discovered post-award via modification, provided that the change is favorable to the Government and doesn't alter the essential specifications."
+  },
+  {
+    "id": 202,
+    "far_part": "Part 14",
+    "topic": "Protests",
+    "qtype": "true_false",
+    "question": "True or False: The legacy subsection detailing the specific procedures for 'Protests against Award' in sealed bidding was retained and expanded in RFO Part 14 to reduce litigation risk.",
+    "answer": "False",
+    "explanation": "The section on 'Protests against Award' was completely removed from RFO Part 14 because protest procedures are already adequately and thoroughly covered in FAR Part 33, eliminating redundancy."
+  },
+  {
+    "id": 203,
+    "far_part": "Part 14",
+    "topic": "Evaluation and Award Phase",
+    "qtype": "fill_in",
+    "question": "Under the new chronological structure, RFO Subpart 14.3 is titled '________ and Award' and consolidates all activities from the moment bids are received until the contract is signed.",
+    "answer": "Evaluation",
+    "explanation": "Subpart 14.3 cleanly captures the 'Evaluation and Award' phase, consolidating evaluation criteria, bid opening procedures, and award mechanics into one lifecycle step."
+  },
+  {
+    "id": 204,
+    "far_part": "Part 14",
+    "topic": "Classified Contracts",
+    "qtype": "scenario",
+    "question": "You are awarding a classified contract via sealed bidding. Classified information was furnished to bidders in the IFB. Under RFO FAR 14.309-2, what specific instruction must you give to the unsuccessful bidders?",
+    "choices": [
+      "To securely mail the classified IFB back to the CO within 3 days.",
+      "To take disposition action on the classified information in accordance with agency procedures.",
+      "To destroy the documents immediately using a cross-cut shredder and provide a signed affidavit.",
+      "To hold the documents in a GSA-approved safe for a minimum of one year."
+    ],
+    "answer": "To take disposition action on the classified information in accordance with agency procedures.",
+    "explanation": "FAR 14.309-2 explicitly dictates that if classified information was involved, the CO must advise unsuccessful bidders to take disposition action in accordance with their specific agency's security procedures."
+  },
+  {
+    "id": 205,
+    "far_part": "Part 14",
+    "topic": "Pricing Modifications",
+    "qtype": "multiple_choice",
+    "question": "If a pricing modification is required on a sealed bidding contract after it has been awarded, RFO FAR 14.402 simply cross-references which FAR Part to find the cost and price negotiation policies?",
+    "choices": [
+      "FAR Part 12",
+      "FAR Part 13",
+      "FAR Part 15",
+      "FAR Part 43"
+    ],
+    "answer": "FAR Part 15",
+    "explanation": "Because sealed bidding lacks its own negotiation framework, FAR 14.402 directs contracting officers to FAR Part 15 (Contracting by Negotiation) for the policies and procedures to negotiate pricing modifications."
+  },
+  {
+    "id": 206,
+    "far_part": "Part 14",
+    "topic": "Trade Agreement Notifications",
+    "qtype": "scenario",
+    "question": "You award a sealed bid contract that is covered by the World Trade Organization Government Procurement Agreement. What two specific pieces of information must you include in the notice to the unsuccessful bidders?",
+    "choices": [
+      "The successful bidder's technical score and their past performance rating.",
+      "The dollar amount of the successful bid and the name/address of the successful bidder.",
+      "The number of bids received and the Government estimate.",
+      "The Contracting Officer's name and the protest deadline."
+    ],
+    "answer": "The dollar amount of the successful bid and the name/address of the successful bidder.",
+    "explanation": "FAR 14.309-1(b) mandates that for acquisitions covered by WTO GPA or Free Trade Agreements, the notice to unsuccessful bidders must explicitly include the successful bidder's name, address, and the dollar amount of the winning bid."
+  },
+  {
+    "id": 207,
+    "far_part": "Part 14",
+    "topic": "Two-Step Sealed Bidding",
+    "qtype": "fill_in",
+    "question": "To streamline the structure, the procedures for 'Two-________ Sealed Bidding', which previously had its own standalone subpart, were absorbed directly into RFO Subpart 14.2 (Presolicitation).",
+    "answer": "Step",
+    "explanation": "Legacy Subpart 14.5 (Two-Step Sealed Bidding) was eliminated as a separate subpart, and its unique pre-award procedures were logically consolidated into Subpart 14.2 (Presolicitation)."
+  },
+  {
+    "id": 208,
+    "far_part": "Part 14",
+    "topic": "Executive Order Mandate",
+    "qtype": "true_false",
+    "question": "True or False: The RFO Part 14 changes, which removed non-statutory procedural steps to make the regulation more concise, implement the goals of Executive Order 14275 ('Restoring Common Sense to Federal Procurement').",
+    "answer": "True",
+    "explanation": "The entire Revolutionary FAR Overhaul, including the massive streamlining and consolidation of Part 14, was executed to directly comply with the mandates of Executive Order 14275."
+  },
+  {
+    "id": 209,
+    "far_part": "Part 14",
+    "topic": "Postaward Subpart",
+    "qtype": "multiple_choice",
+    "question": "In the RFO structural reorganization, why was Subpart 14.4 ('Postaward') created as a distinct, standalone subpart at the end of Part 14?",
+    "choices": [
+      "To house the complex new protest regulations.",
+      "To cleanly separate pre-award and post-award issues, as they are governed by fundamentally different procedures.",
+      "To mirror the structure of the GSAM.",
+      "To provide a place for all legacy commercial clauses to reside."
+    ],
+    "answer": "To cleanly separate pre-award and post-award issues, as they are governed by fundamentally different procedures.",
+    "explanation": "Subpart 14.4 was created to logically bookend the acquisition lifecycle, ensuring that actions taken after the contract is signed (like processing post-award mistakes) are cleanly separated from the bidding procedures."
+  },
+  {
+    "id": 210,
+    "far_part": "Part 15",
+    "topic": "Definitions",
+    "qtype": "multiple_choice",
+    "question": "According to the updated definitions in RFO FAR 15.001, how is a 'weakness' officially defined?",
+    "choices": [
+      "A failure to meet a material requirement of the RFP.",
+      "A flaw in the proposal that increases the risk of unsuccessful contract performance.",
+      "Any element of a proposal that is scored lower than the Government's independent estimate.",
+      "An omission of cost or pricing data."
+    ],
+    "answer": "A flaw in the proposal that increases the risk of unsuccessful contract performance.",
+    "explanation": "RFO FAR 15.001 defines a 'weakness' as a flaw in the proposal that increases the risk of unsuccessful contract performance, distinguishing it cleanly from a 'deficiency' which is a failure to meet a material requirement."
+  },
+  {
+    "id": 211,
+    "far_part": "Part 15",
+    "topic": "Noncompetitive Acquisitions",
+    "qtype": "scenario",
+    "question": "CO Ramirez is preparing a Request for Proposal (RFP) for a sole-source, noncompetitive acquisition. According to RFO FAR 15.002(a), what specific action should she take regarding the RFP's structure?",
+    "choices": [
+      "She must use the exact same evaluation factors and preparation instructions as a competitive acquisition to ensure fairness.",
+      "She should remove unnecessary information and requirements, including voluminous proposal preparation instructions and evaluation factors.",
+      "She must physically include Part IV of the Uniform Contract Format in the final awarded contract.",
+      "She is required to establish at least three distinct phases for the acquisition."
+    ],
+    "answer": "She should remove unnecessary information and requirements, including voluminous proposal preparation instructions and evaluation factors.",
+    "explanation": "To reduce administrative burden and restore common sense, FAR 15.002(a) explicitly directs agencies to remove unnecessary requirements and voluminous instructions from sole-source RFPs, since there are no competing proposals to evaluate against a matrix."
+  },
+  {
+    "id": 212,
+    "far_part": "Part 15",
+    "topic": "Subpart Consolidation",
+    "qtype": "fill_in",
+    "question": "Under the legacy FAR, Part 15 housed 'Source Selection' in Subpart 15.3. Under the RFO lifecycle restructuring, source selection and evaluation procedures have been consolidated to align with the chronological process. RFO Subpart 15.1 now covers '________ and Solicitation'.",
+    "answer": "Presolicitation",
+    "explanation": "RFO Part 15 consolidated the front end of the negotiated acquisition lifecycle into a single Subpart 15.1, titled 'Presolicitation and Solicitation', streamlining the text dramatically."
+  },
+  {
+    "id": 213,
+    "far_part": "Part 15",
+    "topic": "Unreadable Electronic Submissions",
+    "qtype": "multiple_choice",
+    "question": "A contractor submits an electronic proposal prior to the deadline, but a portion of the file is corrupted and unreadable. According to the modernized RFO FAR Part 15, what must the CO do?",
+    "choices": [
+      "Reject the proposal entirely as non-responsive.",
+      "Evaluate only the readable portions of the proposal and score the unreadable sections as deficiencies.",
+      "Immediately notify the offeror and permit them to resubmit the unreadable portion.",
+      "Wait until discussions open to ask for the corrupted files."
+    ],
+    "answer": "Immediately notify the offeror and permit them to resubmit the unreadable portion.",
+    "explanation": "RFO Part 15 modernized the rules regarding electronic submissions, mandating that if an electronic proposal is unreadable, the CO must immediately notify the offeror and allow a resubmission, maintaining timeliness if the original submission was on time."
+  },
+  {
+    "id": 214,
+    "far_part": "Part 15",
+    "topic": "Uniform Contract Format (UCF)",
+    "qtype": "true_false",
+    "question": "True or False: According to RFO FAR 15.109, when a CO awards a contract using the Uniform Contract Format, they must physically include Part IV (Representations and Instructions) in the final resulting contract document.",
+    "answer": "False",
+    "explanation": "RFO FAR 15.109 directs that upon award, contracting officers should NOT physically include Part IV in the resulting contract. They should retain it in the contract file, as the representations are incorporated by reference via FAR clauses."
+  },
+  {
+    "id": 215,
+    "far_part": "Part 15",
+    "topic": "Mandatory Evaluation Factors",
+    "qtype": "fill_in",
+    "question": "According to RFO FAR 15.104(b), regardless of the broad discretion given to agency acquisition officials, ________ or cost to the Government must be evaluated in every competitive source selection.",
+    "answer": "Price",
+    "explanation": "By statute, price or cost to the Government is a strictly mandatory evaluation factor in every competitive source selection and cannot be waived."
+  },
+  {
+    "id": 216,
+    "far_part": "Part 15",
+    "topic": "Proposal Revisions vs Modifications",
+    "qtype": "scenario",
+    "question": "An offeror submits a change to their proposal two days before the RFP closing date to correct a math error. According to RFO FAR 15.001 definitions, is this considered a 'proposal revision' or a 'proposal modification'?",
+    "choices": [
+      "Proposal revision",
+      "Proposal modification",
+      "Deficiency correction",
+      "Late submission"
+    ],
+    "answer": "Proposal modification",
+    "explanation": "RFO FAR 15.001 cleanly defines a 'proposal modification' as a change made BEFORE the RFP closing date (or in response to an amendment). A 'proposal revision' is a change to material elements made AFTER the closing date as a result of negotiations."
+  },
+  {
+    "id": 217,
+    "far_part": "Part 15",
+    "topic": "Phased Acquisitions",
+    "qtype": "multiple_choice",
+    "question": "If an acquisition team decides to use a 'Phased acquisition' approach under RFO FAR 15.103-4, what two specific things MUST the RFP describe?",
+    "choices": [
+      "The exact number of offerors that will pass each phase, and the names of the evaluators.",
+      "The phases for the acquisition, and the process/criteria offerors must meet to progress to the next phase.",
+      "The maximum budget for the contract, and the profit margins allowed per phase.",
+      "The mandatory use of certified cost data, and the GSA schedule exemptions."
+    ],
+    "answer": "The phases for the acquisition, and the process/criteria offerors must meet to progress to the next phase.",
+    "explanation": "When utilizing a phased (or down-select) approach, RFO FAR 15.103-4 requires that the RFP explicitly establish the phases and clearly describe the criteria that offerors must meet to successfully progress to the next phase."
+  },
+  {
+    "id": 218,
+    "far_part": "Part 15",
+    "topic": "Subpart Relocations",
+    "qtype": "true_false",
+    "question": "True or False: The detailed procedures and mechanisms for conducting 'Protests against award' were expanded into their own standalone subpart in RFO Part 15.",
+    "answer": "False",
+    "explanation": "Protests against award are now consolidated under the Postaward subpart (15.302 in the RFO lifecycle structure) rather than having expanded Part 15 standalone mechanics, as primary protest rules reside in Part 33."
+  },
+  {
+    "id": 219,
+    "far_part": "Part 15",
+    "topic": "Deficiency Definition",
+    "qtype": "fill_in",
+    "question": "Under RFO FAR 15.001, a ________ is defined as any part of an offer that does not conform to a material requirement of an RFP (such as one affecting price, quantity, quality, or delivery).",
+    "answer": "Deficiency",
+    "explanation": "A deficiency is a fatal flaw in an offer that fails to meet a material requirement of the RFP, distinguishing it from a curable weakness."
+  },
+  {
+    "id": 220,
+    "far_part": "Part 15",
+    "topic": "Cost and Pricing Data",
+    "qtype": "scenario",
+    "question": "You are negotiating a sole-source contract. Under RFO Part 15.4 (Contract Pricing), what is the primary purpose of requiring a contractor to submit a Certificate of Current Cost or Pricing Data?",
+    "choices": [
+      "To guarantee that the contractor will not make a profit exceeding 15%.",
+      "To certify that the data submitted are accurate, complete, and current as of the date of agreement on price.",
+      "To waive the need for a Defense Contract Audit Agency (DCAA) audit.",
+      "To prove that the company is a registered small business."
+    ],
+    "answer": "To certify that the data submitted are accurate, complete, and current as of the date of agreement on price.",
+    "explanation": "The Certificate of Current Cost or Pricing Data (detailed in Subpart 15.4) legally binds the contractor to certify that the cost/pricing data they provided for negotiations were accurate, complete, and current up to the point of price agreement."
+  },
+  {
+    "id": 221,
+    "far_part": "Part 15",
+    "topic": "Unsolicited Proposals",
+    "qtype": "multiple_choice",
+    "question": "Under RFO FAR Subpart 15.5 (Unsolicited Proposals), a contracting officer may begin negotiations on a sole-source basis for an unsolicited proposal ONLY when several conditions are met. Which of the following is ONE of those mandatory conditions?",
+    "choices": [
+      "The proposal was submitted by a large business.",
+      "A justification and approval (J&A) is obtained in accordance with FAR Part 6.",
+      "The offeror agrees to a firm-fixed-price contract.",
+      "The proposal utilizes the Uniform Contract Format."
+    ],
+    "answer": "A justification and approval (J&A) is obtained in accordance with FAR Part 6.",
+    "explanation": "Even though a proposal is unsolicited and receives a favorable evaluation, FAR 15.5 dictates that sole-source negotiations cannot begin until a formal J&A is approved in accordance with FAR Part 6 competition rules."
+  },
+  {
+    "id": 222,
+    "far_part": "Part 15",
+    "topic": "Estimating Systems",
+    "qtype": "true_false",
+    "question": "True or False: According to RFO FAR 15.305, cognizant audit activities must establish regular programs for reviewing selected contractors' estimating systems primarily to increase the scope of reviews on every individual proposal.",
+    "answer": "False",
+    "explanation": "The actual objective stated in 15.305 is the opposite: regular estimating system reviews are established in order to *reduce* the scope of reviews required on individual proposals, thereby expediting negotiations."
+  },
+  {
+    "id": 223,
+    "far_part": "Part 15",
+    "topic": "Price Definition",
+    "qtype": "fill_in",
+    "question": "In the context of RFO FAR Subpart 15.4 (Contract Pricing), the term 'Price' is cleanly defined as cost plus any fee or ________ applicable to the contract type.",
+    "answer": "profit",
+    "explanation": "FAR 15.401 simply defines 'Price' as the combination of the underlying cost plus any applicable fee or profit."
+  },
+  {
+    "id": 224,
+    "far_part": "Part 15",
+    "topic": "Subcontract Pricing",
+    "qtype": "scenario",
+    "question": "A prime contractor is submitting their certified cost or pricing data for a major system acquisition. According to the instructions in RFO FAR 15.408-2 (Table 15-1), what must the prime contractor do regarding their major subcontractors?",
+    "choices": [
+      "Assume the subcontractor's proposed price is fair without further review.",
+      "Conduct price analyses of all subcontractor proposals and include cost analyses for subcontracts when certified data is required.",
+      "Forward all subcontractor proposals directly to the Government for the CO to evaluate.",
+      "Exclude subcontractor costs from their Certificate of Current Cost or Pricing Data."
+    ],
+    "answer": "Conduct price analyses of all subcontractor proposals and include cost analyses for subcontracts when certified data is required.",
+    "explanation": "Table 15-1 places the burden on the prime contractor to conduct price analyses on all subcontractor proposals, and to perform full cost analyses when the subcontracts cross the threshold requiring certified cost or pricing data."
   }
 ]
