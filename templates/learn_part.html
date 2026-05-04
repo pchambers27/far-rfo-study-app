@@ -20,14 +20,14 @@
         <main class="max-w-2xl mx-auto px-4 py-8">
           <div class = "mb-4 flex items-baseline justify-between">
             <h2 class="text-2xl font-bold text-gray-900">{{ part_name }}</h2>
-            <span class="text-sm text-gray-600" id="counter">Card 1 of {{ questions|length }}</span>
+            <span class="text-sm text-gray-600" id="counter">Card 1 of {{ facts|length }}</span>
           </div>
 
           <p class="text-sm text-gray-600 mb-4">Click the card to reveal the key takeaway.</p>
 
           {% for fact in facts %}
           <div class="card-container {% if not loop.first %}hidden{% endif %}" data-card-index="{{ loop.index0 }}">
-            <div class="card-clickable bg-white rounded-lg shadow-md p-6 sm:p-8 cursor-pointer min-h-[300px] flex flex-col" onclick"flipCard(this)">
+            <div class="card-clickable bg-white rounded-lg shadow-md p-6 sm:p-8 cursor-pointer min-h-[300px] flex flex-col" onclick="flipCard(this)">
               <div class="card-front flex-1 flex flex-col">
                 <div class="flex items-baseline justify-between mb-2">
                   <p class="text-xs text-gray-500 uppercase tracking-wide">{{ fact.topic }}</p>
@@ -58,9 +58,9 @@
              </div>
            {% endfor %}
 
-          <div class="mt-6 flex justif-between gap-3">
-            <button onclick="prevCard()" class="flex-1 px-6 py3 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition font-medium disabled:opacity-50" id="prev-btn"><- Previous</button>
-            <button onclick="nextCard()" class="flex-1 px-6 py3 bg-blue-900 text-white rounded hover:bg-blue-800 transition font-medium disabled:opacity-50" id="next-btn">Next -></button>
+          <div class="mt-6 flex justify-between gap-3">
+            <button onclick="prevCard()" class="flex-1 px-6 py-3 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition font-medium disabled:opacity-50" id="prev-btn"><- Previous</button>
+            <button onclick="nextCard()" class="flex-1 px-6 py-3 bg-blue-900 text-white rounded hover:bg-blue-800 transition font-medium disabled:opacity-50" id="next-btn">Next -></button>
           </div>
           <p class="mt-6 text-center">
             <a href="/learn" class="text-sm text-gray-500 hover:text-gray-700 underline">Done studying -- back to Parts</a>
