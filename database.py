@@ -5,7 +5,7 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.exc import IntegrityError
 
 # Read DATABASE_URL from environment, fall back to local SQLite for dev
-DATABASE_URL = os.environ.get("DATABASE_URL", "sqlite:///quiz.db")
+DATABASE_URL = os.environ.get("RENDER_DATABASE_URL") or os.environ.get("DATABASE_URL", "sqlite:///quiz.db")
 
 # Render's Postgres URLs start with "postgres://" but SQLAlchemy 1.4+ requires "postgresql://"
 if DATABASE_URL.startswith("postgres://"):
