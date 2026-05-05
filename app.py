@@ -113,7 +113,7 @@ def home():
     )
 
 
-@app.route("/study", methods=["GET", "POST"]) #Commenting here for database testing
+@app.route("/study", methods=["GET", "POST"]) #More Commenting for database testing
 @login_required
 def study():
     far_parts = get_far_parts() # list of (name, count) tuples
