@@ -10,8 +10,6 @@ def migrate():
 
     # engine.begin() opens a transaction — auto-commits on success, rolls back on error
     with engine.begin() as conn:
-       
-        conn.execute(text("DELETE FROM questions"))
 
         for q in questions:
             choices_json = json.dumps(q.get("choices")) if q.get("choices") else None
@@ -22,6 +20,14 @@ def migrate():
                         (id, far_part, topic, qtype, question, choices, answer, explanation)
                     VALUES
                         (:id, :far_part, :topic, :qtype, :question, :choices, :answer, :explanation)
+                    ON CONFLICT (id) DO UPDATE SET
+                        far_part = EXCLUDED.far_part,
+                        topic = EXCLUDED.topic,
+                        qtype = EXCLUDED.qtype,
+                        question = EXCLUDED.question,
+                        choices = EXCLUDED.choices,
+                        answer = EXCLUDED.answer,
+                        explanation = EXCLUDED.explanation
                 """),
                 {
                     "id": q["id"],
@@ -34,7 +40,7 @@ def migrate():
                     "explanation": q["explanation"],
                 },
             )
-
+            
     print(f"Migrated {len(questions)} questions to the database.")
 
 
