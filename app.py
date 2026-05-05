@@ -40,7 +40,7 @@ def home():
     # Look up current user info to show on page
     from database import get_connection
     conn = get_connection()
-    user = conn.execute(text("SELECT email FROM users WHERE id = :id"), {"id": session.get("user_id")}).fetchone()
+    user = conn.execute(text("SELECT email FROM users WHERE id = :id"), {"id": session.get("user_id")}).mappings().fetchone()
     conn.close()
 
     # Defensive: if somehow the session has user_id that doesn't exist in DB, log them out
