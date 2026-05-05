@@ -21,9 +21,10 @@ def migrate():
                     INSERT INTO questions
                         (far_part, topic, qtype, question, choices, answer, explanation)
                     VALUES
-                        (:far_part, :topic, :qtype, :question, :choices, :answer, :explanation)
+                        (:id, :far_part, :topic, :qtype, :question, :choices, :answer, :explanation)
                 """),
                 {
+                    "id": q["id"],
                     "far_part": q["far_part"],
                     "topic": q["topic"],
                     "qtype": q["qtype"],
