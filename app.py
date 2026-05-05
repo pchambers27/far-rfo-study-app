@@ -104,25 +104,13 @@ def quiz():
     if session["question_index"] >= len(quiz_data):
         final_score = session["score"]
         total = len(quiz_data)
+        last_result = session.get("last_result")
+        last_correct_answer = session.get("last_correct_answer")
+        last_explanation = session.get("last_explanation")
         for key in ["score", "question_index", "last_result", "last_correct_answer", "last_explanation"]:
             session.pop(key, None)
         session.pop("study_question_ids", None) # Clear the study set
-        return f"""
-        <!DOCTYPE html>
-<html><head>
-<title>Quiz Complete</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://cdn.tailwindcss.com"></script>
-</head><body class="bg-gray-50 min-h-screen">
-<nav class="bg-blue-900 text-white shadow-md">
-<div class="max-w-4xl mx-auto px-4 py-3"><h1 class="text-xl font-bold text-white">FAR RFO Study App</h1></div>
-</nav>
-<main class="max-w-2xl mx-auto px-4 py-12">
-<div class="bg-white rounded-lg shadow-md p-8 text-center">
-<h2 class="text-3xl font-bold text-gray-900 mb-4">Quiz Complete!</h2>
-<p class="text-xl text-gray-700 mb-6">You scored <strong>{final_score} out of {total}</strong></p>
-<a href="/study" class="inline-block px-6 py-3 bg-blue-900 text-white rounded hover:bg-blue-800 font-medium">Study Again</a>
-</div></main></body></html>"""
+        return render_template("quiz_complete.html", final_score=final_score, total=total, last_result=last_result, last_correct_answer=last_correct_answer, last_explanation=last_explanation)
      
     current_question = quiz_data[session["question_index"]]
     return render_template(

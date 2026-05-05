@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz Complete - RFO Ready{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto px-4 py-12">
+
+    <!-- Last question feedback -->
+    {% if last_result == "correct" %}
+    <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-600 rounded">
+        <p class="text-green-800 font-semibold">Last question: Correct!</p>
+    </div>
+    {% elif last_result == "incorrect" %}
+    <div class="mb-6 p-4 bg-red-50 border-l-4 border-red-600 rounded">
+        <p class="text-red-800 font-semibold">Last question: Incorrect.</p>
+        <p class="mt-2 text-gray-700">The correct answer was: <strong>{{ last_correct_answer }}</strong></p>
+        {% if last_explanation %}
+        <details class="mt-3">
+            <summary class="cursor-pointer text-blue-700 hover:text-blue-900 font-medium">Show explanation</summary>
+            <p class="mt-2 text-gray-700">{{ last_explanation }}</p>
+        </details>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Score card -->
+    <div class="bg-white rounded-lg shadow-md p-8 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2">Quiz Complete!</h2>
+        <p class="text-xl text-gray-700 mb-8">You scored <strong>{{ final_score }} out of {{ total }}</strong></p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="/study" class="px-6 py-3 bg-blue-900 text-white rounded hover:bg-blue-800 font-medium transition">Take Another Quiz</a>
+            <a href="/" class="px-6 py-3 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 font-medium transition">Back to Dashboard</a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
