@@ -204,6 +204,7 @@ def signup():
             else:
                 session.clear()
                 session["user_id"] = user_id
+                session["user_email"] = email
                 return redirect(url_for("home"))
     return render_template("signup.html", error=error)
 
@@ -222,6 +223,7 @@ def login():
         else:
             session.clear()
             session["user_id"] = user["id"]
+            session["user_email"] = email
             return redirect(url_for("home"))
 
     return render_template("login.html", error=error)
