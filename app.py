@@ -6,6 +6,7 @@ from flask import Flask, render_template, request, session, redirect, url_for
 from database import get_all_questions, create_user, get_user_by_email, get_connection, record_attempt, get_far_parts, get_user_stats, get_far_parts_with_study_facts, get_study_facts
 from werkzeug.security import check_password_hash
 from functools import wraps
+from sqlalchemy import text
 
 app = Flask(__name__)
 app.secret_key =os.environ.get("SECRET_KEY", "dev-only-key-change-in-production")
@@ -39,7 +40,7 @@ def home():
     # Look up current user info to show on page
     from database import get_connection
     conn = get_connection()
-    user = conn.execute("SELECT email FROM users WHERE id = ?", (session.get("user_id"),)).fetchone()
+    user = conn.execute(text("SELECT email FROM users WHERE id = :id"), {"id": session.get("user_id")}).fetchone()
     conn.close()
 
     # Defensive: if somehow the session has user_id that doesn't exist in DB, log them out
