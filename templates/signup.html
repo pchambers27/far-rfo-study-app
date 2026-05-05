@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>
-      Sign Up - FAR RFO Study App
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-<body class="bg-gray-50 min-h-screen">
+{% extends "base.html" %}
 
-  <!-- Navbar -->
-  <nav class="bg-blue-900 text-white shadow-md">
-    <div class="max-w-4xl mx-auto px-4 py-3">
-      <h1 class="text-xl font-bold text-white">FAR RFO Study App</h1>
-    </div>
-    </nav>
+{% block title %}Log In - RFO Ready{% endblock %}
 
-  <!-- Centered Card -->
-  <main class="max-w-md mx-auto px-4 py-12">
+{% block content %}
+<div class="max-w-md mx-auto px-4 py-12">
+    
     <div class="bg-white roudned-lg shadow-md p-6 sm:p-8">
       <h2 class="text-2xl font-bold text-gray-900 mb-6">Create an Account</h2>
       {% if error %}
@@ -40,7 +27,6 @@
       <p class="mt-6 text-center text-sm text-gray-600">Already have an account? <a href="/login" class="text-blue-700 hover:text-blue-900 font-medium">Log in</a>
         </p>
       </div>
-    </main>
-  
-</body>
-</html>
+</div>
+
+{% endblock %}

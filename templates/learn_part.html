@@ -1,23 +1,16 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>{{ part_name }} - Study Mode</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="https://cdn.tailwindcss.com"></script>
+{% extends "base.html" %}
+
+{% block title %}{{ part_name }} - Study Mode - RFO Ready{% endblock %}
+
+{% block extra_head %}
       <style>
         /* Prevent text selection from making clicks wierd on card */
         .card-clickable { user-select: none; }
         .card-clickable:active { transform: scale(0.99); }
       </style>
-   </head>
-    <body class="bg-gray-50 min-h-screen">
-        <nav class="bg-blue-900 text-white shadow-md">
-          <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-white">FAR RFO Study App</h1>
-            <a href="/learn" class="text-sm underline hover:opacity-75"><- Back to Study Mode</a>
-          </div>
-        </nav>
-        <main class="max-w-2xl mx-auto px-4 py-8">
+{% endblock %}
+{% block content %}
+  <div class="max-w-2xl mx-auto px-4 py-8">
           <div class = "mb-4 flex items-baseline justify-between">
             <h2 class="text-2xl font-bold text-gray-900">{{ part_name }}</h2>
             <span class="text-sm text-gray-600" id="counter">Card 1 of {{ facts|length }}</span>
@@ -65,7 +58,7 @@
           <p class="mt-6 text-center">
             <a href="/learn" class="text-sm text-gray-500 hover:text-gray-700 underline">Done studying -- back to Parts</a>
           </p>
-        </main>
+  </div>
         <script>
           let currentIndex = 0
           const totalCards = {{ facts|length }};
@@ -99,5 +92,4 @@
           }
 showCard(0);
   </script>
-    </body>
-</html>
+  {% endblock %}

@@ -1,24 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>
-      Study Mode - FAR RFO Study App
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-gray-50 min-h-screen">
-    <nav class="bg-blue-900 text-white shadow-md">
-      <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 class="text-xl font-bold text-white">FAR RFO Study App</h1>
-        <div class="text-sm">
-          <a href="/study" class="underline hover:opacity-75">Quiz</a>
-          <a href="/stats" class="ml-4 underline hover:opacity-75">Stats</a>
-          <a href="/logout" class="underline hover:opacity-75">Log out</a>
-        </div>
-      </div>
-    </nav>
-    <main class="max-w-2xl mx-auto px-4 py-8">
+{% extends "base.html" %}
+
+{% block title %}Study Mode - RFO Ready{% endblock %}
+
+{% block content %}
+
+<div class="max-w-2xl mx-auto px-4 py-8">
+      
       <div class="bg-white rounded-lg shadow-md p-6 sm:p-8">
         <h2 class="text-2xl font-bold text-gray-900 mb-2">Study Mode</h2>
         <p class="text-gray-600 mb-6">Read through questions and explanations as flashcards. No scoring, no pressure - just absorb the material.</p>
@@ -32,7 +19,6 @@
           {% endfor %}
         </div>
       </div>
-    </main>
-  </body>
-</html>
+</div>
+  {% endblock %}
   
