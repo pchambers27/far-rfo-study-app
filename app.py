@@ -24,10 +24,32 @@ def login_required(view_func):
     return wrapped
 
 # ======== Routes ========
-
-@app.route("/", methods=["GET", "POST"])
-@login_required
+@app.route("/")
 def home():
+    # Logged out users see the public landing page
+    if "user_id" not in session:
+        return render_template("landing.html")
+
+    # Logged in users see the dashboard
+    user_id = session["user_id"]
+    user_email = session.get("user_email", "")
+
+    user_stats = get_user_stats(user_id)
+    total_attempts = sum(s["lifetime_total"] for s in user_stats)
+    if total_attempts > 0:
+        total_corect = sum(s["lifetime_correct"] for s in user_stats)
+        overall_accuracy = round(100.0 * total_corect / total_attempts, 1)
+    else:
+        overall_accuracy = None
+    return render_template("dashboard.html", user_email=user_email, total_attempts=total_attempts, overall_accuracy=overall_accuracy)
+
+
+
+
+@app.route("/quiz", methods=["GET", "POST"])
+@login_required
+def quiz():
+    
     # Pull only the qeustions in the user's study session
     study_ids = session.get("study_question_ids")
     if not study_ids:
@@ -181,8 +203,8 @@ def signup():
                 error = "An account with that email already exists."
             else:
                 session.clear()
-                session["user_id"] = user_id
-                return redirect(url_for("study"))
+                session["user_id"] = user_row["email"]
+                return redirect(url_for("home"))
     return render_template("signup.html", error=error)
 
 
@@ -199,8 +221,8 @@ def login():
             error = "Invalid email or password."
         else:
             session.clear()
-            session["user_id"] = user["id"]
-            return redirect(url_for("study"))
+            session["user_id"] = user_row["email"]
+            return redirect(url_for("home"))
 
     return render_template("login.html", error=error)
 
