@@ -1,34 +1,42 @@
 import json
-from database import get_connection
+from sqlalchemy import text
+from database import engine
+
 
 def migrate():
     """Read questions.json and insert each question into the database."""
     with open("questions.json") as f:
         questions = json.load(f)
 
-    conn = get_connection()
-    cursor = conn.cursor()
+    # engine.begin() opens a transaction — auto-commits on success, rolls back on error
+    with engine.begin() as conn:
+        # Wipe existing data so re-runs don't create duplicates
+        conn.execute(text("DELETE FROM attempts"))
+        conn.execute(text("DELETE FROM questions"))
 
-    # Wipe existing data so re-runs don't create duplication
-    cursor.execute("DELETE FROM attempts")
-    cursor.execute("DELETE FROM questions")
+        for q in questions:
+            choices_json = json.dumps(q.get("choices")) if q.get("choices") else None
 
-    for q in questions:
-        choices_json = json.dumps(q.get("choices")) if q.get("choices") else  None
+            conn.execute(
+                text("""
+                    INSERT INTO questions
+                        (far_part, topic, qtype, question, choices, answer, explanation)
+                    VALUES
+                        (:far_part, :topic, :qtype, :question, :choices, :answer, :explanation)
+                """),
+                {
+                    "far_part": q["far_part"],
+                    "topic": q["topic"],
+                    "qtype": q["qtype"],
+                    "question": q["question"],
+                    "choices": choices_json,
+                    "answer": q["answer"],
+                    "explanation": q["explanation"],
+                },
+            )
 
-        cursor.execute(
-          """INSERT INTO questions (far_part, topic, qtype, question, choices, answer, explanation) VALUES (?, ?, ?, ?, ?, ?, ?)""",
-          ( q["far_part"], 
-            q["topic"], 
-            q["qtype"], 
-            q["question"], 
-            choices_json, 
-            q["answer"], 
-            q["explanation"], ),
-        )
-    conn.commit()
-    conn.close()
     print(f"Migrated {len(questions)} questions to the database.")
+
 
 if __name__ == "__main__":
     migrate()
