@@ -19,7 +19,7 @@ def migrate():
             conn.execute(
                 text("""
                     INSERT INTO questions
-                        (far_part, topic, qtype, question, choices, answer, explanation)
+                        (id, far_part, topic, qtype, question, choices, answer, explanation)
                     VALUES
                         (:id, :far_part, :topic, :qtype, :question, :choices, :answer, :explanation)
                 """),
