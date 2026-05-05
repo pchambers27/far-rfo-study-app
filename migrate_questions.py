@@ -10,8 +10,7 @@ def migrate():
 
     # engine.begin() opens a transaction — auto-commits on success, rolls back on error
     with engine.begin() as conn:
-        # Wipe existing data so re-runs don't create duplicates
-        conn.execute(text("DELETE FROM attempts"))
+       
         conn.execute(text("DELETE FROM questions"))
 
         for q in questions:
