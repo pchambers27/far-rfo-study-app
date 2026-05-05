@@ -165,7 +165,7 @@ def study():
         for key in ["last_result", "last_correct_answer", "last_explanation"]:
             session.pop(key, None)
             
-        return redirect(url_for("home"))
+        return redirect(url_for("quiz"))
         
     return render_template("study.html", far_parts=far_parts)
 
