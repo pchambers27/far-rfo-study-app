@@ -203,7 +203,7 @@ def signup():
                 error = "An account with that email already exists."
             else:
                 session.clear()
-                session["user_id"] = user_row["email"]
+                session["user_id"] = user_id
                 return redirect(url_for("home"))
     return render_template("signup.html", error=error)
 
@@ -221,7 +221,7 @@ def login():
             error = "Invalid email or password."
         else:
             session.clear()
-            session["user_id"] = user_row["email"]
+            session["user_id"] = user["id"]
             return redirect(url_for("home"))
 
     return render_template("login.html", error=error)

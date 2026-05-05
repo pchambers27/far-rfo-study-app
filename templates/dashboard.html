@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Dashboard - RFO Ready</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script src="https://cdn.tailwindcss.com"></script>
+        </head>
+        <body class="bg-gray-50 min-h-screen">
+           <nav class="bg-blue-900 text-white shadow-md">
+              <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+                 <a href="/" class="text-xl font-bold text-white hover:opacity-90">RFO Ready</a>
+                 <a href="/logout" class="text-sm underline hover:opacity-75">Log out</a>
+                 </div>
+                  </nav>
+                  <main class="max-w-4xl mx-auto px-4 py-8">
+                    <div class="mb-8">
+                      <h2 class="text-2xl font-bold text-gray-900">
+                        Welcome back{% if user_email %}, {{ user_email.split('@')[0] }}{% endif %}</h2>
+                      {% if overall_accuracy is not none %}
+                      <p class="text-gray-600 mt-1">You've answered {{ total_attempts }} questions with <strong>{{ overall_accuracy }}%</strong> accuracy. Keep going!</p>
+                      {% else %}
+                      <p class="text-gray-600 mt-1">Ready to start your RFO journey? Pick a mode below.</p>
+                      {% endif %}
+                      
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <a href="/learn" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
+                        <div class="text-4xl mb-3">📖</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Study Mode</h3>
+                        <p class="text-gray-600">Read through key facts and definitions as flashcards.</p>
+                        <p class="text-xs text-blue-700 mt-3 font-medium">Recomended for learning -></p>
+                      </a>
+                      <a href="/study" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
+                        <div class="text-4xl mb-3">✏️</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Quiz Mode</h3>
+                        <p class="text-gray-600">Test your knowledge with multiple-choice questions.</p>
+                        <p class="text-xs text-blue-700 mt-3 font-medium">Test your knowledge -></p>
+                        </a>
+                      <a href="/stats" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
+                        <div class="text-4xl mb-3">📊</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Progress Tracking</h3>
+                        <p class="text-gray-600">See your performance broken down by RFO Part.</p>
+                        <p class="text-xs text-blue-700 mt-3 font-medium">Track your progress -></p>
+                        </a>
+                      
+                    </div>
+                     </main>
+        </body>
+</html>
