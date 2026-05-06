@@ -2998,6 +2998,136 @@
         "tags": ["Part 10", "clauses", "noncommercial", "thresholds"],
         "display_order": 292,
         "related_question_ids": []
+      },
+    {
+        "far_part": "Part 11",
+        "topic": "Scope of Part 11",
+        "content": "Part 11 prescribes policies and procedures for describing agency needs and for using priorities and allocations in the acquisition process.",
+        "key_takeaway": "This part is about how you describe what the Government needs and how you prioritize those needs in the marketplace.",
+        "citation": "FAR 11.000",
+        "tags": ["Part 11", "scope", "describing needs"],
+        "display_order": 293,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Performance-Based Requirements Policy",
+        "content": "Agencies must describe their needs in a way that emphasizes clear, mission-driven, and performance-based requirements. Requirements should focus on what the product or service must do, rather than how it must be built or performed.",
+        "key_takeaway": "Focus on the 'what,' not the 'how.' We want results-oriented requirements that tell the contractor the outcome we need, not the exact steps to take.",
+        "citation": "FAR 11.002(a)",
+        "tags": ["Part 11", "performance-based", "policy"],
+        "display_order": 294,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Commercial Practices Emphasis",
+        "content": "When describing needs, agencies must use commercial terms and practices whenever possible. This includes avoiding unnecessary technical detail that could limit the pool of capable commercial offerors.",
+        "key_takeaway": "Talk like a business. Use commercial language and standards so we don't accidentally scare off or lock out the commercial market with 'Government-only' jargon.",
+        "citation": "FAR 11.002(b)",
+        "tags": ["Part 11", "commercial practices", "efficiency"],
+        "display_order": 295,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Liquidated Damages Policy",
+        "content": "Liquidated damages should only be used when the time of delivery or performance is so important that the Government may reasonably expect to suffer a loss if the delivery is late, and the extent of that loss would be difficult to estimate or prove.",
+        "key_takeaway": "Liquidated damages aren't for every contract. Use them only if being late will definitely hurt the mission, but you can't easily put an exact dollar amount on that damage.",
+        "citation": "FAR 11.401",
+        "tags": ["Part 11", "liquidated damages", "risk"],
+        "display_order": 296,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Priorities and Allocations (DPAS)",
+        "content": "Contracting officers must use the Defense Priorities and Allocations System (DPAS) to ensure that certain contracts or orders are given priority over other contracts to support national defense requirements.",
+        "key_takeaway": "DPAS is the 'get in front of the line' card. It ensures mission-critical defense orders get produced first by contractors, even if they have to push other commercial work aside.",
+        "citation": "FAR 11.501",
+        "tags": ["Part 11", "DPAS", "priorities", "national defense"],
+        "display_order": 297,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 11",
+        "topic": "Brand Name or Equal Policy",
+        "content": "When using a 'brand name or equal' purchase description, the contracting officer must include a general description of those salient physical, functional, or performance characteristics of the brand name item that an 'equal' item must meet to be acceptable.",
+        "key_takeaway": "If you say 'brand name or equal,' you have to clearly list the specific features (salient characteristics) that make an alternative truly 'equal.'",
+        "citation": "FAR 11.104(b)",
+        "tags": ["Part 11", "brand name or equal", "salient characteristics", "requirements"],
+        "display_order": 298,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Brand Name Only Restrictions",
+        "content": "Agency requirements shall not be written so as to require a particular brand name, product, or a feature of a product peculiar to one manufacturer, thereby precluding consideration of a product manufactured by another company, unless justified under Part 6 or Part 13.",
+        "key_takeaway": "You cannot write specifications that secretly lock the requirement down to one specific brand unless you formally justify it as a sole-source restriction.",
+        "citation": "FAR 11.105",
+        "tags": ["Part 11", "brand name", "restrictions", "sole source"],
+        "display_order": 299,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Acceptable Material - New vs. Used",
+        "content": "Agencies must require contractors to provide new materials, unless the solicitation permits the use of used, reconditioned, or remanufactured supplies, or if it involves the procurement of recovered materials.",
+        "key_takeaway": "The default expectation is 'new.' If you are willing to accept used or refurbished items, the solicitation has to explicitly allow it.",
+        "citation": "FAR 11.302",
+        "tags": ["Part 11", "materials", "new vs used", "reconditioned"],
+        "display_order": 300,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Environmental Requirements",
+        "content": "When drafting requirements, agencies must consider environmental objectives, including maximizing the use of recovered materials, promoting energy efficiency, and acquiring biobased products.",
+        "key_takeaway": "You can't just buy the cheapest thing; you must factor in environmental goals like energy efficiency and recycled materials when writing the requirement.",
+        "citation": "FAR 11.002(d)",
+        "tags": ["Part 11", "environmental", "energy efficiency", "recovered materials"],
+        "display_order": 301,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "DPAS Priority Ratings (DO vs. DX)",
+        "content": "Under the Defense Priorities and Allocations System (DPAS), there are two levels of priority ratings: DO and DX. All DO-rated orders have equal priority and take preference over unrated orders. DX-rated orders take preference over DO-rated and unrated orders.",
+        "key_takeaway": "DX is the absolute highest priority, DO is high priority, and both beat standard unrated commercial work.",
+        "citation": "FAR 11.502(a)",
+        "tags": ["Part 11", "DPAS", "priority ratings", "DO", "DX"],
+        "display_order": 302,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Calculating Liquidated Damages",
+        "content": "The rate of liquidated damages must be a reasonable forecast of just compensation for the harm that is caused by late delivery or untimely performance. It cannot be used as a penalty against the contractor.",
+        "key_takeaway": "Liquidated damages must be a calculated, realistic estimate of actual financial harm to the Government. You cannot use them just to punish a contractor for being late.",
+        "citation": "FAR 11.402(a)",
+        "tags": ["Part 11", "liquidated damages", "calculation", "penalty"],
+        "display_order": 303,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Relocation of Procedural Requirements",
+        "content": "Under the RFO, detailed procedural checklists regarding requirements documents (formerly Subpart 11.2), delivery schedules (formerly 11.4), and variations in quantity (formerly 11.7) have been removed from the FAR and relocated to the non-regulatory FAR Companion Guide.",
+        "key_takeaway": "If you need the exact procedural template for writing a delivery schedule or handling a variation in quantity, check the FAR Companion Guide, not the FAR itself.",
+        "citation": "FAR 11 [RFO Change]",
+        "tags": ["Part 11", "procedures", "FAR Companion", "RFO change"],
+        "display_order": 304,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 11",
+        "topic": "Market Acceptance",
+        "content": "To the extent practicable, agencies must require offerors to demonstrate that the items offered have achieved commercial market acceptance, have been reliably supplied to commercial customers, or otherwise meet the agency's needs.",
+        "key_takeaway": "The Government wants to buy proven products, not beta tests. Contractors should be able to show that the commercial market already trusts and uses their item.",
+        "citation": "FAR 11.103",
+        "tags": ["Part 11", "market acceptance", "commercial practices", "reliability"],
+        "display_order": 305,
+        "related_question_ids": []
       }
     
 ]
