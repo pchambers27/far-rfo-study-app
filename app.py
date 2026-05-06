@@ -26,22 +26,17 @@ def login_required(view_func):
 # ======== Routes ========
 @app.route("/")
 def home():
-    # Logged out users see the public landing page
     if "user_id" not in session:
         return render_template("landing.html")
 
-    # Logged in users see the dashboard
-    user_id = session["user_id"]
     user_email = session.get("user_email", "")
+    active_tracks = get_active_tracks()
 
-    user_stats = get_user_stats(user_id)
-    total_attempts = sum(s["lifetime_total"] for s in user_stats)
-    if total_attempts > 0:
-        total_corect = sum(s["lifetime_correct"] for s in user_stats)
-        overall_accuracy = round(100.0 * total_corect / total_attempts, 1)
-    else:
-        overall_accuracy = None
-    return render_template("dashboard.html", user_email=user_email, total_attempts=total_attempts, overall_accuracy=overall_accuracy)
+    return render_template(
+        "dashboard.html",
+        user_email=user_email,
+        active_tracks=active_tracks,
+    )
 
 
 

@@ -4,37 +4,57 @@
 
 {% block content %}
 <div class="max-w-3xl mx-auto px-4 py-8">
-                    
-                    <div class="mb-8">
-                      <h2 class="text-2xl font-bold text-gray-900">
-                        Welcome back{% if user_email %}, {{ user_email.split('@')[0] }}{% endif %}</h2>
-                      {% if overall_accuracy is not none %}
-                      <p class="text-gray-600 mt-1">You've answered {{ total_attempts }} questions with <strong>{{ overall_accuracy }}%</strong> accuracy. Keep going!</p>
-                      {% else %}
-                      <p class="text-gray-600 mt-1">Ready to start your RFO journey? Pick a mode below.</p>
-                      {% endif %}
-                      
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <a href="/learn" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
-                        <div class="text-4xl mb-3">📖</div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Study Mode</h3>
-                        <p class="text-gray-600">Read through key facts and definitions as flashcards.</p>
-                        <p class="text-xs text-blue-700 mt-3 font-medium">Recomended for learning -></p>
-                      </a>
-                      <a href="/study" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
-                        <div class="text-4xl mb-3">✏️</div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Quiz Mode</h3>
-                        <p class="text-gray-600">Test your knowledge with multiple-choice questions.</p>
-                        <p class="text-xs text-blue-700 mt-3 font-medium">Test your knowledge -></p>
-                        </a>
-                      <a href="/stats" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
-                        <div class="text-4xl mb-3">📊</div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Progress Tracking</h3>
-                        <p class="text-gray-600">See your performance broken down by RFO Part.</p>
-                        <p class="text-xs text-blue-700 mt-3 font-medium">Track your progress -></p>
-                        </a>
-                      
-                    </div>
+
+    <h2 class="text-2xl font-bold text-gray-900 mb-1">
+        Welcome back{% if user_email %}, {{ user_email.split('@')[0] }}{% endif %}
+    </h2>
+    <p class="text-gray-600 mb-8">Pick up where you left off.</p>
+
+    {% if active_tracks %}
+        <div class="mb-8">
+            <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">Your Tracks</h3>
+
+            <div class="space-y-3">
+                {% for t in active_tracks %}
+                    <a href="{{ url_for('track', track_id=t.id) }}"
+                       class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
+                        <div class="flex items-baseline gap-3">
+                            <span class="text-3xl">{{ t.icon }}</span>
+                            <div class="flex-1">
+                                <h4 class="text-lg font-bold text-gray-900">{{ t.title }}</h4>
+                                <p class="text-sm text-gray-600">{{ t.subtitle }}</p>
+                            </div>
+                            <span class="text-blue-700 text-lg">→</span>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    <div>
+        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">General Study</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <a href="/learn" class="block bg-white rounded-lg shadow-md p-5 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
+                <div class="text-3xl mb-2">📚</div>
+                <h4 class="font-bold text-gray-900 mb-1">Study Mode</h4>
+                <p class="text-xs text-gray-600">Read flashcards on any Part</p>
+            </a>
+
+            <a href="/study" class="block bg-white rounded-lg shadow-md p-5 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
+                <div class="text-3xl mb-2">✏️</div>
+                <h4 class="font-bold text-gray-900 mb-1">Quick Quiz</h4>
+                <p class="text-xs text-gray-600">Pick any Parts to quiz on</p>
+            </a>
+
+            <a href="/stats" class="block bg-white rounded-lg shadow-md p-5 hover:shadow-lg hover:border-blue-400 border border-transparent transition">
+                <div class="text-3xl mb-2">📊</div>
+                <h4 class="font-bold text-gray-900 mb-1">My Stats</h4>
+                <p class="text-xs text-gray-600">See your progress by Part</p>
+            </a>
+        </div>
+    </div>
+
 </div>
 {% endblock %}
