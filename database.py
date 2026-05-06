@@ -245,6 +245,68 @@ def get_far_parts_with_study_facts():
         """)).mappings().all()
     return [(row["far_part"], row["count"]) for row in rows]
 
+def load_tracks():
+    """Load track definitions from tracks.json."""
+    with open("tracks.json") as f:
+        return json.load(f)
+
+
+def get_active_tracks():
+    """Return only tracks with status='active'."""
+    return [t for t in load_tracks() if t.get("status") == "active"]
+
+
+def get_track(track_id):
+    """Return a single track by id, or None if not found or not active."""
+    for track in load_tracks():
+        if track["id"] == track_id and track.get("status") == "active":
+            return track
+    return None
+
+
+def get_stage_stats(user_id, tags, difficulty=None):
+    """
+    Return aggregated stats for a user across questions matching the given tags
+    (and optionally difficulty). Used per stage.
+    Returns: dict with total_attempts, total_correct, accuracy.
+    """
+    if not tags:
+        return {"total_attempts": 0, "total_correct": 0, "accuracy": None}
+
+    # Build the SQL filter
+    tag_clauses = []
+    params = {"user_id": user_id}
+    for i, tag in enumerate(tags):
+        tag_clauses.append(f"q.tags ? :tag{i}")
+        params[f"tag{i}"] = tag
+
+    where_extra = ""
+    if difficulty:
+        where_extra = " AND q.difficulty = :difficulty"
+        params["difficulty"] = difficulty
+
+    query = text(f"""
+        SELECT
+            COUNT(*) as total,
+            SUM(a.was_correct) as correct
+        FROM attempts a
+        JOIN questions q ON a.question_id = q.id
+        WHERE a.user_id = :user_id
+          AND ({' OR '.join(tag_clauses)})
+          {where_extra}
+    """)
+
+    with get_connection() as conn:
+        row = conn.execute(query, params).mappings().first()
+
+    total = row["total"] or 0
+    correct = row["correct"] or 0
+
+    return {
+        "total_attempts": total,
+        "total_correct": correct,
+        "accuracy": round(100.0 * correct / total, 1) if total else None,
+    }
 
 if __name__ == "__main__":
     init_db()

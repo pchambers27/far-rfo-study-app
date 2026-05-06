@@ -3,7 +3,7 @@ from database import init_db
 import os
 import random
 from flask import Flask, render_template, request, session, redirect, url_for
-from database import get_all_questions, create_user, get_user_by_email, get_connection, record_attempt, get_far_parts, get_user_stats, get_far_parts_with_study_facts, get_study_facts
+from database import get_all_questions, create_user, get_user_by_email, get_connection, record_attempt, get_far_parts, get_user_stats, get_far_parts_with_study_facts, get_study_facts, get_active_tracks, get_track, get_stage_stats
 from werkzeug.security import check_password_hash
 from functools import wraps
 from sqlalchemy import text
@@ -156,6 +156,30 @@ def study():
         return redirect(url_for("quiz"))
         
     return render_template("study.html", far_parts=far_parts)
+
+@app.route("/tracks/<track_id>")
+@login_required
+def track(track_id):
+    track_data = get_track(track_id)
+    if not track_data:
+        return redirect(url_for("home"))
+
+    user_id = session["user_id"]
+    difficulty = track_data.get("question_filter", {}).get("difficulty")
+
+    # Compute stats for each stage
+    stages_with_stats = []
+    for stage in track_data["stages"]:
+        stats = get_stage_stats(user_id, stage["tags"], difficulty)
+        stages_with_stats.append({**stage, "stats": stats})
+
+    return render_template(
+        "track.html",
+        track=track_data,
+        stages=stages_with_stats,
+    )
+
+
 
 @app.route("/learn")
 @login_required
