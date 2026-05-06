@@ -1,19 +1,21 @@
 CREATE TABLE IF NOT EXISTS users (
-  id INTEGER PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   email TEXT UNIQUE NOT NULL,
   password_hash TEXT NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS questions (
-  id INTEGER PRIMARY KEY,
+  id SERIAL PRIMARY KEY,
   far_part TEXT NOT NULL,
-  topic TEXT NOT NULL,
   qtype TEXT NOT NULL,
+  difficulty TEXT NOT NULL,
+  tags JSONB NOT NULL,
   question TEXT NOT NULL,
-  choices TEXT,
+  choices TEXT NOT NULL,
   answer TEXT NOT NULL,
-  explanation TEXT
+  explanation TEXT,
+  citation TEXT
 );
 
 CREATE TABLE IF NOT EXISTS attempts (
@@ -31,9 +33,9 @@ CREATE TABLE IF NOT EXISTS study_facts (
   id SERIAL PRIMARY KEY,
   far_part TEXT NOT NULL,
   topic TEXT NOT NULL,
-  fact_type TEXT,
   content TEXT NOT NULL,
-  key_takeaway TEXT,
+  key_takeaway TEXT NOT NULL,
   citation TEXT,
-  display_order INTEGER DEFAULT 0
+  display_order INTEGER DEFAULT 0,
+  tags JSONB NOT NULL
 );

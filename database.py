@@ -36,29 +36,52 @@ def init_db():
     print("Database initialized.")
 
 
-def get_all_questions(far_parts=None):
-    """Fetch all questions from the database as a list of dicts."""
+def get_all_questions(far_parts=None, difficulty=None, tags=None):
+    """
+    Fetch questions, optionally filtered by FAR parts, difficulty, and/or tags.
+    Returns list of dicts.
+    """
     with get_connection() as conn:
+        # Build the WHERE clause dynamically based on filters
+        where_clauses = []
+        params = {}
+
         if far_parts:
-            # Build named parameters: :p0, :p1, :p2 ... matching the values
-            placeholders = ",".join([f":p{i}" for i in range(len(far_parts))])
-            params = {f"p{i}": part for i, part in enumerate(far_parts)}
-            query = text(f"SELECT * FROM questions WHERE far_part IN ({placeholders}) ORDER BY id")
-            rows = conn.execute(query, params).mappings().all()
-        else:
-            rows = conn.execute(text("SELECT * FROM questions ORDER BY id")).mappings().all()
+            placeholders = ",".join([f":fp{i}" for i in range(len(far_parts))])
+            where_clauses.append(f"far_part IN ({placeholders})")
+            for i, part in enumerate(far_parts):
+                params[f"fp{i}"] = part
+
+        if difficulty:
+            where_clauses.append("difficulty = :difficulty")
+            params["difficulty"] = difficulty
+
+        if tags:
+            # ANY tag in the list must be present in the question's tags
+            tag_clauses = []
+            for i, tag in enumerate(tags):
+                tag_clauses.append(f"tags ? :tag{i}")
+                params[f"tag{i}"] = tag
+            where_clauses.append(f"({' OR '.join(tag_clauses)})")
+
+        where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
+        query = text(f"SELECT * FROM questions {where_sql} ORDER BY id")
+
+        rows = conn.execute(query, params).mappings().all()
 
     questions = []
     for row in rows:
         questions.append({
             "id": row["id"],
             "far_part": row["far_part"],
-            "topic": row["topic"],
             "qtype": row["qtype"],
+            "difficulty": row["difficulty"],
+            "tags": row["tags"] or [],
             "question": row["question"],
             "choices": json.loads(row["choices"]) if row["choices"] else None,
             "answer": row["answer"],
-            "explanation": row["explanation"]
+            "explanation": row["explanation"],
+            "citation": row["citation"],
         })
     return questions
 
@@ -182,15 +205,32 @@ def get_user_stats(user_id):
     return sorted(stats_by_part.values(), key=lambda s: s["lifetime_accuracy"])
 
 
-def get_study_facts(far_part):
-    """Fetch all study facts for a given FAR Part, in display order."""
+def get_study_facts(far_part=None, tags=None):
+    """Fetch study facts, optionally filtered by FAR Part or tags."""
     with get_connection() as conn:
-        rows = conn.execute(text("""
-            SELECT id, far_part, topic, fact_type, content, key_takeaway, citation, display_order
+        where_clauses = []
+        params = {}
+
+        if far_part:
+            where_clauses.append("far_part = :far_part")
+            params["far_part"] = far_part
+
+        if tags:
+            tag_clauses = []
+            for i, tag in enumerate(tags):
+                tag_clauses.append(f"tags ? :tag{i}")
+                params[f"tag{i}"] = tag
+            where_clauses.append(f"({' OR '.join(tag_clauses)})")
+
+        where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
+        query = text(f"""
+            SELECT id, far_part, topic, content, key_takeaway, citation, display_order, tags
             FROM study_facts
-            WHERE far_part = :far_part
+            {where_sql}
             ORDER BY display_order ASC, id ASC
-        """), {"far_part": far_part}).mappings().all()
+        """)
+
+        rows = conn.execute(query, params).mappings().all()
     return [dict(row) for row in rows]
 
 

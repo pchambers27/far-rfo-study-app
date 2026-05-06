@@ -4,44 +4,70 @@ from database import engine
 
 
 def migrate():
-    """Read questions.json and insert each question into the database."""
+    """Read questions.json and upsert into the database."""
     with open("questions.json") as f:
         questions = json.load(f)
 
-    # engine.begin() opens a transaction — auto-commits on success, rolls back on error
+    skipped_fillins = 0
+    inserted = 0
+    updated = 0
+
     with engine.begin() as conn:
-
         for q in questions:
-            choices_json = json.dumps(q.get("choices")) if q.get("choices") else None
+            # Reject fill-ins explicitly
+            if q.get("qtype") == "fill_in":
+                skipped_fillins += 1
+                continue
 
-            conn.execute(
+            # Required fields
+            if "difficulty" not in q:
+                raise ValueError(f"Question {q.get('id')} missing required 'difficulty' field")
+            if "tags" not in q or not isinstance(q["tags"], list):
+                raise ValueError(f"Question {q.get('id')} missing or invalid 'tags' field (must be list)")
+            if not q.get("choices"):
+                raise ValueError(f"Question {q.get('id')} missing 'choices' (required for non-fill-in questions)")
+
+            choices_json = json.dumps(q["choices"])
+            tags_json = json.dumps(q["tags"])
+
+            result = conn.execute(
                 text("""
                     INSERT INTO questions
-                        (id, far_part, topic, qtype, question, choices, answer, explanation)
+                        (id, far_part, qtype, difficulty, tags, question, choices, answer, explanation, citation)
                     VALUES
-                        (:id, :far_part, :topic, :qtype, :question, :choices, :answer, :explanation)
+                        (:id, :far_part, :qtype, :difficulty, CAST(:tags AS JSONB), :question, :choices, :answer, :explanation, :citation)
                     ON CONFLICT (id) DO UPDATE SET
                         far_part = EXCLUDED.far_part,
-                        topic = EXCLUDED.topic,
                         qtype = EXCLUDED.qtype,
+                        difficulty = EXCLUDED.difficulty,
+                        tags = EXCLUDED.tags,
                         question = EXCLUDED.question,
                         choices = EXCLUDED.choices,
                         answer = EXCLUDED.answer,
-                        explanation = EXCLUDED.explanation
+                        explanation = EXCLUDED.explanation,
+                        citation = EXCLUDED.citation
+                    RETURNING (xmax = 0) AS was_insert
                 """),
                 {
                     "id": q["id"],
                     "far_part": q["far_part"],
-                    "topic": q["topic"],
                     "qtype": q["qtype"],
+                    "difficulty": q["difficulty"],
+                    "tags": tags_json,
                     "question": q["question"],
                     "choices": choices_json,
                     "answer": q["answer"],
-                    "explanation": q["explanation"],
+                    "explanation": q.get("explanation"),
+                    "citation": q.get("citation"),
                 },
             )
-            
-    print(f"Migrated {len(questions)} questions to the database.")
+            was_insert = result.scalar()
+            if was_insert:
+                inserted += 1
+            else:
+                updated += 1
+
+    print(f"Inserted: {inserted}, Updated: {updated}, Skipped (fill-ins): {skipped_fillins}")
 
 
 if __name__ == "__main__":
