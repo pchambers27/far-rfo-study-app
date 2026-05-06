@@ -179,7 +179,57 @@ def track(track_id):
         stages=stages_with_stats,
     )
 
+@app.route("/tracks/<track_id>/stage/<int:stage_id>")
+@login_required
+def stage(track_id, stage_id):
+    track_data = get_track(track_id)
+    if not track_data:
+        return redirect(url_for("home"))
 
+    stage_data = next((s for s in track_data["stages"] if s["id"] == stage_id), None)
+    if not stage_data:
+        return redirect(url_for("track", track_id=track_id))
+
+    difficulty = track_data.get("question_filter", {}).get("difficulty")
+    stats = get_stage_stats(session["user_id"], stage_data["tags"], difficulty)
+
+    return render_template(
+        "stage.html",
+        track=track_data,
+        stage=stage_data,
+        stats=stats,
+    )
+
+
+@app.route("/tracks/<track_id>/stage/<int:stage_id>/quiz")
+@login_required
+def start_stage_quiz(track_id, stage_id):
+    track_data = get_track(track_id)
+    if not track_data:
+        return redirect(url_for("home"))
+
+    stage_data = next((s for s in track_data["stages"] if s["id"] == stage_id), None)
+    if not stage_data:
+        return redirect(url_for("track", track_id=track_id))
+
+    difficulty = track_data.get("question_filter", {}).get("difficulty")
+
+    # Pull questions matching this stage's tags + track's difficulty
+    questions = get_all_questions(tags=stage_data["tags"], difficulty=difficulty)
+
+    if not questions:
+        return redirect(url_for("stage", track_id=track_id, stage_id=stage_id))
+
+    random.shuffle(questions)
+    questions = questions[:10]
+
+    session["study_question_ids"] = [q["id"] for q in questions]
+    session["question_index"] = 0
+    session["score"] = 0
+    for key in ["last_result", "last_correct_answer", "last_explanation"]:
+        session.pop(key, None)
+
+    return redirect(url_for("quiz"))
 
 @app.route("/learn")
 @login_required

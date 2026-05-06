@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}{{ stage.title }} - {{ track.title }} - RFO Ready{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto px-4 py-8">
+
+    <p class="text-sm text-gray-600 mb-4">
+        <a href="{{ url_for('track', track_id=track.id) }}" class="hover:underline">← {{ track.title }}</a>
+    </p>
+
+    <div class="bg-white rounded-lg shadow-md p-6 sm:p-8 mb-4">
+        <h2 class="text-2xl font-bold text-gray-900 mb-2">{{ stage.title }}</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">{{ stage.description }}</p>
+        <p class="text-sm text-gray-500 mb-6">
+            <strong>Topics:</strong> {{ stage.tags | join(', ') }}
+        </p>
+
+        {% if stats.accuracy is none %}
+            <p class="text-sm text-gray-600 italic">You haven't tested yourself on this stage yet.</p>
+        {% else %}
+            <p class="text-sm text-gray-700">
+                Your accuracy: <strong>{{ stats.accuracy }}%</strong>
+                ({{ stats.total_correct }} correct out of {{ stats.total_attempts }} attempts)
+            </p>
+        {% endif %}
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <a href="{{ url_for('learn') }}"
+           class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition text-center">
+            <div class="text-4xl mb-3">📚</div>
+            <h3 class="font-bold text-gray-900 mb-1">Study this stage</h3>
+            <p class="text-sm text-gray-600">Read flashcards on these topics</p>
+        </a>
+
+        <a href="{{ url_for('start_stage_quiz', track_id=track.id, stage_id=stage.id) }}"
+           class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg hover:border-blue-400 border border-transparent transition text-center">
+            <div class="text-4xl mb-3">✏️</div>
+            <h3 class="font-bold text-gray-900 mb-1">Quiz me on this stage</h3>
+            <p class="text-sm text-gray-600">10 questions on these topics</p>
+        </a>
+    </div>
+
+</div>
+{% endblock %}
