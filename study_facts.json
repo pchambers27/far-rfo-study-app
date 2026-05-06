@@ -2128,6 +2128,406 @@
         "tags": ["Part 4", "PIID", "Table 4-1", "RFP"],
         "display_order": 205,
         "related_question_ids": []
+      },
+    {
+        "far_part": "Part 5",
+        "topic": "Scope of Part 5",
+        "content": "Part 5 prescribes the policies and procedures for publicizing contract opportunities and award information in the Governmentwide point of entry (GPE).",
+        "key_takeaway": "Part 5 is all about how and when to publicize opportunities and awards using the GPE.",
+        "citation": "FAR 5.000",
+        "tags": ["Part 5", "GPE", "scope"],
+        "display_order": 206,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Definition of Contract Action",
+        "content": "A contract action is an action resulting in a contract, including actions for additional supplies or services outside the existing contract scope. It does NOT include actions within the scope and terms of an existing contract, such as modifications issued under the Changes clause, funding, or administrative changes.",
+        "key_takeaway": "Contract actions create a new contract or add out-of-scope work. Within-scope mods or admin changes don't count.",
+        "citation": "FAR 5.001",
+        "tags": ["Part 5", "definitions", "contract action"],
+        "display_order": 207,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Publicizing Policy Objectives",
+        "content": "Contracting officers must post presolicitation notices, solicitations, and award notices in the GPE to achieve three things: increase competition, broaden industry participation in meeting Government requirements, and inform small business concerns of contract and subcontract opportunities.",
+        "key_takeaway": "We post to the GPE to boost competition, cast a wider net for industry participation, and keep small businesses informed.",
+        "citation": "FAR 5.002",
+        "tags": ["Part 5", "policy", "GPE"],
+        "display_order": 208,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Presolicitation Notice Threshold",
+        "content": "For proposed contract actions expected to be greater than $20,000, contracting officers must post a presolicitation notice to the GPE, unless a specific exemption applies.",
+        "key_takeaway": "If a proposed action is over $20,000, a presolicitation notice must go to the GPE (unless exempt).",
+        "citation": "FAR 5.101(a)",
+        "tags": ["Part 5", "presolicitation", "threshold"],
+        "display_order": 209,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Paid Advertisements",
+        "content": "In addition to posting in the GPE, agencies may choose to place paid advertisements for proposed contract actions in newspapers or other public media. If they do, they must follow the requirements of 41 USC 3701-3703.",
+        "key_takeaway": "Agencies can use paid ads (like newspapers) alongside the GPE, as long as they follow the specific statutory rules.",
+        "citation": "FAR 5.102",
+        "tags": ["Part 5", "advertisements", "public media"],
+        "display_order": 210,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 5",
+        "topic": "Synopsis Exceptions - National Security",
+        "content": "A contracting officer need not submit a notice to the GPE if the disclosure of the agency's needs would compromise national security. In these cases, the requirement must be classified.",
+        "key_takeaway": "No GPE notice is required if posting it would spill classified information and harm national security.",
+        "citation": "FAR 5.202(a)(1)",
+        "tags": ["Part 5", "exceptions", "national security", "synopsis"],
+        "display_order": 211,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Synopsis Exceptions - Unusual and Compelling Urgency",
+        "content": "A presolicitation notice is not required if the proposed contract action is made under the conditions described in FAR 6.302-2 (unusual and compelling urgency) and the Government would be seriously injured if the agency complies with the standard time periods.",
+        "key_takeaway": "You can skip the GPE posting if the requirement is incredibly urgent and waiting for the standard posting periods would seriously injure the Government.",
+        "citation": "FAR 5.202(a)(2)",
+        "tags": ["Part 5", "exceptions", "urgency", "synopsis"],
+        "display_order": 212,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Synopsis Exceptions - Directed by Statute",
+        "content": "A notice is not required if the proposed contract action is expressly authorized or required by a statute to be made through another Government agency, or from a specified source (e.g., AbilityOne).",
+        "key_takeaway": "If a specific law tells you to buy from a specific place (like AbilityOne), you don't have to post a general notice to the GPE.",
+        "citation": "FAR 5.202(a)(4)",
+        "tags": ["Part 5", "exceptions", "statute", "synopsis"],
+        "display_order": 213,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Presolicitation Notice Timeframes",
+        "content": "A notice of proposed contract action must be published at least 15 days before the issuance of a solicitation, or a proposed contract action the Government intends to solicit and negotiate with only one source.",
+        "key_takeaway": "You must give industry at least a 15-day heads up on the GPE before you officially drop the solicitation.",
+        "citation": "FAR 5.203(a)",
+        "tags": ["Part 5", "timeframes", "presolicitation"],
+        "display_order": 214,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Solicitation Response Timeframes - General",
+        "content": "Except for commercial products and commercial services, agencies must allow at least a 30-day response time for receipt of bids or proposals from the date of issuance of a solicitation.",
+        "key_takeaway": "For standard, non-commercial procurements, you must give vendors at least 30 days to put their bids or proposals together.",
+        "citation": "FAR 5.203(c)",
+        "tags": ["Part 5", "timeframes", "solicitation", "response time"],
+        "display_order": 215,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Solicitation Response Timeframes - Commercial",
+        "content": "For the acquisition of commercial products or commercial services, the contracting officer may establish a shorter period for issuance of the solicitation and receipt of offers, based on what is considered reasonable for the specific procurement.",
+        "key_takeaway": "Commercial acquisitions don't have a strict 30-day rule; the contracting officer can set a shorter, reasonable response time.",
+        "citation": "FAR 5.203(b)",
+        "tags": ["Part 5", "timeframes", "commercial", "response time"],
+        "display_order": 216,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "R&D Advance Notices",
+        "content": "To encourage broad participation, contracting officers are required to publish advance notices of interest in Research and Development (R&D) fields (Sources Sought notices) in the GPE to identify potential sources.",
+        "key_takeaway": "R&D requirements need advance 'Sources Sought' notices posted to the GPE to find companies capable of doing the specialized work.",
+        "citation": "FAR 5.205(a)",
+        "tags": ["Part 5", "R&D", "sources sought", "advance notice"],
+        "display_order": 217,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Preparation of Notices",
+        "content": "Each presolicitation notice must include a clear and concise description of the supplies or services that is not unnecessarily restrictive of competition and will allow a prospective offeror to make an informed business judgment.",
+        "key_takeaway": "Notices must be clear, concise, and fair, giving vendors enough information to decide if they want to compete without locking out valid competition.",
+        "citation": "FAR 5.207(c)",
+        "tags": ["Part 5", "notice content", "preparation"],
+        "display_order": 218,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Synopsizing Subcontracting Opportunities",
+        "content": "Contractors and subcontractors may publish notices of subcontracting opportunities on the GPE. Contracting officers should encourage prime contractors to do so to increase competition and small business involvement.",
+        "key_takeaway": "The GPE isn't just for prime contracts; primes can (and should be encouraged to) post their subcontracting opportunities there too.",
+        "citation": "FAR 5.206",
+        "tags": ["Part 5", "subcontracting", "GPE"],
+        "display_order": 219,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Award Notice Threshold",
+        "content": "Contracting officers must synopsize through the GPE awards exceeding $25,000 that are likely to result in the award of any subcontracts, or awards that were subject to the Trade Agreements Act.",
+        "key_takeaway": "If an award is over $25,000 and might result in subcontracts, you generally must post an award notice on the GPE.",
+        "citation": "FAR 5.301(a)",
+        "tags": ["Part 5", "awards", "threshold", "synopsis"],
+        "display_order": 220,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Award Notice Exceptions",
+        "content": "An award notice is not required if the award was for utility services and only one source is available, or if the award information would compromise national security.",
+        "key_takeaway": "You skip the award notice for sole-source utilities or if announcing the winner would harm national security.",
+        "citation": "FAR 5.301(b)",
+        "tags": ["Part 5", "awards", "exceptions"],
+        "display_order": 221,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Announcement of Major Contract Awards",
+        "content": "For Department of Defense actions, contracting officers must make information available to the public for any contract award exceeding $7.5 million by 5:00 p.m. Washington, DC time on the day of the award.",
+        "key_takeaway": "Massive DoD contracts (over $7.5 million) require a specific public announcement on the actual day of the award.",
+        "citation": "FAR 5.303(a)",
+        "tags": ["Part 5", "major awards", "DoD", "public announcement"],
+        "display_order": 222,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Preaward Release of Information",
+        "content": "Before contract award, agencies shall not release information that would give one prospective offeror an unfair advantage over others. Discussions with prospective offerors must be strictly controlled.",
+        "key_takeaway": "Keep a tight lid on information before an award is made to ensure no single vendor gets an unfair insider advantage.",
+        "citation": "FAR 5.401(a)",
+        "tags": ["Part 5", "preaward", "release of information", "fairness"],
+        "display_order": 223,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Long-Range Acquisition Estimates",
+        "content": "To assist industry in planning, agencies must publish long-range acquisition estimates. These estimates provide a general overview of the agency's anticipated future requirements.",
+        "key_takeaway": "Agencies must post long-range estimates to help industry forecast and prepare for future Government needs.",
+        "citation": "FAR 5.404",
+        "tags": ["Part 5", "planning", "estimates", "long-range"],
+        "display_order": 224,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 5",
+        "topic": "Postaward Release of Information",
+        "content": "After award, the contracting officer may respond to requests for information, but must protect classified information, contractor proprietary information, and source selection information.",
+        "key_takeaway": "You can answer questions after an award is made, but you absolutely cannot reveal classified data, a vendor's secret sauce, or internal source selection details.",
+        "citation": "FAR 5.401(b)",
+        "tags": ["Part 5", "postaward", "release of information", "proprietary"],
+        "display_order": 225,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 6",
+        "topic": "Scope of Part 6",
+        "content": "Part 6 prescribes policies and procedures to promote full and open competition in the acquisition process. It covers the requirements for full and open competition, full and open competition after excluding sources, other than full and open competition, and the associated justification and approval (J&A) requirements.",
+        "key_takeaway": "Part 6 establishes the core rules for competition, including when you must compete openly, when you can exclude certain sources, and how to justify not using full and open competition.",
+        "citation": "FAR 6.000",
+        "tags": ["Part 6", "scope", "competition requirements"],
+        "display_order": 226,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Advocates for Competition",
+        "content": "Agencies are required to designate an advocate for competition for the agency and for each procuring activity. These advocates are responsible for promoting full and open competition, promoting the acquisition of commercial products and commercial services, and challenging barriers to competition.",
+        "key_takeaway": "Every agency and procuring activity must have a designated competition advocate whose job is to push for open competition and remove barriers to it.",
+        "citation": "FAR 6.003",
+        "tags": ["Part 6", "advocates", "barriers to competition"],
+        "display_order": 227,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Presolicitation - Full and Open Competition",
+        "content": "Contracting officers shall promote and provide for full and open competition in soliciting offers and awarding Government contracts. They must select the competitive procedure, or combination of procedures, that is best suited to the specific circumstances of the contract action.",
+        "key_takeaway": "Full and open competition is the default standard, and contracting officers must actively promote it using the most appropriate competitive procedures.",
+        "citation": "FAR 6.101",
+        "tags": ["Part 6", "presolicitation", "full and open competition", "policy"],
+        "display_order": 228,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Consolidated Small Business Set-Asides",
+        "content": "Contracting officers may provide for full and open competition after excluding one or more sources to fulfill statutory requirements relating to small business concerns. This consolidated authority applies to set-asides for specific small business socioeconomic categories as well as the Small Business Innovation Research and Small Business Technology Transfer (SBIR/STTR) programs.",
+        "key_takeaway": "COs can legally limit competition to meet small business goals. All small business set-aside authorities (including socioeconomic groups and SBIR/STTR) are now consolidated under this single provision.",
+        "citation": "FAR 6.102-2",
+        "tags": ["Part 6", "set-asides", "small business", "exclusion of sources"],
+        "display_order": 229,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Set-Asides for Local Firms During Emergencies",
+        "content": "When fulfilling statutory requirements during a major disaster or emergency, contracting officers may set aside solicitations to allow only local firms within a specific, affected geographic area to compete.",
+        "key_takeaway": "During declared major disasters or emergencies, competition can be intentionally restricted to local firms in the affected area to support recovery.",
+        "citation": "FAR 6.102-3",
+        "tags": ["Part 6", "emergencies", "disasters", "local firms", "set-asides"],
+        "display_order": 230,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 7",
+        "topic": "Scope of Part 7",
+        "content": "Part 7 prescribes policies and procedures for acquisition planning, determining whether to use commercial or Government resources, deciding whether to lease or purchase equipment, and determining whether functions are inherently governmental.",
+        "key_takeaway": "Part 7 covers the overarching planning rules: how to plan acquisitions, lease vs. buy decisions, and ensuring we don't contract out inherently governmental functions.",
+        "citation": "FAR 7.000",
+        "tags": ["Part 7", "scope", "acquisition planning"],
+        "display_order": 241,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Life-Cycle Cost Definition",
+        "content": "Life-cycle cost means the total cost to the Government of acquiring, operating, supporting, and (if applicable) disposing of the items being acquired.",
+        "key_takeaway": "Life-cycle cost isn't just the initial purchase price; it is the comprehensive cradle-to-grave cost, including operation, support, and disposal.",
+        "citation": "FAR 7.101",
+        "tags": ["Part 7", "definitions", "life-cycle cost"],
+        "display_order": 242,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Acquisition Plan Requirements & Formats",
+        "content": "Acquisition planning is required for all acquisitions, but plans no longer require specific prescriptive elements. Plans may be written or oral depending on the acquisition type. Cost-reimbursement and high-risk contracts strictly require written plans.",
+        "key_takeaway": "You always have to plan, but you don't always need a written document. However, written plans are mandatory for cost-reimbursement and high-risk contracts.",
+        "citation": "FAR 7.102",
+        "tags": ["Part 7", "acquisition plans", "written vs oral"],
+        "display_order": 243,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Acquisition Plan Objectives",
+        "content": "All acquisition plans, whether written or oral, must promote the acquisition of commercial products and commercial services, full and open competition, the selection of the appropriate contract type, and the use of existing contracts.",
+        "key_takeaway": "Every acquisition plan has four main goals: push for commercial solutions, maximize competition, pick the right contract type, and leverage existing contracts when possible.",
+        "citation": "FAR 7.102",
+        "tags": ["Part 7", "acquisition plans", "objectives"],
+        "display_order": 244,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Inherently Governmental Functions - Core Policy",
+        "content": "Contracts must not be used to perform inherently governmental functions. Agency decisions determining whether a function is inherently governmental may be reviewed and modified by appropriate Office of Management and Budget (OMB) officials.",
+        "key_takeaway": "You absolutely cannot contract out inherently governmental functions, and OMB has the ultimate authority to review and overturn an agency's determination on the matter.",
+        "citation": "FAR 7.503(a)-(b)",
+        "tags": ["Part 7", "inherently governmental", "policy", "OMB"],
+        "display_order": 245,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 7",
+        "topic": "Inherently Governmental Functions - Examples",
+        "content": "Examples of inherently governmental functions include the direct conduct of criminal investigations, command of military forces, and the authority to approve agency responses to Freedom of Information Act (FOIA) requests.",
+        "key_takeaway": "You can't hire contractors to lead troops, run criminal investigations, or be the final approval authority for FOIA requests.",
+        "citation": "FAR 7.503(c)",
+        "tags": ["Part 7", "inherently governmental", "examples"],
+        "display_order": 246,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Functions Closely Associated with Inherently Governmental",
+        "content": "When a contractor performs functions closely associated with inherently governmental functions, agencies must provide enhanced management oversight to ensure the contractor's actions do not expand to become inherently governmental.",
+        "key_takeaway": "If contractors are doing work right on the edge of being inherently governmental, the agency must watch them closely to prevent mission creep.",
+        "citation": "FAR 7.503(d)",
+        "tags": ["Part 7", "inherently governmental", "closely associated", "oversight"],
+        "display_order": 247,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Equipment: Lease vs. Purchase Policy",
+        "content": "Agencies should consider whether to lease or purchase equipment based on a case-by-case evaluation of comparative costs and other factors. As a general rule, purchase is appropriate if the equipment will be used beyond the point in time when cumulative leasing costs exceed the purchase costs.",
+        "key_takeaway": "Run the numbers. Generally, if you're going to use the equipment long enough that renting it eventually costs more than buying it, you should buy it upfront.",
+        "citation": "FAR 7.401",
+        "tags": ["Part 7", "lease vs purchase", "equipment", "cost"],
+        "display_order": 248,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Factors in Lease vs. Purchase Decisions",
+        "content": "When evaluating a lease versus purchase decision, the contracting officer must consider factors such as the estimated length of the period the equipment will be used, financial and operating advantages, and the availability of funds.",
+        "key_takeaway": "The lease vs. buy math depends on how long you need the item, operational perks, and whether you actually have the cash on hand to buy it.",
+        "citation": "FAR 7.402",
+        "tags": ["Part 7", "lease vs purchase", "planning factors"],
+        "display_order": 249,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Bundling Definition",
+        "content": "Bundling means consolidating two or more requirements for supplies or services, previously provided or performed under separate smaller contracts, into a single contract that is likely to be unsuitable for award to a small business concern.",
+        "key_takeaway": "Bundling happens when you combine multiple smaller contracts into one giant contract that a small business realistically can't handle.",
+        "citation": "FAR 7.107-1",
+        "tags": ["Part 7", "bundling", "definitions", "small business"],
+        "display_order": 250,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Justifying Bundled Requirements",
+        "content": "An agency may not conduct a bundled acquisition unless the senior procurement executive or the agency head determines that bundling is necessary and justified because it will derive measurably substantial benefits for the Government.",
+        "key_takeaway": "To legally bundle a requirement and lock out small businesses, a high-level official must prove the Government will get massive, measurable benefits from doing so.",
+        "citation": "FAR 7.107-3",
+        "tags": ["Part 7", "bundling", "justification", "SPE"],
+        "display_order": 251,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Measurably Substantial Benefits (Bundling)",
+        "content": "Measurably substantial benefits from bundling can include cost savings, quality improvements, reduction in acquisition cycle times, or better terms and conditions. For most agencies, these benefits must meet specific financial thresholds to justify bundling.",
+        "key_takeaway": "'Measurably substantial benefits' isn't a vague term; it means quantifiable wins like saved money, faster delivery, or significantly better quality.",
+        "citation": "FAR 7.107-3(d)",
+        "tags": ["Part 7", "bundling", "benefits", "cost savings"],
+        "display_order": 252,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Consolidation of Contract Requirements",
+        "content": "Consolidation is the use of a single solicitation to obtain offers for a single contract or multiple award contract to satisfy two or more requirements for supplies or services that have been provided to or performed for the Federal agency under two or more separate contracts. Unlike bundling, it does not strictly hinge on making it unsuitable for small businesses.",
+        "key_takeaway": "Consolidation is just combining separate requirements into one. It's broader than bundling because it doesn't automatically mean small businesses are locked out.",
+        "citation": "FAR 7.107-2",
+        "tags": ["Part 7", "consolidation", "definitions"],
+        "display_order": 253,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Consolidating Requirements Threshold",
+        "content": "Agencies shall not consolidate contract requirements with an estimated total value exceeding $2 million unless the senior procurement executive or chief acquisition officer makes a written determination that the consolidation is necessary and justified.",
+        "key_takeaway": "If you want to consolidate requirements and the total price tag is over $2 million, you need top-level written approval justifying the move.",
+        "citation": "FAR 7.107-2(a)-(b)",
+        "tags": ["Part 7", "consolidation", "thresholds", "justification"],
+        "display_order": 254,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 7",
+        "topic": "Small Business Teaming (Bundling/Consolidation)",
+        "content": "When requirements are bundled or consolidated, the contracting officer must include a provision in the solicitation encouraging small businesses to form teaming arrangements or joint ventures to compete for the consolidated requirement.",
+        "key_takeaway": "If you bundle or consolidate, you must actively encourage small businesses to team up so they still have a fighting chance to win the work.",
+        "citation": "FAR 7.107-6",
+        "tags": ["Part 7", "teaming", "small business", "bundling"],
+        "display_order": 255,
+        "related_question_ids": []
       }
     
 ]
