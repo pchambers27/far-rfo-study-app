@@ -1,68 +1,1583 @@
 [
     {
         "far_part": "Part 1",
-        "topic": "Overview of the FAR System",
-        "content": "The Federal Acquisition Regulation (FAR) System under the RFO consists of three componenets: (1) the FAR itself, (2) agency acquisition regulations that implement the FAR, and (3) acquisition guides that demonstrate best practices, like the FAR companion. Internal agency guidance supplementing agency regulations is NOT part of the System.",
-        "key_takeaway": "Three componenets: FAR + agency regs + acquisition guides. Internal agency memos don't count.",
-        "citation": "FAR 1.101",
+        "topic": "Components of the FAR System",
+        "content": "The FAR System has three components: the FAR itself (located at 48 CFR chapter 1), agency acquisition regulations that implement or supplement the FAR (48 CFR chapters 2 through 99), and acquisition guides showing best practices like the FAR Companion. Internal guidance that supplements agency acquisition regulations is NOT part of the System.",
+        "key_takeaway": "Three components: FAR + agency acquisition regulations + acquisition guides. Internal agency guidance doesn't count.",
+        "citation": "FAR 1.101(a)-(b)",
+        "tags": ["Part 1", "FAR system", "framework"],
         "display_order": 10,
-        "tags": [
-            "Part 1"
-        ]
+        "related_question_ids": []
     },
     {
         "far_part": "Part 1",
-        "topic": "Guiding Principle - Lowest Level Authority",
-        "content": "FAR 1.102 directs that authority to make decisions and accountability for those decisions should be delegated to the LOWEST level within the System, consistent with law. This is one of the most significant philosophical commitments of the RFO.",
-        "key_takeaway": "Push decisions DOWN. Contracting officers have wide latitude to apply rules to specific contracts.",
+        "topic": "Lowest Level Authority",
+        "content": "The System delegates authority to make decisions — and accountability for those decisions — to the lowest level within the System, consistent with law. Contracting officers must have the authority, to the maximum extent practicable, to determine how and when to apply rules, regulations, and policies on a specific contract.",
+        "key_takeaway": "Push decisions DOWN. Contracting officers determine how rules apply to specific contracts.",
         "citation": "FAR 1.102(a)(7)",
+        "tags": ["Part 1", "guiding principles", "delegation"],
         "display_order": 20,
-        "tags": [
-            "Part 1"
-        ]
+        "related_question_ids": []
     },
     {
         "far_part": "Part 1",
-        "topic": "Guiding Principle - The Permissive Approach",
-        "content": "Under FAR 1.102(b)(4), if a strategy is in the best interest of the Government, not addressed by the FAR, and not prohibited by law, Executive order, or regulation, the acquisition team may assume it is permitted. This is a fundamental shift from the pre-RFO mindset of 'only what is explicitly allowed.'",
-        "key_takeaway": "Old way: 'is this allowed?' New way: 'is this prohibited?' If not prohibited, it's allowed.",
+        "topic": "The Acquisition Team",
+        "content": "Acquisition team members include Government acquisition representatives from technical, supply, sourcing, small business, and procurement areas; the customers they support; and the contractors who deliver products and services. Each team member's role is to exercise personal initiative and sound business judgment to meet the agency's mission and manage risk.",
+        "key_takeaway": "The acquisition team isn't just contracting professionals — it includes customers AND contractors. Everyone exercises business judgment.",
+        "citation": "FAR 1.102(b)(1)-(2)",
+        "tags": ["Part 1", "guiding principles", "acquisition team"],
+        "display_order": 25,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "The Permissive Approach",
+        "content": "If a strategy, practice, policy, or procedure is in the best interests of the Government, isn't addressed in the FAR, and isn't prohibited by law (statute or case law), Executive order, or other regulation, then acquisition team members may assume they're allowed to use it.",
+        "key_takeaway": "Old way: 'is this allowed?' New way: 'is this prohibited?' If not prohibited by law, EO, or regulation, you can do it.",
         "citation": "FAR 1.102(b)(4)",
+        "tags": ["Part 1", "guiding principles", "innovation"],
         "display_order": 30,
-        "tags": [
-            "Part 1"
-        ]
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Proposing Deviations",
+        "content": "Acquisition team members can propose deviations from FAR regulations if the deviation would promote economy, efficiency, or innovation. Deviation procedures are in subpart 1.3.",
+        "key_takeaway": "Want to deviate? You can propose it if it promotes economy, efficiency, or innovation. Process is in 1.3.",
+        "citation": "FAR 1.102(b)(6)",
+        "tags": ["Part 1", "guiding principles", "deviations"],
+        "display_order": 35,
+        "related_question_ids": []
     },
     {
         "far_part": "Part 1",
         "topic": "Risk Management Philosophy",
-        "content": "Per FAR 1.102(c), the System must focus on RISK MANAGEMENT, not risk elimination. The RFO acknowledges that attempting to eliminate all risk is prohibitively costly to taxpayers.",
-        "key_takeaway": "Manage risk, don't eliminate it. Cost vs. risk is always a tradoff.",
+        "content": "To achieve efficient operations, the System must focus on \"risk management.\" Trying to eliminate all risk is prohibitive in terms of cost to the taxpayer.",
+        "key_takeaway": "Manage risk; don't eliminate it. Eliminating all risk costs taxpayers too much.",
         "citation": "FAR 1.102(c)",
+        "tags": ["Part 1", "guiding principles", "risk management"],
         "display_order": 40,
-        "tags": [
-            "Part 1"
-        ]
+        "related_question_ids": []
     },
     {
         "far_part": "Part 1",
-        "topic": "Sunset Rule",
-        "content": "FAR 1.109 establishes that all FAR sections NOT required by statute expire 4 years afer their effective date, unless renewed by the FAR Council. Statutory provisions are NOT subject to sunset.",
-        "key_takeaway": "Non-statutory FAR provisions expire after 4 years unless renewed. Statutory ones don't sunset.",
-        "citation": "FAR 1.109",
+        "topic": "FAR Council Composition",
+        "content": "The Federal Acquisition Regulatory Council (FAR Council) consists of four members: the Administrator for Federal Procurement Policy, the Secretary of Defense, the Administrator of General Services, and the Administrator of NASA. The FAR is prepared and jointly issued by the FAR Council.",
+        "key_takeaway": "FAR Council = 4 members: OFPP Administrator, SecDef, GSA Administrator, NASA Administrator.",
+        "citation": "FAR 1.103(b)",
+        "tags": ["Part 1", "framework", "FAR Council"],
+        "display_order": 45,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Certifications Are Restricted",
+        "content": "The FAR must NOT require a certification from an offeror or contractor unless allowed under 41 U.S.C. 1304.",
+        "key_takeaway": "FAR can't require certifications from offerors or contractors unless 41 U.S.C. 1304 authorizes it.",
+        "citation": "FAR 1.106",
+        "tags": ["Part 1", "framework", "certifications"],
         "display_order": 50,
-        "tags": [
-            "Part 1"
-        ]
+        "related_question_ids": []
     },
     {
         "far_part": "Part 1",
-        "topic": "Default to Delegation",
-        "content": "FAR 1.107(b): Each authority in the FAR is delegable unless specifically stated otherwise. Dfault is delegation, not retention. This reinforces the 'lowest level' principle from 1.102.",
-        "key_takeaway": "Authorities are delegable BY DEFAULT. The FAR must explicitly say 'cannot be delegated' to make something non-delegable.",
+        "topic": "Default Delegation of Authority",
+        "content": "Each authority in the FAR is delegable unless specifically stated otherwise.",
+        "key_takeaway": "FAR authorities are delegable by default. Non-delegable authorities must say so explicitly.",
         "citation": "FAR 1.107(b)",
+        "tags": ["Part 1", "FAR conventions", "delegation"],
         "display_order": 60,
-        "tags": [
-            "Part 1"
-        ]
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Dollar Thresholds Include Options",
+        "content": "A specific dollar threshold is the final anticipated dollar value of the action, including the dollar value of all options. When an action establishes a maximum quantity of supplies/services, a ceiling price, or a final price based on future events, the final anticipated dollar value must be the highest final priced alternative to the Government — including all options.",
+        "key_takeaway": "When measuring against a FAR dollar threshold, include ALL options at the highest priced alternative.",
+        "citation": "FAR 1.107(c)",
+        "tags": ["Part 1", "FAR conventions", "thresholds"],
+        "display_order": 70,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Applying FAR Changes to Solicitations",
+        "content": "Unless otherwise specified, FAR changes apply to solicitations issued on or after the effective date of the change. Contracting officers may, at their discretion, include FAR changes in solicitations issued before the effective date (provided award occurs on or after the effective date), and may include changes in any existing contract with appropriate consideration.",
+        "key_takeaway": "FAR changes apply to solicitations issued on/after the effective date. COs MAY include changes earlier or in existing contracts.",
+        "citation": "FAR 1.107(d)",
+        "tags": ["Part 1", "FAR conventions"],
+        "display_order": 80,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Inflation Adjustment of Thresholds",
+        "content": "The FAR adjusts statutory acquisition-related dollar thresholds for inflation every 5 years. The calculation is established by 41 U.S.C. 1908. The statute also identifies certain thresholds that must NOT be escalated.",
+        "key_takeaway": "Statutory dollar thresholds get inflation-adjusted every 5 years. But not all thresholds are escalated — the statute names exceptions.",
+        "citation": "FAR 1.108",
+        "tags": ["Part 1", "framework", "thresholds"],
+        "display_order": 90,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Regulatory Sunset",
+        "content": "All FAR sections that are NOT required by statute must expire 4 years after their effective date, unless renewed by the FAR Council.",
+        "key_takeaway": "Non-statutory FAR sections expire after 4 years unless the FAR Council renews them. Statutory provisions don't sunset.",
+        "citation": "FAR 1.109",
+        "tags": ["Part 1", "framework", "sunset"],
+        "display_order": 100,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "When Agencies Issue Acquisition Regulations",
+        "content": "An agency head may issue agency acquisition regulations to implement the FAR or to supplement it for a specific agency need. These regulations must NOT unnecessarily repeat, paraphrase, or restate FAR material, and must NOT conflict with the FAR (except as required by law or as provided in subpart 1.3).",
+        "key_takeaway": "Agency regs must not duplicate FAR text or conflict with it. They exist to implement or supplement for agency-specific needs.",
+        "citation": "FAR 1.201(a)",
+        "tags": ["Part 1", "agency regulations"],
+        "display_order": 110,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Internal Agency Guidance",
+        "content": "An agency head may authorize internal agency guidance at any organizational level — designations and delegations of authority, assignments of responsibilities, work-flow procedures, internal reporting requirements. Internal guidance does NOT need to be published in the Federal Register unless it has a significant effect beyond the agency's internal operating procedures or creates significant cost or administrative impact on contractors or offerors.",
+        "key_takeaway": "Internal agency guidance is normally not published in the Federal Register — UNLESS it significantly impacts contractors or has effect beyond agency internal procedures.",
+        "citation": "FAR 1.201(c)",
+        "tags": ["Part 1", "agency regulations", "internal guidance"],
+        "display_order": 120,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "What Counts as a Deviation",
+        "content": "A deviation is any of the following: (a) using a policy/procedure/clause/practice inconsistent with the FAR; (b) leaving out a required clause; (c) using a clause with modified or unauthorized alternate language; (d) using a clause on a 'substantially as follows' or 'substantially the same as' basis if inconsistent with the FAR's intent; (e) authorizing lesser or greater limitations than required; or (f) issuing policies governing the contracting process that aren't incorporated into agency acquisition regulations.",
+        "key_takeaway": "A deviation is any practice inconsistent with the FAR — using non-authorized clauses, leaving out required ones, modifying language, or using greater/lesser limitations than required.",
+        "citation": "FAR 1.301",
+        "tags": ["Part 1", "deviations"],
+        "display_order": 130,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "When Agencies May Deviate from the FAR",
+        "content": "Unless prohibited by law, Executive order, or regulation, agencies may deviate from the FAR when necessary to meet an agency's specific needs — for example, to encourage developing and testing new techniques and methods of acquisition.",
+        "key_takeaway": "Agencies may deviate from the FAR when needed to meet specific needs (like testing new techniques) — unless law, EO, or regulation prohibits it.",
+        "citation": "FAR 1.302(a)",
+        "tags": ["Part 1", "deviations"],
+        "display_order": 140,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Deviations from Cost Accounting Standards",
+        "content": "Agencies are NOT authorized to deviate from FAR 30.201-3 and 30.201-4, or from the Cost Accounting Standards Board (CASB) rules and regulations (48 CFR chapter 99). Refer to 30.201-5 for instructions on deviating from the Cost Accounting Standards.",
+        "key_takeaway": "You can't deviate from CASB rules or 30.201-3/4. Use 30.201-5 for any CAS deviation process.",
+        "citation": "FAR 1.302(c)",
+        "tags": ["Part 1", "deviations", "cost accounting"],
+        "display_order": 145,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Individual Deviations",
+        "content": "Individual deviations affect only one contract action. The agency head may authorize them. The contracting officer must document the justification and agency approval in the contract file.",
+        "key_takeaway": "Individual deviation = one contract action only. Agency head authorizes. CO must document justification and approval in the file.",
+        "citation": "FAR 1.303",
+        "tags": ["Part 1", "deviations"],
+        "display_order": 150,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Class Deviations - Definition and Authority",
+        "content": "Class deviations affect more than one contract action. A deviation for any solicitation that will result in multiple contract awards must be done as a class deviation. Agency heads may authorize class deviations from the FAR. Agency-specific class deviations must be approved by the FAR Council, except where required to implement agency-specific executive or statutory direction.",
+        "key_takeaway": "Class deviations affect multiple contract actions. Agency head authorizes, but agency-specific class deviations need FAR Council approval (with limited exceptions).",
+        "citation": "FAR 1.304(a)-(b)",
+        "tags": ["Part 1", "deviations", "class deviations"],
+        "display_order": 160,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "FAR Council Class Deviation Timeline",
+        "content": "The FAR Council will review and provide a decision to the requesting agency within 5 business days. Urgent requests will be decided within 24 hours of receipt. If the FAR Council does not respond within these timeframes, agencies may proceed.",
+        "key_takeaway": "Class deviation timelines: 5 business days normally, 24 hours if urgent. No response = agency can proceed.",
+        "citation": "FAR 1.304(c)",
+        "tags": ["Part 1", "deviations", "class deviations"],
+        "display_order": 170,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Treaties and Executive Agreements",
+        "content": "Deviations from the FAR necessary to comply with a treaty are authorized, unless inconsistent with FAR coverage based on a law enacted after the treaty's execution. Deviations necessary to comply with an executive agreement (Government-to-Government, including agreements with international organizations) are authorized unless inconsistent with FAR coverage based on law.",
+        "key_takeaway": "Treaty/executive agreement deviations are authorized — but treaties are limited by later-enacted laws, and executive agreements are limited by existing laws.",
+        "citation": "FAR 1.305",
+        "tags": ["Part 1", "deviations", "treaties"],
+        "display_order": 180,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Who Can Sign Contracts",
+        "content": "Only contracting officers may sign, administer, or terminate contracts on behalf of the Government. Contracting officers may bind the Government based on the authority delegated to them. The appointing authority must provide the contracting officer with clear instructions IN WRITING about what they can and cannot do.",
+        "key_takeaway": "Only COs sign, administer, or terminate Government contracts. Their authority must be in writing from the appointing authority.",
+        "citation": "FAR 1.402-1(a)",
+        "tags": ["Part 1", "contracting officers", "authority"],
+        "display_order": 190,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Wide Latitude for Business Judgment",
+        "content": "Contracting officers have wide latitude to exercise business judgment.",
+        "key_takeaway": "Contracting officers have WIDE LATITUDE to exercise business judgment. This is granted explicitly by the FAR.",
+        "citation": "FAR 1.402-1(b)",
+        "tags": ["Part 1", "contracting officers", "authority"],
+        "display_order": 200,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Contracting Officer Responsibilities",
+        "content": "Contracting officers are responsible for: (a) before signing a contract, ensuring it meets all requirements of law/EO/regulations and that funds are available for obligation; (b) ensuring compliance with contract terms; (c) ensuring offerors and contractors receive impartial, fair, and equitable treatment; and (d) requesting and considering advice from specialists in audit, law, engineering, information security, transportation, and other fields, as appropriate.",
+        "key_takeaway": "CO responsibilities: pre-signature compliance + funding, contract compliance, fair/equitable treatment, and seeking specialist advice.",
+        "citation": "FAR 1.402-2",
+        "tags": ["Part 1", "contracting officers", "responsibilities"],
+        "display_order": 210,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "CO Appointment in Writing",
+        "content": "Contracting officers must be appointed in writing using a Standard Form (SF) 1402, Certificate of Appointment. The certificate must state any limitations on the CO's scope of authority (other than those in law or regulation). Appointing officials must keep copies of all current appointments.",
+        "key_takeaway": "Contracting officers are appointed in writing on an SF 1402. The certificate states authority limitations.",
+        "citation": "FAR 1.403-2(a)",
+        "tags": ["Part 1", "contracting officers", "appointment"],
+        "display_order": 220,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Micro-Purchase Authority Delegation",
+        "content": "Agency heads should delegate micro-purchase authority to individuals who are employees of an executive agency or members of the U.S. Armed Forces, and who will use the supplies or services being purchased. Agency heads must appoint these individuals in writing but are NOT required to use an SF 1402.",
+        "key_takeaway": "Micro-purchase authority should go to the actual users of what's being bought. Written appointment required, but no SF 1402 needed.",
+        "citation": "FAR 1.403-2(b)",
+        "tags": ["Part 1", "contracting officers", "micro-purchase"],
+        "display_order": 230,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Terminating CO Appointments",
+        "content": "Agency heads must terminate a contracting officer appointment by letter, unless the Certificate of Appointment contains other provisions for automatic termination. Terminations may occur for reasons such as reassignment, termination of employment, or unsatisfactory performance. Agency heads CANNOT terminate a contracting officer appointment retroactively.",
+        "key_takeaway": "CO appointments terminate by letter (or auto-termination per certificate). NEVER retroactively.",
+        "citation": "FAR 1.403-3",
+        "tags": ["Part 1", "contracting officers", "appointment"],
+        "display_order": 240,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "When CORs Are Required",
+        "content": "The contracting officer must assign a COR to all contracts and orders OTHER than firm fixed-price contracts and orders. For firm fixed-price contracts and orders, the contracting officer MAY assign a COR.",
+        "key_takeaway": "COR required: all contracts EXCEPT firm fixed-price. COR optional: firm fixed-price contracts/orders.",
+        "citation": "FAR 1.404(b)",
+        "tags": ["Part 1", "COR"],
+        "display_order": 250,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "COR Designation Requirements",
+        "content": "The COR designation must specify: the extent of the COR's authority to act on behalf of the contracting officer; the period covered by the designation; that the authority cannot be delegated further; and that the COR may be personally liable for unauthorized acts.",
+        "key_takeaway": "COR designation must spell out: authority scope, time period, no further delegation allowed, and personal liability for unauthorized acts.",
+        "citation": "FAR 1.404(a)(2)",
+        "tags": ["Part 1", "COR"],
+        "display_order": 260,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "COR Qualifications",
+        "content": "A COR must be a Government employee (unless otherwise authorized in agency regulations), must be certified per the FAC-COR guidance (or DoD policy), must maintain that certification, and must be qualified by training and experience.",
+        "key_takeaway": "CORs must be Government employees, FAC-COR certified (or DoD equivalent), and qualified by training and experience.",
+        "citation": "FAR 1.404(c)",
+        "tags": ["Part 1", "COR"],
+        "display_order": 270,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Limits on COR Authority",
+        "content": "A COR has NO authority to make any commitments or changes that affect price, quality, quantity, delivery, or other terms and conditions of the contract. The COR must NOT direct the contractor or its subcontractors to operate in conflict with the contract terms and conditions.",
+        "key_takeaway": "CORs cannot change price, quality, quantity, delivery, or terms. They cannot direct contractors to violate the contract.",
+        "citation": "FAR 1.404(d)",
+        "tags": ["Part 1", "COR", "authority"],
+        "display_order": 280,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Ratification - Definitions",
+        "content": "Ratification is the act of approving an unauthorized commitment by an official who has the authority to do so. An unauthorized commitment is an agreement that is not binding solely because the Government representative who made it lacked the authority to enter into it on the Government's behalf.",
+        "key_takeaway": "Ratification = an authorized official approving an unauthorized commitment. Unauthorized commitment = agreement not binding because the rep lacked authority.",
+        "citation": "FAR 1.405(a)",
+        "tags": ["Part 1", "ratification"],
+        "display_order": 290,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Ratification Authority",
+        "content": "The head of the contracting activity may ratify an unauthorized commitment, subject to the criteria in FAR 1.405(c). Agencies may delegate ratification authority. Agencies CANNOT delegate ratification authority below the level of the chief of the contracting office.",
+        "key_takeaway": "Default ratification authority: HCA. Lowest possible delegation: chief of the contracting office.",
+        "citation": "FAR 1.405(b)(2)",
+        "tags": ["Part 1", "ratification"],
+        "display_order": 300,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Ratification Criteria",
+        "content": "Agencies may ratify an unauthorized commitment ONLY when ALL of the following are met: (1) the Government accepted supplies/services or received a benefit from performance; (2) the ratifying official has authority to enter into the commitment; (3) the resulting contract would otherwise have been proper if made by an authorized CO; (4) the contracting officer determines the price to be fair and reasonable; (5) the contracting officer recommends payment AND legal counsel concurs; and (6) funds are available AND were available at the time the unauthorized commitment was made.",
+        "key_takeaway": "All 6 ratification criteria must be met: Govt benefited + ratifier has authority + contract would've been proper + price fair/reasonable + CO recommends and counsel concurs + funds available now AND then.",
+        "citation": "FAR 1.405(c)",
+        "tags": ["Part 1", "ratification"],
+        "display_order": 310,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "What Is a D&F",
+        "content": "A determination and findings (D&F) is a special form of written approval by an authorized official that is required by statute or regulation before taking certain contract actions. The determination is the conclusion or decision; the findings are the statements of fact or reasons that support the determination, and must cover each requirement of the statute or regulation.",
+        "key_takeaway": "D&F = written approval required before certain contract actions. Determination = the decision. Findings = the facts/reasons that support it.",
+        "citation": "FAR 1.501",
+        "tags": ["Part 1", "D&F"],
+        "display_order": 320,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "Class D&Fs",
+        "content": "A class D&F provides authority for a class of contract actions — actions for the same or related supplies, services, or other actions that require essentially identical justification. The findings must fully support the proposed action either for the class as a whole or for each action. A class D&F must specify a period with the expiration date stated. When a solicitation has been furnished to prospective offerors before the expiration date, the authority continues until award of the resulting contract(s).",
+        "key_takeaway": "Class D&Fs cover related actions with similar justification. Must have an expiration date — but if a solicitation went out before expiration, authority continues through award.",
+        "citation": "FAR 1.503",
+        "tags": ["Part 1", "D&F", "class D&F"],
+        "display_order": 330,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 1",
+        "topic": "D&F Required Content",
+        "content": "Each D&F must include, at minimum: identification of the agency, contracting activity, and document type; description of the action being approved; citation to the supporting statute/regulation; findings detailing the circumstances and reasoning; the determination based on the findings; expiration date (for class D&Fs); and the signature of the authorized official with date.",
+        "key_takeaway": "D&F minimum content: agency/activity ID, action description, statute citation, supporting findings, the determination, expiration date (class D&Fs only), and authorized signature with date.",
+        "citation": "FAR 1.504",
+        "tags": ["Part 1", "D&F"],
+        "display_order": 340,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Scope of Part 2",
+        "content": "This part defines words and terms that are frequently used in the FAR; provides cross-references to other definitions in the FAR of the same word or term; and provides for the incorporation of these definitions in solicitations and contracts by reference.",
+        "key_takeaway": "Part 2 is the 'dictionary' for the FAR. It defines common terms and explains how they carry over into contracts.",
+        "citation": "FAR 2.000(a)",
+        "tags": ["Part 2", "Definitions", "Scope"],
+        "display_order": 1,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Definitions Outside Part 2",
+        "content": "Other parts, subparts, and sections of this regulation (48 CFR chapter 1) may define other words or terms and those definitions only apply to the part, subpart, or section where the word or term is defined.",
+        "key_takeaway": "If a definition is tucked away in a specific FAR part instead of Part 2, it only applies to that specific section.",
+        "citation": "FAR 2.000(b)",
+        "tags": ["Part 2", "Definitions", "Scope"],
+        "display_order": 2,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Universal Meaning of Definitions",
+        "content": "A word or a term, defined in this section, has the same meaning throughout this chapter (the Federal Acquisition Regulation (FAR)) unless the context in which the word or term is used clearly requires a different meaning or another FAR part, subpart, or section provides a different definition for the particular part or portion of the part.",
+        "key_takeaway": "A Part 2 definition usually applies everywhere in the FAR unless the context changes or a specific part overrides it.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Applicability"],
+        "display_order": 3,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Requesting Agency",
+        "content": "Requesting agency means the agency that has the requirement for an interagency acquisition.",
+        "key_takeaway": "The 'Requesting Agency' is the one that actually needs the stuff in an interagency deal.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Interagency"],
+        "display_order": 4,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Residual Value",
+        "content": "Residual value means the proceeds, less removal and disposal costs, if any, realized upon disposition of a tangible capital asset. It is usually measured by the net proceeds from the sale or other disposition of the asset, or its fair value if it is traded in.",
+        "key_takeaway": "Residual value is the 'leftover' money you get after selling an asset and paying for its removal.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance"],
+        "display_order": 5,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Unique and Innovative Concept",
+        "content": "Unique and innovative concept, when used relative to an unsolicited research proposal, means that, in the opinion and to the knowledge of the Government evaluator, the meritorious proposal is the product of original thinking submitted confidentially by one source; contains new, novel, or changed concepts, approaches, or methods; was not submitted previously by another; and is not otherwise available within the Federal Government.",
+        "key_takeaway": "For unsolicited proposals, 'unique and innovative' means it's original, confidential, and not already something the Gov has access to.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Proposals"],
+        "display_order": 6,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Emergency",
+        "content": "Emergency means any occasion or instance for which, in the determination of the President, Federal assistance is needed to supplement State and local efforts and capabilities to save lives and to protect property and public health and safety, or to lessen or avert the threat of a catastrophe in any part of the United States (42 U.S.C. 5122).",
+        "key_takeaway": "An emergency is officially triggered when the President decides Federal help is needed to save lives or prevent a disaster.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Emergency"],
+        "display_order": 7,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Executive Agency",
+        "content": "Executive agency means an executive department, a military department, or any independent establishment within the meaning of 5 U.S.C. 101, 102, and 104(1), respectively, and any wholly owned Government corporation within the meaning of 31 U.S.C. 9101.",
+        "key_takeaway": "Executive agencies cover the big departments (like DoD), independent spots, and Gov-owned corporations.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Agency"],
+        "display_order": 8,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Advisory and Assistance Services",
+        "content": "Advisory and assistance services means those services provided under contract by nongovernmental sources to support or improve: organizational policy development; decision-making; management and administration; program and/or project management and administration; or R&D activities.",
+        "key_takeaway": "These are services from outside the Gov used to sharpen policy, management, or R&D.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Services"],
+        "display_order": 9,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "COTS Items",
+        "content": "Commercially available off-the-shelf (COTS) item means any item of supply (including construction material) that is a commercial product; sold in substantial quantities in the commercial marketplace; and offered to the Government, under a contract or subcontract at any tier, without modification, in the same form in which it is sold in the commercial marketplace.",
+        "key_takeaway": "COTS items are standard commercial products sold 'as-is' to the Gov without any custom tweaks.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Commercial"],
+        "display_order": 10,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Customary Commercial Practice",
+        "content": "Customary commercial practice means a practice that is followed by the majority of commercial providers in the marketplace.",
+        "key_takeaway": "It's simply what most businesses in the open market are already doing.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Commercial"],
+        "display_order": 11,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Definition: Day",
+        "content": "Day means a calendar day, unless otherwise specified. In the computation of any period— (1) The day of the act, event, or default from which the designated period of time begins to run is not included; and (2) The last day of the period is included.",
+        "key_takeaway": "A 'day' is a calendar day. When counting, skip the day the event happened, but count the final day.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Time"],
+        "display_order": 12,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Delivery Order",
+        "content": "Delivery order means an order for supplies placed against an established contract or with Government sources.",
+        "key_takeaway": "A delivery order is the specific request for supplies against a contract that's already in place.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Orders"],
+        "display_order": 13,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Direct Cost",
+        "content": "Direct cost means any cost that is identified specifically with a particular final cost objective. Direct costs are not limited to items that are incorporated in the end product as material or labor.",
+        "key_takeaway": "A direct cost is anything tied directly to a specific project goal, not just the physical parts or labor.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance"],
+        "display_order": 14,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Disaster",
+        "content": "Disaster means any natural catastrophe (including any hurricane, tornado, storm, high water, winddriven water, tidal wave, tsunami, earthquake, volcanic eruption, landslide, mudslide, snowstorm, or drought), or, regardless of cause, any fire, flood, or explosion, in any part of the United States, which in the determination of the President causes damage of sufficient severity and magnitude to warrant major disaster assistance (42 U.S.C. 5122).",
+        "key_takeaway": "A disaster is a catastrophe (natural or man-made) that the President decides is bad enough to need major Federal help.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Emergency"],
+        "display_order": 15,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Effective Date of Termination",
+        "content": "Effective date of termination means the date on which the notice of termination requires the contractor to stop performance under the contract. If the contractor receives the termination notice after the date fixed for termination, then the effective date of termination means the date the contractor receives the notice.",
+        "key_takeaway": "The termination date is when the notice says to stop, but if that notice arrives late, the date you actually receive it becomes the official cutoff.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Termination"],
+        "display_order": 16,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Electronic Commerce",
+        "content": "Electronic commerce means electronic techniques for accomplishing business transactions including electronic mail or messaging, World Wide Web technology, electronic bulletin boards, purchase cards, electronic funds transfer, and electronic data interchange.",
+        "key_takeaway": "This is the catch-all term for doing business digitally—whether it's through email, the web, or electronic payments.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "E-Commerce"],
+        "display_order": 17,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Electronic Data Interchange (EDI)",
+        "content": "Electronic data interchange (EDI) means a technique for electronically transferring and storing formatted information between computers utilizing established and published formats and codes, as authorized by the applicable Federal Information Processing Standards.",
+        "key_takeaway": "EDI is the tech standard that lets different computers swap formatted info so everyone's systems are speaking the same language.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "EDI", "IT"],
+        "display_order": 18,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Electronic Funds Transfer (EFT)",
+        "content": "Electronic Funds Transfer (EFT) means any transfer of funds, other than a transaction originated by cash, check, or similar paper instrument, that is initiated through an electronic terminal, telephone, computer, or magnetic tape, for the purpose of ordering, instructing, or authorizing a financial institution to debit or credit an account.",
+        "key_takeaway": "EFT covers pretty much any money move that isn't cash or a paper check, like direct deposits or wire transfers.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance", "Payments"],
+        "display_order": 19,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "End Item",
+        "content": "End item means the final production product when assembled or completed, and ready for issue or deployment.",
+        "key_takeaway": "An end item is the finished product—fully built and ready to be used or shipped out.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Supplies"],
+        "display_order": 20,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "End Product",
+        "content": "End product means supplies delivered under a line item of a Government contract, except for use in part 25 and the associated clauses at 52.225-1, 52.225-3, and 52.225-5, see the definitions in 25.003, 52.225-1(a), 52.225-3(a), and 52.225-5(a).",
+        "key_takeaway": "An 'end product' is any supply delivered as a specific line item in your contract (heads up: check Part 25 for special trade rules).",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Supplies"],
+        "display_order": 21,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Energy-Efficient Product",
+        "content": "Energy-efficient product means a product that meets Department of Energy and Environmental Protection Agency criteria for use of the Energy Star trademark label; or is in the upper 25 percent of efficiency for all similar products as designated by the Department of Energy’s Federal Energy Management Program.",
+        "key_takeaway": "To be 'energy-efficient' in the FAR, a product needs an Energy Star label or to be in the top 25% of its class for efficiency.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Environment"],
+        "display_order": 22,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Energy-Efficient Standby Power Devices",
+        "content": "Energy-efficient standby power devices means products that use— (1) External power adapters and batteries; and (2) No more than one watt of electricity in their standby power consuming mode or meet Department of Energy and Environmental Protection Agency criteria for use of the Energy Star trademark label.",
+        "key_takeaway": "These are devices that sip almost no power (1 watt or less) when they're just sitting in standby mode.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Energy"],
+        "display_order": 23,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Energy-Savings Performance Contract",
+        "content": "Energy-savings performance contract means a contract that requires the contractor to incur costs to implement energy savings measures in exchange for a share of any resulting energy cost savings.",
+        "key_takeaway": "The contractor pays for energy upgrades upfront, and in return, they get a cut of the money the Government saves on its energy bills.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Contracts"],
+        "display_order": 24,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Environmentally Preferable",
+        "content": "Environmentally preferable means products or services that have a lesser or reduced effect on human health and the environment when compared with competing products or services that serve the same purpose.",
+        "key_takeaway": "This just means picking the option that’s better for people and the planet compared to other similar choices.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Environment"],
+        "display_order": 25,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Excess Personal Property",
+        "content": "Excess personal property means any personal property under the control of a Federal agency that the agency head determines is not required for its needs or for the discharge of its responsibilities.",
+        "key_takeaway": "If an agency head says they don’t need a piece of gear or equipment anymore, it officially becomes 'excess.'",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Property"],
+        "display_order": 26,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Exchange/Sale Property",
+        "content": "Exchange/sale property means property not excess to the needs of the holding agency but eligible for replacement, which is exchanged or sold under the provisions of 41 CFR part 102-39 in order to apply the exchange allowance or proceeds of sale in whole or in part payment for similar replacement property.",
+        "key_takeaway": "This is property an agency still needs but is swapping or selling to help pay for a newer version of the same thing.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Property"],
+        "display_order": 27,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Facsimile",
+        "content": "Facsimile means electronic equipment that transmits and reproduces text or images over telephone lines or other transmission systems.",
+        "key_takeaway": "Good old-fashioned faxing—sending text or pictures over a phone line or similar network.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "IT"],
+        "display_order": 28,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Federal Agency",
+        "content": "Federal agency means an executive agency or any other agency of the executive branch of the Government, any independent establishment, or any wholly owned Government corporation.",
+        "key_takeaway": "This is a broad term covering pretty much any entity in the Executive Branch or Government-owned corporations.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Agency"],
+        "display_order": 29,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Federally Funded Research and Development Centers (FFRDCs)",
+        "content": "Federally Funded Research and Development Centers (FFRDCs) means activities that are operated under contract with the Government by an educational institution, other nonprofit organization, or a business unit as a separate and distinct organizational unit.",
+        "key_takeaway": "FFRDCs are specialized research spots run by colleges or nonprofits under a specific Government contract.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Research"],
+        "display_order": 30,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Final Cost Objective",
+        "content": "Final cost objective means a cost objective that has allocated to it both direct and indirect costs and, in the contractor’s accumulation system, is one of the final accumulation points.",
+        "key_takeaway": "This is the 'end of the line' for tracking costs, where both direct and indirect expenses finally land.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance"],
+        "display_order": 31,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "First Article",
+        "content": "First article means a preproduction model, initial production sample, test sample, first lot, pilot lot, or design study sample. It also includes any item manufactured under a contract which is before the commencement of full production.",
+        "key_takeaway": "Think of this as the 'prototype' or 'test run' item that has to be approved before the big production line starts moving.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Production"],
+        "display_order": 32,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "First Article Testing",
+        "content": "First article testing means testing and evaluating the first article for conformance with specified contract requirements before or in the initial stage of production.",
+        "key_takeaway": "The actual process of checking that first prototype to make sure it meets all the contract specs before full production begins.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Testing"],
+        "display_order": 33,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Fiscal Year",
+        "content": "Fiscal year means the Federal Government’s accounting period, which begins on October 1 and ends on September 30 of the following year.",
+        "key_takeaway": "The Government’s 'calendar' for money: it kicks off October 1st and wraps up the following September 30th.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Time"],
+        "display_order": 34,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Fixed Asset",
+        "content": "Fixed asset means a tangible capital asset that has an expected useful life of more than one year and is used in the operations of an entity.",
+        "key_takeaway": "A physical piece of property (like machinery or a vehicle) that you plan to use for more than a year.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Assets"],
+        "display_order": 35,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Foreign Acquisition",
+        "content": "Foreign acquisition means an acquisition of supplies or services that are produced or performed outside the United States.",
+        "key_takeaway": "Simply put, it’s buying stuff or services that are made or done outside the U.S.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "International"],
+        "display_order": 36,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Foreign Contractor",
+        "content": "Foreign contractor means a contractor or subcontractor organized or existing under the laws of a country other than the United States.",
+        "key_takeaway": "A company that is set up under the laws of another country, not the U.S.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "International"],
+        "display_order": 37,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Foreign Government",
+        "content": "Foreign government means any government other than the United States Government, including any agency or subdivision of a foreign government.",
+        "key_takeaway": "Any government entity that isn’t the U.S. Government, including their local branches or agencies.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "International"],
+        "display_order": 38,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Forward Pricing Rate Agreement",
+        "content": "Forward pricing rate agreement means a written agreement negotiated between a contractor and the Government to make certain rates available during a specified period for use in pricing contracts or modifications.",
+        "key_takeaway": "A pre-negotiated deal on rates so you don’t have to haggle over them every time a new contract or change order pops up.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Pricing"],
+        "display_order": 39,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Forward Pricing Rate Recommendation",
+        "content": "Forward pricing rate recommendation means a rate set unilaterally by the administrative contracting officer for use by the Government in negotiations or other contract actions when forward pricing rate agreement negotiations have not been completed.",
+        "key_takeaway": "This is a temporary rate set by the Government to keep things moving while a formal agreement is still being worked out.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Pricing"],
+        "display_order": 40,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "F.o.b. (Free on Board)",
+        "content": "F.o.b. (free on board) means a term used in conjunction with a physical point to determine: (1) The responsibility and basis for payment of freight charges; and (2) Unless otherwise agreed, the point where the title for goods passes to the buyer or consignee.",
+        "key_takeaway": "F.o.b. is the marker for two things: who pays for the shipping and where the official ownership of the gear swaps hands.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Shipping", "F.o.b."],
+        "display_order": 61,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "F.o.b. Origin",
+        "content": "F.o.b. origin means free of expense to the Government delivered on board the indicated type of conveyance of the carrier (or of the Government, if specified) at a designated point in the city, county, and State from which the shipment will be made.",
+        "key_takeaway": "With F.o.b. origin, the Government’s responsibility starts the moment the contractor loads the goods onto the truck or plane at their facility.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Shipping", "F.o.b."],
+        "display_order": 62,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "F.o.b. Destination",
+        "content": "F.o.b. destination means free of expense to the Government delivered on board the indicated type of conveyance of the carrier (or of the Government, if specified) at a specified delivery point where the consignee’s facility is located.",
+        "key_takeaway": "With F.o.b. destination, the contractor is on the hook for everything until the goods actually arrive at the Government’s doorstep.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Shipping", "F.o.b."],
+        "display_order": 63,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Freight",
+        "content": "Freight means supplies, goods, and transportable property.",
+        "key_takeaway": "Freight is simply the physical stuff that can be moved or transported.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Transportation"],
+        "display_order": 64,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Full and Open Competition",
+        "content": "Full and open competition, when used with respect to a contract action, means that all responsible sources are permitted to compete.",
+        "key_takeaway": "If it's full and open, the doors are wide open—any qualified and responsible company can bid.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Competition"],
+        "display_order": 65,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Full and Open Competition After Exclusion of Sources",
+        "content": "Full and open competition after exclusion of sources, when used with respect to a contract action, means that all responsible sources are permitted to compete after one or more sources have been excluded.",
+        "key_takeaway": "This is a competition where everyone remaining can bid, but only after certain sources (like large businesses in a set-aside) have been intentionally removed from the pool.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Competition", "Set-Asides"],
+        "display_order": 66,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "General and Administrative (G&A) Expense",
+        "content": "General and administrative (G&A) expense means any management, financial, and other expense which is incurred by or allocated to a business unit and which is for the general management and administration of the business unit as a whole.",
+        "key_takeaway": "G&A covers the overhead costs of running the business itself (like corporate HR or executive management), rather than costs tied to a specific project.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance", "Costs"],
+        "display_order": 67,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Governmentwide Point of Entry (GPE)",
+        "content": "Governmentwide point of entry (GPE) means the single point where Government business opportunities greater than $25,000, including synopses of proposed contract actions, solicitations, and associated information, can be accessed electronically by the public. The GPE is located at https://www.sam.gov.",
+        "key_takeaway": "The GPE (SAM.gov) is the central hub where the public can find Government contracting opportunities over $25k.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Opportunities"],
+        "display_order": 68,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Head of the Agency",
+        "content": "Head of the agency means the Secretary, Attorney General, Administrator, Governor, Chairperson, or other chief official of an executive agency, unless otherwise indicated, including any deputy or assistant chief official of an executive agency.",
+        "key_takeaway": "This is the top boss (or their direct deputies) running an entire executive agency.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Agency", "Leadership"],
+        "display_order": 69,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Historically Black College or University",
+        "content": "Historically black college or university means an institution determined by the Secretary of Education to meet the requirements of 34 CFR 608.2.",
+        "key_takeaway": "An HBCU is a school officially recognized as such by the Department of Education.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Education"],
+        "display_order": 70,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "HUBZone",
+        "content": "HUBZone means a historically underutilized business zone that is an area located within one or more qualified census tracts, qualified nonmetropolitan counties, lands within the external boundaries of an Indian reservation, qualified base closure areas, or redesignated areas.",
+        "key_takeaway": "A HUBZone is a specific geographic area—like certain rural counties, Indian reservations, or base closure areas—targeted for economic support.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Small Business", "HUBZone"],
+        "display_order": 71,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "HUBZone Small Business Concern",
+        "content": "HUBZone small business concern means a small business concern that appears on the List of Qualified HUBZone Small Business Concerns maintained by the Small Business Administration.",
+        "key_takeaway": "To be considered a HUBZone small business by the Gov, the company must be officially listed by the SBA.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Small Business", "HUBZone"],
+        "display_order": 72,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "In Writing, Writing, or Written",
+        "content": "In writing, writing, or written means any worded or numbered expression that can be read, reproduced, and later communicated, and includes electronically transmitted and stored information.",
+        "key_takeaway": "If it can be read and saved, it counts as 'written'—this includes emails, digital files, and text messages, not just pen and paper.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Documentation"],
+        "display_order": 73,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Indirect Cost",
+        "content": "Indirect cost means any cost not directly identified with a single final cost objective, but identified with two or more final cost objectives or with at least one intermediate cost objective.",
+        "key_takeaway": "These are shared costs that apply to multiple projects or departments, so they can't be pinned down to just one specific contract.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance", "Costs"],
+        "display_order": 74,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Indirect Cost Rate",
+        "content": "Indirect cost rate means the percentage or dollar factor that expresses the ratio of indirect expense incurred in a given period to direct labor cost, manufacturing cost, or another appropriate base for the same period.",
+        "key_takeaway": "It's the mathematical formula used to figure out how much overhead (indirect cost) gets applied proportionally to the direct costs of a project.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance", "Costs"],
+        "display_order": 75,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Ineligible",
+        "content": "Ineligible means excluded from Government contracting (and subcontracting, if appropriate) pursuant to statutory, Executive order, or regulatory authority other than this regulation (48 CFR chapter 1) and its implementing and supplementing regulations.",
+        "key_takeaway": "Being ineligible means a contractor is banned from Government work due to an outside law or Executive Order, rather than a standard FAR debarment.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Exclusions"],
+        "display_order": 76,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Information Other Than Cost or Pricing Data",
+        "content": "Information other than cost or pricing data means pricing data, cost data, and judgmental information necessary for the contracting officer to determine a fair and reasonable price or to determine cost realism.",
+        "key_takeaway": "This is data used to check if a price is fair, but it doesn't meet the strict threshold of certified cost or pricing data. It can include sales history or catalogs.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Pricing", "Data"],
+        "display_order": 77,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Information Technology",
+        "content": "Information technology means any equipment, or interconnected system(s) or subsystem(s) of equipment, that is used in the automatic acquisition, storage, analysis, evaluation, manipulation, management, movement, control, display, switching, interchange, transmission, or reception of data or information by the agency.",
+        "key_takeaway": "IT covers all the hardware, software, and systems used to process, store, or move data around for the Government.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "IT"],
+        "display_order": 78,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Inherently Governmental Function",
+        "content": "Inherently governmental function means, as a matter of policy, a function that is so intimately related to the public interest as to mandate performance by Government employees.",
+        "key_takeaway": "These are the core duties—like directing troops or awarding contracts—that ONLY actual Government employees are allowed to do. Contractors cannot do these.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Policy"],
+        "display_order": 79,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Inspection",
+        "content": "Inspection means examining and testing supplies or services (including, when appropriate, raw materials, components, and intermediate assemblies) to determine whether they conform to contract requirements.",
+        "key_takeaway": "Inspection is the act of checking the work or products to make sure they actually match what the contract demanded.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Quality Assurance"],
+        "display_order": 80,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Insurance",
+        "content": "Insurance means a contract that provides that for a stipulated consideration, one party undertakes to indemnify another against loss, damage, or liability arising from an unknown or contingent event.",
+        "key_takeaway": "Insurance is a deal where you pay a fee so someone else covers the cost if something unexpected goes wrong.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Risk"],
+        "display_order": 81,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Intangible Capital Asset",
+        "content": "Intangible capital asset means an asset that has no physical substance, has more than one year of life, and is held by the economic entity for use in the maintenance or production of goods or services, or for the enterprise's own use.",
+        "key_takeaway": "These are long-term assets you can't touch—like software or patents—that help a business run.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Assets"],
+        "display_order": 82,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Interagency Acquisition",
+        "content": "Interagency acquisition means a procedure by which an agency needing supplies or services (the requesting agency) obtains them from another agency (the servicing agency), by an assisted acquisition or a direct acquisition.",
+        "key_takeaway": "This is simply when one agency 'shops' through another agency to get what they need.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Interagency"],
+        "display_order": 83,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Intermediate Cost Objective",
+        "content": "Intermediate cost objective means a cost objective that is used to accumulate indirect costs or service center costs that are subsequently allocated to one or more indirect cost pools or final cost objectives.",
+        "key_takeaway": "Think of this as a 'middle-man' bucket where costs are gathered before being split up and sent to their final project destinations.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance"],
+        "display_order": 84,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Inventory Termination Settlement Proposal",
+        "content": "Inventory termination settlement proposal means a proposal for settling all or any part of a terminated inventory-type contract.",
+        "key_takeaway": "This is the contractor’s official request for a payout after their inventory-related contract gets cut short.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Termination"],
+        "display_order": 85,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Invoice",
+        "content": "Invoice means a contractor's bill or written request for payment under the contract for supplies delivered or services performed.",
+        "key_takeaway": "An invoice is the official 'please pay me' document a contractor sends after doing the work.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Payments"],
+        "display_order": 86,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Irrevocable Letter of Credit",
+        "content": "Irrevocable letter of credit means a written commitment by a federally insured financial institution to pay all or part of a stated amount of money, until the expiration date of the letter, upon the Government's presentation of a written demand for payment. Neither the financial institution nor the offeror/contractor can revoke or condition the letter of credit.",
+        "key_takeaway": "It's a bank-backed guarantee that the Gov gets paid on demand, and nobody—not even the bank—can back out of it.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Finance"],
+        "display_order": 87,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Item of Supply",
+        "content": "Item of supply means any individual part, component, subassembly, assembly, or completed unit which is in existence and available from a source of supply.",
+        "key_takeaway": "Basically, if it exists and you can buy it from a supplier—from a single screw to a whole engine—it's an 'item of supply.'",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Supplies"],
+        "display_order": 88,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Joint Venture",
+        "content": "Joint venture means an association of persons or firms, with an intent to combine their property, capital, efforts, skills, and knowledge in several, but not many, particular business endeavors.",
+        "key_takeaway": "A joint venture is a team-up between companies to pool their resources for a specific mission or project.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Business"],
+        "display_order": 89,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Labor Surplus Area",
+        "content": "Labor surplus area means a geographical area identified by the Department of Labor as an area of concentrated unemployment or underemployment, after taking into consideration specific criteria as set forth in 20 CFR part 654.",
+        "key_takeaway": "This is a region where the Department of Labor says there are significantly more workers than available jobs.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Labor"],
+        "display_order": 90,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Labor Surplus Area Concern",
+        "content": "Labor surplus area concern means a concern that together with its first-tier subcontractors will perform substantially in labor surplus areas. Performance is substantially in labor surplus areas if the costs incurred under the contract on account of manufacturing, production, or performance of appropriate services in labor surplus areas exceed 50 percent of the contract price.",
+        "key_takeaway": "A company qualifies if more than half of their contract costs are spent doing the work in a designated high-unemployment area.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Labor"],
+        "display_order": 91,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Latent Defect",
+        "content": "Latent defect means a defect that exists at the time of acceptance but cannot be discovered by a reasonable inspection.",
+        "key_takeaway": "A latent defect is a hidden flaw that a normal inspection wouldn't catch, even though the problem was there from the start.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Quality"],
+        "display_order": 92,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Line Item",
+        "content": "Line item means the basic structural element in a procurement instrument that describes and organizes the required product or service for pricing, delivery, inspection, acceptance, invoicing, and payment.",
+        "key_takeaway": "The line item is the 'building block' of a contract that tracks everything for one specific product or service.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Contracts"],
+        "display_order": 93,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Line Item Description",
+        "content": "Line item description means the product name or description of services and any additional information that further identifies the product or service being acquired.",
+        "key_takeaway": "This is the 'what' of the line item—the specific name and details that explain exactly what the Gov is buying.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Contracts"],
+        "display_order": 94,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Major System",
+        "content": "Major system means that combination of elements that will function together to produce the capabilities required to fulfill a mission need. A system shall be considered a major system if the total expenditures for research, development, test, and evaluation are estimated to exceed $3,000,000.",
+        "key_takeaway": "In the RFO, a system goes from 'regular' to 'Major' once the RDT&E costs cross the $3 million mark.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Systems", "Thresholds"],
+        "display_order": 95,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Make-or-Buy Program",
+        "content": "Make-or-buy program means that part of a contractor's written plan for a contract identifying those major items or work efforts which the contractor intends to perform in-house and those which the contractor intends to subcontract.",
+        "key_takeaway": "It’s the contractor’s plan showing what they’ll build themselves and what they’ll hire someone else to do.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Management"],
+        "display_order": 96,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Market Research",
+        "content": "Market research means collecting and analyzing information about capabilities within the market to satisfy agency needs.",
+        "key_takeaway": "Market research is just doing your homework on what's available in the business world to solve the Gov's problem.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Market Research"],
+        "display_order": 97,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Master Solicitation",
+        "content": "Master solicitation means a document containing special clauses and provisions that have been identified as essential for the acquisition of a specific type of supply or service that is acquired repetitively.",
+        "key_takeaway": "Think of this as a 'template' solicitation for stuff the Gov buys over and over again.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Solicitations"],
+        "display_order": 98,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "May",
+        "content": "May denotes the permissive. However, the words 'no person may...' mean that no person is required, authorized, or permitted to do the act described.",
+        "key_takeaway": "In the FAR, 'may' means you're allowed to, but 'no person may' means it's strictly forbidden.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Policy"],
+        "display_order": 99,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Micro-purchase",
+        "content": "Micro-purchase means an acquisition of supplies or services using simplified acquisition procedures, the aggregate amount of which does not exceed the micro-purchase threshold.",
+        "key_takeaway": "A micro-purchase is a small buy that stays under the specific dollar limit (threshold) and uses the simplest purchasing rules.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Thresholds"],
+        "display_order": 100,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Micro-purchase Threshold (Standard)",
+        "content": "Micro-purchase threshold means $15,000, except it means— (1) For acquisitions of construction subject to 40 U.S.C. chapter 31, subchapter IV, Wage Rate Requirements (Construction), $2,000; (2) For acquisitions of services subject to 41 U.S.C. chapter 67, Service Contract Labor Standards, $2,500.",
+        "key_takeaway": "The standard micro-purchase limit is now $15,000, but it drops significantly for construction ($2k) and services ($2.5k) due to labor laws.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Thresholds", "MPT"],
+        "display_order": 101,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Micro-purchase Threshold (Contingency Operations)",
+        "content": "For acquisitions of supplies or services that are to be used to support a contingency operation; to facilitate defense against or recovery from cyber, nuclear, biological, chemical, or radiological attack... the micro-purchase threshold is— (i) $25,000 in the case of any contract to be awarded and performed, or purchase to be made, inside the United States; and (ii) $40,000 in the case of any contract to be awarded and performed, or purchase to be made, outside the United States.",
+        "key_takeaway": "When supporting a contingency or emergency, the MPT jumps to $25k inside the U.S. and $40k outside the U.S.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Thresholds", "Contingency"],
+        "display_order": 102,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Modification",
+        "content": "Modification means any written change in the terms of a contract (see 43.103).",
+        "key_takeaway": "A modification is simply any official, written update to what was originally agreed upon in the contract.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Contracts"],
+        "display_order": 103,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Must",
+        "content": "Must denotes the imperative.",
+        "key_takeaway": "When you see 'must' in the FAR, it's not a suggestion—it's a hard requirement.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Policy"],
+        "display_order": 104,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Nondevelopmental Item (NDI)",
+        "content": "Nondevelopmental item means— (1) Any previously developed item of supply used exclusively for governmental purposes by a Federal agency, a State or local government, or a foreign government with which the United States has a mutual defense cooperation agreement; (2) Any item described in paragraph (1) of this definition that requires only minor modification or modifications of a type customarily available in the commercial marketplace in order to meet the requirements of the procuring department or agency.",
+        "key_takeaway": "An NDI is a product that's already been developed for gov use (U.S. or allied) and doesn't need a total redesign—just minor tweaks.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Supplies"],
+        "display_order": 105,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Offer",
+        "content": "Offer means a response to a solicitation that, if accepted, would bind the offeror to perform the resultant contract. Responses to invitations for bids (sealed bidding) are offers called 'bids' or 'sealed bids'; responses to requests for proposals (negotiation) are offers called 'proposals'; however, responses to requests for quotations (simplified acquisition) are 'quotations', not offers.",
+        "key_takeaway": "An 'offer' is a legally binding promise to do work. Bids and proposals are offers, but quotes (RFQs) are NOT.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Solicitations"],
+        "display_order": 106,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Offeror",
+        "content": "Offeror means vendor, bidder, or quoter and person for purposes of the provision at 52.212-3.",
+        "key_takeaway": "An 'offeror' is the broad term for any business or person trying to win a contract.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Business"],
+        "display_order": 107,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Option",
+        "content": "Option means a unilateral right in a contract by which, for a specified time, the Government may elect to purchase additional supplies or services called for by the contract, or may elect to extend the term of the contract.",
+        "key_takeaway": "An option gives the Gov the power to buy more or stay longer without needing the contractor's permission at that time.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Contracts"],
+        "display_order": 108,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Outlying Areas",
+        "content": "Outlying areas means— (1) Commonwealths (Puerto Rico and the Northern Mariana Islands); (2) Territories (American Samoa, Guam, and the U.S. Virgin Islands); and (3) Minor outlying islands (Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Islands, Navassa Island, Palmyra Atoll, and Wake Island).",
+        "key_takeaway": "This covers all the U.S. spots that aren't the 50 states or DC.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Geography"],
+        "display_order": 109,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Overtime",
+        "content": "Overtime means time worked by a contractor’s employee in excess of the employee’s normal workweek.",
+        "key_takeaway": "Simply put, it's any extra time a contractor's worker clocks in beyond their regular schedule.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Labor"],
+        "display_order": 110,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Performance-Based Acquisition",
+        "content": "Performance-based acquisition (PBA) means an acquisition structured around the results to be achieved as opposed to the manner by which the work is to be performed.",
+        "key_takeaway": "PBA tells the contractor 'what' the finish line looks like, not 'how' to run the race.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Strategy"],
+        "display_order": 111,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Personal Property",
+        "content": "Personal property means property of any kind or interest in it except real property, records of the Federal Government, and naval vessels of the following categories: battleships, cruisers, aircraft carriers, destroyers, and submarines.",
+        "key_takeaway": "Personal property is basically everything the Gov owns except land, buildings, official records, and major warships.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Property"],
+        "display_order": 112,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Personal Services Contract",
+        "content": "Personal services contract means a contract that, by its express terms or as administered, makes the contractor personnel appear to be, in effect, Government employees (see 37.104).",
+        "key_takeaway": "This is a contract where the outside workers look and act like Gov employees—usually, these are only allowed in very specific cases.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Services"],
+        "display_order": 113,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Pollution Prevention",
+        "content": "Pollution prevention means any practice that— (1) Reduces the amount of any hazardous substance, pollutant, or contaminant entering any waste stream or otherwise released into the environment... (2) Reduces the hazards to public health and the environment associated with the release of such substances, pollutants, or contaminants.",
+        "key_takeaway": "Pollution prevention is about stopping the mess before it starts by using cleaner processes and fewer hazardous materials.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Environment"],
+        "display_order": 114,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Precious Metals",
+        "content": "Precious metals means silver, gold, platinum, palladium, iridium, osmium, rhodium, and ruthenium.",
+        "key_takeaway": "These are the high-value metals the Gov tracks closely, including the 'big two' (gold/silver) and the platinum group.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Supplies"],
+        "display_order": 115,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Procurement",
+        "content": "Procurement (see 'acquisition').",
+        "key_takeaway": "In the FAR world, 'procurement' and 'acquisition' are basically used interchangeably to describe the whole buying process.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Acquisition"],
+        "display_order": 116,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Proper Invoice",
+        "content": "Proper invoice means an invoice that meets the minimum standards specified in 32.905(b).",
+        "key_takeaway": "A 'proper invoice' is a bill that has all the required info (contract #, description, amounts) so the Gov can actually pay it.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Payments"],
+        "display_order": 117,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Purchase Order",
+        "content": "Purchase order, when issued by the Government, means an offer by the Government to buy supplies or services, including construction and research and development, upon specified terms and conditions, using simplified procedures.",
+        "key_takeaway": "A purchase order is the Government’s 'offer' to a business to buy stuff under simplified rules.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Orders"],
+        "display_order": 118,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Qualification Requirement",
+        "content": "Qualification requirement means a Government requirement for testing or other quality assurance demonstration that must be completed before award of a contract.",
+        "key_takeaway": "If a product has a 'qualification requirement,' the business has to prove it works *before* they can even be considered for the contract.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Quality"],
+        "display_order": 119,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Qualified Products List (QPL)",
+        "content": "Qualified products list (QPL) means a list of products that have been examined, tested, and have satisfied all applicable qualification requirements.",
+        "key_takeaway": "The QPL is the 'VIP list' of products that have already passed all their tests and are approved for purchase.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Quality"],
+        "display_order": 120,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Qualifying Offeror",
+        "content": "Qualifying offeror means an offeror that is determined to be a responsible source, submits a technically acceptable proposal that conforms to the requirements of the solicitation, and the contracting officer has no reason to believe would be likely to offer other than fair and reasonable pricing (10 U.S.C. 3206(c)(4)).",
+        "key_takeaway": "A qualifying offeror is a solid, responsible bidder whose technical plan checks out and whose price is expected to be fair.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Business"],
+        "display_order": 121,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Receiving Report",
+        "content": "Receiving report means written evidence that indicates Government acceptance of supplies delivered or services performed.",
+        "key_takeaway": "The receiving report is the official 'receipt' proving the Gov actually got what it paid for.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Quality"],
+        "display_order": 122,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Recovered Material",
+        "content": "Recovered material means waste materials and by-products recovered or diverted from solid waste, but the term does not include those materials and by-products generated from, and commonly reused within, an original manufacturing process.",
+        "key_takeaway": "This is recycled material pulled out of the trash—but it doesn't count if the factory just re-uses its own scrap during the initial build.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Environment"],
+        "display_order": 123,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Registered in the SAM Database",
+        "content": "Registered in the System for Award Management (SAM) database means that (1) The offeror has entered all mandatory information, including the Unique Entity Identifier and the Electronic Funds Transfer (EFT) indicator, if applicable, the Commercial and Government Entity (CAGE) code... into the SAM database; (2) The offeror has completed the Core, Assertions, and Representations and Certifications, and Points of Contact sections of the registration in the SAM database.",
+        "key_takeaway": "Being 'Registered in SAM' means a business has filled out all their digital paperwork (CAGE, UEI, etc.) so they are eligible for Gov awards.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "SAM"],
+        "display_order": 124,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Responsible Source",
+        "content": "Responsible source means an offeror that— (1) Has adequate financial resources to perform the contract... (2) Is able to comply with the required or proposed delivery or performance schedule... (3) Has a satisfactory performance record... (4) Has a satisfactory record of integrity and business ethics.",
+        "key_takeaway": "A 'responsible' source is a company the Gov trusts to actually finish the job because they have the money, the timeline, the skill, and a clean track record.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Business"],
+        "display_order": 125,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Scrapped",
+        "content": "Scrapped means property that has no value except for its basic material content.",
+        "key_takeaway": "If it's scrapped, it's basically junk that's only worth what you can get for the raw metal or material inside it.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Property"],
+        "display_order": 126,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Senior Procurement Executive",
+        "content": "Senior procurement executive means the individual appointed pursuant to 41 U.S.C. 1702(c) who is responsible for management direction of the acquisition system of the executive agency.",
+        "key_takeaway": "This is the 'Head of Acquisition' for an agency—the person who sets the big-picture direction for all their buying.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Leadership"],
+        "display_order": 127,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Service-Disabled Veteran-Owned Small Business (SDVOSB) Concern",
+        "content": "Service-disabled veteran-owned small business concern means a small business concern— (1) Not less than 51 percent of which is owned by one or more service-disabled veterans... and (2) The management and daily business operations of which are controlled by one or more service-disabled veterans.",
+        "key_takeaway": "An SDVOSB must be at least 51% owned and daily-operated by veterans who were disabled during their service.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Small Business"],
+        "display_order": 128,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Shall",
+        "content": "Shall denotes the imperative.",
+        "key_takeaway": "Like 'must', 'shall' means you have no choice—it's a mandatory requirement.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Policy"],
+        "display_order": 129,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Should",
+        "content": "Should denotes the expected course of action or duty that is to be followed when it is in the best interest of the Government.",
+        "key_takeaway": "Unlike 'shall', 'should' is a strong recommendation—you follow it unless there's a really good reason for the Gov not to.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Policy"],
+        "display_order": 130,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Simplified Acquisition Procedures (SAP)",
+        "content": "Simplified acquisition procedures means the methods prescribed in part 13 for making purchases of supplies or services.",
+        "key_takeaway": "SAP are the 'shortcut' rules used to buy common stuff quickly without all the heavy red tape of a major acquisition.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Procedures"],
+        "display_order": 131,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Simplified Acquisition Threshold (SAT) - Standard",
+        "content": "Simplified acquisition threshold means $350,000.",
+        "key_takeaway": "The standard ceiling for using simplified procedures in the RFO is now $350,000.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Thresholds", "SAT"],
+        "display_order": 132,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Simplified Acquisition Threshold (SAT) - Contingency",
+        "content": "For acquisitions to support a contingency operation or facilitate defense against attack, the term means— (i) $1 million for any contract inside the United States; and (ii) $2 million for any contract outside the United States.",
+        "key_takeaway": "In an emergency or contingency, the SAT ceiling blows the roof off—jumping to $1 million (stateside) or $2 million (overseas).",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Thresholds", "Contingency"],
+        "display_order": 133,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Simplified Acquisition Threshold (SAT) - Humanitarian",
+        "content": "For acquisitions to support a humanitarian or peacekeeping operation (10 U.S.C. 3015), the term means $650,000 for any contract to be awarded and performed, or purchase to be made, outside the United States.",
+        "key_takeaway": "For humanitarian work outside the U.S., you can use simplified procedures for anything up to $650,000.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Thresholds", "International"],
+        "display_order": 134,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Sole Source Acquisition",
+        "content": "Sole source acquisition means a contract for the purchase of supplies or services that is entered into or proposed to be entered into by an agency after soliciting and negotiating with only one source.",
+        "key_takeaway": "This is when the Gov skips the competition and goes straight to one specific company to buy something.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Competition"],
+        "display_order": 135,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Statement of Objectives (SOO)",
+        "content": "Statement of objectives (SOO) means a Government-prepared document incorporated into the solicitation that states the overall performance objectives. It is used in those solicitations where the Government intends to provide the maximum flexibility to each offeror to propose an innovative approach.",
+        "key_takeaway": "An SOO tells the business 'here is the goal,' giving them total freedom to invent the best way to get there.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Solicitations"],
+        "display_order": 136,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Substantial Evidence",
+        "content": "Substantial evidence means information sufficient to support the reasonable belief that a particular act or omission has occurred.",
+        "key_takeaway": "It's not 'proof beyond a shadow of a doubt,' but it's enough info for a reasonable person to say 'Yeah, that probably happened.'",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Legal"],
+        "display_order": 137,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Supplies",
+        "content": "Supplies means all property except land or interest in land. It includes (but is not limited to) public works, buildings, and facilities; ships, floating equipment, and vessels of every character, type, and description... and such related services as the installation, maintenance, and repair thereof.",
+        "key_takeaway": "Supplies is the 'everything else' category—all physical property except the land itself, plus any services needed to install or fix those things.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Supplies"],
+        "display_order": 138,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "United States",
+        "content": "United States, when used in a geographic sense, means the 50 States and the District of Columbia, except as used in parts 22 and 25 (see 22.001 and 25.003).",
+        "key_takeaway": "Usually, the 'U.S.' means just the 50 states and DC—but double-check Parts 22 and 25, because they might include territories.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Geography"],
+        "display_order": 139,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 2",
+        "topic": "Unsolicited Proposal",
+        "content": "Unsolicited proposal means a written proposal for a new or innovative concept that is submitted to an agency on the initiative of the offeror for the purpose of obtaining a contract with the Government, and that is not in response to a request for proposals, broad agency announcement, small business innovation research topic, small business technology transfer topic, or any other Government-initiated solicitation or program.",
+        "key_takeaway": "This is a 'cold call' in proposal form—a business sending an idea to the Gov without being asked for it.",
+        "citation": "FAR 2.101",
+        "tags": ["Part 2", "Definitions", "Proposals"],
+        "display_order": 140,
+        "related_question_ids": []
     }
+    
 ]
