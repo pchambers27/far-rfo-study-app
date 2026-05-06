@@ -2380,6 +2380,106 @@
         "related_question_ids": []
       },
     {
+        "far_part": "Part 6",
+        "topic": "Exception 1: Only One Responsible Source",
+        "content": "Full and open competition is not required when the supplies or services are available from only one responsible source (or a limited number of unique sources) and no other type of supplies or services will satisfy the agency's needs.",
+        "key_takeaway": "If only one company can realistically do the work or provide the item, you can bypass full and open competition.",
+        "citation": "FAR 6.103-1",
+        "tags": ["Part 6", "exceptions", "sole source", "OTFOC"],
+        "display_order": 231,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Exception 2: Unusual and Compelling Urgency",
+        "content": "Agencies may limit competition when the need for supplies or services is of such an unusual and compelling urgency that the Government would be seriously injured unless the agency is permitted to limit the number of sources.",
+        "key_takeaway": "If waiting for a full competitive process would cause serious harm to the Government, you can limit competition due to urgency.",
+        "citation": "FAR 6.103-2",
+        "tags": ["Part 6", "exceptions", "urgency", "OTFOC"],
+        "display_order": 232,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Exception 6: National Security",
+        "content": "Full and open competition need not be provided when the disclosure of the agency's needs would compromise national security. However, agencies must still request offers from as many potential sources as is practicable under the circumstances.",
+        "key_takeaway": "You can limit competition to protect classified info, but you still have to try to get as much competition as safely possible.",
+        "citation": "FAR 6.103-6",
+        "tags": ["Part 6", "exceptions", "national security", "OTFOC"],
+        "display_order": 233,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "J&A Requirement Basics",
+        "content": "A contracting officer shall not commence negotiations for a contract resulting from other than full and open competition unless the contracting officer justifies the use of such actions in writing, certifies the accuracy and completeness of the justification, and obtains the required approvals.",
+        "key_takeaway": "Before you can negotiate a sole-source or limited-competition deal, you must write, certify, and get approval on a Justification and Approval (J&A) document.",
+        "citation": "FAR 6.104(a)",
+        "tags": ["Part 6", "J&A", "justification", "documentation"],
+        "display_order": 234,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Table 6-1: J&A Approval Threshold 1 (Up to $750K)",
+        "content": "According to Table 6-1, Justifications for other than full and open competition for proposed contract actions not exceeding $750,000 must be approved by the contracting officer's certification, unless higher approval is required by specific agency procedures.",
+        "key_takeaway": "For actions up to $750,000, the Contracting Officer is the only one who needs to approve the J&A (unless your specific agency says otherwise).",
+        "citation": "FAR 6.104(d)(1) [Table 6-1]",
+        "tags": ["Part 6", "J&A", "approval thresholds", "Table 6-1", "contracting officer"],
+        "display_order": 235,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Table 6-1: J&A Approval Threshold 2 ($750K to $15M)",
+        "content": "According to Table 6-1, Justifications for proposed contract actions over $750,000 but not exceeding $15 million must be approved by the advocate for competition for the procuring activity.",
+        "key_takeaway": "If a J&A is between $750K and $15M, the Procuring Activity's Competition Advocate must approve it.",
+        "citation": "FAR 6.104(d)(2) [Table 6-1]",
+        "tags": ["Part 6", "J&A", "approval thresholds", "Table 6-1", "competition advocate"],
+        "display_order": 236,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Table 6-1: J&A Approval Threshold 3 ($15M to $75M)",
+        "content": "According to Table 6-1, Justifications for proposed contract actions over $15 million but not exceeding $75 million must be approved by the head of the procuring activity (HCA) or a designated representative.",
+        "key_takeaway": "For big J&As falling between $15M and $75M, approval must come from the Head of the Contracting Activity (HCA) or their designee.",
+        "citation": "FAR 6.104(d)(3) [Table 6-1]",
+        "tags": ["Part 6", "J&A", "approval thresholds", "Table 6-1", "HCA"],
+        "display_order": 237,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Table 6-1: J&A Approval Threshold 4 (Over $75M)",
+        "content": "According to Table 6-1, Justifications for proposed contract actions over $75 million must be approved by the senior procurement executive (SPE) of the agency.",
+        "key_takeaway": "For massive J&As exceeding $75 million, only the agency's Senior Procurement Executive (SPE) can authorize the approval.",
+        "citation": "FAR 6.104(d)(4) [Table 6-1]",
+        "tags": ["Part 6", "J&A", "approval thresholds", "Table 6-1", "SPE"],
+        "display_order": 238,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Postaward J&A Public Availability Timeframe",
+        "content": "Agencies must make justifications (J&As) publicly available at the GPE within 14 days after contract award. The only exception is for J&As based on unusual and compelling urgency, which must be made publicly available within 30 days after award.",
+        "key_takeaway": "Standard J&As must be posted publicly within 14 days of award. Urgent J&As give you up to 30 days.",
+        "citation": "FAR 6.301",
+        "tags": ["Part 6", "postaward", "J&A", "public posting"],
+        "display_order": 239,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 6",
+        "topic": "Postaward J&A Redaction Requirements",
+        "content": "Before making a justification publicly available, the contracting officer must carefully screen and redact it to ensure it does not reveal contractor proprietary data, classified information, or any information exempt from disclosure under the Freedom of Information Act.",
+        "key_takeaway": "Before posting a J&A to the public, you must black out any sensitive, classified, or proprietary contractor secrets.",
+        "citation": "FAR 6.302",
+        "tags": ["Part 6", "postaward", "J&A", "redaction", "FOIA"],
+        "display_order": 240,
+        "related_question_ids": []
+      }
+    {
         "far_part": "Part 7",
         "topic": "Scope of Part 7",
         "content": "Part 7 prescribes policies and procedures for acquisition planning, determining whether to use commercial or Government resources, deciding whether to lease or purchase equipment, and determining whether functions are inherently governmental.",
