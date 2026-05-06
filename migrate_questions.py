@@ -24,10 +24,10 @@ def migrate():
                 raise ValueError(f"Question {q.get('id')} missing required 'difficulty' field")
             if "tags" not in q or not isinstance(q["tags"], list):
                 raise ValueError(f"Question {q.get('id')} missing or invalid 'tags' field (must be list)")
-            if not q.get("choices"):
-                raise ValueError(f"Question {q.get('id')} missing 'choices' (required for non-fill-in questions)")
+            if q["qtype"] in ("multiple_choice", "scenario") and not q.get("choices"):
+                raise ValueError(f"Question {q.get('id')} of type '{q['qtype']}' missing required 'choices'")
 
-            choices_json = json.dumps(q["choices"])
+            choices_json = json.dumps(q["choices"]) if q.get("choices") else None
             tags_json = json.dumps(q["tags"])
 
             result = conn.execute(
