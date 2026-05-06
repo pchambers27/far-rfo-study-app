@@ -2628,6 +2628,376 @@
         "tags": ["Part 7", "teaming", "small business", "bundling"],
         "display_order": 255,
         "related_question_ids": []
+      },
+    {
+        "far_part": "Part 8",
+        "topic": "Scope of Part 8",
+        "content": "Part 8 addresses prioritizing sources of supplies and services for use by the Government.",
+        "key_takeaway": "This part is the roadmap for where you go first to buy things, setting the hierarchy for mandatory and preferred sources.",
+        "citation": "FAR 8.000",
+        "tags": ["Part 8", "scope", "sourcing"],
+        "display_order": 256,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "BIC-First Sourcing Policy",
+        "content": "Agencies shall use an existing Governmentwide Best-In-Class (BIC) contract or Blanket Purchase Agreement (BPA) when a commercial product or commercial service meets the agency's needs, unless an exception is granted by the Head of the Contracting Activity (HCA).",
+        "key_takeaway": "The RFO makes 'Best-in-Class' contracts the mandatory first stop for commercial needs. If you want to go elsewhere, you need HCA-level permission.",
+        "citation": "FAR 8.104",
+        "tags": ["Part 8", "BIC", "Best-in-Class", "commercial products"],
+        "display_order": 257,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Mandatory Source for Services (AbilityOne)",
+        "content": "AbilityOne participating nonprofit agencies are the mandatory source for services on the Procurement List maintained by the Committee for Purchase From People Who Are Blind or Severely Disabled.",
+        "key_takeaway": "If a service is on the AbilityOne Procurement List, you must buy it from them. No exceptions for price or 'better' options elsewhere.",
+        "citation": "FAR 8.102",
+        "tags": ["Part 8", "AbilityOne", "mandatory sources", "services"],
+        "display_order": 258,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Mandatory Source for Supplies (FPI)",
+        "content": "Federal Prison Industries, Inc. (FPI), also known as UNICOR, is a mandatory source for supplies listed in the FPI Schedule, subject to the specific procedures and exceptions in Subpart 8.3.",
+        "key_takeaway": "For supplies, UNICOR (FPI) is a mandatory source if the item is on their schedule, though there are specific market research and comparability rules to follow.",
+        "citation": "FAR 8.103",
+        "tags": ["Part 8", "FPI", "UNICOR", "mandatory sources", "supplies"],
+        "display_order": 259,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Government Printing Requirements",
+        "content": "Government printing must be done by or through the Government Publishing Office (GPO), unless the GPO cannot provide the service, the printing is done in agency field plants, or it is specifically authorized by statute to be done elsewhere.",
+        "key_takeaway": "The GPO is the gatekeeper for printing. Unless you fit a specific narrow exception (like field plants), you have to go through them.",
+        "citation": "FAR 8.502",
+        "tags": ["Part 8", "printing", "GPO", "mandatory sources"],
+        "display_order": 260,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 8",
+        "topic": "FPI Market Research Requirements",
+        "content": "Before purchasing from Federal Prison Industries (FPI), contracting officers must conduct market research to determine whether the FPI item is comparable to supplies available from the private sector in terms of price, quality, and time of delivery.",
+        "key_takeaway": "You do not blindly buy from UNICOR; you must first verify that their price, quality, and delivery schedule can match the private sector.",
+        "citation": "FAR 8.302",
+        "tags": ["Part 8", "FPI", "UNICOR", "market research", "comparability"],
+        "display_order": 261,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "FPI Competitiveness and Waivers",
+        "content": "If an FPI item is not comparable in price, quality, or time of delivery, the contracting officer must acquire the item using competitive procedures. FPI must be included in the solicitation process, but a formal waiver from FPI is no longer required.",
+        "key_takeaway": "If UNICOR isn't competitive based on market research, you don't need a permission slip to go elsewhere. You just compete it and let them bid.",
+        "citation": "FAR 8.304",
+        "tags": ["Part 8", "FPI", "waivers", "competition"],
+        "display_order": 262,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Federal Supply Schedules (FSS) Relocation",
+        "content": "Under the overhaul, detailed ordering procedures for the GSA Federal Supply Schedule (FSS) program have been removed from the FAR. Contracting officers must now consult the General Services Administration Acquisition Manual (GSAM) for specific FSS ordering instructions.",
+        "key_takeaway": "The FAR no longer holds the step-by-step rules for GSA Schedules; contracting officers must use the GSAM instead.",
+        "citation": "FAR 8.401",
+        "tags": ["Part 8", "FSS", "GSA", "GSAM", "RFO change"],
+        "display_order": 263,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "FSS and Best-In-Class (BIC) Distinction",
+        "content": "While FSS procedures reside in the GSAM, contracting officers must still evaluate whether a specific FSS vehicle holds a Best-in-Class (BIC) designation before prioritizing it over other commercial acquisition methods under the mandatory BIC-first policy.",
+        "key_takeaway": "Being on a GSA Schedule doesn't automatically make an item top priority anymore; the vehicle must hold a specific BIC designation to trigger the mandatory preference.",
+        "citation": "FAR 8.104(b)",
+        "tags": ["Part 8", "FSS", "BIC", "priority"],
+        "display_order": 264,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "AbilityOne Clearances",
+        "content": "A contracting officer may procure a supply or service on the Procurement List from a commercial source only if the appropriate central nonprofit agency grants a formal written clearance stating that AbilityOne cannot meet the requirement.",
+        "key_takeaway": "To bypass AbilityOne for something on their list, you absolutely must get a formal, written permission slip (clearance) from them.",
+        "citation": "FAR 8.706",
+        "tags": ["Part 8", "AbilityOne", "clearances", "exceptions"],
+        "display_order": 265,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "AbilityOne Pricing",
+        "content": "The Committee for Purchase From People Who Are Blind or Severely Disabled establishes the fair market price for all items on the Procurement List. Contracting officers must pay this established price without negotiation.",
+        "key_takeaway": "You do not negotiate prices with AbilityOne; you pay the exact fair market price that the Committee dictates.",
+        "citation": "FAR 8.707",
+        "tags": ["Part 8", "AbilityOne", "pricing", "fair market price"],
+        "display_order": 266,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Leasing Motor Vehicles Policy",
+        "content": "Agencies shall lease motor vehicles only when it is the most advantageous and cost-effective method for meeting the Government's needs, based on a comparative cost analysis of leasing versus purchasing.",
+        "key_takeaway": "You cannot rent cars just because it is convenient; you must do the math to prove leasing is cheaper and more advantageous than buying.",
+        "citation": "FAR 8.1102(a)",
+        "tags": ["Part 8", "leasing", "motor vehicles", "cost analysis"],
+        "display_order": 267,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Leased Vehicles and Environmental Mandates",
+        "content": "When leasing motor vehicles, agencies must prioritize zero-emission vehicles (ZEVs) and plug-in hybrid electric vehicles (PHEVs) to meet statutory environmental and energy efficiency mandates.",
+        "key_takeaway": "If you are leasing a vehicle, you must try to get an electric or zero-emission one first to comply with environmental goals.",
+        "citation": "FAR 8.1103(b)",
+        "tags": ["Part 8", "leasing", "motor vehicles", "environmental", "ZEV"],
+        "display_order": 268,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Enterprise Software Agreements",
+        "content": "For the acquisition of commercial software licenses, agencies must maximize the use of existing Enterprise Software Agreements (ESAs) or other strategic sourcing vehicles before establishing new standalone software contracts.",
+        "key_takeaway": "Do not buy a one-off software license if the Government already has a massive, discounted enterprise agreement covering it.",
+        "citation": "FAR 8.105",
+        "tags": ["Part 8", "software", "ESA", "strategic sourcing"],
+        "display_order": 269,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 8",
+        "topic": "Urgent Exceptions to Mandatory Sources",
+        "content": "Mandatory sources such as FPI or AbilityOne may be bypassed without formal clearance only in cases of unusual and compelling urgency where waiting for the mandatory source would result in serious injury to the Government.",
+        "key_takeaway": "Extreme emergencies (unusual and compelling urgency) are the only time you can skip mandatory sources without getting formal paperwork waivers first.",
+        "citation": "FAR 8.002(c)",
+        "tags": ["Part 8", "mandatory sources", "exceptions", "urgency"],
+        "display_order": 270,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 9",
+        "topic": "Scope of Part 9",
+        "content": "Part 9 prescribes policies and procedures for determining whether prospective contractors and subcontractors are responsible, establishing and maintaining lists of debarred or suspended concerns, and managing organizational conflicts of interest.",
+        "key_takeaway": "Part 9 is the rulebook for vetting contractors: are they responsible, are they banned from working with the Government, and do they have conflicts of interest?",
+        "citation": "FAR 9.000",
+        "tags": ["Part 9", "scope", "contractor qualifications"],
+        "display_order": 271,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "General Responsibility Standards",
+        "content": "To be determined responsible, a prospective contractor must have adequate financial resources, be able to comply with the delivery schedule, have a satisfactory performance record, and have a satisfactory record of integrity and business ethics.",
+        "key_takeaway": "Responsibility boils down to: do they have the money, the time, the track record, and the ethics to do the job right?",
+        "citation": "FAR 9.104-1",
+        "tags": ["Part 9", "responsibility", "standards"],
+        "display_order": 272,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Subcontractor Responsibility",
+        "content": "Generally, prospective prime contractors are responsible for determining the responsibility of their prospective subcontractors. However, the Government may determine a subcontractor's responsibility when it is in the Government's interest.",
+        "key_takeaway": "Primes usually vet their own subs, but the Government reserves the right to step in and check a subcontractor's responsibility if needed.",
+        "citation": "FAR 9.104-4",
+        "tags": ["Part 9", "responsibility", "subcontractors"],
+        "display_order": 273,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "First Article Testing - Contractor Risk",
+        "content": "To minimize contractor risk, the Government must provide sufficient time in the delivery schedule for the acquisition of materials and components, as well as for production, after the contractor receives first article approval.",
+        "key_takeaway": "The RFO protects contractors from unnecessary risk by requiring the Government to build enough lead time into the schedule after the first article is approved.",
+        "citation": "FAR 9.305(a)",
+        "tags": ["Part 9", "first article testing", "risk management"],
+        "display_order": 274,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Debarment and Suspension - SAM Exclusions",
+        "content": "Agencies must not solicit offers from, award contracts to, or consent to subcontracts with contractors whose names appear as 'excluded' in the System for Award Management (SAM).",
+        "key_takeaway": "If a contractor is listed as 'excluded' in SAM, they are essentially 'dead' to the Government—no bids, no awards, and no subcontracts.",
+        "citation": "FAR 9.405(a)",
+        "tags": ["Part 9", "debarment", "suspension", "SAM"],
+        "display_order": 275,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 9",
+        "topic": "Small Business Responsibility & COC",
+        "content": "If a contracting officer find that an otherwise successful small business offeror lacks certain elements of responsibility, the contracting officer shall refer the matter to the Small Business Administration (SBA), which may issue a Certificate of Competency (COC).",
+        "key_takeaway": "You don't get the final say on a small business's responsibility; if you think they can't handle the job, the SBA has the power to overrule you with a COC.",
+        "citation": "FAR 9.104-3(d)",
+        "tags": ["Part 9", "small business", "responsibility", "SBA", "COC"],
+        "display_order": 276,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Pre-award Survey Limits",
+        "content": "A pre-award survey shall be used only when the information on hand or readily available to the contracting officer, including information from commercial sources, is not sufficient to make a determination regarding responsibility.",
+        "key_takeaway": "Don't default to a pre-award survey. Only use it as a last resort if you can't find enough info elsewhere to decide if the contractor is responsible.",
+        "citation": "FAR 9.106-1(a)",
+        "tags": ["Part 9", "responsibility", "pre-award survey"],
+        "display_order": 277,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Qualification Requirements - Public Access",
+        "content": "When an agency establishes a qualification requirement, it must provide a potential offeror, upon request, all requirements that must be met for qualification. The agency must also allow potential offerors an opportunity to demonstrate their abilities to meet the standards.",
+        "key_takeaway": "If you require a specific qualification, you have to tell vendors exactly what they need to do to get it and give them a fair shot to prove they meet the grade.",
+        "citation": "FAR 9.202(a)",
+        "tags": ["Part 9", "qualifications", "standards", "transparency"],
+        "display_order": 278,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Suspension - Definition and Duration",
+        "content": "Suspension is a serious action to be imposed on the basis of adequate evidence, pending the completion of investigation or legal proceedings. A suspension is for a temporary period.",
+        "key_takeaway": "Suspension is a 'timeout' while the Government investigates. It's temporary and based on 'adequate evidence' rather than a final conviction.",
+        "citation": "FAR 9.407-1",
+        "tags": ["Part 9", "suspension", "debarment", "definitions"],
+        "display_order": 279,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Debarment - Period of Exclusion",
+        "content": "Debarment shall be for a period commensurate with the seriousness of the cause(s). Generally, debarment should not exceed 3 years, except that debarment for violation of the provisions of 41 U.S.C. chapter 81, Drug-Free Workplace, may be for a period not to exceed 5 years.",
+        "key_takeaway": "Most debarments (long-term bans) last 3 years, but if it's a Drug-Free Workplace violation, it can stretch to 5 years.",
+        "citation": "FAR 9.406-4(a)",
+        "tags": ["Part 9", "debarment", "duration", "drug-free workplace"],
+        "display_order": 280,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Debarment - Causes for Exclusion",
+        "content": "The debarring official may debar a contractor for a conviction of or civil judgment for fraud, embezzlement, theft, forgery, bribery, or falsification or destruction of records.",
+        "key_takeaway": "If a contractor is convicted of serious crimes like fraud, bribery, or theft, they are eligible for a one-way ticket to the debarred list.",
+        "citation": "FAR 9.406-2",
+        "tags": ["Part 9", "debarment", "fraud", "ethics"],
+        "display_order": 281,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Organizational Conflicts of Interest (OCI)",
+        "content": "An organizational conflict of interest (OCI) may result when factors create an actual or potential conflict of interest on a timely contract, or when the nature of the work to be performed on the contract may, without some restriction on future activities, give the contractor an unfair competitive advantage.",
+        "key_takeaway": "OCI happens when a company's other interests clash with their Government work, or if their current job gives them an unfair 'leg up' on future contracts.",
+        "citation": "FAR 9.501",
+        "tags": ["Part 9", "OCI", "conflict of interest", "fairness"],
+        "display_order": 282,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "CO Responsibility for OCI",
+        "content": "Contracting officers shall analyze each planned acquisition in order to identify and evaluate potential organizational conflicts of interest as early in the acquisition process as possible and avoid, neutralize, or mitigate significant potential conflicts before contract award.",
+        "key_takeaway": "It’s the CO’s job to spot conflicts early and either fix them, neutralize them, or block the award to prevent an unfair advantage.",
+        "citation": "FAR 9.504(a)",
+        "tags": ["Part 9", "OCI", "contracting officer", "mitigation"],
+        "display_order": 283,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "First Article Testing - Purpose",
+        "content": "First article testing and approval ensures that the contractor can furnish a product that conforms to all contract requirements for acceptance.",
+        "key_takeaway": "The whole point of a 'First Article' is to prove the contractor can actually build the product to spec before they start mass-producing the rest.",
+        "citation": "FAR 9.302",
+        "tags": ["Part 9", "first article", "quality assurance"],
+        "display_order": 284,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "First Article - Waiver of Requirement",
+        "content": "The requirement for first article approval may be waived when the product has been previously delivered or when it is a standard commercial product that has been sold in substantial quantities to the general public.",
+        "key_takeaway": "You can skip the first article test if the contractor has already delivered the exact same item successfully, or if it's a common item already sold all over the commercial market.",
+        "citation": "FAR 9.304",
+        "tags": ["Part 9", "first article", "waivers"],
+        "display_order": 285,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "FAR Companion - Teaming Arrangements",
+        "content": "Specific policies regarding contractor teaming arrangements and defense pools have been removed from the FAR and relocated to the non-regulatory FAR Companion Guide.",
+        "key_takeaway": "If you are looking for the rules on how contractors team up, don't look in the FAR anymore—you'll find that guidance in the FAR Companion Guide instead.",
+        "citation": "FAR 9.6 [RFO Change]",
+        "tags": ["Part 9", "teaming arrangements", "FAR Companion", "RFO change"],
+        "display_order": 286,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 9",
+        "topic": "Contractor Performance - CPARS Checks",
+        "content": "The contracting officer shall review the performance and integrity information available in the Contractor Performance Assessment Reporting System (CPARS) as part of the responsibility determination.",
+        "key_takeaway": "Checking CPARS isn't optional; you must look at a contractor's past performance reports before you can officially call them 'responsible.'",
+        "citation": "FAR 9.104-6(a)",
+        "tags": ["Part 9", "responsibility", "CPARS", "past performance"],
+        "display_order": 287,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 10",
+        "topic": "Scope of Part 10",
+        "content": "Part 10 prescribes the minimum requirements for conducting market research before procuring supplies and services.",
+        "key_takeaway": "Part 10 is no longer a massive how-to guide; it just sets the absolute minimum baseline rules for when you must conduct market research.",
+        "citation": "FAR 10.000",
+        "tags": ["Part 10", "scope", "market research"],
+        "display_order": 288,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 10",
+        "topic": "The Three Triggers for Market Research",
+        "content": "Under the overhauled FAR, agencies must conduct market research in only three specific scenarios: (1) before developing new requirements, (2) before soliciting offers for acquisitions over the simplified acquisition threshold (SAT), and (3) before soliciting offers for IDIQ task or delivery orders over the SAT.",
+        "key_takeaway": "You only have three mandatory triggers for market research now: brand-new requirements, anything over the SAT, and IDIQ orders over the SAT.",
+        "citation": "FAR 10.001(a)",
+        "tags": ["Part 10", "market research", "triggers", "SAT", "IDIQ"],
+        "display_order": 289,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 10",
+        "topic": "Commercial and Nondevelopmental Items",
+        "content": "When conducting market research, agencies must use the results to determine if sources capable of satisfying the agency's requirements exist, and specifically whether commercial products, commercial services, or nondevelopmental items can meet the agency's needs (or could be modified to do so).",
+        "key_takeaway": "The main goal of market research is still to figure out if the commercial market already has a product or service that can do the job before we try to invent something new.",
+        "citation": "FAR 10.001(b)",
+        "tags": ["Part 10", "commercial products", "nondevelopmental items"],
+        "display_order": 290,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 10",
+        "topic": "Removal of Mandated Procedures",
+        "content": "The RFO completely removed the prescriptive 'Procedures' section of Part 10, meaning contracting officers are no longer mandated by the FAR to use specific market research techniques (like industry days or RFIs). That guidance has been moved to the non-regulatory FAR Companion Guide to allow for maximum flexibility.",
+        "key_takeaway": "The FAR no longer dictates *how* you do market research. You have the flexibility to choose the best method for your specific acquisition, using the FAR Companion Guide for ideas.",
+        "citation": "FAR 10 [RFO Change]",
+        "tags": ["Part 10", "procedures", "FAR Companion", "flexibility"],
+        "display_order": 291,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 10",
+        "topic": "Market Research Clause Threshold",
+        "content": "The contracting officer must insert the clause at 52.210-1, Market Research, in solicitations and contracts for noncommercial acquisitions that exceed $7.5 million.",
+        "key_takeaway": "If you are buying something noncommercial and the price tag is over $7.5 million, you must include the Market Research clause.",
+        "citation": "FAR 10.002",
+        "tags": ["Part 10", "clauses", "noncommercial", "thresholds"],
+        "display_order": 292,
+        "related_question_ids": []
       }
     
 ]
