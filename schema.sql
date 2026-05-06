@@ -37,5 +37,6 @@ CREATE TABLE IF NOT EXISTS study_facts (
   key_takeaway TEXT NOT NULL,
   citation TEXT,
   display_order INTEGER DEFAULT 0,
-  tags JSONB NOT NULL
+  tags JSONB NOT NULL,
+  related_question_ids JSONB NOT NULL DEFAULT '[]'
 );

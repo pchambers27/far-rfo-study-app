@@ -224,7 +224,7 @@ def get_study_facts(far_part=None, tags=None):
 
         where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
         query = text(f"""
-            SELECT id, far_part, topic, content, key_takeaway, citation, display_order, tags
+            SELECT id, far_part, topic, content, key_takeaway, citation, display_order, tags, related_question_ids
             FROM study_facts
             {where_sql}
             ORDER BY display_order ASC, id ASC
