@@ -1578,6 +1578,656 @@
         "tags": ["Part 2", "Definitions", "Proposals"],
         "display_order": 140,
         "related_question_ids": []
-    }
+    },
+    {
+        "far_part": "Part 3",
+        "topic": "What's the goal of FAR Part 3?",
+        "content": "This part prescribes policies and procedures for avoiding improper business practices and personal conflicts of interest and for dealing with their apparent or actual occurrence.",
+        "key_takeaway": "Think of Part 3 as the rulebook for keeping things clean. It's all about avoiding conflicts of interest and handling any shady business practices that might pop up.",
+        "citation": "RFO 3.000",
+        "tags": ["Part 3", "Ethics", "Conflicts of Interest", "Introduction"],
+        "display_order": 141,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "The gold standard for conduct",
+        "content": "Government business must be conducted in a manner above reproach. Except as authorized by statute or regulation, business must be conducted with complete impartiality and without preferential treatment for anyone. Transactions involving public funds require the highest degree of public trust and impeccable standards of conduct.",
+        "key_takeaway": "When you're handling the public's money, you've got to be totally impartial. No playing favorites and no 'gray areas'—everything has to be above reproach.",
+        "citation": "RFO 3.101-1",
+        "tags": ["Part 3", "Standards of Conduct", "Impartiality", "Public Trust"],
+        "display_order": 142,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "The 'No-Gifts' Rule",
+        "content": "As a rule, and as required by Executive Order 12731, no Government employee may solicit or accept, directly or indirectly, any gratuity, gift, favor, entertainment, loan, or anything of monetary value from anyone who- (1) Has or is seeking to obtain Government business with the employee's agency; (2) Conducts activities that are regulated by the employee's agency; or (3) Has interests that may be substantially affected by the performance or nonperformance of the employee's official duties.",
+        "key_takeaway": "Simply put: don't take gifts or favors from people who do business with your agency or are affected by your job. It doesn't matter if it's direct or indirect—just don't do it.",
+        "citation": "RFO 3.101-2(a)",
+        "tags": ["Part 3", "Gifts", "Gratuities", "Executive Order 12731"],
+        "display_order": 143,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Checking your agency's own playbook",
+        "content": "Agencies must prescribe Standards of Conduct as required by 5 CFR part 735. These agency standards contain— (1) Agency-authorized exceptions to 3.101-2; and (2) Disciplinary measures for persons violating the standards of conduct.",
+        "key_takeaway": "While the RFO gives the big picture, your specific agency has its own rules that list any authorized exceptions and the consequences for breaking them.",
+        "citation": "RFO 3.101-3(a)",
+        "tags": ["Part 3", "Agency Rules", "Exceptions", "Disciplinary Action"],
+        "display_order": 144,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "When is the Independent Price Certificate required?",
+        "content": "The contracting officer must include the provision at 52.203-2, Certificate of Independent Price Determination, in solicitations for firm-fixed-price contracts or fixed-price contracts with economic price adjustment, unless- (a) The purchase uses simplified acquisition procedures from part 13; (b) The solicitation only requests technical proposals under two-step sealed bidding; or (c) The solicitation is for utility services with rates established by law or regulation.",
+        "key_takeaway": "You'll need that independent pricing certificate in your fixed-price solicitations unless you're dealing with SAP, technical-only bids in two-step bidding, or regulated utilities.",
+        "citation": "RFO 3.103-1",
+        "tags": ["Part 3", "Pricing", "Solicitation Provisions", "Independent Pricing"],
+        "display_order": 145,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 3",
+        "topic": "Prohibition on Disclosing Procurement Information",
+        "content": "A person shall not, other than as provided by law, knowingly disclose contractor bid or proposal information or source selection information before the award of a Federal agency procurement contract to which the information relates.",
+        "key_takeaway": "Keep sensitive bid and source selection info completely under wraps before the contract is awarded. If the law doesn't explicitly allow you to share it, don't!",
+        "citation": "RFO 3.104-3(a)",
+        "tags": ["Part 3", "Procurement Integrity", "Disclosure", "Source Selection"],
+        "display_order": 146,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Prohibition on Obtaining Procurement Information",
+        "content": "A person shall not, other than as provided by law, knowingly obtain contractor bid or proposal information or source selection information before the award of a Federal agency procurement contract to which the information relates.",
+        "key_takeaway": "Just like you can't spill the beans, you also can't go digging for them. Don't try to get your hands on competitor bids or internal government scoring before an award happens.",
+        "citation": "RFO 3.104-3(b)",
+        "tags": ["Part 3", "Procurement Integrity", "Competitor Data", "Ethics"],
+        "display_order": 147,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Reporting Non-Federal Employment Contacts",
+        "content": "An agency official who is participating personally and substantially in a Federal agency procurement for a contract in excess of the simplified acquisition threshold and who is contacted by a person who is a bidder or offeror in that Federal agency procurement regarding non-Federal employment... shall report the contact in writing to the official's supervisor and the designated agency ethics official.",
+        "key_takeaway": "If you're heavily involved in a big procurement and a bidder offers you a job, you must report it in writing to your boss and ethics official right away.",
+        "citation": "RFO 3.104-3(c)(1)",
+        "tags": ["Part 3", "Employment", "Conflicts of Interest", "Reporting"],
+        "display_order": 148,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Post-Employment Compensation Restrictions",
+        "content": "A former official of a Federal agency may not accept compensation from a contractor as an employee, officer, director, or consultant of the contractor within a period of 1 year after such former official served as the procuring contracting officer, the source selection authority, a member of the source selection evaluation board, or the chief of a financial or technical evaluation team.",
+        "key_takeaway": "If you held a key decision-making role on a contract, you have to sit out for a year before you can accept a paycheck from that specific contractor.",
+        "citation": "RFO 3.104-3(d)(1)",
+        "tags": ["Part 3", "Post-Employment", "Restrictions", "Integrity"],
+        "display_order": 149,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Reporting Suspected Gratuity Violations",
+        "content": "Government personnel who suspect a violation of the policy on gratuities shall report the suspected violation to the contracting officer or other appropriate official in accordance with agency procedures.",
+        "key_takeaway": "If you think someone is illegally accepting gifts or favors, you're obligated to speak up and report it following your agency's specific rules.",
+        "citation": "RFO 3.203",
+        "tags": ["Part 3", "Reporting", "Gratuities", "Violations"],
+        "display_order": 150,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Reporting Suspected Antitrust Violations",
+        "content": "Agencies are required by 41 U.S.C. 3707 and 10 U.S.C. 3307 to report to the Attorney General any bids or proposals that evidence a violation of the antitrust laws.",
+        "key_takeaway": "Notice bid prices that look rigged or suspiciously identical? The law requires agencies to flag these potential antitrust violations straight to the Attorney General.",
+        "citation": "RFO 3.301(a)",
+        "tags": ["Part 3", "Antitrust", "Collusion", "Legal Requirements"],
+        "display_order": 151,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Statutory Requirements for Contingent Fees",
+        "content": "The contractor warrants that no person or agency has been employed or retained to solicit or obtain this contract upon an agreement or understanding for a contingent fee, except a bona fide employee or agency.",
+        "key_takeaway": "Contractors aren't allowed to hire someone on a 'commission-only' basis to score a government contract, unless it's a legitimate, established selling agency or a real employee.",
+        "citation": "RFO 3.402",
+        "tags": ["Part 3", "Contingent Fees", "Warranty", "Improper Influence"],
+        "display_order": 152,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Definition of Buying-In",
+        "content": "Buying-in, as used in this section, means submitting an offer below anticipated costs, expecting to— (1) Increase the contract amount after award (e.g., through unnecessary or excessively priced change orders); or (2) Receive follow-on contracts at artificially high prices to recover losses involved in the buy-in.",
+        "key_takeaway": "Buying-in happens when a contractor intentionally bids at a loss just to win, fully planning to make their money back later through overpriced change orders or follow-on work.",
+        "citation": "RFO 3.501-1",
+        "tags": ["Part 3", "Buying-In", "Pricing Strategy", "Risks"],
+        "display_order": 153,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Prohibitions Under the Anti-Kickback Act",
+        "content": "The Anti-Kickback Act of 1986 prohibits any person from— (1) Providing, attempting to provide, or offering to provide any kickback; (2) Soliciting, accepting, or attempting to accept any kickback; or (3) Including, directly or indirectly, the amount of any kickback in the contract price.",
+        "key_takeaway": "Kickbacks are completely banned. You can't offer them, you can't ask for them, and contractors definitely can't sneak the cost of a kickback into the price the government pays.",
+        "citation": "RFO 3.502-2(a)",
+        "tags": ["Part 3", "Kickbacks", "Anti-Kickback Act", "Compliance"],
+        "display_order": 154,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Policy on Contracting with Government Employees",
+        "content": "A contracting officer shall not knowingly award a contract to a Government employee or to a business concern or other organization owned or substantially owned or controlled by one or more Government employees.",
+        "key_takeaway": "To keep things fair and avoid any perception of favoritism, we generally don't award contracts to our own government employees or businesses they control.",
+        "citation": "RFO 3.601(a)",
+        "tags": ["Part 3", "Employment Conflict", "Contract Award", "Policy"],
+        "display_order": 155,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Authority to Void or Rescind Contracts",
+        "content": "The Head of the Agency or designee may... void and rescind contracts with respect to which— (1) There has been a final conviction for bribery, conflict of interest, disclosure or receipt of contractor bid or proposal information or source selection information...",
+        "key_takeaway": "If a contract involves a final conviction for serious crimes like bribery or stealing bid info, the agency head has the power to simply cancel and void the contract.",
+        "citation": "RFO 3.703(a)",
+        "tags": ["Part 3", "Rescission", "Remedies", "Legal Action"],
+        "display_order": 156,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Statutory Prohibition on Using Appropriated Funds for Lobbying",
+        "content": "31 U.S.C. 1352 prohibits a recipient of a Federal contract, grant, loan, or cooperative agreement from using appropriated funds to pay any person for influencing or attempting to influence an officer or employee of any agency... in connection with any of the following covered Federal actions...",
+        "key_takeaway": "Contractors cannot take the federal funds they receive from an award and use that money to lobby the government for more contracts or favors.",
+        "citation": "RFO 3.802(a)",
+        "tags": ["Part 3", "Lobbying", "Appropriated Funds", "Restrictions"],
+        "display_order": 157,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Whistleblower Protections for Contractor Employees",
+        "content": "Government contractors shall not discharge, demote, or otherwise discriminate against an employee as a reprisal for disclosing information to a Government official... that the employee reasonably believes is evidence of gross mismanagement of a Federal contract, a gross waste of Federal funds, an abuse of authority...",
+        "key_takeaway": "Contractors are strictly forbidden from retaliating against their employees who blow the whistle on fraud, waste, or abuse related to a federal contract.",
+        "citation": "RFO 3.903",
+        "tags": ["Part 3", "Whistleblower", "Protections", "Disclosures"],
+        "display_order": 158,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Contractor Code of Business Ethics and Conduct",
+        "content": "Government contractors must conduct themselves with the highest degree of integrity and honesty. Contractors should have a written code of business ethics and conduct. To promote compliance with such code... contractors should have an employee business ethics and compliance training program and an internal control system.",
+        "key_takeaway": "Contractors need to operate with high integrity, meaning they should establish their own written ethics codes, conduct internal training, and keep internal controls to ensure compliance.",
+        "citation": "RFO 3.1002(a)-(b)",
+        "tags": ["Part 3", "Ethics Code", "Compliance", "Contractor Responsibility"],
+        "display_order": 159,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 3",
+        "topic": "Mitigation of Personal Conflicts of Interest for Contractor Employees",
+        "content": "The contracting officer shall... Require each contractor employee who is performing an acquisition function closely associated with inherently governmental functions to— (1) Identify and prevent personal conflicts of interest.",
+        "key_takeaway": "When contractor employees are doing work closely tied to government functions, they must proactively identify and avoid any personal conflicts of interest that could compromise their work.",
+        "citation": "RFO 3.1103(a)",
+        "tags": ["Part 3", "Personal COI", "Contractor Employees", "Inherently Governmental"],
+        "display_order": 160,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 4",
+        "topic": "Scope of Part 4",
+        "content": "This part prescribes policies and procedures relating to the administrative aspects of contract execution, contractor-submitted documents, reporting, retention, and files.",
+        "key_takeaway": "It's all about the administrative duties here: executing the contract, managing documents, handling reports, and keeping files.",
+        "citation": "FAR 4.000",
+        "tags": ["Part 4", "Scope", "Administrative Matters"],
+        "display_order": 1,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Definition: Executive",
+        "content": "As used in this part- Executive means officers, managing partners, or any other employees in management positions.",
+        "key_takeaway": "Think of an Executive simply as anyone in a management position, such as officers or managing partners.",
+        "citation": "FAR 4.001",
+        "tags": ["Part 4", "Definitions", "Executive"],
+        "display_order": 2,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Definition: First-tier subcontract",
+        "content": "First-tier subcontract means a subcontract awarded directly by the Contractor to acquire supplies or services (including construction) for performing a prime contract.",
+        "key_takeaway": "A first-tier subcontract is exactly what it sounds like: a subcontract handed out straight from the prime contractor to help get the job done.",
+        "citation": "FAR 4.001",
+        "tags": ["Part 4", "Definitions", "Subcontracting"],
+        "display_order": 3,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Record Retention: Computer Data",
+        "content": "If the information described in paragraph (a) of this section is maintained on a computer, contractors must retain the computer data on a reliable medium for the time periods prescribed. Contractors may transfer computer data in machine readable form from one reliable computer medium to another. Contractors' computer data retention and transfer procedures must maintain the integrity, reliability, and security of the original computer data. Contractors must also retain an audit trail describing the data transfer.",
+        "key_takeaway": "Computer data has to stay on a reliable medium for the whole retention period. You can move it between systems, but you must keep an audit trail and ensure the original data stays secure and intact.",
+        "citation": "FAR 4.703(d)",
+        "tags": ["Part 4", "Records Retention", "Computer Data"],
+        "display_order": 4,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Calculating Retention Periods",
+        "content": "The retention periods in 4.705 are calculated from the end of the contractor's fiscal year in which an entry is made charging or allocating a cost to a Government contract or subcontract. If a specific record contains a series of entries, the retention period is calculated from the end of the contractor's fiscal year in which the final entry is made.",
+        "key_takeaway": "Start counting your retention clock from the end of the contractor's fiscal year when the cost was logged. If there's a bunch of entries, start the clock from the final one.",
+        "citation": "FAR 4.704(a)",
+        "tags": ["Part 4", "Records Retention", "Timeframes"],
+        "display_order": 5,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 4",
+        "topic": "Scope of Part 4",
+        "content": "This part prescribes policies and procedures relating to the administrative aspects of contract execution, contractor-submitted documents, reporting, retention, and files.",
+        "key_takeaway": "It's all about the administrative duties here: executing the contract, managing documents, handling reports, and keeping files.",
+        "citation": "FAR 4.000",
+        "tags": ["Part 4", "Scope", "Administrative Matters"],
+        "display_order": 166,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Definition: Executive",
+        "content": "As used in this part- Executive means officers, managing partners, or any other employees in management positions.",
+        "key_takeaway": "Think of an Executive simply as anyone in a management position, such as officers or managing partners.",
+        "citation": "FAR 4.001",
+        "tags": ["Part 4", "Definitions", "Executive"],
+        "display_order": 167,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Definition: First-tier subcontract",
+        "content": "First-tier subcontract means a subcontract awarded directly by the Contractor to acquire supplies or services (including construction) for performing a prime contract.",
+        "key_takeaway": "A first-tier subcontract is exactly what it sounds like: a subcontract handed out straight from the prime contractor to help get the job done.",
+        "citation": "FAR 4.001",
+        "tags": ["Part 4", "Definitions", "Subcontracting"],
+        "display_order": 168,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Record Retention: Computer Data",
+        "content": "If the information described in paragraph (a) of this section is maintained on a computer, contractors must retain the computer data on a reliable medium for the time periods prescribed. Contractors may transfer computer data in machine readable form from one reliable computer medium to another. Contractors' computer data retention and transfer procedures must maintain the integrity, reliability, and security of the original computer data. Contractors must also retain an audit trail describing the data transfer.",
+        "key_takeaway": "Computer data has to stay on a reliable medium for the whole retention period. You can move it between systems, but you must keep an audit trail and ensure the original data stays secure and intact.",
+        "citation": "FAR 4.703(d)",
+        "tags": ["Part 4", "Records Retention", "Computer Data"],
+        "display_order": 169,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Calculating Retention Periods",
+        "content": "The retention periods in 4.705 are calculated from the end of the contractor's fiscal year in which an entry is made charging or allocating a cost to a Government contract or subcontract. If a specific record contains a series of entries, the retention period is calculated from the end of the contractor's fiscal year in which the final entry is made.",
+        "key_takeaway": "Start counting your retention clock from the end of the contractor's fiscal year when the cost was logged. If there's a bunch of entries, start the clock from the final one.",
+        "citation": "FAR 4.704(a)",
+        "tags": ["Part 4", "Records Retention", "Timeframes"],
+        "display_order": 170,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Contracting Officer Signature",
+        "content": "Only contracting officers shall sign contracts on behalf of the United States. The contracting officer's name and official title shall be typed, stamped, or printed on the contract. The contracting officer normally signs the contract after it has been signed by the contractor.",
+        "key_takeaway": "Only the CO can sign for the Government. Usually, they sign last—after the contractor has already signed the paperwork.",
+        "citation": "FAR 4.101",
+        "tags": ["Part 4", "Execution", "Signatures"],
+        "display_order": 171,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Contractor Signature Requirements",
+        "content": "A contract with an individual shall be signed by that individual. A contract with a partnership shall be signed in the partnership name. A contract with a corporation shall be signed in the corporate name, followed by the word 'by' and the signature and title of the person authorized to sign.",
+        "key_takeaway": "Signatures depend on the entity type: individuals sign for themselves, partnerships use the partnership name, and corporations use the corporate name signed by an authorized rep.",
+        "citation": "FAR 4.102",
+        "tags": ["Part 4", "Execution", "Contractor"],
+        "display_order": 172,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Contract Distribution",
+        "content": "Contracting officers shall distribute copies of contracts or modifications within 10 working days after execution by all parties. As a minimum, the contracting officer shall distribute simultaneously one signed copy or reproduction of the signed contract to the contractor and the paying office.",
+        "key_takeaway": "COs have 10 working days to hand out copies of a signed contract. The contractor and the paying office must get their copies at the same time.",
+        "citation": "FAR 4.201",
+        "tags": ["Part 4", "Distribution", "Timelines"],
+        "display_order": 173,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Taxpayer Identification Number (TIN)",
+        "content": "The contracting officer shall insert the provision at 52.204-3, Taxpayer Identification, in solicitations that do not include the provision at 52.204-7, System for Award Management. The TIN may be used by the Government to collect and report on any delinquent amounts arising out of the contractor's relationship with the Government.",
+        "key_takeaway": "If a contractor isn't registered in SAM, the CO must ask for their TIN in the solicitation. The Government can use this to track down delinquent debts.",
+        "citation": "FAR 4.902",
+        "tags": ["Part 4", "TIN", "Solicitation"],
+        "display_order": 174,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Unique Entity Identifier (UEI)",
+        "content": "The unique entity identifier is the primary key for identifying an entity across the federal enterprise. Agencies shall require the use of the unique entity identifier to identify the entity when reporting contract actions to FPDS.",
+        "key_takeaway": "The UEI is the ultimate ID tag for tracking contractors across the entire federal government, especially when reporting actions to FPDS.",
+        "citation": "FAR 4.605(b)",
+        "tags": ["Part 4", "Identifiers", "UEI", "FPDS"],
+        "display_order": 175,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Federal Procurement Data System (FPDS)",
+        "content": "The FPDS provides a comprehensive web-based tool for agencies to report contract actions. The resulting data provides a basis for recurring and special reports to the President, the Congress, the Government Accountability Office, Federal executive agencies, and the general public.",
+        "key_takeaway": "FPDS is the central database where the Government tracks its spending. The data is used to generate reports for everyone from Congress to the general public.",
+        "citation": "FAR 4.602(a)",
+        "tags": ["Part 4", "FPDS", "Reporting"],
+        "display_order": 176,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "System for Award Management (SAM) Registration",
+        "content": "Offerors and quoters are required to be registered in SAM at the time an offer or quotation is submitted in order to comply with the annual representations and certifications requirements.",
+        "key_takeaway": "You can't even submit a bid unless you're already registered in SAM. This keeps your reps and certs up to date from the start.",
+        "citation": "FAR 4.1102(a)",
+        "tags": ["Part 4", "SAM", "Prerequisites"],
+        "display_order": 177,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Exceptions to SAM Registration",
+        "content": "Registration in SAM is not required for purchases under the micro-purchase threshold that use a Governmentwide commercial purchase card as both the purchasing and payment mechanism.",
+        "key_takeaway": "If it's a micro-purchase and you're paying with the Government purchase card, the vendor doesn't have to be registered in SAM.",
+        "citation": "FAR 4.1102(a)(1)",
+        "tags": ["Part 4", "SAM", "Exceptions", "Micro-purchase"],
+        "display_order": 178,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Annual Representations and Certifications",
+        "content": "Prospective contractors shall complete electronic annual representations and certifications at SAM accessed via https://www.sam.gov as a part of required registration.",
+        "key_takeaway": "Contractors have to go into SAM and update their reps and certs every single year to stay compliant.",
+        "citation": "FAR 4.1201(a)",
+        "tags": ["Part 4", "SAM", "Reps and Certs"],
+        "display_order": 179,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Procurement Instrument Identifiers (PIID)",
+        "content": "Agencies shall have in place a process that ensures that each PIID used to identify a solicitation or contract action is unique Governmentwide, and will remain so for at least 20 years from the date of contract award.",
+        "key_takeaway": "Every contract or solicitation gets a PIID, and that number has to be totally unique across the whole government for at least 20 years.",
+        "citation": "FAR 4.1602(a)",
+        "tags": ["Part 4", "PIID", "Identifiers"],
+        "display_order": 180,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "PIID Formatting",
+        "content": "PIIDs shall be alphanumeric and shall not exceed 17 characters in length. The length of a PIID shall be between 13 and 17 characters.",
+        "key_takeaway": "A PIID has to be a mix of letters and numbers, and it will always be between 13 and 17 characters long.",
+        "citation": "FAR 4.1603(a)",
+        "tags": ["Part 4", "PIID", "Formatting"],
+        "display_order": 181,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "CAGE Code Requirement",
+        "content": "The Commercial and Government Entity (CAGE) code is a five-character alphanumeric identifier used within the Federal Government to identify a specific facility at a specific location. Offerors shall provide their CAGE code with their offer.",
+        "key_takeaway": "The CAGE code is a 5-character ID that tells the Government exactly which physical facility is doing the work. You have to include it in your offer.",
+        "citation": "FAR 4.1802(a)",
+        "tags": ["Part 4", "Identifiers", "CAGE"],
+        "display_order": 182,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Ownership or Control Tracking",
+        "content": "Agencies shall collect information about an offeror's highest-level owner and immediate owner. An offeror must provide CAGE codes for its immediate owner and its highest-level owner, if applicable.",
+        "key_takeaway": "The Government wants to know who actually owns the company. Contractors have to provide CAGE codes for their parent companies (both immediate and top-level).",
+        "citation": "FAR 4.1804",
+        "tags": ["Part 4", "Ownership", "CAGE", "Reporting"],
+        "display_order": 183,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Basic Safeguarding of Contractor Information Systems",
+        "content": "The contracting officer shall insert the clause at 52.204-21, Basic Safeguarding of Covered Contractor Information Systems, in solicitations and contracts when the contractor or a subcontractor at any tier may have Federal contract information residing in or transiting through its information system.",
+        "key_takeaway": "If a contractor is handling basic Federal contract info on their IT systems, the CO has to include the safeguarding clause to ensure basic cybersecurity.",
+        "citation": "FAR 4.1902",
+        "tags": ["Part 4", "Cybersecurity", "Information Systems"],
+        "display_order": 184,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Prohibition on Covered Telecommunications",
+        "content": "Agencies are prohibited from procuring or obtaining, or extending or renewing a contract to procure or obtain, any equipment, system, or service that uses covered telecommunications equipment or services as a substantial or essential component of any system.",
+        "key_takeaway": "This is the Section 889 rule: the Government absolutely will not buy or renew contracts for systems that use banned telecom equipment (like Huawei or ZTE).",
+        "citation": "FAR 4.2102(a)",
+        "tags": ["Part 4", "Telecommunications", "Prohibitions", "Section 889"],
+        "display_order": 185,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Prohibition on ByteDance (TikTok)",
+        "content": "Contractors are prohibited from having or using a covered application on any information technology owned or managed by the Government, or on any information technology used or provided by the contractor under a contract, including equipment provided by the contractor's employees.",
+        "key_takeaway": "TikTok (and other ByteDance apps) are banned on any IT used for a Government contract. This even applies to a contractor employee's personal phone if it's used for contract work.",
+        "citation": "FAR 4.2202",
+        "tags": ["Part 4", "TikTok", "Prohibitions", "ByteDance"],
+        "display_order": 186,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Record Retention: Contracts and Modifications",
+        "content": "Contracts (and related records or documents) shall be retained for 3 years after final payment.",
+        "key_takeaway": "Once the final payment is made, the contractor has to hold onto the contract files for exactly 3 more years.",
+        "citation": "FAR 4.705-2(a)",
+        "tags": ["Part 4", "Records Retention", "Contracts"],
+        "display_order": 187,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Record Retention: Payroll and Timesheets",
+        "content": "Clock cards or other time and attendance cards shall be retained for 2 years. Payroll sheets, registers, or their equivalent, of salaries and wages paid to individual employees for each payroll period shall be retained for 4 years.",
+        "key_takeaway": "Keep basic timesheets for 2 years, but hold onto the actual payroll sheets for 4 years.",
+        "citation": "FAR 4.705-1(a)",
+        "tags": ["Part 4", "Records Retention", "Payroll"],
+        "display_order": 188,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Electronic Signatures",
+        "content": "Agencies may accept electronic signatures and records in connection with Government contracts. Electronic signatures have the same force and effect as a manual signature.",
+        "key_takeaway": "Digital signatures are perfectly legal for Government contracts and carry the exact same weight as signing with a pen.",
+        "citation": "FAR 4.502(d)",
+        "tags": ["Part 4", "Signatures", "Electronic"],
+        "display_order": 189,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Micro-purchase Exception for CAGE Codes",
+        "content": "The requirement to provide a CAGE code does not apply to purchases that use a Governmentwide commercial purchase card as both the purchasing and payment mechanism, and do not exceed the micro-purchase threshold.",
+        "key_takeaway": "Just like the SAM registration exception, if it's a micro-purchase on a Government purchase card, the vendor doesn't need to provide a CAGE code.",
+        "citation": "FAR 4.1802(a)",
+        "tags": ["Part 4", "CAGE", "Exceptions", "Micro-purchase"],
+        "display_order": 190,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 4",
+        "topic": "PIID Formatting Requirements",
+        "content": "The PIID consists of a combination of thirteen to seventeen alpha and/or numeric characters sequenced to convey certain information. Do not use special characters (such as hyphens, dashes, or spaces).",
+        "key_takeaway": "A PIID must be exactly 13 to 17 letters and/or numbers long, and it can never contain any special characters like hyphens or spaces.",
+        "citation": "FAR 4.201(b)",
+        "tags": ["Part 4", "PIID", "Formatting"],
+        "display_order": 191,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "PIID Positions 1 through 6",
+        "content": "Positions 1 through 6. Use the issuing office Activity Address Code to identify the department/agency and office issuing the instrument.",
+        "key_takeaway": "The first six characters of a PIID represent the Activity Address Code (AAC) of the office that is issuing the contract.",
+        "citation": "FAR 4.201(b)(1)",
+        "tags": ["Part 4", "PIID", "Formatting", "AAC"],
+        "display_order": 192,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "PIID Positions 7 through 8",
+        "content": "Positions 7 through 8. Use the last two digits of the fiscal year in which the procurement instrument is issued or awarded (ie, signed).",
+        "key_takeaway": "Characters 7 and 8 of the PIID indicate the last two digits of the fiscal year when the contract or instrument was officially signed.",
+        "citation": "FAR 4.201(b)(2)",
+        "tags": ["Part 4", "PIID", "Formatting", "Fiscal Year"],
+        "display_order": 193,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "PIID Position 9",
+        "content": "Position 9. Use one of the upper-case letters according to Table 4-1. Departments and independent agencies may assign those letters identified for department use below according to agency policy; however, any use must be applied to the entire department or agency.",
+        "key_takeaway": "The 9th character is always an uppercase letter from Table 4-1. This letter tells you exactly what type of procurement instrument you're looking at.",
+        "citation": "FAR 4.201(b)(3)",
+        "tags": ["Part 4", "PIID", "Formatting", "Instrument Designation"],
+        "display_order": 194,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation A",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Blanket purchase agreements. Letter designation: A.",
+        "key_takeaway": "If the 9th character of a PIID is 'A', the instrument is a Blanket Purchase Agreement (BPA).",
+        "citation": "FAR 4.201(b)(3), Table 4-1(i)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "BPA"],
+        "display_order": 195,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation B",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Invitations for bids. Letter designation: B.",
+        "key_takeaway": "A 'B' in the 9th position of a PIID means it's an Invitation for Bids.",
+        "citation": "FAR 4.201(b)(3), Table 4-1(ii)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "Bids"],
+        "display_order": 196,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation C",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Contracts of all types except indefinite-delivery contracts (see part 16). Letter designation: C.",
+        "key_takeaway": "A 'C' in the 9th position of a PIID identifies it as a standard contract (excluding indefinite-delivery contracts).",
+        "citation": "FAR 4.201(b)(3), Table 4-1(iii)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "Contracts"],
+        "display_order": 197,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation D",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Indefinite-delivery contracts (including Federal Supply Schedules, Governmentwide acquisition contracts (GWACs), and multi-agency contracts). Letter designation: D.",
+        "key_takeaway": "If you see a 'D' in the 9th position, you're looking at an Indefinite-Delivery Contract, which includes GWACs and Federal Supply Schedules.",
+        "citation": "FAR 4.201(b)(3), Table 4-1(iv)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "IDIQ", "GWAC"],
+        "display_order": 198,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation E",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Reserved for future Federal Governmentwide use. Letter designation: E.",
+        "key_takeaway": "The letter 'E' in the 9th position is currently reserved for future Governmentwide use.",
+        "citation": "FAR 4.201(b)(3), Table 4-1(v)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "Reserved"],
+        "display_order": 199,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation F",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Task orders, delivery orders or calls under— Indefinite-delivery contracts (including Federal Supply Schedules, Governmentwide acquisition contracts (GWACs), and multi-agency contracts); Blanket purchase agreements; or Basic ordering agreements. Letter designation: F.",
+        "key_takeaway": "An 'F' in the 9th position means it's an order or call placed under an existing contract or agreement, like a task order under a GWAC or a call under a BPA.",
+        "citation": "FAR 4.201(b)(3), Table 4-1(vi)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "Task Orders", "Delivery Orders"],
+        "display_order": 200,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation G",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Basic ordering agreements. Letter designation: G.",
+        "key_takeaway": "The letter 'G' as the 9th character in a PIID designates a Basic Ordering Agreement (BOA).",
+        "citation": "FAR 4.201(b)(3), Table 4-1(vii)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "BOA"],
+        "display_order": 201,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation L",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Letters of intent and other letter contracts. Letter designation: L.",
+        "key_takeaway": "An 'L' in the 9th position of a PIID means you're looking at a letter contract or a letter of intent.",
+        "citation": "FAR 4.201(b)(3), Table 4-1(xi)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "Letter Contracts"],
+        "display_order": 202,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation P",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Purchase orders. Letter designation: P.",
+        "key_takeaway": "When you see a 'P' in that 9th spot, it identifies the procurement instrument as a Purchase Order.",
+        "citation": "FAR 4.201(b)(3), Table 4-1(xv)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "Purchase Orders"],
+        "display_order": 203,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation Q",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Request for quotations. Letter designation: Q.",
+        "key_takeaway": "A 'Q' in the 9th position tells you the instrument is a Request for Quotations (RFQ).",
+        "citation": "FAR 4.201(b)(3), Table 4-1(xvi)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "RFQ"],
+        "display_order": 204,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 4",
+        "topic": "Table 4-1: Designation R",
+        "content": "Table 4-1—PIID Instrument Designation. Instrument: Request for proposals. Letter designation: R.",
+        "key_takeaway": "The letter 'R' in the 9th position is the standard marker for a Request for Proposals (RFP).",
+        "citation": "FAR 4.201(b)(3), Table 4-1(xvii)",
+        "tags": ["Part 4", "PIID", "Table 4-1", "RFP"],
+        "display_order": 205,
+        "related_question_ids": []
+      }
     
 ]
