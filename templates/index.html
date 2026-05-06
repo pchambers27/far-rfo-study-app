@@ -24,7 +24,7 @@
 
         <!-- Current questions card -->
         <div class="bg-white rounded-lg shadow-md p-6 sm:p-8">
-            <p class="text-xs text-gray-500 uppercase tracking-wide mb-2">{{ question.far_part }} - {{ question.topic }}</p>
+            <p class="text-xs text-gray-500 uppercase tracking-wide mb-2">{{ question.far_part }} - {{ question.tags[0] if question.tags else question.far_part }}</p>
             <p class="text-lg text-gray-900 leading-relaxed mb-6">{{ question.question }}</p>
 
             <form method="POST" action="/quiz" class="space-y-3">
