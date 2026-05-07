@@ -3128,6 +3128,1526 @@
         "tags": ["Part 11", "market acceptance", "commercial practices", "reliability"],
         "display_order": 305,
         "related_question_ids": []
+      },
+    {
+        "far_part": "Part 12",
+        "topic": "Preference for Commercial Products and Services",
+        "content": "Agencies must acquire commercial products or commercial services when the agency determines they are available to meet the agency's needs. Prime contractors and subcontractors at all tiers are required to incorporate, to the maximum extent practicable, commercial products, commercial services, or nondevelopmental items as components of items supplied to the agency.",
+        "key_takeaway": "If commercial meets the need, buy commercial. Push commercial preference down to subcontractors at all tiers too.",
+        "citation": "FAR 12.101",
+        "tags": ["Part 12", "commercial", "preference"],
+        "display_order": 10,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Restricting Competition - Documentation",
+        "content": "When restricting competition (including using brand-name descriptions without allowing 'equal' products), document the decision. For acquisitions valued at or below the SAT, document the decision that only one source is available and the basis for the decision. For acquisitions valued over the SAT, prepare a written justification and obtain approval as described in FAR 6.104.",
+        "key_takeaway": "Restricting competition? At or below SAT: document basis for sole source. Above SAT: prepare written justification and get approval per 6.104.",
+        "citation": "FAR 12.102(a)-(b)",
+        "tags": ["Part 12", "competition", "documentation"],
+        "display_order": 20,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Preference for Fixed-Price Contracts",
+        "content": "To the maximum extent practicable, use firm-fixed-price (FFP) or fixed-price with economic price adjustment contract types when procuring commercial products or commercial services. Follow the procedures in part 16 to use these contract types.",
+        "key_takeaway": "Default to FFP or FP-EPA for commercial acquisitions whenever practicable.",
+        "citation": "FAR 12.104(a)",
+        "tags": ["Part 12", "contract types", "fixed-price"],
+        "display_order": 30,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Time-and-Materials and Labor-Hour Contracts",
+        "content": "A T&M or labor-hour contract may be used for commercial services procured on a competitive basis IF the services are commonly sold to the general public using these types of contracts. To use this contract type, the contracting officer must execute a D&F that FFP or FP-EPA is not suitable, AND include a ceiling price that the contractor exceeds at its own risk. Any increase to the ceiling price must be supported by a determination that doing so is in the best interest of the procuring agency.",
+        "key_takeaway": "T&M/LH for commercial services: only on a competitive basis, only when commonly sold that way. Need a D&F that FFP isn't suitable, and a ceiling the contractor exceeds at its own risk.",
+        "citation": "FAR 12.104(b)",
+        "tags": ["Part 12", "contract types", "T&M"],
+        "display_order": 40,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Prohibition on Cost-Reimbursement Contracts",
+        "content": "Do not use any cost-reimbursement contract type to procure commercial products or commercial services.",
+        "key_takeaway": "Cost-reimbursement is OFF the table for commercial acquisitions. Period.",
+        "citation": "FAR 12.104(d)",
+        "tags": ["Part 12", "contract types"],
+        "display_order": 50,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Quality Assurance Reliance on Contractor Systems",
+        "content": "To the maximum extent practicable, allow a contractor under a commercial products acquisition to use its existing quality assurance system to inspect or test commercial products before presenting them to the Government for acceptance. For commercial services, rely on the contractor to accomplish all inspection and testing needed to ensure services conform to contract requirements before presenting them to the Government.",
+        "key_takeaway": "Trust the contractor's QA system to the maximum extent practicable. For commercial services, rely on contractor inspection/testing.",
+        "citation": "FAR 12.105(a)",
+        "tags": ["Part 12", "quality assurance"],
+        "display_order": 60,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Commercial Warranties",
+        "content": "To the maximum extent practicable, take advantage of commercial warranties (including extended warranties) and use those warranties for the repair and replacement of commercial products and commercial services.",
+        "key_takeaway": "Use commercial warranties — including extended ones — for repair and replacement.",
+        "citation": "FAR 12.105(b)",
+        "tags": ["Part 12", "warranties"],
+        "display_order": 70,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Technical Data - Private Expense Presumption",
+        "content": "Presume that data delivered under a contract for commercial products was developed exclusively at private expense. Acquire only the technical data and the rights in that data customarily provided to the public with a commercial product or process.",
+        "key_takeaway": "Default assumption: commercial product data was developed at private expense. Get only the data rights customarily provided to the public.",
+        "citation": "FAR 12.106",
+        "tags": ["Part 12", "technical data"],
+        "display_order": 80,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Commercial Computer Software Licensing",
+        "content": "Commercial computer software or commercial computer software documentation must be acquired under licenses customarily provided to the public, to the extent such licenses are consistent with Federal law and otherwise satisfy the Government's needs. Generally, offerors and contractors must NOT be required to furnish technical information not customarily provided to the public, or relinquish rights except as mutually agreed.",
+        "key_takeaway": "Buy commercial software under the SAME license terms commercial customers get. Don't demand non-public technical info or extra rights.",
+        "citation": "FAR 12.107(a)",
+        "tags": ["Part 12", "computer software", "licensing"],
+        "display_order": 90,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Cost Accounting Standards Don't Apply",
+        "content": "CAS do not apply to contracts or subcontracts for the acquisition of commercial products or commercial services, except as provided in 12.001(c) (sole-source contracts greater than $25 million for cyber/CBRN-related acquisitions).",
+        "key_takeaway": "CAS doesn't apply to commercial acquisitions. Exception: sole-source CBRN-related contracts over $25M.",
+        "citation": "FAR 12.109",
+        "tags": ["Part 12", "CAS", "cost accounting"],
+        "display_order": 100,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Priority Sources Before Streamlined Procedures",
+        "content": "If commercial products or commercial services that meet agency needs are available from any priority source identified in part 8 (including existing contracts awarded for Governmentwide use, like Federal Supply Schedules and Governmentwide acquisition contracts), procure from that source. Otherwise, use the streamlined procedures in subpart 12.2.",
+        "key_takeaway": "Check Part 8 priority sources FIRST (FSS, GWACs, etc.). Only use 12.2 streamlined procedures if priority sources don't meet the need.",
+        "citation": "FAR 12.200(a)",
+        "tags": ["Part 12", "priority sources", "GSA schedules"],
+        "display_order": 110,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Simplified Procedures Threshold",
+        "content": "For acquisitions valued up to $9 million, issue a request for quotations (RFQ) followed by a purchase order. The $9 million ceiling is increased to $15 million for acquisitions supporting contingency operations, defense against/recovery from cyber/nuclear/biological/chemical/radiological attack, international disaster assistance, or response to an emergency or major disaster.",
+        "key_takeaway": "Simplified procedures threshold: $9M normally, $15M for contingency/CBRN/disaster scenarios.",
+        "citation": "FAR 12.201-1(a) and 12.001(c)",
+        "tags": ["Part 12", "simplified procedures", "thresholds"],
+        "display_order": 120,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Legal Effect of Quotations",
+        "content": "Neither a quotation nor the purchase order issued by the Government in response to a quotation forms a binding contract. The purchase order is the Government's offer to the supplier. A binding contract is formed when the supplier accepts the Government's offer — either by written acceptance of the purchase order OR by substantial performance of the purchase order. The contracting officer may request that the contractor provide written acceptance.",
+        "key_takeaway": "A quotation isn't an offer. The Government's purchase order IS the offer. Binding contract forms when the supplier accepts (writing or substantial performance).",
+        "citation": "FAR 12.201-1(b)",
+        "tags": ["Part 12", "simplified procedures", "purchase orders"],
+        "display_order": 130,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Soliciting Quotations Below the SAT",
+        "content": "For acquisitions at or below the SAT, the contracting officer may choose to solicit quotations directly from suppliers (rather than posting in the GPE). When soliciting directly: post a presolicitation notice in the GPE per subpart 5.1 (unless an exception applies); solicit quotations from at least three sources; and whenever practicable, solicit from two sources not included in the previous solicitation.",
+        "key_takeaway": "Below SAT, you can solicit directly. Rules: presolicitation notice in GPE (with exceptions), at least 3 sources, and rotate in 2 new sources when practicable.",
+        "citation": "FAR 12.201-1(c)(2)",
+        "tags": ["Part 12", "simplified procedures", "competition"],
+        "display_order": 140,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Unpriced Purchase Orders",
+        "content": "An unpriced purchase order may be used ONLY when it is impractical to obtain pricing in advance. Examples include: repairs to equipment requiring disassembly to determine the nature of repairs; material from a single source where cost can't readily be established; or supplies/services where prices are known competitive but exact prices aren't known. The order must include a realistic monetary limitation (per line or total) that's an obligation subject to adjustment, plus a specific statement about it being firm only if price doesn't exceed the maximum.",
+        "key_takeaway": "Unpriced POs only when pricing can't be obtained in advance. Must include a monetary cap and the firm-order-only-if-within-cap language.",
+        "citation": "FAR 12.201-1(e)(2)",
+        "tags": ["Part 12", "simplified procedures", "purchase orders"],
+        "display_order": 150,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Blanket Purchase Agreements",
+        "content": "A blanket purchase agreement (BPA) is a method of filling anticipated repetitive needs by establishing 'charge accounts' with qualified sources of supply. The Government is only obligated to the extent that authorized orders are placed under BPAs. BPAs may be established with more than one supplier (for maximum competition) or a single firm where numerous purchases at or below the SAT are likely. BPA dollar limitation per individual purchase cannot exceed the simplified procedures threshold at 12.201-1(a).",
+        "key_takeaway": "BPAs = charge accounts for repetitive needs. Government only obligated to ordered amounts. Per-purchase cap can't exceed the simplified procedures threshold ($9M normally).",
+        "citation": "FAR 12.201-1(e)(3)",
+        "tags": ["Part 12", "BPA", "simplified procedures"],
+        "display_order": 160,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Annual BPA Review",
+        "content": "Review BPAs at least annually to ensure that authorized procedures are being followed. Maintain awareness of changes in market conditions, sources of supply, and other pertinent factors that may warrant making new agreements with different suppliers or modifying existing agreements.",
+        "key_takeaway": "BPAs require at least annual review for procedure compliance and market changes.",
+        "citation": "FAR 12.201-1(e)(3)(v)",
+        "tags": ["Part 12", "BPA"],
+        "display_order": 170,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Procedures Above $9 Million",
+        "content": "For acquisitions valued at greater than $9 million, use the procedures in subpart 12.2 in conjunction with part 15 for requests for proposals (RFPs) or part 14 for invitations for bids (IFBs), as appropriate. Use of an RFP is the preferred method because it includes consideration of past performance when evaluating offers.",
+        "key_takeaway": "Above $9M: use 12.2 with Part 15 (RFP, preferred) or Part 14 (IFB). RFP wins because it considers past performance.",
+        "citation": "FAR 12.201-2",
+        "tags": ["Part 12", "RFP", "thresholds"],
+        "display_order": 180,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Combined Synopsis/Solicitation",
+        "content": "To reduce the time required to solicit and award contracts for acquisitions valued over the SAT, combine the presolicitation notice and solicitation notice required by part 5. Select the 'Combined Synopsis/Solicitation' format in the GPE.",
+        "key_takeaway": "Above SAT: combine the presolicitation and solicitation notices into one Combined Synopsis/Solicitation in the GPE to save time.",
+        "citation": "FAR 12.202(b)",
+        "tags": ["Part 12", "publicizing"],
+        "display_order": 190,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Standard Evaluation Factors",
+        "content": "For most acquisitions of commercial products or commercial services, evaluation factors need not be more detailed than technical (capability of the products or services to meet the agency's needs), price, and past performance. Predetermined subfactors are not required for technical evaluation. Past performance should be an important evaluation factor for award.",
+        "key_takeaway": "Standard commercial evaluation factors: technical, price, past performance. No subfactors required. Past performance should be an important factor.",
+        "citation": "FAR 12.203(a)",
+        "tags": ["Part 12", "evaluation"],
+        "display_order": 200,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Quotation Evaluation Discretion",
+        "content": "The contracting officer has broad discretion in establishing how quotations will be evaluated. The CO may perform a comparative evaluation of quotations. The evaluation procedures are NOT subject to part 15 or 14. Contracting officers are not required to have evaluation plans, score quotations, or establish a competitive range before communicating with quoters or soliciting revised quotations.",
+        "key_takeaway": "When evaluating QUOTATIONS (not offers), CO has broad discretion. Not bound by Part 15/14. No required evaluation plan, scoring, or competitive range.",
+        "citation": "FAR 12.203(c)(2)",
+        "tags": ["Part 12", "evaluation", "quotations"],
+        "display_order": 210,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Late Quotation/Offer Discretion",
+        "content": "Consider all quotations or offers that are timely received. Exercise good business judgment in deciding whether or not to accept a quotation or offer received after the due date or time. A late modification of an otherwise successful offer that makes its terms more favorable to the Government will be considered at any time it is received and may be accepted.",
+        "key_takeaway": "Late quotation/offer? Use business judgment. Late modification that's MORE favorable to the Government can be accepted any time.",
+        "citation": "FAR 12.203(c)(1) and 52.212-1(c)",
+        "tags": ["Part 12", "evaluation", "late submissions"],
+        "display_order": 220,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Price Reasonableness Determination",
+        "content": "The contracting officer must determine the price to be fair and reasonable. Whenever possible, base price reasonableness on competitive quotations or offers.",
+        "key_takeaway": "CO must determine price fair and reasonable. Use competitive quotations/offers as the basis whenever possible.",
+        "citation": "FAR 12.204(a)",
+        "tags": ["Part 12", "price reasonableness"],
+        "display_order": 230,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Required Solicitation Provisions",
+        "content": "Include the provision at 52.212-1, Instructions to Offerors—Commercial Products and Commercial Services, in solicitations. This provision may be tailored to reflect customary commercial practice, EXCEPT the paragraph on Debriefings, which is required by statute. Include 52.212-2, Evaluation, when using procedures in 12.201-2 (and may be used with simplified procedures); this provision must include all evaluation factors and criteria.",
+        "key_takeaway": "Required: 52.212-1 (Instructions). Tailorable except the statute-required Debriefings paragraph. Add 52.212-2 (Evaluation) for above-$9M procedures and tailor it for the acquisition.",
+        "citation": "FAR 12.205(a)",
+        "tags": ["Part 12", "clauses and provisions"],
+        "display_order": 240,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Required Contract Clause - Terms and Conditions",
+        "content": "Include the clause at 52.212-4, Terms and Conditions—Commercial Products and Commercial Services, in solicitations and contracts for commercial products and commercial services. Use Alternate I for T&M or labor-hour contracts/orders. The clause may be tailored to reflect customary commercial practice EXCEPT the following paragraphs (which implement statute): Assignments, Disputes, Payment, Invoice, Compliance with laws unique to Government contracts, Unauthorized obligations, and Comptroller General examination of records.",
+        "key_takeaway": "Required: 52.212-4 (Terms and Conditions). Use Alt I for T&M/LH. Tailorable EXCEPT 7 statute-driven paragraphs (Assignments, Disputes, Payment, Invoice, Compliance, Unauthorized obligations, Comptroller General).",
+        "citation": "FAR 12.205(b)(1)",
+        "tags": ["Part 12", "clauses and provisions"],
+        "display_order": 250,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Waivers and Tailoring of Provisions",
+        "content": "Agencies may waive or tailor provisions and clauses authorized for use in commercial acquisitions IF: (1) the provision/clause does not implement statute or Executive order; (2) the contracting officer determines the content is inconsistent with customary commercial practice; AND (3) for individual acquisitions, the head of the contracting activity approves; or for a class of acquisitions, the senior procurement executive approves.",
+        "key_takeaway": "Waiver/tailoring requires: not statute/EO + CO finds inconsistent with commercial practice + HCA approval (individual) or SPE approval (class).",
+        "citation": "FAR 12.205(d)(1)",
+        "tags": ["Part 12", "waivers", "deviations"],
+        "display_order": 260,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Other Provisions and Clauses Not Allowed",
+        "content": "Do not include other provisions or clauses in solicitations or contracts for commercial products or commercial services unless the agency issues an individual or class deviation according to part 1. A deviation is NOT required when an agency supplement to the FAR directs that the contracting officer include a provision or clause in commercial acquisitions.",
+        "key_takeaway": "Don't add provisions/clauses outside Part 12's tables without a deviation under Part 1. Exception: agency supplement directives don't need a deviation.",
+        "citation": "FAR 12.205(d)(2)",
+        "tags": ["Part 12", "clauses and provisions", "deviations"],
+        "display_order": 270,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Award Notice Posting",
+        "content": "Comply with the award notice posting requirements in subpart 5.3. Make the justifications required by 12.102(b) for acquisitions valued over the SAT publicly available in accordance with 6.301.",
+        "key_takeaway": "Post award notices per 5.3. Make above-SAT competition-restriction justifications publicly available per 6.301.",
+        "citation": "FAR 12.301(a)",
+        "tags": ["Part 12", "publicizing", "notifications"],
+        "display_order": 280,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Explanations to Unsuccessful Quoters",
+        "content": "When using simplified procedures (12.201-1), upon request, provide a brief explanation of the award decision that explains why the unsuccessful quoter was not selected. If an award notice was not required to be posted to the GPE, also provide the information that would be included in an award notice.",
+        "key_takeaway": "Simplified procedures: when unsuccessful quoter asks, provide brief explanation. If no GPE award notice, also share what would have been in it.",
+        "citation": "FAR 12.301(b)",
+        "tags": ["Part 12", "notifications", "simplified procedures"],
+        "display_order": 290,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Cancellations Before Acceptance",
+        "content": "The Government may withdraw, amend, or cancel purchase orders by written notice to the supplier at any time BEFORE acceptance of the order occurs. If the supplier did not accept in writing, request that the supplier provide written acceptance of the cancellation. If the contractor doesn't accept the cancellation or claims costs from beginning performance, follow termination procedures at 12.304.",
+        "key_takeaway": "Government can cancel POs in writing any time BEFORE acceptance. If contractor disputes or claims costs, fall back to termination procedures.",
+        "citation": "FAR 12.303",
+        "tags": ["Part 12", "cancellations"],
+        "display_order": 300,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Termination Procedures - Don't Use Part 49",
+        "content": "When terminating contracts for commercial products or commercial services, follow the procedures in 12.304 and the termination paragraphs of 52.212-4. Do NOT use the procedures in part 49.",
+        "key_takeaway": "Commercial terminations use 12.304 + 52.212-4. NOT Part 49.",
+        "citation": "FAR 12.304(a)",
+        "tags": ["Part 12", "termination"],
+        "display_order": 310,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Termination for Cause - Cure Notice",
+        "content": "Before terminating a contract for cause, send a cure notice to the contractor — UNLESS the reason for the termination is late delivery. The notification of termination for cause must include: a statement that the contract is terminated for cause; the reasons; the remedies the Government intends to seek (or a date by which it will inform the contractor); and a statement that the notice constitutes a final decision under the Disputes clause.",
+        "key_takeaway": "Termination for cause requires a cure notice FIRST (except for late delivery). Termination notice = statement + reasons + remedies + 'final decision under Disputes' language.",
+        "citation": "FAR 12.304(b)",
+        "tags": ["Part 12", "termination", "cause"],
+        "display_order": 320,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Termination for Convenience",
+        "content": "When terminating for the Government's convenience, the parties should mutually agree upon the requirements of the termination proposal. Balance the Government's need to obtain sufficient documentation to support payment to the contractor against the goal of having a simple and expeditious settlement.",
+        "key_takeaway": "T4C: parties mutually agree on the termination proposal. Balance documentation needs against speed and simplicity.",
+        "citation": "FAR 12.304(c)",
+        "tags": ["Part 12", "termination", "convenience"],
+        "display_order": 330,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Micro-Purchases - No Written Provisions Required",
+        "content": "Micro-purchases do not require written provisions or clauses. This takes precedence over any other FAR requirement to the contrary, but does not prohibit the use of any clause. The security prohibitions and exclusions at subpart 40.2 still apply (unless excepted/waived), but the provisions and clauses in that subpart are not used for micro-purchases.",
+        "key_takeaway": "Micro-purchases: no written provisions/clauses required. Clauses can still be used. Subpart 40.2 security rules apply but its clauses don't.",
+        "citation": "FAR 12.401(b)-(c)",
+        "tags": ["Part 12", "micro-purchase"],
+        "display_order": 340,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Unauthorized Obligations Clause Auto-Applies",
+        "content": "Paragraph (s), Unauthorized Obligations, of 52.212-4 (Terms and Conditions) automatically applies to any micro-purchase, including those made with the Governmentwide commercial purchase card. This clause prevents violations of the Anti-Deficiency Act (31 U.S.C. 1341).",
+        "key_takeaway": "Even with no written clauses, the Unauthorized Obligations paragraph from 52.212-4 auto-applies to every micro-purchase to prevent ADA violations.",
+        "citation": "FAR 12.401(d)",
+        "tags": ["Part 12", "micro-purchase", "anti-deficiency"],
+        "display_order": 350,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Equitable Distribution of Micro-Purchases",
+        "content": "To the extent practicable, distribute micro-purchases equitably among qualified suppliers.",
+        "key_takeaway": "Spread micro-purchases around among qualified suppliers when practicable.",
+        "citation": "FAR 12.402(a)",
+        "tags": ["Part 12", "micro-purchase"],
+        "display_order": 360,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Micro-Purchase Without Competitive Quotations",
+        "content": "Micro-purchases may be awarded without soliciting competitive quotations if the contracting officer or individual appointed in accordance with 1.403-2(b) considers the price to be reasonable. The administrative cost of verifying price reasonableness may exceed potential savings — verification is only needed if there's a lack of understanding of competitive pricing or reason to suspect a price is not reasonable.",
+        "key_takeaway": "No competition required for micro-purchases if price is reasonable. Only verify price reasonableness if there's specific reason to (lack of competitive understanding or suspicion).",
+        "citation": "FAR 12.402(b)-(c)",
+        "tags": ["Part 12", "micro-purchase", "competition"],
+        "display_order": 370,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Award to Non-Lowest Quoter",
+        "content": "If the contracting officer solicited competitive quotations and made award to a supplier that did NOT provide the lowest quote, documentation of the award must include identification of the suppliers solicited and a brief explanation of the award decision.",
+        "key_takeaway": "Awarded micro-purchase to a non-lowest quoter? Document the suppliers solicited AND why you picked who you picked.",
+        "citation": "FAR 12.402(d)",
+        "tags": ["Part 12", "micro-purchase", "documentation"],
+        "display_order": 380,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Micro-Purchase Methods - Primary Tools",
+        "content": "Use these methods as the primary means of making micro-purchases: (1) The Governmentwide commercial purchase card — for purchases of supplies, services, or construction, used only for purchases authorized by law or regulation. (2) Purchase orders, including orders against blanket purchase agreements.",
+        "key_takeaway": "Primary micro-purchase methods: Governmentwide commercial purchase card and purchase orders (including BPA orders).",
+        "citation": "FAR 12.403(a)",
+        "tags": ["Part 12", "micro-purchase", "methods"],
+        "display_order": 390,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "SF 44 Use Conditions",
+        "content": "The SF 44 (Purchase Order-Invoice-Voucher) is a multipurpose pocket-size form designed primarily for on-the-spot, over-the-counter purchases while away from the purchasing office or at isolated activities. May be used in limited circumstances and only when advantageous to the Government if ALL of these are satisfied: (1) the agency authorizes use; (2) the amount is at or below the micro-purchase threshold (or higher per agency-set thresholds for unusual urgency or contingency operations); (3) supplies/services are immediately available with one delivery and one payment; AND (4) its use is more economical and efficient than the Governmentwide commercial purchase card.",
+        "key_takeaway": "SF 44 conditions (ALL must apply): agency authorizes + at/below micro-purchase threshold + one delivery/one payment + more economical than the purchase card.",
+        "citation": "FAR 12.403(b)",
+        "tags": ["Part 12", "micro-purchase", "SF 44"],
+        "display_order": 400,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 12",
+        "topic": "Imprest Funds and Third-Party Drafts",
+        "content": "Imprest funds and third-party drafts may be used to acquire supplies or services if an agency receives Treasury authorization and uses them per Part IV of the Treasury Financial Manual. An imprest fund transaction shall not exceed $500 (or other limits approved by the agency head). A third-party draft transaction shall not exceed $2,500, unless authorized at a higher level per Treasury restrictions.",
+        "key_takeaway": "Imprest fund transactions: max $500. Third-party drafts: max $2,500. Both require Treasury authorization and Treasury Financial Manual compliance.",
+        "citation": "FAR 12.403(c)",
+        "tags": ["Part 12", "micro-purchase", "thresholds"],
+        "display_order": 410,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Part 13 Scope - Noncommercial Only",
+        "content": "Part 13 implements simplified procedures for the acquisition of NONCOMMERCIAL products and services valued at or below the simplified acquisition threshold (SAT). It is implemented in accordance with 41 U.S.C. 1901-1903, 1905, and 3305.",
+        "key_takeaway": "Part 13 is for NONCOMMERCIAL acquisitions only, at or below the SAT. Commercial simplified procedures live in Part 12 now.",
+        "citation": "FAR 13.000",
+        "tags": ["Part 13", "scope", "noncommercial"],
+        "display_order": 10,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "When You Can Use Part 13",
+        "content": "Part 13 procedures may be used ONLY if: (1) there are no commercial products or commercial services that can satisfy the agency's needs (see part 12); AND (2) the supplies or services are not available from a required source (see part 8).",
+        "key_takeaway": "Two gates before using Part 13: no commercial option works (Part 12) AND not available from a required source (Part 8).",
+        "citation": "FAR 13.001(a)",
+        "tags": ["Part 13", "applicability"],
+        "display_order": 20,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Part 13 Dollar Range",
+        "content": "Follow Part 13 procedures when procuring noncommercial products and services valued at GREATER than the micro-purchase threshold (MPT) but at or below the SAT.",
+        "key_takeaway": "Part 13 dollar range: above the MPT, at or below the SAT. (Below MPT = micro-purchases under 13.4 / 12.4.)",
+        "citation": "FAR 13.001(b)",
+        "tags": ["Part 13", "thresholds", "applicability"],
+        "display_order": 30,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Exceptions for Specialized Acquisitions",
+        "content": "Three exceptions apply when using Part 13: (1) For architect-engineering services, follow the short selection process at 36.602-5; (2) For construction as a noncommercial service, comply with Part 36 and subpart 22.4 labor standards; (3) For research and development, use Part 13 procedures in conjunction with Part 35, as appropriate.",
+        "key_takeaway": "Three exceptions: A&E uses 36.602-5; construction adds Part 36 + 22.4; R&D combines Part 13 with Part 35.",
+        "citation": "FAR 13.001(b)(1)-(3)",
+        "tags": ["Part 13", "applicability", "exceptions"],
+        "display_order": 40,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "No Splitting Requirements",
+        "content": "Do not divide requirements, the aggregate value of which exceeds the SAT, merely to permit use of Part 13 procedures.",
+        "key_takeaway": "Don't split a requirement above the SAT just to qualify for Part 13. Aggregate value rules.",
+        "citation": "FAR 13.001(c)",
+        "tags": ["Part 13", "applicability", "thresholds"],
+        "display_order": 50,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Competition at or Below SAT",
+        "content": "Agencies must promote competition to the maximum extent practicable when procuring noncommercial products and services valued at or below the SAT.",
+        "key_takeaway": "Even at or below the SAT, you still promote competition to the maximum extent practicable.",
+        "citation": "FAR 13.101(a)",
+        "tags": ["Part 13", "competition"],
+        "display_order": 60,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Single-Source Acquisitions Under Part 13",
+        "content": "Contracting officers may solicit from a single source based on a determination and findings (see subpart 1.5) that only one source is reasonably available. Examples include urgency, exclusive licensing agreements, brand-name, or industrial mobilization.",
+        "key_takeaway": "Single source under Part 13 requires a D&F that only one source is reasonably available. Examples: urgency, exclusive license, brand-name, industrial mobilization.",
+        "citation": "FAR 13.101(b)",
+        "tags": ["Part 13", "competition", "single source"],
+        "display_order": 70,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Small Business Set-Aside Requirement",
+        "content": "Acquisitions of supplies or services that have an anticipated dollar value above the MPT, but at or below the SAT, MUST be set aside for small business concerns (see part 19).",
+        "key_takeaway": "Above MPT but at/below SAT = mandatory small business set-aside.",
+        "citation": "FAR 13.102",
+        "tags": ["Part 13", "small business", "set-aside"],
+        "display_order": 80,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Inspection at Destination",
+        "content": "Generally, inspection and acceptance should be at destination. Inspection at the supplier's location should be specified only if required by 46.404.",
+        "key_takeaway": "Default for Part 13 acquisitions: inspect/accept at destination. Supplier-location inspection only when 46.404 requires it.",
+        "citation": "FAR 13.103",
+        "tags": ["Part 13", "quality assurance", "inspection"],
+        "display_order": 90,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Procedures Reference Part 12",
+        "content": "Follow the simplified procedures at 12.201-1 for issuing requests for quotations (RFQs). Agencies are encouraged to use additional innovative approaches and may leverage the other flexibilities identified in that section. However, if using blanket purchase agreements (BPAs), the maximum value of each individual purchase under a BPA may not exceed the SAT.",
+        "key_takeaway": "Part 13 RFQs use the same procedures as 12.201-1 (commercial simplified). BPA limit under Part 13: per-purchase max can't exceed the SAT.",
+        "citation": "FAR 13.201",
+        "tags": ["Part 13", "procedures", "BPA"],
+        "display_order": 100,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Evaluation Reference",
+        "content": "Follow the procedures in 12.203 when establishing evaluation factors and a process to evaluate quotations in an efficient and minimally burdensome manner. Notify potential quoters of the basis on which the agency will make the award decision. Exercise good business judgment in deciding whether or not to accept a quotation received after the due date or time.",
+        "key_takeaway": "Evaluation under Part 13 mirrors 12.203: standard factors, efficient/minimally burdensome, tell quoters the basis, business judgment on late quotes.",
+        "citation": "FAR 13.202",
+        "tags": ["Part 13", "evaluation"],
+        "display_order": 110,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Award Documentation",
+        "content": "The contracting officer must determine the price to be fair and reasonable; whenever possible, base price reasonableness on competitive quotations. Include in the contract file a written description of the procedures used in awarding the purchase order and the number of quotations received.",
+        "key_takeaway": "CO determines price fair and reasonable (competitive quotes preferred). File must document procedures used and number of quotations received.",
+        "citation": "FAR 13.203(a)-(b)",
+        "tags": ["Part 13", "award", "documentation", "price reasonableness"],
+        "display_order": 120,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Award Forms",
+        "content": "Use the Optional Form (OF) 347, Order for Supplies or Services; the OF 336, Continuation Sheet, or OF 348, Order for Supplies and Services Schedule—Continuation; or similar agency forms or automated formats to the maximum extent practicable.",
+        "key_takeaway": "Part 13 award forms: OF 347 (order), OF 336 (continuation), OF 348 (schedule continuation), or similar agency/automated forms.",
+        "citation": "FAR 13.203(c)",
+        "tags": ["Part 13", "award", "forms"],
+        "display_order": 130,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Streamlined Terms and Conditions Clause",
+        "content": "Contracting officers may use the clause at 52.213-4, Terms and Conditions—Simplified Acquisitions (Noncommercial), to provide a streamlined set of terms and conditions for inspection/acceptance, excusable delays, terminations, and warranties. This clause is either used in lieu of similar clauses prescribed for these purposes, or tailored to incorporate only some of the streamlined terms and conditions, as necessary.",
+        "key_takeaway": "Optional streamlined T&C clause for Part 13: 52.213-4. Covers inspection/acceptance, excusable delays, terminations, warranties. Replaces similar clauses or can be tailored.",
+        "citation": "FAR 13.204(b)",
+        "tags": ["Part 13", "clauses"],
+        "display_order": 140,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Don't Use Part 12 Clauses",
+        "content": "Do not use part 12 clauses (i.e., 52.212-1, 52.212-2, or 52.212-4) in noncommercial acquisitions.",
+        "key_takeaway": "Part 12 clauses (52.212-1, -2, -4) are OFF-LIMITS for noncommercial Part 13 acquisitions.",
+        "citation": "FAR 13.204(c)",
+        "tags": ["Part 13", "clauses"],
+        "display_order": 150,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Postaward Notifications",
+        "content": "Comply with the award notice posting requirements in subpart 5.3. Upon request, provide a brief explanation of the award decision that explains why the unsuccessful quoter was not selected. If an award notice was not required to be posted to the Government point of entry, also provide the information that would be included in an award notice.",
+        "key_takeaway": "Post award notices per 5.3. Unsuccessful quoter asks? Brief explanation required. No GPE notice posted? Also provide what would have been in it.",
+        "citation": "FAR 13.301",
+        "tags": ["Part 13", "notifications", "postaward"],
+        "display_order": 160,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Cancellations Before Acceptance",
+        "content": "The Government may withdraw, amend, or cancel purchase orders by written notice to the supplier at any time before acceptance of the order occurs. If the supplier did not accept the purchase order in writing, request that the supplier provide written acceptance of the cancellation.",
+        "key_takeaway": "Government can cancel POs in writing before acceptance. If supplier didn't accept the PO in writing, request written acceptance of the cancellation.",
+        "citation": "FAR 13.302(a)-(b)",
+        "tags": ["Part 13", "cancellations"],
+        "display_order": 170,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Termination Procedures - Use Part 49 or 52.213-4",
+        "content": "If the contractor does not accept the cancellation or claims that costs were incurred as a result of the contractor beginning performance under the purchase order, follow the procedures in part 49 OR 52.213-4 to terminate the purchase order.",
+        "key_takeaway": "Contractor disputes cancellation or claims costs? Terminate using Part 49 OR clause 52.213-4. (Note: Part 12 forbids Part 49 for commercial — Part 13 allows it.)",
+        "citation": "FAR 13.302(c)",
+        "tags": ["Part 13", "termination"],
+        "display_order": 180,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "No Financing Below SAT",
+        "content": "Unless agency regulations permit otherwise, do not provide financing for purchases valued at or below the SAT.",
+        "key_takeaway": "Default: no contract financing for Part 13 purchases. Agency regulations can override this default.",
+        "citation": "FAR 13.303(a)",
+        "tags": ["Part 13", "financing"],
+        "display_order": 190,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Micro-Purchases Reference Part 12",
+        "content": "Follow the procedure in 12.4 when making purchases valued at or below the MPT.",
+        "key_takeaway": "Micro-purchases (at or below MPT) under Part 13 follow the same procedures as 12.4.",
+        "citation": "FAR 13.401(a)",
+        "tags": ["Part 13", "micro-purchase"],
+        "display_order": 200,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 13",
+        "topic": "Auto-Applied Anti-Deficiency Clause",
+        "content": "While micro-purchases do not require written provisions or clauses, the clause at 52.232-39, Unenforceability of Unauthorized Obligations, automatically applies to any micro-purchase, including those made with the Governmentwide commercial purchase card. This clause prevents violations of the Anti-Deficiency Act (31 U.S.C. 1341).",
+        "key_takeaway": "52.232-39 (Unenforceability of Unauthorized Obligations) auto-applies to every micro-purchase to prevent ADA violations. (Note: Part 12 cites paragraph (s) of 52.212-4 — Part 13 cites the standalone 52.232-39.)",
+        "citation": "FAR 13.401(b)",
+        "tags": ["Part 13", "micro-purchase", "anti-deficiency"],
+        "display_order": 210,
+        "related_question_ids": []
+    },
+    {
+        "far_part": "Part 14",
+        "topic": "Conditions for Sealed Bidding",
+        "content": "Contracting officers must solicit sealed bids if time permits, the award will be based on price and price-related factors, it is not necessary to conduct discussions with responding offerors, and there is a reasonable expectation of receiving more than one sealed bid.",
+        "key_takeaway": "Sealed bidding is mandatory when you have time, the award is strictly price-based, discussions aren't needed, and you expect multiple bids.",
+        "citation": "FAR 14.103-1",
+        "tags": ["Part 14", "sealed bidding", "conditions", "mandatory use"],
+        "display_order": 376,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Contract Types for Sealed Bidding",
+        "content": "When using sealed bidding, contracts shall be firm-fixed-price or fixed-price with economic price adjustment. No other contract types are authorized.",
+        "key_takeaway": "Sealed bidding means fixed pricing. You can only use firm-fixed-price or fixed-price with economic price adjustments.",
+        "citation": "FAR 14.104",
+        "tags": ["Part 14", "contract types", "firm-fixed-price"],
+        "display_order": 377,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Preparation of Invitations for Bids (IFB)",
+        "content": "Invitations for bids must describe the requirements of the Government clearly, accurately, and completely to ensure full and open competition. Restrictive specifications that limit the number of bidders are prohibited.",
+        "key_takeaway": "Your IFB must be crystal clear and completely describe the need. Don't write specs that unfairly restrict competition.",
+        "citation": "FAR 14.201-1",
+        "tags": ["Part 14", "IFB", "competition", "specifications"],
+        "display_order": 378,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Bidding Time",
+        "content": "Bidding time is the period of time between the date of distribution of the IFB and the time and date set for receipt of bids. A reasonable time for prospective bidders to prepare and submit bids must be allowed, usually at least 30 days.",
+        "key_takeaway": "Give bidders enough time to prepare their sealed bids. The standard rule of thumb is at least 30 days unless a shorter period is justified.",
+        "citation": "FAR 14.202-1",
+        "tags": ["Part 14", "bidding time", "deadlines"],
+        "display_order": 379,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Public Opening of Bids",
+        "content": "Bids shall be opened publicly at the time and place stated in the IFB. The bid opening officer shall personally and publicly open all bids received before that time, read them aloud, and record them.",
+        "key_takeaway": "Bid openings are a public event. Bids must be opened, read aloud, and recorded exactly at the scheduled time and location.",
+        "citation": "FAR 14.402-1",
+        "tags": ["Part 14", "bid opening", "public opening"],
+        "display_order": 380,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Amending the IFB",
+        "content": "If it becomes necessary to make changes to an IFB after it has been issued, the changes must be accomplished by an amendment. The amendment must be issued before the time set for bid opening.",
+        "key_takeaway": "Need to change an IFB after it's out? You must issue a formal amendment, and it has to be done before the bid opening deadline.",
+        "citation": "FAR 14.208(a)",
+        "tags": ["Part 14", "IFB", "amendment"],
+        "display_order": 381,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Canceling the IFB",
+        "content": "An IFB may be cancelled by the contracting officer when clearly in the public interest, such as when there is no longer a requirement for the supplies or services.",
+        "key_takeaway": "You can cancel an Invitation for Bids (IFB) before opening, but only if it's clearly in the public's best interest, like if the requirement goes away.",
+        "citation": "FAR 14.209(j)",
+        "tags": ["Part 14", "IFB", "cancellation"],
+        "display_order": 382,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Two-Step Sealed Bidding: General",
+        "content": "Two-step sealed bidding is a hybrid method used when specs aren't clear enough for normal sealed bidding. Step one involves technical proposals (no prices) to figure out what's acceptable. Step two is a sealed bid from those who passed step one.",
+        "key_takeaway": "When specs are fuzzy, use two-step bidding. First, vet technical proposals to define the requirement. Second, get prices from the qualified bidders.",
+        "citation": "FAR 14.211-1",
+        "tags": ["Part 14", "two-step bidding", "technical proposals"],
+        "display_order": 383,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Two-Step Bidding: Step One",
+        "content": "Step one consists of the request for submission of technical proposals. No pricing is submitted. The objective is to determine the acceptability of the supplies or services offered.",
+        "key_takeaway": "The first step of two-step bidding is all about the technical side. Bidders submit proposals without any pricing to see if their solution is acceptable.",
+        "citation": "FAR 14.211-1(a)",
+        "tags": ["Part 14", "two-step bidding", "technical proposals", "step one"],
+        "display_order": 384,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Two-Step Bidding: Step Two",
+        "content": "Step two involves the submission of sealed priced bids by those who submitted acceptable technical proposals in step one. Bids submitted in step two are evaluated and the awards made in accordance with subpart 14.3.",
+        "key_takeaway": "After passing the technical round (Step One), qualified bidders submit their prices in a formal sealed bid. The award then follows normal sealed bidding rules.",
+        "citation": "FAR 14.211-1(b)",
+        "tags": ["Part 14", "two-step bidding", "priced bids", "step two"],
+        "display_order": 385,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Late Bids",
+        "content": "Any bid, modification, or withdrawal of a bid received at the Government office designated in the IFB after the exact time specified for receipt of bids is 'late' and will not be considered, with very few exceptions.",
+        "key_takeaway": "The 'late is late' rule is strict in sealed bidding. If your bid arrives after the exact deadline, it's rejected, period.",
+        "citation": "FAR 14.301(f)(1)",
+        "tags": ["Part 14", "late bid", "deadline", "submission"],
+        "display_order": 386,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Withdrawing a Bid",
+        "content": "A bidder may withdraw a bid in person or via electronic notice if the withdrawal is received before the exact time set for the opening of bids.",
+        "key_takeaway": "You can withdraw your bid without penalty, but your withdrawal notice absolutely must be received *before* the bid opening deadline.",
+        "citation": "FAR 14.301(d)-(e)",
+        "tags": ["Part 14", "bid withdrawal", "deadline"],
+        "display_order": 387,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Postponing Bid Opening",
+        "content": "The contracting officer may postpone a public bid opening if there is reason to believe that circumstances like mail delays or communication system failures have prevented a significant number of bidders from submitting on time.",
+        "key_takeaway": "A bid opening can be postponed if something major (like a flood or system blackout) has likely delayed bidders.",
+        "citation": "FAR 14.303(d)",
+        "tags": ["Part 14", "bid opening", "postponement"],
+        "display_order": 388,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Mistakes in Bids: General Rule",
+        "content": "After the opening of bids, contracting officers must examine all bids for mistakes. The authority to permit correction of bids is limited to bids that, as submitted, are responsive to the invitation.",
+        "key_takeaway": "You must check every bid for mistakes after opening. However, you can only allow a correction if the bid was already responsive—you can't fix a non-responsive bid.",
+        "citation": "FAR 14.304-1(a)-(b)",
+        "tags": ["Part 14", "mistake in bid", "correction", "responsive bid"],
+        "display_order": 389,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Apparent Clerical Mistakes",
+        "content": "The contracting officer may correct any clerical mistake apparent on its face in the bid, before award, after first obtaining verification from the bidder. Examples include a misplaced decimal point or incorrect discounts.",
+        "key_takeaway": "Obvious typos, like a misplaced decimal point, can be corrected by the CO before award, but you must get verification from the bidder first.",
+        "citation": "FAR 14.304-2",
+        "tags": ["Part 14", "mistake in bid", "clerical mistake", "correction"],
+        "display_order": 390,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Other Mistakes Disclosed Before Award",
+        "content": "A bidder may be permitted to withdraw a bid (but not correct it) if the evidence of a mistake is clear and convincing, but the evidence of the intended bid is not.",
+        "key_takeaway": "If a bidder can prove they made a mistake, but can't prove what their bid *should* have been, they may be allowed to withdraw the bid, not correct it.",
+        "citation": "FAR 14.304-3(c)",
+        "tags": ["Part 14", "mistake in bid", "withdrawal"],
+        "display_order": 391,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Cancellation of Invitation *After* Opening",
+        "content": "Invitations may be cancelled after opening only for a compelling reason in the public interest (e.g., all bids are at unreasonable prices) and the agency head determines it in writing.",
+        "key_takeaway": "Canceling an IFB after bids are opened is a big deal and requires a compelling reason, like all prices being unreasonably high. This decision must be documented in writing by the agency head.",
+        "citation": "FAR 14.305(b)",
+        "tags": ["Part 14", "cancellation", "public interest", "unreasonable price"],
+        "display_order": 392,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Responsiveness of Bids",
+        "content": "To be considered for award, a bid must comply in all material respects with the invitation for bids. Bids must be filled out, executed, and submitted in accordance with the instructions in the invitation.",
+        "key_takeaway": "A bid must follow all the IFB's material rules to be eligible for award. No exceptions. This is the core of bid responsiveness.",
+        "citation": "FAR 14.306-1(a)-(b)",
+        "tags": ["Part 14", "responsive bid", "evaluation", "material compliance"],
+        "display_order": 393,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Rejection of Individual Bids",
+        "content": "Bids must be rejected if the bidder imposes conditions that would modify requirements of the invitation or limit the bidder's liability to the Government, such as stating the price will be 'price in effect at time of delivery.'",
+        "key_takeaway": "Any bid that tries to change the rules or limit the bidder's liability must be rejected. For example, a bidder can't say their price is subject to change later.",
+        "citation": "FAR 14.306-3(d)",
+        "tags": ["Part 14", "rejection", "non-responsive", "bid conditions"],
+        "display_order": 394,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "All or None Qualifications",
+        "content": "A bid may be responsive even if the bidder specifies that award will be accepted only on all, or a specified group, of the items. Contracting officers must not permit bidders to withdraw or modify 'all or none' qualifications after bid opening.",
+        "key_takeaway": "It's okay for a bidder to state 'all or none' for a group of items. This doesn't make their bid non-responsive. However, they can't change that condition after bids are opened.",
+        "citation": "FAR 14.306-6",
+        "tags": ["Part 14", "all or none", "responsive bid", "qualification"],
+        "display_order": 395,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Minor Informalities or Irregularities",
+        "content": "A minor informality or irregularity is a matter of form, not substance (e.g., failure to return the right number of copies). The CO can either give the bidder a chance to cure it or waive it, whichever helps the Government more.",
+        "key_takeaway": "Don't sweat the small stuff. For minor issues of form, like forgetting to submit an extra copy, the CO can either waive it or let the bidder fix it.",
+        "citation": "FAR 14.306-7",
+        "tags": ["Part 14", "minor informality", "irregularity", "waiver"],
+        "display_order": 396,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Award Basis",
+        "content": "The contracting officer must make a contract award to that responsible bidder whose bid, conforming to the invitation, will be most advantageous to the Government, considering only price and the price-related factors included in the invitation.",
+        "key_takeaway": "In sealed bidding, the winner is the responsible bidder who submitted the lowest-priced, technically acceptable (responsive) bid. Price and price factors are all that matter.",
+        "citation": "FAR 14.307(a)",
+        "tags": ["Part 14", "award", "lowest price", "responsible bidder", "responsive bid"],
+        "display_order": 397,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Award of Equal Low Bids",
+        "content": "When two or more low bids are equal in all respects, award contracts with priority given first to small businesses that are also labor surplus area concerns, then other small businesses, then other businesses. If a tie remains, award is made by a drawing.",
+        "key_takeaway": "In a tie, small businesses get priority. If there's still a tie between equal bidders, the winner is chosen by a random drawing.",
+        "citation": "FAR 14.308(a)-(b)",
+        "tags": ["Part 14", "equal bids", "tie-breaker", "small business"],
+        "display_order": 398,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Informing Unsuccessful Bidders",
+        "content": "The contracting officer must notify each unsuccessful bidder in writing or electronically within three days after contract award that its bid was not accepted.",
+        "key_takeaway": "You must notify the unsuccessful bidders within three days after the award is made. It's a mandatory courtesy.",
+        "citation": "FAR 14.309-1(a)(1)",
+        "tags": ["Part 14", "unsuccessful bidder", "notification"],
+        "display_order": 399,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Mistakes Discovered *After* Award",
+        "content": "If a contractor discovers a mistake after award, it must be processed under the procedures of Part 33 (Disputes). Correction is only possible if it's based on clear and convincing evidence and doesn't change the essential requirements of the contract.",
+        "key_takeaway": "Fixing a mistake after an award is much harder and is handled as a formal dispute. You need 'clear and convincing evidence' to even consider reforming or rescinding the contract.",
+        "citation": "FAR 14.401",
+        "tags": ["Part 14", "mistake after award", "reformation", "rescission", "disputes"],
+        "display_order": 400,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Reforming a Contract for a Mistake",
+        "content": "An agency can reform a contract to increase the price only if the corrected price does not exceed that of the next lowest acceptable bid under the original invitation.",
+        "key_takeaway": "If you agree to correct a mistake by increasing the contract price, the new price can't be higher than what the second-place bidder offered.",
+        "citation": "FAR 14.401(b)(2)(ii)",
+        "tags": ["Part 14", "mistake after award", "reformation", "price increase"],
+        "display_order": 401,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Rescinding a Contract for a Mistake",
+        "content": "Agencies are authorized to make a determination to rescind a contract due to a mistake in bid, based on clear and convincing evidence that a mistake was made.",
+        "key_takeaway": "A contract can be completely canceled (rescinded) because of a mistake, but only if the evidence for the mistake is rock solid.",
+        "citation": "FAR 14.401(b)(1)",
+        "tags": ["Part 14", "mistake after award", "rescission"],
+        "display_order": 402,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Notice of Mistake",
+        "content": "A mistake can be corrected after award only if it was mutual OR if it was a unilateral mistake by the contractor that was so apparent as to have charged the contracting officer with notice of the probability of the mistake.",
+        "key_takeaway": "To fix a contractor's mistake after award, the error must have been so obvious that the CO should have reasonably noticed it (e.g., a bid that is 10x lower than all others).",
+        "citation": "FAR 14.401(c)",
+        "tags": ["Part 14", "mistake after award", "apparent mistake", "notice"],
+        "display_order": 403,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Pricing Modifications",
+        "content": "For policies and procedures related to cost and price negotiation for contract modifications, see FAR Part 15.",
+        "key_takeaway": "When you need to price a modification to a sealed bid contract, the rules you follow are found in FAR Part 15, not Part 14.",
+        "citation": "FAR 14.402",
+        "tags": ["Part 14", "modifications", "pricing", "negotiation", "Part 15"],
+        "display_order": 404,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 14",
+        "topic": "Economic Price Adjustment",
+        "content": "When an IFB does not contain an economic price adjustment (EPA) clause but a bidder proposes one with a ceiling, the bid must be evaluated based on the maximum possible price with the adjustment.",
+        "key_takeaway": "If a bidder adds their own Economic Price Adjustment clause with a ceiling, you must evaluate their bid at its worst-case (highest) price.",
+        "citation": "FAR 14.306-9(a)(1)",
+        "tags": ["Part 14", "economic price adjustment", "EPA", "evaluation"],
+        "display_order": 405,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 15",
+        "topic": "Types of Negotiated Acquisition: Noncompetitive",
+        "content": "Noncompetitive, or sole source, acquisition is a process whereby an award is made to a single vendor without soliciting offers from multiple sources. When using this acquisition strategy, agencies should remove unnecessary information and requirements from the request for proposal (RFP), including voluminous proposal preparation instructions and evaluation factors.",
+        "key_takeaway": "When going sole source, RFPs should be streamlined to remove unnecessary requirements since there's only one vendor to consider.",
+        "citation": "15.002(a)",
+        "tags": ["Part 15", "negotiated acquisition", "sole source", "noncompetitive"],
+        "display_order": 406,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Early Exchanges with Industry: General",
+        "content": "Exchanges of information among all interested parties are encouraged and can occur at any time between the identification of a requirement through the receipt of proposals. These exchanges can improve both the Government's understanding of industry capabilities and the industry's understanding of the Government's needs.",
+        "key_takeaway": "Communicating with industry early and often is encouraged to ensure everyone is on the same page about the requirement and what industry can offer.",
+        "citation": "15.101(a)",
+        "tags": ["Part 15", "market research", "communication", "industry engagement"],
+        "display_order": 407,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Requests for Information (RFI)",
+        "content": "Agencies are encouraged to release requests for information (RFI) when the Government does not currently intend to award a contract, but wants to obtain price, delivery, market, or capabilities information for planning purposes. Responses to RFIs are not offers and cannot be accepted by the Government to form a binding contract.",
+        "key_takeaway": "RFIs are for market research, not for awarding contracts. Industry's responses are just information, not official offers.",
+        "citation": "15.101(c)",
+        "tags": ["Part 15", "RFI", "market research", "planning"],
+        "display_order": 408,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Advisory Multistep Process",
+        "content": "Agencies may publish a notice that provides a general description of the scope or purpose of the acquisition and invites potential offerors to submit information that allows the Government to advise offerors about their potential to be viable competitors. Informing respondents that they are 'not viable' does not prevent them from participating in the resultant acquisition.",
+        "key_takeaway": "The government can use an advisory multistep process to give vendors a heads-up on their competitive viability, but even 'non-viable' vendors can still compete.",
+        "citation": "15.101(e)",
+        "tags": ["Part 15", "downselect", "advisory", "multistep"],
+        "display_order": 409,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Structuring RFPs: Uniform Contract Format Exceptions",
+        "content": "Agencies do not need to use the uniform contract format for: (i) Construction and architect-engineer contracts, (ii) Subsistence contracts, (iii) Supplies or services contracts requiring special contract formats... (iv) Streamlined RFPs, (v) Contracts exempted by the agency head or designee.",
+        "key_takeaway": "The standard Uniform Contract Format isn't required for certain acquisitions like construction, A-E services, or when using a streamlined RFP.",
+        "citation": "15.102(b)(2)",
+        "tags": ["Part 15", "RFP", "uniform contract format", "solicitation"],
+        "display_order": 410,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Source Selection: Tradeoff Approach",
+        "content": "The tradeoff approach to source selection is appropriate when it may be in the Government's best interest to consider award to other than the lowest priced offeror or other than the highest technically rated offeror. This process permits tradeoffs among cost or price and non-cost or non-price factors.",
+        "key_takeaway": "The tradeoff process allows the government to award to a higher-priced offer if its technical or other benefits are worth the extra cost.",
+        "citation": "15.103-1",
+        "tags": ["Part 15", "source selection", "tradeoff", "best value"],
+        "display_order": 411,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Source Selection: LPTA Limitations",
+        "content": "The LPTA source selection approach must only be used when the agency can comprehensively and clearly describe the minimum requirements and would realize no, or minimal, value from a proposal that exceeds the minimum technical or performance requirements.",
+        "key_takeaway": "Only use LPTA when requirements are crystal clear and there is no benefit to paying more for a 'better' proposal.",
+        "citation": "15.103-2(c)(1)",
+        "tags": ["Part 15", "LPTA", "source selection", "limitations"],
+        "display_order": 412,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Source Selection: Phased Acquisition",
+        "content": "Phased acquisitions break down complex or high-risk acquisitions into distinct parts for contract award. Instead of a single and comprehensive proposal and evaluation process, phased acquisitions are structured to make separate awards at distinct phases of the acquisition.",
+        "key_takeaway": "For complex, high-risk programs, a phased acquisition allows the government to award contracts for individual stages, reducing risk and increasing flexibility.",
+        "citation": "15.103-4(a)",
+        "tags": ["Part 15", "phased acquisition", "risk management", "source selection"],
+        "display_order": 413,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Evaluation Factors: Price or Cost",
+        "content": "Price or cost to the Government must be evaluated in every competitive source selection. Proposed price reductions under an offeror's other contracts cannot be used as an evaluation factor.",
+        "key_takeaway": "Price or cost must always be evaluated in a competitive acquisition. Discounts on other contracts don't count toward the current evaluation.",
+        "citation": "15.104(b)(1)(i)",
+        "tags": ["Part 15", "evaluation factors", "price", "cost"],
+        "display_order": 414,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Evaluation Factors: Past Performance",
+        "content": "Past performance must be evaluated in every competitive source selection, unless the contracting officer documents the reason past performance is not an appropriate evaluation factor for the acquisition.",
+        "key_takeaway": "Past performance must be an evaluation factor unless the contracting officer provides a written justification for leaving it out.",
+        "citation": "15.104(b)(3)(i)",
+        "tags": ["Part 15", "evaluation factors", "past performance"],
+        "display_order": 415,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Evaluation Factors: Importance",
+        "content": "The RFP must...state, at a minimum, whether all evaluation factors other than cost or price, when combined, are—(1) Significantly more important than cost or price; (2) Approximately equal to cost or price; or (3) Significantly less important than cost or price.",
+        "key_takeaway": "The RFP must clearly state the relative importance of non-cost/price factors compared to the cost/price itself.",
+        "citation": "15.104(d)",
+        "tags": ["Part 15", "evaluation factors", "relative importance", "RFP"],
+        "display_order": 416,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Oral Presentations",
+        "content": "Oral presentations may be used as a substitute for requesting portions of a written proposal information from offerors. Information on an offeror's capability, past performance, work plans or approaches, staffing resources, transition plans, or sample tasks can be suitable for oral presentations.",
+        "key_takeaway": "Oral presentations can replace parts of a written proposal and are useful for evaluating things like capability, work plans, and past performance.",
+        "citation": "15.105-1(a)",
+        "tags": ["Part 15", "oral presentations", "proposals", "evaluation"],
+        "display_order": 417,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Amending a Request for Proposal (RFP)",
+        "content": "When the Government changes its requirements or terms and conditions, the contracting officer must amend the RFP. Amendments issued before the established time and date for receipt of proposals must be issued to all parties receiving the RFP.",
+        "key_takeaway": "If the government's needs change before proposals are due, the contracting officer must issue an official amendment to all potential offerors.",
+        "citation": "15.106(a)",
+        "tags": ["Part 15", "RFP", "amendment", "solicitation"],
+        "display_order": 418,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Late Proposals: General",
+        "content": "Any proposal, modification, or revision, that is received at the designated Government office after the exact time specified for receipt of proposals is 'late' and will not be considered, unless it is received before award is made, the contracting officer determines that accepting the late proposal would not unduly delay the acquisition...",
+        "key_takeaway": "A late proposal is automatically rejected unless it arrives before award, won't cause a delay, and meets one of the strict exceptions.",
+        "citation": "15.107(b)(1)",
+        "tags": ["Part 15", "late proposal", "submission", "deadline"],
+        "display_order": 419,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Late Proposal: Exception",
+        "content": "A late modification of an otherwise successful proposal, that makes its terms more favorable to the Government, will be considered at any time it is received and may be accepted by the contracting officer.",
+        "key_takeaway": "Even after the deadline, a late modification from the winning offeror can be accepted if it makes the deal better for the government.",
+        "citation": "15.107(b)(2)",
+        "tags": ["Part 15", "late proposal", "modification", "exception"],
+        "display_order": 420,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Unreadable Proposals",
+        "content": "If any portion of a proposal submitted electronically is unreadable, contracting officers must immediately notify the offeror and permit the offeror to resubmit the unreadable portion of the proposal. ...the resubmission is considered as if it were received at the date and time of the original unreadable submission.",
+        "key_takeaway": "If a proposal is electronically corrupted or unreadable, the offeror gets a chance to resubmit it, and it will be treated as if it arrived on time.",
+        "citation": "15.108(c)",
+        "tags": ["Part 15", "proposal submission", "electronic", "unreadable"],
+        "display_order": 421,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Proposal Evaluation: Clarifications",
+        "content": "Clarifications are exchanges between the Government and offerors where offerors are given the opportunity to resolve minor or clerical errors or clarify certain aspects of their proposal. Clarifications do not permit offerors to revise their proposal and cannot be used to cure proposal deficiencies or material omissions.",
+        "key_takeaway": "Clarifications are for clearing up minor errors or ambiguities; they are not an opportunity for an offeror to fix a deficient or incomplete proposal.",
+        "citation": "15.202(a)(2)",
+        "tags": ["Part 15", "clarifications", "evaluation", "exchanges"],
+        "display_order": 422,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Competitive Award Without Negotiation",
+        "content": "Contracting officers may make competitive awards without negotiations if the RFP states that the Government intends to evaluate proposals and make award without negotiation. If the RFP includes such a notice and the Government determines it is necessary to negotiate, the rationale for doing so must be documented in the contract file.",
+        "key_takeaway": "The government can award without discussions if the RFP says so, but if they change their mind and decide to negotiate, they must document why.",
+        "citation": "15.203",
+        "tags": ["Part 15", "award without negotiation", "discussions", "RFP"],
+        "display_order": 423,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Competitive Range",
+        "content": "A competitive range is the group of evaluated proposals that the contracting officer determines are best suited for further negotiation. Contracting officers must establish a competitive range if negotiations will occur after evaluating competitive proposals.",
+        "key_takeaway": "The competitive range consists of the top-tier proposals that the government considers to be the most likely candidates for award.",
+        "citation": "15.204-1(a)",
+        "tags": ["Part 15", "competitive range", "negotiation", "source selection"],
+        "display_order": 424,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Source Selection Decision",
+        "content": "The source selection decision must represent the SSA's independent judgement and be based on a comparative assessment of proposals against all source selection criteria in the RFP. The source selection decision must be documented and include the rationale for any business judgments and tradeoffs made or relied on by the SSA.",
+        "key_takeaway": "The Source Selection Authority (SSA) makes the final award decision based on a comparative assessment of proposals against the RFP's criteria, and this decision must be well-documented.",
+        "citation": "15.205",
+        "tags": ["Part 15", "source selection", "SSA", "documentation"],
+        "display_order": 425,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 15",
+        "topic": "Preaward Notice of Exclusion",
+        "content": "Contracting officers must notify offerors promptly in writing when their proposals are excluded from the competitive range or otherwise eliminated from the competition. The notice must state the basis for the determination and that proposal revisions will not be considered.",
+        "key_takeaway": "If a proposal is kicked out of the competition, the contracting officer must send a written notice explaining why, and making it clear that the proposal cannot be revised.",
+        "citation": "15.206-1(a)",
+        "tags": ["Part 15", "preaward", "competitive range", "notice"],
+        "display_order": 426,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Requesting a Preaward Debriefing",
+        "content": "Offerors may request a preaward debriefing by submitting a written request for debriefing to the contracting officer within 3 days after receipt of the notice of exclusion from the competition. If the offeror does not submit a timely request, the offeror need not be given either a preaward or a postaward debriefing.",
+        "key_takeaway": "An offeror has 3 days from receiving notice of exclusion to request a preaward debriefing in writing. Miss that window, and you may not get a debriefing at all.",
+        "citation": "15.206-2(a)",
+        "tags": ["Part 15", "debriefing", "preaward", "timeline"],
+        "display_order": 427,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Content of Preaward Debriefings",
+        "content": "At a minimum, preaward debriefings must include—(i) The agency's evaluation of significant elements in the offeror's proposal; (ii) A summary of the rationale for eliminating the offeror from the competition; and (iii) Reasonable responses to relevant questions about whether source selection procedures were followed.",
+        "key_takeaway": "A preaward debriefing must cover the evaluation of significant elements, the reason for elimination, and answers to questions about the process.",
+        "citation": "15.206-2(c)(1)",
+        "tags": ["Part 15", "debriefing", "preaward", "content"],
+        "display_order": 428,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Preaward Debriefing Nondisclosure",
+        "content": "Preaward debriefings must not disclose— (1) The number of offerors; (2) The identity of other offerors; (3) The content of other offerors proposals; (4) The ranking of other offerors; (5) The evaluation of other offerors...",
+        "key_takeaway": "In a preaward debriefing, you can't be told who else is competing, what's in their proposals, or how they were ranked or evaluated.",
+        "citation": "15.206-2(d)",
+        "tags": ["Part 15", "debriefing", "preaward", "nondisclosure"],
+        "display_order": 429,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Award Notice",
+        "content": "Within 3 days after the date of contract award, contracting officers must provide written notification to each offeror whose proposal was in the competitive range but was not selected for award... The notice must include the number of offerors solicited, the number of proposals received, and the name and address of each offeror receiving an award.",
+        "key_takeaway": "Within 3 days of award, all unsuccessful offerors in the competitive range must be notified in writing about who won and how many companies competed.",
+        "citation": "15.207-2(b)",
+        "tags": ["Part 15", "award notice", "notification", "postaward"],
+        "display_order": 430,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Requesting a Postaward Debriefing",
+        "content": "Offerors may request a postaward debriefing by submitting a written request for the debriefing to the contracting officer within 3 days after receipt of the award notice... To the maximum extent practicable, the debriefing should occur within 5 days after receipt of the written request.",
+        "key_takeaway": "An offeror has 3 days from receiving the award notice to request a postaward debriefing, which should ideally happen within 5 days of the request.",
+        "citation": "15.301-1(a)",
+        "tags": ["Part 15", "debriefing", "postaward", "timeline"],
+        "display_order": 431,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Content of Postaward Debriefings",
+        "content": "At a minimum, the debriefing information must include...the Government's evaluation of the significant weaknesses or deficiencies in the offeror's proposal; the overall evaluated cost or price and technical rating of the successful offeror and the debriefed offeror; and a summary of the rationale for award.",
+        "key_takeaway": "A postaward debriefing reveals your proposal's weaknesses/deficiencies, a side-by-side comparison of your rating and the winner's, and the justification for the award decision.",
+        "citation": "15.301-1(c)(1)",
+        "tags": ["Part 15", "debriefing", "postaward", "content"],
+        "display_order": 432,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Postaward Debriefing Nondisclosure",
+        "content": "The debriefing must not include point-by-point comparisons of the debriefed offeror's proposal with those of other offerors. Moreover, the debriefing must not reveal...trade secrets; privileged or confidential manufacturing processes and techniques; [or] commercial and financial information that is privileged or confidential...",
+        "key_takeaway": "Even in a postaward debriefing, the government cannot do a point-by-point comparison with other proposals or reveal other companies' trade secrets and confidential financial data.",
+        "citation": "15.301-1(d)",
+        "tags": ["Part 15", "debriefing", "postaward", "nondisclosure"],
+        "display_order": 433,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Discovery of Mistakes After Award",
+        "content": "Mistakes in a contractor's proposal that are disclosed after award must be processed substantially in accordance with the procedures for mistakes in bids in part 14.",
+        "key_takeaway": "If a mistake is found in a contractor's proposal after the contract has already been awarded, the process for handling it follows the rules for 'mistakes in bids' from FAR Part 14.",
+        "citation": "15.303",
+        "tags": ["Part 15", "mistakes", "postaward", "proposals"],
+        "display_order": 434,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Contract Pricing: Requirement for Data",
+        "content": "In establishing the reasonableness of the offered prices, contracting officers must—(1) Obtain certified cost or pricing data when required...; or (2) When certified cost or pricing data are not required..., obtain data other than certified cost or pricing data as necessary to establish a fair and reasonable price.",
+        "key_takeaway": "To determine a fair price, the contracting officer must get either certified cost or pricing data or, if that's not required, other data to support the price.",
+        "citation": "15.402(a)",
+        "tags": ["Part 15", "pricing", "cost data", "fair and reasonable"],
+        "display_order": 435,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Data Other Than Certified Cost or Pricing Data: Order of Preference",
+        "content": "For acquisitions that do not require certified cost or pricing data, contracting officers must generally use the following order of preference...: (1) No additional data from the offeror, when adequate price competition exists... (2) Data related to prices... (3) Cost data...",
+        "key_takeaway": "When certified data isn't needed, the preferred data is: first, nothing (if competition is adequate); second, price data; and last, cost data.",
+        "citation": "15.403-1(a)",
+        "tags": ["Part 15", "pricing", "cost data", "preference"],
+        "display_order": 436,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Prohibition on Obtaining Certified Cost or Pricing Data",
+        "content": "Contracting officers must not require certified cost or pricing data to support any contracts, subcontracts, or modifications—(1) When...prices agreed upon are based on adequate price competition; (2) When...prices agreed upon are based on prices set by law or regulation; (3) When a commercial product or commercial service is being acquired...",
+        "key_takeaway": "Certified cost or pricing data cannot be required when the price is based on adequate competition, set by law, or for a commercial product/service.",
+        "citation": "15.403-2(b)",
+        "tags": ["Part 15", "certified cost data", "TINA", "exceptions"],
+        "display_order": 437,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Standard for Adequate Price Competition",
+        "content": "A price is based on adequate price competition when—(A) Two or more responsible offerors, competing independently, submit priced offers that satisfy the Government's expressed requirement; [and] (B) Award will be made to the offeror whose proposal represents the best value where price is a substantial factor...",
+        "key_takeaway": "The gold standard for 'adequate price competition' is receiving two or more independent, responsible offers for a best value award where price is a substantial factor.",
+        "citation": "15.403-2(c)(1)(i)",
+        "tags": ["Part 15", "price competition", "adequate", "pricing"],
+        "display_order": 438,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Certified Cost or Pricing Data Threshold",
+        "content": "Unless an exception...applies, contracting officers must obtain certified cost or pricing data when an action meets or exceeds the threshold of $2.5 million (for prime contracts awarded on or after July 1, 2018).",
+        "key_takeaway": "Certified cost or pricing data is required for contract actions of $2.5 million or more (post-July 2018) unless a specific exception applies.",
+        "citation": "15.403-3(a)",
+        "tags": ["Part 15", "certified cost data", "TINA", "threshold"],
+        "display_order": 439,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Cost and Price Analysis: General",
+        "content": "The objective of proposal analysis is to ensure that the final agreed-to price is fair and reasonable. Contracting officers are responsible for evaluating the reasonableness of the offered prices. The complexity and circumstances of each acquisition should determine the level of detail of the analysis required.",
+        "key_takeaway": "The whole point of analyzing a proposal is to ensure the final price is fair and reasonable, and the level of effort for this analysis should match the complexity of the buy.",
+        "citation": "15.404(a)(1)",
+        "tags": ["Part 15", "proposal analysis", "fair and reasonable", "pricing"],
+        "display_order": 440,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Price Analysis Techniques",
+        "content": "The Government may use various price analysis techniques...including, but not limited to, the following: (1) Comparison of proposed prices received in response to the RFP. (2) Comparison of the proposed prices to historical prices paid...",
+        "key_takeaway": "The two preferred price analysis techniques are comparing offers received against each other and comparing them to historical prices paid for the same or similar items.",
+        "citation": "15.404-1(b)",
+        "tags": ["Part 15", "price analysis", "techniques", "pricing"],
+        "display_order": 441,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Cost Analysis",
+        "content": "Cost analysis is the review and evaluation of any separate cost elements and profit or fee in an offeror's or contractor's proposal, as needed to determine a fair and reasonable price or to determine cost realism. Cost analysis must be used when certified cost or pricing data are required.",
+        "key_takeaway": "Cost analysis involves breaking down and evaluating the individual cost elements (like labor, materials, profit) and must be used whenever certified cost or pricing data is required.",
+        "citation": "15.404-2(a)",
+        "tags": ["Part 15", "cost analysis", "pricing", "cost realism"],
+        "display_order": 442,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Cost Realism Analysis: Probable Cost",
+        "content": "Cost realism analyses must be performed on cost-reimbursement contacts to determine the probable cost of performance for each offeror. The probable cost may differ from the proposed cost and should reflect the Government's best estimate of the cost of any contract that is most likely to result from the offeror's proposal.",
+        "key_takeaway": "For cost-reimbursement contracts, the government must perform a cost realism analysis to determine its own 'probable cost' estimate, which may be different from what the offeror proposed.",
+        "citation": "15.404-3(b)",
+        "tags": ["Part 15", "cost realism", "probable cost", "cost-reimbursement"],
+        "display_order": 443,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Unbalanced Pricing",
+        "content": "Unbalanced pricing exists when, despite an acceptable total evaluated price, the price of one or more line items is significantly over or understated as indicated by the application of cost or price analysis techniques. An offer may be rejected if the contracting officer determines that the lack of balance poses an unacceptable risk to the Government.",
+        "key_takeaway": "Unbalanced pricing, where some line items are priced too high and others too low, can be rejected if the contracting officer believes it poses an unacceptable risk.",
+        "citation": "15.404-6(a-b)",
+        "tags": ["Part 15", "unbalanced pricing", "risk", "pricing"],
+        "display_order": 444,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Subcontract Pricing Considerations",
+        "content": "Contracting officers are responsible for the determination of a fair and reasonable price for the prime contract, including subcontracting costs. To support this effort, the prime contractor or subcontractor must—(1) Conduct appropriate cost or price analyses to establish the reasonableness of proposed subcontract prices...",
+        "key_takeaway": "Prime contractors are required to conduct their own cost/price analysis on their subcontractors to justify that those sub-prices are reasonable.",
+        "citation": "15.404-8(a)",
+        "tags": ["Part 15", "subcontracting", "pricing", "flow-down"],
+        "display_order": 445,
+        "related_question_ids": []
+      },
+    {
+        "far_part": "Part 15",
+        "topic": "Profit Analysis: Structured Approaches",
+        "content": "Agencies making noncompetitive contract awards over $100,000 totaling $50 million or more a year—(i) Must use a structured approach for determining the profit or fee objective in those acquisitions that require cost analysis...; and (ii) May prescribe specific exemptions for situations in which mandatory use of a structured approach would be clearly inappropriate.",
+        "key_takeaway": "Large agencies must use a structured approach (like a weighted guidelines method) to determine profit objectives for noncompetitive awards that require cost analysis.",
+        "citation": "15.404-9(b)(1)",
+        "tags": ["Part 15", "profit", "structured approach", "negotiation"],
+        "display_order": 446,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Profit Limitations: Cost-Plus-Fixed-Fee Contracts",
+        "content": "Must not negotiate a price or fee that exceeds the following statutory limitations... (i) For experimental, developmental, or research work performed under a cost-plus-fixed-fee contract, the fee must not exceed 15 percent of the contract's estimated cost, excluding fee. ... (iii) For other cost-plus-fixed-fee contracts, the fee must not exceed 10 percent of the contract's estimated cost, excluding fee.",
+        "key_takeaway": "There are statutory caps on profit: for CPFF contracts, the fee cannot exceed 15% for R&D work or 10% for all other work.",
+        "citation": "15.404-9(c)(4)",
+        "tags": ["Part 15", "profit", "fee limitation", "CPFF"],
+        "display_order": 447,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Profit Analysis Factors: Contractor Effort",
+        "content": "This factor measures the complexity of the work and the resources required of the prospective contractor for contract performance. Greater profit opportunity should be provided under contracts requiring a high degree of professional and managerial skill and to prospective contractors whose skills, facilities, and technical assets can be expected to lead to efficient and economical contract performance.",
+        "key_takeaway": "A key factor in setting profit is 'Contractor Effort'—more complex work requiring greater skill, resources, and efficiency from the contractor should be rewarded with a higher profit opportunity.",
+        "citation": "15.404-9(d)(1)(i)",
+        "tags": ["Part 15", "profit analysis", "contractor effort", "negotiation"],
+        "display_order": 448,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Profit Analysis Factors: Contract Cost Risk",
+        "content": "This factor measures the degree of cost responsibility and associated risk that the prospective contractor will assume as a result of the contract type... The contractor assumes the greatest cost risk in a closely priced firm-fixed-price contract... [and] the least cost risk in a cost-plus-fixed-fee level-of-effort contract.",
+        "key_takeaway": "Profit should reflect the level of cost risk the contractor takes on. A firm-fixed-price (FFP) contract carries the highest risk and thus warrants higher profit, while a cost-plus-fixed-fee (CPFF) carries the lowest.",
+        "citation": "15.404-9(d)(1)(ii)",
+        "tags": ["Part 15", "profit analysis", "cost risk", "contract type"],
+        "display_order": 449,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Make-or-Buy Programs: Acquisitions Requiring",
+        "content": "Contracting officers may require offerors to submit make-or-buy program plans for acquisitions requiring certified cost or pricing data whose estimated value is $20 million or more... Contracting officers may only require offerors to submit make-or-buy programs for acquisitions whose estimated value is under $20 million if the contracting officer determines that the information is necessary and documents the reasons...",
+        "key_takeaway": "A make-or-buy plan may be required for acquisitions over $20M that need certified data. For acquisitions under $20M, it can only be required if the CO justifies the specific need in writing.",
+        "citation": "15.105-5(b)",
+        "tags": ["Part 15", "make-or-buy", "acquisition planning", "threshold"],
+        "display_order": 450,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Make-or-Buy Programs: Required Information",
+        "content": "The information required from an offeror about a make-or-buy program must— (i) Be confined to those major items or work efforts that normally would require company management review... (ii) Not include raw materials, products, commercial services, and off-the-shelf items, unless their potential impact on contract cost or schedule is critical...",
+        "key_takeaway": "A make-or-buy plan should focus only on major, complex items needing management review, not routine materials or commercial off-the-shelf (COTS) items unless they are critical to cost or schedule.",
+        "citation": "15.105-5(d)(1)",
+        "tags": ["Part 15", "make-or-buy", "major items", "commercial items"],
+        "display_order": 451,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Forward Pricing Rate Agreements (FPRA)",
+        "content": "Contracting officers will use FPRA rates as bases for pricing all contracts, modifications, and other contractual actions to be performed during the period covered by the agreement. Conditions that may affect the agreement's validity must be reported promptly to the administrative contracting officer (ACO).",
+        "key_takeaway": "An FPRA provides pre-approved rates (like overhead and G&A) to be used for all pricing actions during a specific period, but anything that might invalidate the agreement must be reported to the ACO immediately.",
+        "citation": "15.405-3(b)",
+        "tags": ["Part 15", "FPRA", "indirect rates", "pricing"],
+        "display_order": 452,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Should-Cost Reviews: General",
+        "content": "Should-cost reviews are a specialized form of cost analysis. Should-cost reviews differ from traditional evaluation methods because they do not assume that a contractor's historical costs reflect efficient and economical operation. Instead, these reviews evaluate the economy and efficiency of the contractor's existing work force, methods, materials, equipment, real property, operating systems, and management.",
+        "key_takeaway": "A 'should-cost' review doesn't accept a contractor's past costs as efficient. It's a deep dive to determine what a product or service *should* cost if the contractor were operating economically.",
+        "citation": "15.405-4(a)(1)",
+        "tags": ["Part 15", "should-cost", "cost analysis", "efficiency"],
+        "display_order": 453,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "When to Consider a Program Should-Cost Review",
+        "content": "A program should-cost review should be considered, particularly in the case of a major system acquisition, when—(i) Some initial production has already taken place; (ii) The contract will be awarded on a sole source basis; [and] (iii) There are future year production requirements for substantial quantities of like items...",
+        "key_takeaway": "A should-cost review is best suited for a major sole-source program that has already started initial production and has large future orders.",
+        "citation": "15.405-4(b)(2)",
+        "tags": ["Part 15", "should-cost", "major system", "sole source"],
+        "display_order": 454,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Price Negotiation Purpose",
+        "content": "The purpose of performing cost or price analysis is to develop a negotiation position that permits the contracting officer and the offeror an opportunity to reach agreement on a fair and reasonable price. A fair and reasonable price does not require that agreement be reached on every element of cost...",
+        "key_takeaway": "The goal of negotiation is to agree on a total price that is fair and reasonable, not to win an argument on every single cost element.",
+        "citation": "15.407(a)",
+        "tags": ["Part 15", "negotiation", "fair and reasonable", "pricing"],
+        "display_order": 455,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Price Negotiation Objective",
+        "content": "The contracting officer's primary concern is the overall price the Government will actually pay. The contracting officer's objective is to negotiate a contract of a type and with a price providing the contractor the greatest incentive for efficient and economical performance.",
+        "key_takeaway": "The CO's main goal in negotiation is to get the best overall price for the government while incentivizing the contractor to perform efficiently.",
+        "citation": "15.407(b)",
+        "tags": ["Part 15", "negotiation", "incentive", "contract type"],
+        "display_order": 456,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Documenting the Negotiation (PNM)",
+        "content": "Contracting officers must document in the contract file the principal elements of the negotiated agreement. The documentation (e.g., price negotiation memorandum) must include... (1) The purpose of the negotiation. (2) A description of the acquisition... (3) The name, position, and organization of each person representing the contractor and the Government...",
+        "key_takeaway": "A Price Negotiation Memorandum (PNM) must document the basics of the negotiation, including its purpose, a description of the acquisition, and who was at the table.",
+        "citation": "15.408-2(a)",
+        "tags": ["Part 15", "PNM", "documentation", "negotiation"],
+        "display_order": 457,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Unsolicited Proposals: Purpose",
+        "content": "Unsolicited proposals allow unique and innovative ideas or approaches developed outside the Government to be made available to Government agencies for use in accomplishing their missions.",
+        "key_takeaway": "An unsolicited proposal is a way for a company to pitch a unique and innovative idea to the government on its own initiative.",
+        "citation": "15.502(a)",
+        "tags": ["Part 15", "unsolicited proposal", "innovation"],
+        "display_order": 458,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Unsolicited Proposals: Prohibitions on Use",
+        "content": "Government personnel should not use any data, concept, idea, or other part of an unsolicited proposal as the basis, or part of the basis, for a RFP or in negotiations with any other firm unless the offeror is notified of and agrees to the intended use.",
+        "key_takeaway": "The government cannot take an idea from a company's unsolicited proposal and use it in a competitive RFP without that company's permission.",
+        "citation": "15.502(e)(1)",
+        "tags": ["Part 15", "unsolicited proposal", "data rights", "prohibition"],
+        "display_order": 459,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Valid Unsolicited Proposal Requirements",
+        "content": "A valid unsolicited proposal must— (1) Be innovative and unique; (2) Be independently originated and developed by the offeror; (3) Be prepared without Government supervision, endorsement, direction, or direct Government involvement...",
+        "key_takeaway": "To be considered valid, an unsolicited proposal must be an innovative and unique idea developed independently by the offeror, without any government involvement.",
+        "citation": "15.503-1(b)",
+        "tags": ["Part 15", "unsolicited proposal", "validity", "requirements"],
+        "display_order": 460,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Invalid Unsolicited Proposals",
+        "content": "Advertising material, commercial product or commercial service offers, contributions, or routine correspondence on technical issues, are not unsolicited proposals.",
+        "key_takeaway": "Marketing brochures, standard commercial offers, or casual technical suggestions are not considered valid unsolicited proposals.",
+        "citation": "15.503-1(c)",
+        "tags": ["Part 15", "unsolicited proposal", "invalid", "advertising"],
+        "display_order": 461,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Restricting Data in Unsolicited Proposals",
+        "content": "If the offeror wishes to restrict the use and disclosure of data, the title page must be marked [with a specific] legend... The offeror must also mark each sheet of data it wishes to restrict with the following legend: Use or disclosure of data contained on this sheet is subject to the restriction on the title page of this proposal.",
+        "key_takeaway": "If you want to protect the data in an unsolicited proposal, you must apply the specific restrictive legend to both the title page and every individual sheet containing protected data.",
+        "citation": "15.503-3(a)",
+        "tags": ["Part 15", "unsolicited proposal", "data rights", "legend"],
+        "display_order": 462,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Evaluation of Unsolicited Proposals: Factors",
+        "content": "When evaluating unsolicited proposals, evaluators should consider, at a minimum, the following factors: (1) Unique, innovative and meritorious methods...; (2) Overall scientific, technical, or socioeconomic merits...; (3) Potential contribution of the effort to the agency's specific mission...",
+        "key_takeaway": "An unsolicited proposal is evaluated based on its uniqueness, its technical and scientific merit, and its potential contribution to the agency's mission.",
+        "citation": "15.505(c)",
+        "tags": ["Part 15", "unsolicited proposal", "evaluation", "criteria"],
+        "display_order": 463,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Unsolicited Proposals: Justification for Sole Source",
+        "content": "A favorable evaluation of an unsolicited proposal does not, in itself, justify awarding a contract without providing for full and open competition.",
+        "key_takeaway": "Even if an unsolicited proposal gets a fantastic evaluation, that alone is not enough to justify a sole-source contract award.",
+        "citation": "15.505(e)",
+        "tags": ["Part 15", "unsolicited proposal", "sole source", "competition"],
+        "display_order": 464,
+        "related_question_ids": []
+      },
+      {
+        "far_part": "Part 15",
+        "topic": "Acceptance of an Unsolicited Proposal",
+        "content": "Contracting officers may begin negotiations on a sole source basis only when— (a) An unsolicited proposal receives a favorable comprehensive evaluation; (b) A justification and approval is obtained in accordance with part 6; (c) The agency technical office sponsoring the contract furnishes the necessary funds; and (d) The requirements for synopsizing a proposed contract action are met.",
+        "key_takeaway": "To award a sole-source contract from an unsolicited proposal, you need four things: a favorable evaluation, a J&A, funding from the technical office, and a public synopsis of the action.",
+        "citation": "15.506",
+        "tags": ["Part 15", "unsolicited proposal", "sole source", "acceptance"],
+        "display_order": 465,
+        "related_question_ids": []
       }
     
 ]
