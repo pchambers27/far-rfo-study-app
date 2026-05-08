@@ -65,7 +65,7 @@ def show_most_missed_questions():
       print("\n(No questions with 3+ attempts yet)")
       return 
     for row in rows:
-      preview = row["question"][:50] + "..." if len(row["question"]) > 80 else row["question"]
+      preview = row["question"][:50] + "..." if len(row["question"]) > 50 else row["question"]
       print(f"\n[{row['far_part']}]Q{row['id']} - Missed {row['miss_rate']}%({row['wrong_attempts']}/{row['total_attempts']})")
       print(f" {preview}")
 
