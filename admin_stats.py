@@ -3,13 +3,13 @@ Admin diagnostic script -- shows user activity, attempts, and content engagement
 Run with: python admin_stats.py
 """
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from sqlalchemy import text
 from database import engine
 
 def section(title):
   """Print s avisual section divider."""
-  print("/n" + "=" * 60)
+  print("\n" + "=" * 60)
   print(f" {title}")
   print("=" * 60)
 
@@ -17,12 +17,12 @@ def show_user_summary():
   section("USERS")
   with engine.connect() as conn:
     total_users = conn.execute(text("SELECT COUNT(*) FROM users")).scalar()
-    print(f"\nTotla users: {total_users}")
-    recent_signups = conn.execute(text("""SELECT COUNT(*) FROM users WHERE created_at >= :cutoff"""), {"cutoff": datetime.timezone.utc() - timedelta(days=7)}).scalar()
+    print(f"\nTotal users: {total_users}")
+    recent_signups = conn.execute(text("""SELECT COUNT(*) FROM users WHERE created_at >= :cutoff"""), {"cutoff": datetime.now(timezone.utc) - timedelta(days=7)}).scalar()
     print(f"New signups (last 7 days): {recent_signups}")
 
     rows = conn.execute(text("""
-    SELECT u.email, u.create_at, COUNT(a.id) as attempt_count, MAX(a.timestamp) as last_attempt FROM users u LEFT JOIN attempts a ON a.user_id = u.id GROUP BY u.id, u.emial, u.created_at ORDER BY last_attempt DESC NULLS LAST, u.created_at DESC""")).mappings().all()
+    SELECT u.email, u.create_at, COUNT(a.id) as attempt_count, MAX(a.timestamp) as last_attempt FROM users u LEFT JOIN attempts a ON a.user_id = u.id GROUP BY u.id, u.email, u.created_at ORDER BY last_attempt DESC NULLS LAST, u.created_at DESC""")).mappings().all()
     print (f"\n{'Email':<35} {'Signed Up':<12} {'Attempts':<10} {'Last seen':<20}")
     print("-" * 80)
     for row in rows:
@@ -36,15 +36,15 @@ def show_attempt_summary():
   section("ATTEMPTS")
   with engine.connect() as conn:
     total = conn.execute(text("SELECT COUNT(*) FROM attempts")).scalar()
-    last_7 = conn.execute(text("SELECT COUNT(*) FROM attempts WHERE timestamp >= :cutoff"), {"cutoff": datetime.utcnow() - timedelta(days=7)}).scalar()
-    last_30 = conn.execute(text("SELECT COUNT(*) FROM attempts WHERE timestamp >= :cutoff"), {"cutoff": datetime.utcnow() - timedelta(days=30)}).scalar()
+    last_7 = conn.execute(text("SELECT COUNT(*) FROM attempts WHERE timestamp >= :cutoff"), {"cutoff": datetime.now(timezone.utc) - timedelta(days=7)}).scalar()
+    last_30 = conn.execute(text("SELECT COUNT(*) FROM attempts WHERE timestamp >= :cutoff"), {"cutoff": datetime.now(timezone.utc) - timedelta(days=30)}).scalar()
 
-  correct = conn.execute(text("SELECT SUM(was_correct) FROM attempts")).scalar() or 0
-  accuracy = round(100.0 * correct / total, 1) if total else 0
-  print(f"\nTotal attempts: {total}")
-  print(f"Last 7 days: {last_7}")
-  print(f"Last 30 days: {last_30}")
-  print(f"Overall accuracy: {accuracy}%")
+    correct = conn.execute(text("SELECT SUM(was_correct) FROM attempts")).scalar() or 0
+    accuracy = round(100.0 * correct / total, 1) if total else 0
+    print(f"\nTotal attempts: {total}")
+    print(f"Last 7 days: {last_7}")
+    print(f"Last 30 days: {last_30}")
+    print(f"Overall accuracy: {accuracy}%")
 
 def show_part_engagement():
   section("ENGAGEMENT BY FAR PART")
@@ -60,7 +60,7 @@ def show_most_missed_questions():
   section("MOST-MISSED QUESTIONS(top 10)")
   with engine.connect() as conn:
     rows = conn.execute(text("""
-    SELECT q.id, q.far_part, q.question, COUNT(a.id) as total_attempts, COUNT(a.id) - SUM(a.was_correct) as wrong_attempts, ROUND(100.0 * (COUNT(a.id) - SUM(a.was_correct)) / COUNT(a.id), 1) as miss_rate FROM attempts a JOIN questions q ON a.question_id = q.id GROUP BY q.id, q.far_part, q.question HAVING COUNT(a.id) >= 3 DESC, wrong_attempts DESC LIMIT 10""")).mappings().all()
+    SELECT q.id, q.far_part, q.question, COUNT(a.id) as total_attempts, COUNT(a.id) - SUM(a.was_correct) as wrong_attempts, ROUND(100.0 * (COUNT(a.id) - SUM(a.was_correct)) / COUNT(a.id), 1) as miss_rate FROM attempts a JOIN questions q ON a.question_id = q.id GROUP BY q.id, q.far_part, q.question HAVING COUNT(a.id) >= 3 ORDER BY wrong_attempts DESC LIMIT 10""")).mappings().all()
     if not rows:
       print("\n(No questions with 3+ attempts yet)")
       return 
