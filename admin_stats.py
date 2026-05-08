@@ -22,12 +22,12 @@ def show_user_summary():
     print(f"New signups (last 7 days): {recent_signups}")
 
     rows = conn.execute(text("""
-    SELECT u.email, u.create_at, COUNT(a.id) as attempt_count, MAX(a.timestamp) as last_attempt FROM users u LEFT JOIN attempts a ON a.user_id = u.id GROUP BY u.id, u.email, u.created_at ORDER BY last_attempt DESC NULLS LAST, u.created_at DESC""")).mappings().all()
+    SELECT u.email, u.created_at, COUNT(a.id) as attempt_count, MAX(a.timestamp) as last_attempt FROM users u LEFT JOIN attempts a ON a.user_id = u.id GROUP BY u.id, u.email, u.created_at ORDER BY last_attempt DESC NULLS LAST, u.created_at DESC""")).mappings().all()
     print (f"\n{'Email':<35} {'Signed Up':<12} {'Attempts':<10} {'Last seen':<20}")
     print("-" * 80)
     for row in rows:
       email = row["email"][:33]
-      signup = row["created_at"].strftime("%Y-%m-%d") if row["create_at"] else "-"
+      signup = row["created_at"].strftime("%Y-%m-%d") if row["created_at"] else "-"
       attempts = row["attempt_count"]
       last = row["last_attempt"].strftime("%Y-%m-%d %H:%M") if row["last_attempt"] else "Never"
       print(f"{email:<35} {signup:<12} {attempts:<10} {last:<20}")
