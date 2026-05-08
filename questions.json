@@ -2770,5 +2770,1033 @@
         "tags": [
             "Part 15"
         ]
-    }
+    },
+    {
+        "id": 225,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "According to FAR 49.002(a)(2), FAR Part 49 termination policies are fully applicable to contracts for commercial products and services awarded under FAR Part 12 procedures.",
+        "answer": "False",
+        "explanation": "FAR 49.002(a)(2) explicitly states that Part 49 does not apply to contracts for commercial products and commercial services awarded under Part 12 procedures. For those contracts, Part 12 termination policies should be used, although Part 49 can be used as guidance.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.002"
+        ]
+    },
+    {
+        "id": 226,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "Per FAR 49.102(a), when mailing a written notice of termination, what method must be used to ensure proper delivery and receipt?",
+        "choices": [
+            "Standard first-class mail",
+            "Email with a read receipt request",
+            "Certified mail with a return receipt requested",
+            "Overnight courier service with signature confirmation"
+        ],
+        "answer": "Certified mail with a return receipt requested",
+        "explanation": "FAR 49.102(a) specifies that when mailing the notice of termination, contracting officers must use certified mail and request a return receipt to ensure documented delivery.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.102"
+        ]
+    },
+    {
+        "id": 227,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A TCO receives a termination notice for a contract. According to FAR 49.105-1(a), what is the TCO's responsibility regarding the release of excess funds?",
+        "choices": [
+            "To wait until the final settlement is negotiated before releasing any funds.",
+            "To estimate funds needed and recommend the release of excess funds within 90 days.",
+            "To estimate funds needed and recommend the release of excess funds within 30 days of receiving the notice.",
+            "To release all contract funds immediately back to the finance office."
+        ],
+        "answer": "To estimate funds needed and recommend the release of excess funds within 30 days of receiving the notice.",
+        "explanation": "FAR 49.105-1(a) requires the TCO to estimate the funds needed for settlement and recommend that the contracting officer release any excess funds within 30 days of receiving the termination notice.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.105-1"
+        ]
+    },
+    {
+        "id": 228,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "Under FAR 49.108-1, what rights does a subcontractor have against the Government when a prime contract is terminated?",
+        "choices": [
+            "The right to file a direct claim against the Government.",
+            "No direct contract rights against the Government.",
+            "The right to have their settlement proposal reviewed directly by the TCO.",
+            "The right to demand payment directly from the Government disbursing office."
+        ],
+        "answer": "No direct contract rights against the Government.",
+        "explanation": "FAR 49.108-1 states clearly that 'Subcontractors have no direct contract rights against the Government when a prime contract is terminated.' Their rights are against the prime contractor or the intermediate subcontractor they contracted with.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.108-1"
+        ]
+    },
+    {
+        "id": 229,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "Per FAR 49.109-7(a), if a contractor and TCO cannot agree on a termination settlement, the TCO must wait for the contractor to file a claim under the Disputes clause before taking further action.",
+        "answer": "False",
+        "explanation": "FAR 49.109-7(a) dictates that if an agreement cannot be reached, the TCO must issue a unilateral determination of the amount due. The contractor can then appeal this determination under the Disputes clause.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.109-7"
+        ]
+    },
+    {
+        "id": 230,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A contract is terminated for convenience. To expedite the process, the contractor requests partial payments on its settlement proposal before a final agreement is reached. According to FAR 49.112-1(a), are partial payments on settlement proposals permissible?",
+        "choices": [
+            "No, payments can only be made after a final settlement agreement is executed.",
+            "Yes, but only for the profit the contractor would have earned.",
+            "Yes, if the contract authorizes them, a contractor may request partial payments at any time after submitting their proposal.",
+            "No, partial payments are considered an improper advance of funds."
+        ],
+        "answer": "Yes, if the contract authorizes them, a contractor may request partial payments at any time after submitting their proposal.",
+        "explanation": "FAR 49.112-1(a) states that if the contract authorizes partial payments on settlement proposals before settlement, a prime contractor may request them at any time after submitting interim or final proposals.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.112-1"
+        ]
+    },
+    {
+        "id": 231,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 49.206-1(a), what is the standard time limit for a contractor to submit its final settlement proposal after the effective date of termination?",
+        "choices": [
+            "90 days",
+            "6 months",
+            "1 year",
+            "2 years"
+        ],
+        "answer": "1 year",
+        "explanation": "FAR 49.206-1(a) specifies that the final settlement proposal must be submitted within one year from the effective date of termination, unless the TCO allows for an extension.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.206-1"
+        ]
+    },
+    {
+        "id": 232,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "Under FAR 49.302(a), after a complete contract termination of a cost-reimbursement contract, the contractor must stop submitting SF 1034 vouchers for costs after the last day of the sixth month following the termination month.",
+        "answer": "True",
+        "explanation": "FAR 49.302(a) requires the contractor to stop using the Standard Form 1034 (Public Voucher) for billing costs after the last day of the sixth month following the month in which the termination is effective. Any remaining unvouchered costs must be submitted as part of the final settlement proposal.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.302"
+        ]
+    },
+    {
+        "id": 233,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A fixed-price construction contract is terminated for default. If the Government repurchases the same services and the cost is higher than the original contract, what action must the contracting officer take according to FAR 49.402-6(c)?",
+        "choices": [
+            "Absorb the excess cost as an administrative loss.",
+            "Demand payment from the contractor for the excess costs.",
+            "Negotiate a shared cost agreement with the terminated contractor.",
+            "File a claim with the contractor's surety to cover the difference."
+        ],
+        "answer": "Demand payment from the contractor for the excess costs.",
+        "explanation": "FAR 49.402-6(c) states that if the repurchase costs more than the terminated supplies or services, the contracting officer must demand payment from the contractor for the excess amount after completing the repurchase.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.402-6"
+        ]
+    },
+    {
+        "id": 234,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "Which form is prescribed by FAR 49.602-1(d) for submitting settlement proposals resulting from the termination of fixed-price contracts when the total proposal is less than $10,000?",
+        "choices": [
+            "Standard Form 1435, Settlement Proposal (Inventory Basis)",
+            "Standard Form 1436, Settlement Proposal (Total Cost Basis)",
+            "Standard Form 1437, Settlement Proposal for Cost-Reimbursement Type Contracts",
+            "Standard Form 1438, Settlement Proposal (Short Form)"
+        ],
+        "answer": "Standard Form 1438, Settlement Proposal (Short Form)",
+        "explanation": "FAR 49.206-1(d) and 49.602-1(d) direct the contractor to use Standard Form 1438, Settlement Proposal (Short Form), when the total proposal is less than $10,000, unless authorized otherwise by the TCO.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.602-1",
+            "49.206-1"
+        ]
+    },
+    {
+        "id": 235,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "During settlement negotiations for a terminated contract, a TCO develops a suspicion of fraud in the contractor's settlement proposal. According to FAR 49.106, what is the TCO's required course of action?",
+        "choices": [
+            "Complete the settlement and then report the suspected fraud.",
+            "Offer the contractor a chance to correct the proposal before reporting.",
+            "Discontinue negotiations immediately and report the facts under agency procedures.",
+            "Deduct the suspected fraudulent amount and settle the remainder of the proposal."
+        ],
+        "answer": "Discontinue negotiations immediately and report the facts under agency procedures.",
+        "explanation": "FAR 49.106 states, 'If the TCO suspects fraud or other criminal conduct related to the settlement of a terminated contract, the TCO shall discontinue negotiations and report the facts under agency procedures.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.106"
+        ]
+    },
+    {
+        "id": 236,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "Per FAR 49.108-4(a)(1), a TCO may grant a prime contractor written authorization to conclude settlements of subcontracts terminated in whole or in part if the settlement amount is $150,000 or less.",
+        "answer": "False",
+        "explanation": "FAR 49.108-4(a)(1) specifies that the TCO may give written authorization to the prime contractor to complete settlements of subcontracts when the settlement amount is $100,000 or less, not $150,000.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.108-4"
+        ]
+    },
+    {
+        "id": 237,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "Under which of the following conditions must a TCO execute a no-cost settlement agreement, according to FAR 49.109-4?",
+        "choices": [
+            "When the contractor has incurred costs but is willing to waive them, and no amounts are due to the Government.",
+            "When the contractor has completed less than 10% of the contract work.",
+            "When the termination is for default and the contractor agrees not to appeal.",
+            "When the Government has furnished property that the contractor agrees to return."
+        ],
+        "answer": "When the contractor has incurred costs but is willing to waive them, and no amounts are due to the Government.",
+        "explanation": "FAR 49.109-4 states a TCO must execute a no-cost settlement if: (a) the contractor has not incurred costs for the terminated portion, or (b) the contractor is willing to waive the costs incurred, and (c) no amounts are due the Government under the contract.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.109-4"
+        ]
+    },
+    {
+        "id": 238,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A contract is terminated for default, but it is later determined that the contractor's failure to perform was excusable. According to FAR 49.401(b), how must the termination be treated?",
+        "choices": [
+            "The termination remains for default, but the contractor is not liable for excess costs.",
+            "The termination is canceled, and the original contract is reinstated.",
+            "The termination is converted to a termination for convenience.",
+            "The termination is settled as a no-cost cancellation."
+        ],
+        "answer": "The termination is converted to a termination for convenience.",
+        "explanation": "FAR 49.401(b) provides that if it is determined the contractor was not in default or the failure was excusable, the default termination will be treated as a termination for convenience, and the rights and obligations of the parties will be governed accordingly.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.401"
+        ]
+    },
+    {
+        "id": 239,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "According to FAR 49.207, the total amount payable to a contractor for a settlement, not including settlement costs, can exceed the contract price.",
+        "answer": "False",
+        "explanation": "FAR 49.207 explicitly states that 'The total amount payable to the contractor for a settlement, before subtracting disposal or other credits and not counting settlement costs, must not be more than the contract price minus payments already made or to be made under the contract.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.207"
+        ]
+    },
+    {
+        "id": 240,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "Under a default termination per FAR 49.402-2(a), which of the following is a right of the Government?",
+        "choices": [
+            "The Government is responsible for the contractor's costs on all undelivered work.",
+            "The Government is entitled to repayment of advance and progress payments for the terminated work.",
+            "The Government must take possession of all contractor-owned materials.",
+            "The Government must pay the contractor a percentage of their anticipated profit."
+        ],
+        "answer": "The Government is entitled to repayment of advance and progress payments for the terminated work.",
+        "explanation": "FAR 49.402-2(a) outlines the Government's rights in a default termination, which include: (1) not being responsible for the contractor's costs on undelivered work, and (2) being entitled to repayment of advance and progress payments related to that work.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.402-2"
+        ]
+    },
+    {
+        "id": 241,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A contractor is failing to meet the delivery schedule, but terminating for default is not in the Government's best interest. According to FAR 49.402-4, which of these is a permissible alternative action for the contracting officer?",
+        "choices": [
+            "Unilaterally extend the delivery schedule by 90 days without consideration.",
+            "Allow the contractor to continue performance under a revised delivery schedule.",
+            "Issue a partial termination for convenience for the late items.",
+            "Demand a 10% price reduction from the contractor."
+        ],
+        "answer": "Allow the contractor to continue performance under a revised delivery schedule.",
+        "explanation": "FAR 49.402-4 lists alternative actions instead of termination for default. Paragraph (a) specifically allows the contracting officer to 'Allow the contractor, surety, or guarantor to continue performance under a revised delivery schedule.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.402-4"
+        ]
+    },
+    {
+        "id": 242,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "When adjusting the fee for a partially terminated cost-reimbursement contract, the TCO must base the completion percentage solely on the ratio of costs incurred to the total estimated cost of the contract.",
+        "answer": "False",
+        "explanation": "FAR 49.305-1(b) states that the 'Completion percentage is not only based on costs incurred ratio. The percentage might be higher or lower than the ratio of costs incurred, depending on the TCO's evaluation of other important factors.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.305-1"
+        ]
+    },
+    {
+        "id": 243,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "Which FAR clause should be inserted in solicitations for fixed-price supply and service contracts expected to exceed the simplified acquisition threshold (SAT)?",
+        "choices": [
+            "52.249-1, Termination for Convenience of the Government (Fixed-Price) (Short Form)",
+            "52.249-6, Termination (Cost-Reimbursement)",
+            "52.249-8, Default (Fixed-Price Supply and Service)",
+            "52.249-12, Termination (Personal Services)"
+        ],
+        "answer": "52.249-8, Default (Fixed-Price Supply and Service)",
+        "explanation": "FAR 49.504(a)(1) directs the contracting officer to 'Insert the clause at 52.249-8, Default (Fixed-Price Supply and Service), in solicitations and contracts when a fixed-price contract is contemplated, and the contract amount is expected to exceed the simplified acquisition threshold.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.504"
+        ]
+    },
+    {
+        "id": 244,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A contract is being terminated for default before the delivery date. The contracting officer determines there are 15 days left in the delivery schedule. According to FAR 49.607(a), what notice should be issued?",
+        "choices": [
+            "A Show Cause Notice, because the delivery date has not yet passed.",
+            "A Cure Notice, because there is a realistic cure period of 10 days or more.",
+            "A Notice of Termination, effective immediately.",
+            "No notice is required until after the delivery date passes."
+        ],
+        "answer": "A Cure Notice, because there is a realistic cure period of 10 days or more.",
+        "explanation": "FAR 49.607(a) requires a 'Cure Notice' if a contract is to be terminated for default before the delivery date. It specifies that this notice should only be used if there is enough time remaining for a realistic cure period of 10 days or more, which exists in this scenario.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.607"
+        ]
+    },
+    {
+        "id": 245,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "According to FAR 49.108-7(b), direct settlements between the Government and subcontractors are encouraged to speed up the settlement process.",
+        "answer": "False",
+        "explanation": "FAR 49.108-7(b) states that 'Direct settlements with subcontractors are not encouraged.' While the Government has the right to settle directly, the prime contractor is generally responsible for settling with its subcontractors.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.108-7"
+        ]
+    },
+    {
+        "id": 246,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "What is the preferred basis for submitting settlement proposals for fixed-price contracts terminated for convenience, according to FAR 49.206-2?",
+        "choices": [
+            "Total cost basis",
+            "Inventory basis",
+            "Percentage of completion basis",
+            "Equitable adjustment basis"
+        ],
+        "answer": "Inventory basis",
+        "explanation": "FAR 49.206-2(a)(1) states, 'The inventory basis is the preferred method for settlement proposals.' This approach allows the contractor to propose only costs allocable to the terminated portion of the contract.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.206-2"
+        ]
+    },
+    {
+        "id": 247,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A prime contractor has a fixed-price construction contract that is terminated for default. A surety is involved and proposes to complete the work. Per FAR 49.404(c), under what condition should the contracting officer allow the surety to complete the contract?",
+        "choices": [
+            "Only if the surety agrees to a lower contract price.",
+            "Unless the proposal does not serve the Government's best interests.",
+            "Only if the surety was involved in the original contract award.",
+            "The contracting officer is never obligated to allow the surety to complete the work."
+        ],
+        "answer": "Unless the proposal does not serve the Government's best interests.",
+        "explanation": "FAR 49.404(c) directs that the contracting officer 'should allow sureties to complete the contract unless—(1) The people or companies proposed by the surety are not qualified or competent; or (2) The proposal does not serve the Government's best interests.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.404"
+        ]
+    },
+    {
+        "id": 248,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "According to FAR 49.110(a), a settlement negotiation memorandum must be prepared after negotiations conclude, and it must be included in the termination case file for review.",
+        "answer": "True",
+        "explanation": "FAR 49.110(a) requires the TCO to prepare a settlement negotiation memorandum at the conclusion of negotiations. It must describe the principal elements of the settlement for inclusion in the termination case file and for use by reviewing authorities.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.110"
+        ]
+    },
+    {
+        "id": 249,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "When must a contractor submit inventory disposal schedules after a termination, according to FAR 49.206-3?",
+        "choices": [
+            "Within 30 days of the termination notice.",
+            "Within 90 days of the termination notice.",
+            "Within 120 days of the effective date of termination, unless extended.",
+            "Concurrent with the final settlement proposal."
+        ],
+        "answer": "Within 120 days of the effective date of termination, unless extended.",
+        "explanation": "FAR 49.206-3 states that the contractor should prepare and submit inventory schedules on Standard Form 1428 within 120 days of the effective date of termination, unless the TCO grants an extension.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.206-3"
+        ]
+    },
+    {
+        "id": 250,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A contract for research and development with a nonprofit institution on a no-fee basis is being terminated for convenience. Which termination clause is specifically prescribed for this situation by FAR 49.502(d)?",
+        "choices": [
+            "52.249-2, Termination for Convenience of the Government (Fixed-Price)",
+            "52.249-5, Termination for the Convenience of the Government (Educational and Other Nonprofit Institutions)",
+            "52.249-6, Termination (Cost-Reimbursement)",
+            "52.249-1, Termination for Convenience of the Government (Fixed-Price) (Short Form)"
+        ],
+        "answer": "52.249-5, Termination for the Convenience of the Government (Educational and Other Nonprofit Institutions)",
+        "explanation": "FAR 49.502(d) instructs contracting officers to 'Insert the clause at 52.249-5, Termination for the Convenience of the Government (Educational and Other Nonprofit Institutions), in solicitations and contracts' for R&D work with such institutions on a nonprofit or no-fee basis.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.502"
+        ]
+    },
+    {
+        "id": 251,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "Per FAR 49.402-7(a), any liquidated damages the Government is entitled to are in addition to any excess repurchase costs incurred after a termination for default.",
+        "answer": "True",
+        "explanation": "FAR 49.402-7(a) specifies that if a contract is terminated for default, the contracting officer must assess and demand any liquidated damages. It further clarifies that under clause 52.211-11, these damages are 'in addition to any excess repurchase costs.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.402-7"
+        ]
+    },
+    {
+        "id": 252,
+        "far_part": "Part 49",
+        "qtype": "multiple_choice",
+        "question": "What is the primary purpose of a 'Cure Notice' as described in FAR 49.607(a)?",
+        "choices": [
+            "To inform the contractor that a termination for convenience is being considered.",
+            "To notify the contractor of a specific failure and give them a chance to remedy it before a default termination.",
+            "To demand payment for excess costs after a repurchase action.",
+            "To officially notify the contractor that the contract has been terminated for default."
+        ],
+        "answer": "To notify the contractor of a specific failure and give them a chance to remedy it before a default termination.",
+        "explanation": "FAR 49.607(a) explains that a 'Cure Notice' is required by the Default clause if a contract is to be terminated for default before the delivery date. Its purpose is to notify the contractor of a condition that is endangering performance and provide a period to 'cure' the failure.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.607"
+        ]
+    },
+    {
+        "id": 253,
+        "far_part": "Part 49",
+        "qtype": "scenario",
+        "question": "A contracting officer needs to settle a completely terminated cost-reimbursement contract where the settlement will include costs. According to FAR 49.603-3, what format should be used for the settlement agreement?",
+        "choices": [
+            "The format for a partial termination of a fixed-price contract.",
+            "A no-cost settlement agreement format.",
+            "The specific supplemental agreement text provided in FAR 49.603-3 for this situation.",
+            "Any format agreed upon by both the contractor and the TCO."
+        ],
+        "answer": "The specific supplemental agreement text provided in FAR 49.603-3 for this situation.",
+        "explanation": "FAR 49.603-3 provides the specific text to be inserted in Block 14 of the SF 30 for the settlement of completely terminated cost-reimbursement contracts that include costs. This format details the certifications and agreements required for such a settlement.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.603-3"
+        ]
+    },
+    {
+        "id": 254,
+        "far_part": "Part 49",
+        "qtype": "true_false",
+        "question": "Under FAR 49.101(e), if a contracting officer needs to terminate undelivered items for convenience and the same item is on contract with both large and small businesses, the CO must always terminate the large business contracts first.",
+        "answer": "False",
+        "explanation": "FAR 49.101(e) states the contracting officer must give preference to continuing small business contracts 'unless it can be clearly shown that the small business will be unable to provide the item in a timely fashion.' It is a preference, not an absolute requirement in all cases.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 49",
+            "49.101"
+        ]
+    },
+    {
+        "id": 255,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 19.000(a), this part covers setting acquisitions aside for all of the following small business programs EXCEPT:",
+        "choices": [
+          "HUBZone small business concerns",
+          "Service-Disabled Veteran-Owned Small Business (SDVOSB) concerns",
+          "8(a) participants",
+          "Minority-Owned Business (MOB) concerns"
+        ],
+        "answer": "Minority-Owned Business (MOB) concerns",
+        "explanation": "FAR 19.000(a)(3) lists the specific small business programs with set-asides covered by this part, which include 8(a), HUBZone, SDVOSB, and WOSB programs. Minority-Owned Business is not listed as a distinct category for set-asides in this provision.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.000"
+        ]
+      },
+      {
+        "id": 256,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "Per FAR 19.000(b)(1), contracting officers must apply Part 19 in the United States and its outlying areas, but they are prohibited from applying it outside these areas.",
+        "answer": "False",
+        "explanation": "FAR 19.000(b)(1) states that while contracting officers must apply this part in the United States and its outlying areas, they 'may apply this part outside the United States and its outlying areas,' making its application discretionary outside of the U.S. and its territories.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.000"
+        ]
+      },
+      {
+        "id": 257,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "A contracting officer is managing an acquisition that exceeds the micro-purchase threshold. Market research reveals a reasonable expectation of receiving competitive offers from at least two responsible small businesses. What action must the contracting officer take per FAR 19.104-1(a)?",
+        "choices": [
+          "Set the contract aside for small business.",
+          "Use full and open competition to ensure the best value.",
+          "Refer the acquisition to the SBA for a certificate of competency.",
+          "Document the file and proceed with an unrestricted acquisition."
+        ],
+        "answer": "Set the contract aside for small business.",
+        "explanation": "FAR 19.104-1(a) mandates that for contracts above the micro-purchase threshold, 'the contracting officer must set the contract aside for small business if there is a reasonable expectation of obtaining offers—(1) From two or more responsible small business concerns; and (2) That are competitive in terms of fair market prices, quality, and delivery.' This is often referred to as the 'Rule of Two.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.104-1"
+        ]
+      },
+      {
+        "id": 258,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Per FAR 19.001, which type of subcontracting plan is considered the preferred type for contractors furnishing commercial products and services?",
+        "choices": [
+          "Individual subcontracting plan",
+          "Master subcontracting plan",
+          "Commercial subcontracting plan",
+          "Comprehensive subcontracting plan"
+        ],
+        "answer": "Commercial subcontracting plan",
+        "explanation": "According to the definition in FAR 19.001, 'A commercial subcontracting plan is the preferred type of subcontracting plan for contractors furnishing commercial products and commercial services.' This type of plan covers the offeror's fiscal year and applies to the entire production of commercial items.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.001"
+        ]
+      },
+      {
+        "id": 259,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "Under FAR 19.101(a), it is solely the responsibility of the heads of contracting activities to achieve Government-wide small business goals.",
+        "answer": "True",
+        "explanation": "FAR 19.101(a) explicitly states, 'Heads of contracting activities are responsible for achieving goals for small business and those other socioeconomic categories (15 U.S.C. 644(g)).' This places direct responsibility on them for meeting these goals.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.101"
+        ]
+      },
+      {
+        "id": 260,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "An SBA Procurement Center Representative (PCR) recommends a total small business set-aside for an upcoming acquisition. The contracting officer disagrees and rejects the recommendation. According to FAR 19.102(f), what is the next procedural step the contracting officer must take?",
+        "choices": [
+          "Proceed with the acquisition as planned without further action.",
+          "Elevate the disagreement to the head of the contracting activity immediately.",
+          "Provide written notice to the SBA representative within 5 working days.",
+          "Suspend the acquisition for 30 days pending an SBA appeal."
+        ],
+        "answer": "Provide written notice to the SBA representative within 5 working days.",
+        "explanation": "FAR 19.102(f) dictates that 'If the contracting officer rejects a recommendation of the SBA PCR..., written notice must be furnished to the appropriate SBA representative within 5 working days of the contracting officer's receipt of the recommendation.' This notice is required before any potential appeal.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.102"
+        ]
+      },
+      {
+        "id": 261,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 19.103(a), which entity is responsible for establishing small business size standards on an industry-by-industry basis?",
+        "choices": [
+          "The Department of Commerce",
+          "The Small Business Administration (SBA)",
+          "The General Services Administration (GSA)",
+          "The Office of Management and Budget (OMB)"
+        ],
+        "answer": "The Small Business Administration (SBA)",
+        "explanation": "FAR 19.103(a)(1) clearly states, 'SBA establishes small business size standards on an industry-by-industry basis.' These standards are provided in 13 CFR 121.201.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.103"
+        ]
+      },
+      {
+        "id": 262,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "A concern that is a 'nonmanufacturer' on a small business set-aside must provide an end item that a small business has manufactured, processed, or produced in the United States or its outlying areas. This rule cannot be waived. (FAR 19.104-1(f))",
+        "answer": "False",
+        "explanation": "While the general rule in FAR 19.104-1(f)(1) requires the end item to be from a small business manufacturer, FAR 19.104-1(f)(3) states that 'The SBA may grant an individual or a class waiver to the nonmanufacturer rule.' This allows a nonmanufacturer to provide an item from a large business under specific circumstances.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.104-1"
+        ]
+      },
+      {
+        "id": 263,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Under what condition may a contracting officer set aside only a portion of an acquisition (a partial set-aside) for a small business concern, per FAR 19.104-2(a)?",
+        "choices": [
+          "When the acquisition is for construction.",
+          "When market research indicates a total set-aside is not appropriate.",
+          "When the acquisition value is below the micro-purchase threshold.",
+          "When the acquisition is subject to simplified acquisition procedures."
+        ],
+        "answer": "When market research indicates a total set-aside is not appropriate.",
+        "explanation": "FAR 19.104-2(a) allows a contracting officer to 'set aside a portion or portions of an acquisition, except for construction,' when, among other conditions, 'Market research indicates that a total set-aside is not appropriate.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.104-2"
+        ]
+      },
+      {
+        "id": 264,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "A contracting officer receives only one acceptable offer from a responsible HUBZone small business concern in response to a HUBZone set-aside. What should the contracting officer do according to FAR 19.105-2(c)?",
+        "choices": [
+          "Withdraw the set-aside and resolicit for all small businesses.",
+          "Make an award to the HUBZone concern that submitted the offer.",
+          "Cancel the requirement and reassess the agency's needs.",
+          "Request a price reduction from the offeror before making an award."
+        ],
+        "answer": "Make an award to the HUBZone concern that submitted the offer.",
+        "explanation": "FAR 19.105-2(c) states, 'If the contracting officer receives only one acceptable offer from a HUBZone small business concern in response to a set aside, the contracting officer should make an award to that concern.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.105-2"
+        ]
+      },
+    {
+        "id": 265,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Per FAR 19.105-3(a), what is the maximum anticipated contract price, including options, for a HUBZone sole-source award for a manufacturing requirement?",
+        "choices": [
+          "$5.5 million",
+          "$8.5 million",
+          "$7.5 million",
+          "$10 million"
+        ],
+        "answer": "$8.5 million",
+        "explanation": "FAR 19.105-3(a)(2)(i) specifies that for a HUBZone sole-source award, the anticipated price, including options, will not exceed $8.5 million for a requirement within the North American Industry Classification System (NAICS) codes for manufacturing.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.105-3"
+        ]
+      },
+      {
+        "id": 266,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "According to FAR 19.106-1(b), a contracting officer must verify that an offeror seeking an SDVOSB set-aside is designated as a certified SDVOSB concern in the System for Award Management (SAM).",
+        "answer": "True",
+        "explanation": "FAR 19.106-1(b) states: 'For an SDVOSB concern that seeks an SDVOSB set-aside or sole-source contract, the contracting officer must verify that the offeror is designated in the System for Award Management (SAM) as an SDVOSB concern certified by SBA.' This is a mandatory verification step.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.106-1"
+        ]
+      },
+      {
+        "id": 267,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "A contracting officer conducts market research and finds a reasonable expectation that at least two responsible SDVOSB concerns will submit offers at a fair price. Per FAR 19.106-2(b), what action should the contracting officer take?",
+        "choices": [
+          "Conduct a full and open competition to ensure maximum competition.",
+          "Restrict competition to eligible SDVOSB concerns.",
+          "Default to a general small business set-aside.",
+          "Seek a sole-source award with the most qualified SDVOSB."
+        ],
+        "answer": "Restrict competition to eligible SDVOSB concerns.",
+        "explanation": "FAR 19.106-2(b) permits a contracting officer to restrict competition to eligible SDVOSB concerns if there is a reasonable expectation (the 'Rule of Two') that offers will be received from two or more such concerns and that award will be made at a fair market price.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.106-2"
+        ]
+      },
+      {
+        "id": 268,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Under FAR 19.106-3(a), a contracting officer may consider a sole-source award to an SDVOSB concern for a non-manufacturing requirement provided the anticipated award price does not exceed what amount?",
+        "choices": [
+          "$8.5 million",
+          "$4.5 million",
+          "$5 million",
+          "$6.5 million"
+        ],
+        "answer": "$5 million",
+        "explanation": "FAR 19.106-3(a)(2)(ii) establishes the threshold for a sole-source award to an SDVOSB concern. The anticipated award price, including options, must not exceed '$5 million for a requirement within any other NAICS code' (i.e., non-manufacturing).",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.106-3"
+        ]
+      },
+      {
+        "id": 269,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "According to FAR 19.107-2, a contracting officer may only set aside acquisitions for Economically Disadvantaged Women-Owned Small Business (EDWOSB) concerns, not for WOSB concerns that are not economically disadvantaged.",
+        "answer": "False",
+        "explanation": "FAR 19.107-2(a) allows a contracting officer to set aside acquisitions for both EDWOSB concerns (subparagraph (1)) and for WOSB concerns eligible under the WOSB Program (subparagraph (2)), depending on the NAICS code's underrepresentation status as determined by the SBA.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.107-2"
+        ]
+      },
+      {
+        "id": 270,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "A contracting officer is considering a sole-source award to an Economically Disadvantaged Women-Owned Small Business (EDWOSB) for services. The acquisition is in a NAICS code where WOSB concerns are underrepresented, and there's no expectation of receiving offers from two or more EDWOSB concerns. What additional condition must be met per FAR 19.107-3(c)?",
+        "choices": [
+          "The EDWOSB must have previously held a government contract.",
+          "The anticipated award price must not exceed a specific dollar threshold.",
+          "The SBA must provide a written recommendation for the specific EDWOSB.",
+          "The EDWOSB must be located within a specific HUBZone."
+        ],
+        "answer": "The anticipated award price must not exceed a specific dollar threshold.",
+        "explanation": "FAR 19.107-3(c) lists the conditions for a sole-source award to an EDWOSB or WOSB. One of these conditions is that 'The anticipated award price of the contract, including options, will not exceed' the specified dollar thresholds ($8.5 million for manufacturing, $5.5 million for other NAICS codes).",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.107-3"
+        ]
+      },
+      {
+        "id": 271,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Under FAR 19.108-1(b), how can contracts be awarded under the 8(a) Program?",
+        "choices": [
+          "Only on a sole-source basis.",
+          "Only on a competitive basis.",
+          "On either a sole-source or competitive basis.",
+          "Only after approval from the head of the contracting activity."
+        ],
+        "answer": "On either a sole-source or competitive basis.",
+        "explanation": "FAR 19.108-1(b) explicitly states that 'Contracts may be awarded to the SBA for performance by eligible 8(a) participants on either a sole source or competitive basis.' This provides flexibility in how 8(a) requirements are fulfilled.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.108-1"
+        ]
+      },
+      {
+        "id": 272,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "The responsibility for determining a small business's eligibility for the 8(a) program rests with the contracting officer. (FAR 19.108-2)",
+        "answer": "False",
+        "explanation": "FAR 19.108-2 clearly states, 'Determining the eligibility of a small business to be a participant in the 8(a) program is the responsibility of the SBA.' The contracting agency relies on the SBA's determination.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.108-2"
+        ]
+      },
+      {
+        "id": 273,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 19.108-7(a), an acquisition offered to the 8(a) program must be awarded competitively when there's a reasonable expectation of offers from at least two eligible 8(a) firms AND the total contract value exceeds what amount for non-manufacturing acquisitions?",
+        "choices": [
+          "$4 million",
+          "$8.5 million",
+          "$7 million",
+          "$5.5 million"
+        ],
+        "answer": "$5.5 million",
+        "explanation": "FAR 19.108-7(a)(2) establishes the competitive threshold for 8(a) acquisitions. An acquisition must be competed if the anticipated total value, including options, exceeds '$5.5 million for all other acquisitions' (i.e., those not assigned manufacturing NAICS codes).",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.108-7"
+        ]
+      },
+      {
+        "id": 274,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "An 8(a) participant is awarded a service contract. Per FAR 19.108-8(a), what percentage of the cost of contract performance incurred for personnel must the 8(a) participant perform with its own employees?",
+        "choices": [
+          "At least 15 percent",
+          "At least 25 percent",
+          "At least 50 percent",
+          "At least 85 percent"
+        ],
+        "answer": "At least 50 percent",
+        "explanation": "FAR 19.108-8(a)(1) specifies the limitations on subcontracting for 8(a) service contracts (except construction). It requires the 8(a) participant to perform 'at least 50 percent of the cost of the contract performance incurred for personnel with its own employees.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.108-8"
+        ]
+      },
+    {
+        "id": 275,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Per FAR 19.109(a)(1), a subcontracting plan is required in negotiated acquisitions that are expected to exceed what dollar amount for contracts other than construction?",
+        "choices": [
+          "$750,000",
+          "$900,000",
+          "$1.5 million",
+          "$2 million"
+        ],
+        "answer": "$900,000",
+        "explanation": "FAR 19.109(a)(1)(i) states that a subcontracting plan is required for negotiated acquisitions expected to exceed '$900,000 ($2 million for construction of any public facility)' and that have subcontracting possibilities.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.109"
+        ]
+      },
+      {
+        "id": 276,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "According to FAR 19.109(b), subcontracting plans are always required for contracts performed entirely outside the United States.",
+        "answer": "False",
+        "explanation": "FAR 19.109(b)(3) explicitly states that subcontracting plans are not required 'For contracts or contract modifications that will be performed entirely outside of the United States and its outlying areas.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.109"
+        ]
+      },
+      {
+        "id": 277,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "In a full and open competition, an offer from a HUBZone small business concern is being evaluated against an offer from a large business. Per FAR 19.207, what price evaluation preference factor must the contracting officer add to all offers, except those from HUBZone concerns that have not waived the preference?",
+        "choices": [
+          "5 percent",
+          "10 percent",
+          "12 percent",
+          "No preference is applied in full and open competition."
+        ],
+        "answer": "10 percent",
+        "explanation": "FAR 19.207 states, 'The contracting officer must give offers from HUBZone small business concerns a price evaluation preference by adding a factor of 10 percent to all offers, except—(a) Offers from HUBZone small business concerns that have not waived the evaluation preference; or (b) Otherwise successful offers from small business concerns.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.207",
+          "19.110"
+        ]
+      },
+      {
+        "id": 278,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 19.201-2(d)(1), a protest regarding a company's small business size status for a negotiated acquisition must be received by the contracting officer by the close of business on which day?",
+        "choices": [
+          "The day of award.",
+          "The 3rd business day after notification of the apparent successful offeror.",
+          "The 5th business day after notification of the apparent successful offeror.",
+          "The 10th business day after notification of the apparent successful offeror."
+        ],
+        "answer": "The 5th business day after notification of the apparent successful offeror.",
+        "explanation": "FAR 19.201-2(d)(1) specifies that to be timely, a protest must be received by the contracting officer 'by the close of business of the fifth business day after...Receipt of the special notification from the contracting officer (see 15.503(a)(2)) that identifies the apparently successful offeror for negotiated acquisitions.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.201-2"
+        ]
+      },
+      {
+        "id": 279,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "Under the Certificate of Competency (COC) program described in FAR 19.204, the SBA is empowered to certify a small business's responsibility, and this certification is binding on the contracting officer.",
+        "answer": "True",
+        "explanation": "FAR 19.204(a) describes the COC program, and FAR 19.204(i) states, 'SBA COCs are final with respect to all elements of responsibility of prospective small business contractors.' When SBA issues a COC, the contracting officer must award to that concern (unless for reasons unrelated to responsibility).",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.204"
+        ]
+      },
+      {
+        "id": 280,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "A contracting officer determines an apparent successful small business offeror to be nonresponsible. According to FAR 19.204(d), what action must the contracting officer take?",
+        "choices": [
+          "Immediately award to the next acceptable offeror.",
+          "Withhold award and refer the matter to the appropriate SBA Area Office.",
+          "Document the nonresponsibility determination and close the file.",
+          "Allow the small business 30 days to correct the deficiencies."
+        ],
+        "answer": "Withhold award and refer the matter to the appropriate SBA Area Office.",
+        "explanation": "FAR 19.204(d) requires that when a contracting officer determines a successful small business offeror lacks responsibility, the contracting officer must '(1) Withhold contract award; and (2) Refer the matter to the appropriate SBA Government Contracting Area Office (Area Office)...' for a possible Certificate of Competency (COC).",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.204"
+        ]
+      },
+      {
+        "id": 281,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Per FAR 19.301(a)(1), a small business contractor must rerepresent its size status within 30 days after what event?",
+        "choices": [
+          "The start of a new fiscal year.",
+          "The completion of 50% of the contract work.",
+          "The execution of a novation agreement.",
+          "The hiring of a new key person."
+        ],
+        "answer": "The execution of a novation agreement.",
+        "explanation": "FAR 19.301(a)(1) requires a contractor that represented as small before award to rerepresent its size status 'Within 30 days after execution of a novation agreement...'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.301"
+        ]
+      },
+      {
+        "id": 282,
+        "far_part": "Part 19",
+        "qtype": "true_false",
+        "question": "According to FAR 19.302-2(a), the contracting officer is responsible for monitoring a prime contractor's compliance with its subcontracting plan by ensuring reports are submitted in the Subcontracting Plan Reporting (SPR) system.",
+        "answer": "True",
+        "explanation": "FAR 19.302-2(a) states, 'The contracting officer must monitor the prime contractor's compliance with its subcontracting plan by ensuring that the contractor submits subcontracting reports in the SPR within 45 days after the report ending date...'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.302-2"
+        ]
+      },
+      {
+        "id": 283,
+        "far_part": "Part 19",
+        "qtype": "multiple_choice",
+        "question": "Under FAR 19.302-2(c)(1), which of the following is NOT listed as an indicator of a contractor's good faith effort to comply with its subcontracting plan?",
+        "choices": [
+          "Breaking out work into economically feasible units.",
+          "Conducting market research to identify potential small business subcontractors.",
+          "Achieving the subcontracting goal in every single socioeconomic category.",
+          "Negotiating in good faith with interested small businesses."
+        ],
+        "answer": "Achieving the subcontracting goal in every single socioeconomic category.",
+        "explanation": "FAR 19.302-2(c)(1) lists several indicators of a good faith effort. Subparagraph (x) notes that 'Although failing to meet the subcontracting goal in one socioeconomic category, exceeding the goal by an equal or greater amount in one or more of the other categories' can be an indicator of good faith, implying that meeting every single goal is not the sole determinant.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.302-2"
+        ]
+      },
+      {
+        "id": 284,
+        "far_part": "Part 19",
+        "qtype": "scenario",
+        "question": "An 8(a) contract was awarded to a firm that subsequently transferred ownership to another firm. The SBA Administrator does not waive the termination requirement. Per FAR 19.303-1(e), what must the contracting officer do?",
+        "choices": [
+          "Novate the contract to the new firm.",
+          "Terminate the contract for convenience.",
+          "Terminate the contract for default.",
+          "Allow the contract to continue until the end of the performance period."
+        ],
+        "answer": "Terminate the contract for convenience.",
+        "explanation": "FAR 19.303-1(e) is clear: 'Unless a waiver is approved by the SBA, the contracting officer must terminate the contract for convenience upon receipt of a written request by the SBA.' This is required when an 8(a) firm transfers ownership or control and a waiver is not granted.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 19",
+          "19.303-1"
+        ]
+      }
 ]
