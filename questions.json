@@ -3798,5 +3798,1949 @@
           "Part 19",
           "19.303-1"
         ]
-      }
+      },
+    {
+        "id": 285,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 42.001(a), what is the primary purpose of using interagency agreements?",
+        "choices": [
+            "To delegate all contract administration to a single agency.",
+            "To prevent duplicate audits, reviews, inspections, and examinations of contractors by more than one agency.",
+            "To establish a single point of contact for all contractor communications.",
+            "To reduce the cost of contract administration for the requesting agency."
+        ],
+        "answer": "To prevent duplicate audits, reviews, inspections, and examinations of contractors by more than one agency.",
+        "explanation": "FAR 42.001(a) explicitly states that 'Agencies must use interagency agreements to prevent duplicate audits, reviews, inspections, and examinations of contractors or subcontractors by more than one agency.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.0"
+        ]
+    },
+    {
+        "id": 286,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "Per FAR 42.101(b), the Defense Contract Audit Agency (DCAA) is always the responsible Government audit agency for all contractors.",
+        "answer": "False",
+        "explanation": "FAR 42.101(b) states that 'Normally, the Defense Contract Audit Agency (DCAA) is the responsible Government audit agency.' However, it allows for instances where another agency may desire cognizance, and for educational institutions and non-profits, cognizance is determined by OMB Uniform Guidance.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.1"
+        ]
+    },
+    {
+        "id": 287,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "A contracting officer at the Department of Energy needs to delegate contract administration for a new research contract. According to FAR 42.202(a), what information must the delegation include?",
+        "choices": [
+            "Only the name and address of the designated Contract Administration Office (CAO).",
+            "The name and address of the CAO, a copy of the contract, and any special instructions or withheld functions.",
+            "A summary of the contract's statement of work and the required delivery date.",
+            "The contractor's performance history on previous government contracts."
+        ],
+        "answer": "The name and address of the CAO, a copy of the contract, and any special instructions or withheld functions.",
+        "explanation": "FAR 42.202(a) requires the delegation to include: (1) The name and address of the CAO, (2) Any special instructions, including functions withheld or specifically authorized, (3) A copy of the contract, and (4) Copies of relevant agency regulations or directives.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.2"
+        ]
+    },
+    {
+        "id": 288,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "Which of the following functions, per FAR 42.302(a), is normally delegated to the CAO and cannot be retained by the contracting officer?",
+        "choices": [
+            "Reviewing the contractor's compensation structure.",
+            "Conducting post-award orientation conferences.",
+            "Establishing final indirect cost rates and billing rates.",
+            "Performing property administration."
+        ],
+        "answer": "Establishing final indirect cost rates and billing rates.",
+        "explanation": "FAR 42.302(a) states that the contracting officer may retain many functions, 'except those in paragraphs (a)(5), (a)(9), (a)(11), and (a)(12) of this section, which must be performed by the cognizant Federal agency.' Paragraph (a)(9) is 'Establish final indirect cost rates and billing rates...'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.3"
+        ]
+    },
+    {
+        "id": 289,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "Under FAR 42.402(a), a Corporate Administrative Contracting Officer (CACO) can only be assigned if a contractor has at least five locations with resident ACOs.",
+        "answer": "False",
+        "explanation": "FAR 42.402(a) states a CACO may be assigned if the contractor has at least two locations with resident ACOs, or if the agency head or designee approves the assignment.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.4"
+        ]
+    },
+    {
+        "id": 290,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "What is the definition of a 'billing rate' as used in FAR Subpart 42.5?",
+        "choices": [
+            "A final, audited rate used for contract closeout.",
+            "A temporary indirect cost rate for interim reimbursement, subject to adjustment.",
+            "A fixed rate negotiated for the life of the contract.",
+            "The rate used exclusively for progress payments on fixed-price contracts."
+        ],
+        "answer": "A temporary indirect cost rate for interim reimbursement, subject to adjustment.",
+        "explanation": "FAR 42.501 defines a 'Billing rate' as an indirect cost rate 'Established temporarily for interim reimbursement of incurred indirect costs; and Adjusted as necessary until final indirect cost rates are established.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.5"
+        ]
+    },
+    {
+        "id": 291,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "A contractor fails to certify its proposal for final indirect cost rates, and a waiver is not appropriate. According to FAR 42.503-2(c), what action may the contracting officer take?",
+        "choices": [
+            "Terminate the contract for default.",
+            "Suspend all payments to the contractor immediately.",
+            "Unilaterally establish the rates based on audited historical data, ensuring unallowable costs are excluded.",
+            "Initiate a formal dispute under the Contract Disputes statute."
+        ],
+        "answer": "Unilaterally establish the rates based on audited historical data, ensuring unallowable costs are excluded.",
+        "explanation": "FAR 42.503-2(c)(1) states, 'If the contractor has not certified its proposal for final indirect cost rates and a waiver is not appropriate, the contracting officer may unilaterally establish the rates.' Paragraph (c)(2) adds that these rates should be based on audited historical data and set low enough to ensure unallowable costs are not reimbursed.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.5"
+        ]
+    },
+    {
+        "id": 292,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "Under FAR 42.601, a written notice of intent to disallow costs can only be issued for cost-reimbursement contracts.",
+        "answer": "False",
+        "explanation": "FAR 42.601(a) permits issuing a notice of intent to disallow costs for several contract types, including: cost-reimbursement contracts, cost-reimbursement portions of fixed-price contracts, letter contracts, time-and-material and labor-hour contracts, and fixed-price incentive contracts.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.6"
+        ]
+    },
+    {
+        "id": 293,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "When an agency is notified of a contractor's bankruptcy proceedings, which of the following is NOT a minimum required action under FAR 42.702(a)?",
+        "choices": [
+            "Furnish the notice to legal counsel and other appropriate agency offices.",
+            "Immediately terminate all active contracts with the bankrupt contractor.",
+            "Determine the amount of the Government's potential claim against the contractor.",
+            "Take actions to protect the Government's financial interests and safeguard Government property."
+        ],
+        "answer": "Immediately terminate all active contracts with the bankrupt contractor.",
+        "explanation": "FAR 42.702(a) lists the minimum requirements when notified of bankruptcy. These include furnishing the notice to counsel, determining the government's claim, and protecting government interests. It does not mandate immediate termination of all contracts; such actions are taken after consultation with legal counsel as noted in 42.702(b).",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.7"
+        ]
+    },
+    {
+        "id": 294,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 42.804, what is the criterion for assigning a Criticality Designator 'A' to a contract?",
+        "choices": [
+            "Any contract exceeding the simplified acquisition threshold.",
+            "Contracts for items needed to maintain a production line or preclude out-of-stock conditions.",
+            "All contracts other than those designated 'B'.",
+            "Critical contracts, including DX-rated contracts, those citing unusual and compelling urgency, and contracts for major systems."
+        ],
+        "answer": "Critical contracts, including DX-rated contracts, those citing unusual and compelling urgency, and contracts for major systems.",
+        "explanation": "The table in FAR 42.804 defines the criterion for Criticality Designator 'A' as 'Critical contracts, including DX-rated contracts (see part 11), contracts citing the authority in part 6 for unusual and compelling urgency, and contracts for major systems (see part 34).'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.8"
+        ]
+    },
+    {
+        "id": 295,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "According to FAR 42.903(b), a novation agreement is always required when a contractor's ownership changes through a stock purchase.",
+        "answer": "False",
+        "explanation": "FAR 42.903(b) states that a novation agreement is unnecessary when there is a change in ownership of a contractor from a stock purchase, with no legal change in the contracting party, and that party remains in control of the assets and is performing the contract.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.9"
+        ]
+    },
+    {
+        "id": 296,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "A contractor performing a research and development contract experiences a major engineering breakthrough. The government wishes to halt work temporarily to assess the new technology. Per FAR 42.1003, what action must be approved at a level higher than the contracting officer?",
+        "choices": [
+            "Discussing the work stoppage with the contractor.",
+            "Canceling the stop-work order once a decision is made.",
+            "Issuing a stop-work order.",
+            "Extending the period of the stop-work order with the contractor's agreement."
+        ],
+        "answer": "Issuing a stop-work order.",
+        "explanation": "FAR 42.1003(b) states, 'Issuance of a stop-work order must be approved at a level higher than the contracting officer.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.10"
+        ]
+    },
+    {
+        "id": 297,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "Which FAR clause is inserted into solicitations and contracts for fixed-price construction or architect-engineer contracts to cover potential work suspensions? ",
+        "choices": [
+            "52.242-15, Stop-Work Order",
+            "52.242-17, Government Delay of Work",
+            "52.242-14, Suspension of Work",
+            "52.242-2, Production Progress Reports"
+        ],
+        "answer": "52.242-14, Suspension of Work",
+        "explanation": "FAR 42.1005(a) directs the contracting officer to 'Insert the clause at 52.242-14, Suspension of Work, in solicitations and contracts when a fixed-price construction or architect-engineer contract is contemplated.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.10"
+        ]
+    },
+    {
+        "id": 298,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "Per FAR 42.1102(a), past performance evaluations must be prepared, at a minimum, when a contract is completed, but interim evaluations are not permitted.",
+        "answer": "False",
+        "explanation": "FAR 42.1102(a) requires past performance evaluations to be prepared at least annually and at the time the work under a contract or order is completed. It explicitly states, 'Interim evaluations are permissible.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.11"
+        ]
+    },
+    {
+        "id": 299,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "For which of the following contracts must an agency prepare a past performance evaluation, according to FAR 42.1102?",
+        "choices": [
+            "A construction contract valued at $500,000.",
+            "An architect-engineer services contract terminated for default, regardless of value.",
+            "A fixed-price supply contract below the simplified acquisition threshold.",
+            "An order under a Federal Supply Schedule contract valued at $100,000."
+        ],
+        "answer": "An architect-engineer services contract terminated for default, regardless of value.",
+        "explanation": "FAR 42.1102(f) states that 'Past performance evaluations must be prepared...for each architect-engineer services contract that is terminated for default regardless of contract value.' Other thresholds apply for different contract types (e.g., $900,000 for construction).",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.11"
+        ]
+    },
+    {
+        "id": 300,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "An evaluator is preparing a CPARS report for a firm-fixed-price contract. According to the evaluation factors listed in FAR 42.1103(b)(2), which factor is not applicable to this assessment?",
+        "choices": [
+            "Technical (quality of product or service)",
+            "Cost control",
+            "Schedule/timeliness",
+            "Management or business relations"
+        ],
+        "answer": "Cost control",
+        "explanation": "FAR 42.1103(b)(2)(ii) lists 'Cost control' as a minimum evaluation factor but notes that it is 'not applicable for firm-fixed-price or fixed-price with economic price adjustment arrangements'.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.11"
+        ]
+    },
+    {
+        "id": 301,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 42.1103(d)(2), how many calendar days must a contractor be given to submit comments or rebuttals after being notified that a past performance evaluation is available for review?",
+        "choices": [
+            "7 calendar days",
+            "10 calendar days",
+            "14 calendar days",
+            "30 calendar days"
+        ],
+        "answer": "14 calendar days",
+        "explanation": "FAR 42.1103(d)(2) states, 'Contractors must be afforded up to 14 calendar days from the date of notification of availability of the past performance evaluation to submit comments, rebutting statements, or additional information.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.11"
+        ]
+    },
+    {
+        "id": 302,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "Under FAR 42.1201, a contracting officer has up to 60 days to respond in writing to a small business concern's request regarding a contract administration matter.",
+        "answer": "False",
+        "explanation": "FAR 42.1201 states, 'The contracting officer must make every reasonable effort to respond in writing within 30 days to any written request to the contracting officer from a small business concern regarding a contract administration matter.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.12"
+        ]
+    },
+    {
+        "id": 303,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "Who may initiate a request for a forward pricing rate agreement (FPRA) under FAR 42.1301(a)?",
+        "choices": [
+            "Only the administrative contracting officer (ACO).",
+            "Only the contracting officer or the ACO.",
+            "The contracting officer, ACO, or the contractor.",
+            "Only the cognizant Federal agency auditor."
+        ],
+        "answer": "The contracting officer, ACO, or the contractor.",
+        "explanation": "FAR 42.1301(a) states, 'The contracting officer, administrative contracting officer (ACO), or the contractor may initiate a request for a forward pricing rate agreement (FPRA).'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.13"
+        ]
+    },
+    {
+        "id": 304,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "An ACO is negotiating an FPRA with a contractor that has a significant volume of Government proposals. What must the ACO require from the contractor for their FPRA proposal, according to FAR 42.1301(b)?",
+        "choices": [
+            "A certification that the data is accurate, complete, and current.",
+            "Cost or pricing data that are accurate, complete, and current as of the date of submission.",
+            "A projection of future costs for the next five fiscal years.",
+            "A formal audit report from an independent public accountant."
+        ],
+        "answer": "Cost or pricing data that are accurate, complete, and current as of the date of submission.",
+        "explanation": "FAR 42.1301(b) specifies that 'The ACO must obtain the contractor’s forward pricing rate proposal and require that it include cost or pricing data that are accurate, complete, and current as of the date of submission, but must not require a certification (see part 15).'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.13"
+        ]
+    },
+    {
+        "id": 305,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "A contracting officer is rating a contractor's performance and notes that while the contractor met all contractual requirements, they did so with several minor problems that were handled in a satisfactory manner. Per the definitions in FAR Table 42-1, what is the most appropriate performance rating?",
+        "choices": [
+            "Exceptional",
+            "Very Good",
+            "Satisfactory",
+            "Marginal"
+        ],
+        "answer": "Satisfactory",
+        "explanation": "FAR Table 42-1 defines a 'Satisfactory' rating as 'Performance meets contractual requirements. The contractual performance of the element or sub-element contains some minor problems for which corrective actions taken by the contractor appear or were satisfactory.' This precisely matches the scenario.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.11"
+        ]
+    },
+    {
+        "id": 306,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "According to FAR Table 42-2, a contractor can receive a 'Satisfactory' rating for small business subcontracting even if they are deficient in meeting key subcontracting plan elements, as long as they show an interest in improving.",
+        "answer": "False",
+        "explanation": "FAR Table 42-2 defines a 'Marginal' rating for a contractor who is 'Deficient in meeting key subcontracting plan elements' but 'does show an interest in bringing performance to a satisfactory level'. A 'Satisfactory' rating requires the contractor to have 'Demonstrated a good faith effort to meet all of the negotiated subcontracting goals' and 'Fulfilled the requirements of the subcontracting plan'.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.11"
+        ]
+    },
+    {
+        "id": 307,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "Under what condition may a contracting officer use the quick-closeout procedure described in FAR 42.507?",
+        "choices": [
+            "When the contract is physically complete and the amount of unsettled costs is relatively insignificant.",
+            "Anytime a contract has been physically complete for more than 120 days.",
+            "Only for contracts awarded to small businesses.",
+            "When the contractor agrees to waive all remaining claims against the government."
+        ],
+        "answer": "When the contract is physically complete and the amount of unsettled costs is relatively insignificant.",
+        "explanation": "FAR 42.507(a) lists the conditions for using the quick-closeout procedure, including that the contract is physically complete and the amount of unsettled direct and indirect costs is 'relatively insignificant,' defined as not exceeding the lesser of $1,000,000 or 10 percent of the total contract amount.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.5"
+        ]
+    },
+    {
+        "id": 308,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "A contractor submits a final indirect cost rate proposal that includes costs which were determined to be unallowable for that specific contractor before the proposal was even submitted. According to FAR 42.508-2(a)(2), what is the penalty?",
+        "choices": [
+            "The amount of the disallowed costs plus interest.",
+            "There is no penalty if the costs were not paid.",
+            "Two times the amount of the disallowed costs allocated to covered contracts.",
+            "A fixed penalty of $10,000 for each unallowable cost included."
+        ],
+        "answer": "Two times the amount of the disallowed costs allocated to covered contracts.",
+        "explanation": "FAR 42.508-2(a)(2) states that 'If the indirect cost was determined to be unallowable for that contractor before proposal submission, the penalty is two times the amount in paragraph (a)(1)(i) of this section,' which is the amount of the disallowed costs allocated to contracts subject to the section.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.5"
+        ]
+    },
+    {
+        "id": 309,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "Under which circumstance MUST the cognizant contracting officer waive the penalties for unallowable costs, per FAR 42.508-6?",
+        "choices": [
+            "When the contractor claims the costs were included by mistake.",
+            "When the total unallowable costs are less than $50,000.",
+            "When the contractor withdraws the proposal before the formal audit begins and submits a revised proposal.",
+            "When the contractor agrees to a 5-year compliance agreement."
+        ],
+        "answer": "When the contractor withdraws the proposal before the formal audit begins and submits a revised proposal.",
+        "explanation": "FAR 42.508-6 lists three conditions under which the contracting officer must waive the penalty. One of these, in paragraph (a), is when 'The contractor withdraws the proposal before formal audit initiation...and submits a revised proposal'.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.5"
+        ]
+    },
+    {
+        "id": 310,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "Once a Federal agency assumes cognizance for a contractor's indirect costs, it should remain the cognizant agency for at least 10 years to ensure continuity per FAR 42.002(b).",
+        "answer": "False",
+        "explanation": "FAR 42.002(b) states, 'Once a Federal agency assumes cognizance for a contractor, it should remain the cognizant Federal agency for at least 5 years to ensure continuity and ease of administration.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.0"
+        ]
+    },
+    {
+        "id": 311,
+        "far_part": "Part 42",
+        "qtype": "multiple_choice",
+        "question": "Which of the following functions may a CAO perform ONLY when specifically authorized by the contracting office, according to FAR 42.302(b)?",
+        "choices": [
+            "Reviewing the contractor's insurance plans.",
+            "Performing property administration.",
+            "Negotiating and executing supplemental agreements incorporating contractor proposals from change orders.",
+            "Reviewing and approving contractor requests for financing payments."
+        ],
+        "answer": "Negotiating and executing supplemental agreements incorporating contractor proposals from change orders.",
+        "explanation": "FAR 42.302(b) lists functions the CAO performs only when authorized. Paragraph (b)(1) includes 'Negotiate and execute supplementals agreements incorporating contractor proposals resulting from change orders issued under the Changes clause.' The other functions are listed under 42.302(a) as normally delegated.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.3"
+        ]
+    },
+    {
+        "id": 312,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "Per FAR 42.904, if a contractor only changes its name and the government's rights and obligations are unaffected, the parties must execute a full novation agreement.",
+        "answer": "False",
+        "explanation": "FAR 42.904(a) states, 'If only a change of the contractor’s name is involved and the Government’s and contractor’s rights and obligations remain unaffected, the parties must execute an agreement to reflect the name change,' not a novation agreement.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.9"
+        ]
+    },
+    {
+        "id": 313,
+        "far_part": "Part 42",
+        "qtype": "scenario",
+        "question": "A contractor with multiple contracts at different plants is transferring all its assets to a successor company. None of the affected contracts have been assigned to an ACO. According to FAR 42.901(b), who is the responsible contracting officer for processing the novation agreement?",
+        "choices": [
+            "The contracting officer for the oldest active contract.",
+            "The contracting officer for the contract with the highest dollar value.",
+            "The contracting officer responsible for the largest unsettled (unbilled plus billed but unpaid) dollar balance of contracts.",
+            "Any contracting officer may process the agreement, as long as they coordinate with the others."
+        ],
+        "answer": "The contracting officer responsible for the largest unsettled (unbilled plus billed but unpaid) dollar balance of contracts.",
+        "explanation": "FAR 42.901(b) states, 'If none of the affected contracts held by the transferor have been assigned to an ACO, the contracting officer responsible for the largest unsettled (unbilled plus billed but unpaid) dollar balance of contracts will be the responsible contracting officer.'",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.9"
+        ]
+    },
+    {
+        "id": 314,
+        "far_part": "Part 42",
+        "qtype": "true_false",
+        "question": "According to FAR 42.1104, the clause at 52.242-5, Payments to Small Business Subcontractors, must be inserted in all solicitations and contracts exceeding the simplified acquisition threshold.",
+        "answer": "False",
+        "explanation": "FAR 42.1104 states that the clause at 52.242-5 is inserted in solicitations and contracts 'containing the clause at 52.219-9, Small Business Subcontracting Plan.' Its inclusion is dependent on the presence of a subcontracting plan, not just the contract value.",
+        "difficulty": "foundational",
+        "tags": [
+            "Part 42",
+            "Subpart 42.11"
+        ]
+    },
+    {
+        "id": 315,
+        "far_part": "Part 43",
+        "qtype": "true_false",
+        "question": "According to FAR 43.100, the standards for contract modifications outlined in Part 43 apply to all types of contracts, including those for extraordinary contractual relief under Subpart 50.1.",
+        "answer": "False",
+        "explanation": "FAR 43.100 states that Part 43 applies to all types of contracts, including construction and architect-engineer contracts, but explicitly notes that it does not apply to modifications for extraordinary contractual relief, which is covered in Subpart 50.1.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 316,
+        "far_part": "Part 43",
+        "qtype": "multiple_choice",
+        "question": "Per FAR 43.201, which of the following is considered an 'administrative change'?",
+        "choices": [
+          "An increase in the contract price",
+          "A change in the paying office or appropriation data",
+          "A modification to the scope of work",
+          "An extension of the period of performance"
+        ],
+        "answer": "A change in the paying office or appropriation data",
+        "explanation": "FAR 43.201 defines an 'administrative change' as a unilateral contract change that does not affect the substantive rights of the parties, providing examples such as 'a change in the paying office or the appropriation data'.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 317,
+        "far_part": "Part 43",
+        "qtype": "scenario",
+        "question": "A contracting officer needs to correct a typographical mistake in the accounting data on a firm-fixed-price contract. The change does not affect the rights of either party. According to FAR 43.203, what type of modification should be used?",
+        "choices": [
+          "A bilateral modification, because it changes contract terms",
+          "A supplemental agreement, requiring contractor signature",
+          "A unilateral modification, because it is an administrative change",
+          "A change order, because it alters the contract"
+        ],
+        "answer": "A unilateral modification, because it is an administrative change",
+        "explanation": "FAR 43.203(b) states that unilateral modifications are signed only by the contracting officer and are used to make administrative changes. Correcting typographical errors that don't affect substantive rights is a classic example of an administrative change.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 318,
+        "far_part": "Part 43",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 43.202, who has the authority to execute contract modifications on behalf of the Government?",
+        "choices": [
+          "Any Government personnel involved in the project",
+          "Only contracting officers acting within the scope of their authority",
+          "Program managers and contracting officer's representatives (CORs)",
+          "The contractor, with verbal approval from the agency"
+        ],
+        "answer": "Only contracting officers acting within the scope of their authority",
+        "explanation": "FAR 43.202(a) is explicit: 'Only contracting officers acting within the scope of their authority may execute contract modifications on behalf of the Government.' It also prohibits other Government personnel from acting in a way that suggests they have this authority.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 319,
+        "far_part": "Part 43",
+        "qtype": "true_false",
+        "question": "Under FAR 43.204, if a contractor believes the Government has made a change to the contract that was not in writing, the contractor should wait for the contracting officer to issue a formal modification before taking any action.",
+        "answer": "False",
+        "explanation": "FAR 43.204 requires the contractor to 'notify the Government in writing as soon as possible' when it determines the Government has made a change that is not in writing. This notification allows the Government to evaluate the alleged change.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 320,
+        "far_part": "Part 43",
+        "qtype": "multiple_choice",
+        "question": "Per FAR 43.205(a), a contracting officer must not execute a contract modification that increases funds without first obtaining a certification of fund availability, except for modifications to contracts that:",
+        "choices": [
+          "Are for commercial products or services",
+          "Are below the simplified acquisition threshold",
+          "Are conditioned on availability of funds or contain a limitation of cost/funds clause",
+          "Are for research and development"
+        ],
+        "answer": "Are conditioned on availability of funds or contain a limitation of cost/funds clause",
+        "explanation": "FAR 43.205(a) provides a clear exception to the rule requiring prior certification of funds: 'except for modifications to contracts that (1) Are conditioned on availability of funds (see 32.703-2); or (2) Contain a limitation of cost or funds clause (see 32.704).'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 321,
+        "far_part": "Part 43",
+        "qtype": "scenario",
+        "question": "A contracting officer is managing a large, complex supply contract and anticipates numerous changes. To ensure costs are properly segregated, the CO wants to include a clause for tracking change order costs. Which clause, according to FAR 43.206, would be appropriate?",
+        "choices": [
+          "52.243-1, Changes-Fixed-Price",
+          "52.243-7, Notification of Changes",
+          "52.243-6, Change Order Accounting",
+          "52.243-4, Changes"
+        ],
+        "answer": "52.243-6, Change Order Accounting",
+        "explanation": "FAR 43.303 references the 'Change Order Accounting clause at 52.243-6' for segregating direct costs. Furthermore, FAR 43.206 states the contracting officer may insert a clause 'substantially the same as the clause at 52.243-7, Notification of Changes,' but the question is specifically about accounting for changes, which points to 43.303.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 322,
+        "far_part": "Part 43",
+        "qtype": "true_false",
+        "question": "Upon receipt of a change order on a fixed-price contract, the contractor is permitted to stop performance until the price and schedule impacts are fully negotiated and definitized.",
+        "answer": "False",
+        "explanation": "FAR 43.301(b) states that 'Upon receipt of a change order, the contractor must continue performance of the contract as changed,' with exceptions only for certain cost-reimbursement or incrementally funded contracts.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 323,
+        "far_part": "Part 43",
+        "qtype": "multiple_choice",
+        "question": "Under FAR 43.303, which of the following is an example of a direct cost that is normally segregable under the terms of the Change Order Accounting clause?",
+        "choices": [
+          "General and administrative (G&A) overhead",
+          "Contractor's corporate management expenses",
+          "Costs of added distinct work, such as new subcontract work or new prototypes",
+          "Marketing and business development costs"
+        ],
+        "answer": "Costs of added distinct work, such as new subcontract work or new prototypes",
+        "explanation": "FAR 43.303(b) lists 'Costs of added distinct work caused by the change order such as new subcontract work, new prototypes, or new retrofit or backfit kits' as a category of direct costs that are normally segregable and accountable.",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+      {
+        "id": 324,
+        "far_part": "Part 43",
+        "qtype": "scenario",
+        "question": "A contracting officer needs to issue a change order but is in an urgent situation and cannot immediately prepare the Standard Form 30. What does FAR 43.301(c) permit in this circumstance?",
+        "choices": [
+          "The contracting officer must wait until an SF 30 can be properly issued.",
+          "The contracting officer may issue the change order via email, provided it contains the required information and an SF 30 is issued promptly after.",
+          "The contracting officer can provide a verbal change order, to be followed by an SF 30 within 30 days.",
+          "The contractor is authorized to proceed based on a verbal understanding with the program manager."
+        ],
+        "answer": "The contracting officer may issue the change order via email, provided it contains the required information and an SF 30 is issued promptly after.",
+        "explanation": "FAR 43.301(c) allows the contracting officer to 'issue a change order by electronic means without a SF 30 under unusual or urgent circumstances, provided that the message contains substantially the information required by the SF 30 and immediate action is taken to issue the SF 30.'",
+        "difficulty": "foundational",
+        "tags": [
+          "Part 43"
+        ]
+      },
+    {
+        "id": 325,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "What is the definition of a 'critical item' under FAR Part 46?",
+        "choices": [
+            "An item with a unit cost exceeding $100,000",
+            "An item whose failure is likely to result in hazardous conditions or prevent performance of a vital agency mission",
+            "An item that requires higher-level contract quality requirements",
+            "An item subject to Government inspection at source"
+        ],
+        "answer": "An item whose failure is likely to result in hazardous conditions or prevent performance of a vital agency mission",
+        "explanation": "Per FAR 46.101, a critical item is defined as an item whose failure is likely to result in hazardous or unsafe conditions for individuals using, maintaining, or depending upon the item; or is likely to prevent performance of a vital agency mission.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 326,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "Under FAR Part 46, a counterfeit item includes used items that are represented as new.",
+        "answer": "True",
+        "explanation": "Per FAR 46.101, the definition of 'counterfeit item' explicitly includes unlawful or unauthorized substitution, such as used items represented as new, or the false identification of grade, serial number, lot number, date code, or performance characteristics.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 327,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 46.102, when must Government contract quality assurance be conducted?",
+        "choices": [
+            "Only after acceptance",
+            "Before acceptance (except as otherwise provided in Part 46)",
+            "At the contractor's discretion",
+            "Only for contracts exceeding the simplified acquisition threshold"
+        ],
+        "answer": "Before acceptance (except as otherwise provided in Part 46)",
+        "explanation": "FAR 46.102(c) states that Government contract quality assurance is conducted before acceptance (except as otherwise provided in this part), by or under the direction of Government personnel.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 328,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "CO Johnson is purchasing commercial software at $45,000. The contractor has an existing quality assurance system. Under FAR Part 46, what inspection approach should CO Johnson use?",
+        "choices": [
+            "Government inspection at source before delivery",
+            "Rely on the contractor's existing quality assurance system",
+            "Require higher-level contract quality requirements",
+            "Perform detailed Government inspection at destination"
+        ],
+        "answer": "Rely on the contractor's existing quality assurance system",
+        "explanation": "Per FAR 46.202-1, when acquiring commercial products, the Government must rely on contractors' existing quality assurance systems as a substitute for Government inspection and testing before tender for acceptance unless customary market practices include in-process inspection.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 329,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "What is a 'critical nonconformance' under FAR Part 46?",
+        "choices": [
+            "Any defect discovered during the warranty period",
+            "A nonconformance that is likely to result in hazardous conditions or prevent performance of a vital agency mission",
+            "A nonconformance that materially reduces usability for the intended purpose",
+            "A departure from established standards with little bearing on effective use"
+        ],
+        "answer": "A nonconformance that is likely to result in hazardous conditions or prevent performance of a vital agency mission",
+        "explanation": "Per FAR 46.101, critical nonconformance means a nonconformance that is likely to result in hazardous or unsafe conditions for individuals using, maintaining, or depending upon the supplies or services; or is likely to prevent performance of a vital agency mission.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 330,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "Under FAR Part 46, contracts may preclude the Government from performing inspection.",
+        "answer": "False",
+        "explanation": "FAR 46.102(d) explicitly states that no contract precludes the Government from performing inspection. This is a fundamental policy requirement.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 331,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "Who is responsible for prescribing contract quality requirements such as inspection and testing requirements?",
+        "choices": [
+            "The contracting officer",
+            "The contract administration office",
+            "The activity responsible for technical requirements",
+            "The contractor's quality assurance department"
+        ],
+        "answer": "The activity responsible for technical requirements",
+        "explanation": "Per FAR 46.103(a), the activity responsible for technical requirements is responsible for prescribing contract quality requirements, such as inspection and testing requirements or, for service contracts, a quality assurance surveillance plan.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 332,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "A contract administration office discovers defects in the design or technical requirements of a contract. According to FAR Part 46, what must they do?",
+        "choices": [
+            "Accept the supplies and document the defect for future contracts",
+            "Report the defects to the contracting office",
+            "Reject the supplies without notifying anyone",
+            "Modify the contract directly to correct the defects"
+        ],
+        "answer": "Report the defects to the contracting office",
+        "explanation": "Per FAR 46.104(e), the contract administration office must report to the contracting office any defects observed in design or technical requirements, including contract quality requirements.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 333,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "For acquisitions at or below the simplified acquisition threshold, the Government must rely on the contractor to accomplish all inspection and testing unless certain conditions apply.",
+        "answer": "True",
+        "explanation": "Per FAR 46.202-2(a), except as specified in paragraph (b), the Government must rely on the contractor to accomplish all inspection and testing needed to ensure that supplies or services acquired at or below the simplified acquisition threshold conform to contract quality requirements before they are tendered to the Government.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 334,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "What are examples of higher-level quality standards mentioned in FAR 46.202-4?",
+        "choices": [
+            "ISO 9001, ASQ/ANSI E4, ASME NQA-1, SAE AS9100",
+            "Six Sigma, Lean Manufacturing, TQM",
+            "NIST 800-53, CMMC, FedRAMP",
+            "DFARS clauses and agency-specific FAR supplements"
+        ],
+        "answer": "ISO 9001, ASQ/ANSI E4, ASME NQA-1, SAE AS9100",
+        "explanation": "Per FAR 46.202-4(b), examples of higher-level quality standards include overarching quality management system standards such as ISO 9001, ASQ/ANSI E4, ASME NQA-1, SAE AS9100, SAE AS9003, and ISO/TS 16949, and product or process specific quality standards such as SAE AS5553.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 335,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "When must the contracting officer insert the clause at 52.246-1, Contractor Inspection Requirements?",
+        "choices": [
+            "In all contracts regardless of dollar value",
+            "Only in contracts exceeding the simplified acquisition threshold",
+            "When the contract amount is at or below the simplified acquisition threshold and inclusion is necessary or required by agency procedures",
+            "Only in cost-reimbursement contracts"
+        ],
+        "answer": "When the contract amount is at or below the simplified acquisition threshold and inclusion is necessary or required by agency procedures",
+        "explanation": "Per FAR 46.301, the contracting officer must insert the clause at 52.246-1 in solicitations and contracts when the contract amount is expected to be at or below the simplified acquisition threshold and (a) inclusion is necessary to ensure understanding of inspection responsibilities, or (b) inclusion is required under agency procedures.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 336,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "Under FAR Part 46, the clause at 52.246-2, Inspection of Supplies-Fixed-Price, must be inserted in all fixed-price supply contracts exceeding the simplified acquisition threshold.",
+        "answer": "True",
+        "explanation": "Per FAR 46.302, the contracting officer must insert the clause at 52.246-2, Inspection of Supplies-Fixed-Price, in solicitations and contracts for supplies when a fixed-price contract is contemplated and the contract amount is expected to exceed the simplified acquisition threshold.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 337,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "CO Williams is awarding a $15M cost-reimbursement contract for research and development where the primary objective is delivery of end items (not just reports). Which inspection clause should be used?",
+        "choices": [
+            "52.246-7, Inspection of Research and Development-Fixed-Price",
+            "52.246-8, Inspection of Research and Development-Cost-Reimbursement",
+            "52.246-9, Inspection of Research and Development (Short Form)",
+            "52.246-3, Inspection of Supplies-Cost-Reimbursement"
+        ],
+        "answer": "52.246-8, Inspection of Research and Development-Cost-Reimbursement",
+        "explanation": "Per FAR 46.308, the contracting officer must insert the clause at 52.246-8 in solicitations and contracts for research and development when (a) the primary objective is delivery of end items other than designs, drawings, or reports, and (b) a cost-reimbursement contract is contemplated.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 338,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "When must the clause at 52.246-26, Reporting Nonconforming Items, be inserted in DoD contracts?",
+        "choices": [
+            "Only for contracts with higher-level quality standards or critical items",
+            "For all contracts exceeding the simplified acquisition threshold involving electronic parts",
+            "Only for construction contracts",
+            "For all service contracts regardless of value"
+        ],
+        "answer": "For all contracts exceeding the simplified acquisition threshold involving electronic parts",
+        "explanation": "Per FAR 46.317(a)(2), for acquisitions exceeding the simplified acquisition threshold and by, or for, the Department of Defense of electronic parts or end items, components, parts, or materials containing electronic parts, the clause at 52.246-26 must be inserted (as required by section 818 of the National Defense Authorization Act for Fiscal Year 2012).",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 339,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "The clause at 52.246-26, Reporting Nonconforming Items, must be inserted when acquiring commercial products using Part 12 procedures.",
+        "answer": "False",
+        "explanation": "Per FAR 46.317(b)(1), the contracting officer must not insert the clause at 52.246-26 when acquiring commercial products and commercial services using Part 12 procedures.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 340,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 46.401, when must agencies perform Government contract quality assurance at source?",
+        "choices": [
+            "For all contracts exceeding $1 million",
+            "Only when the contractor requests it",
+            "When performance at another place would require uneconomical disassembly, result in considerable loss, or for other reasons in the Government's interest",
+            "Never, quality assurance should always be performed at destination"
+        ],
+        "answer": "When performance at another place would require uneconomical disassembly, result in considerable loss, or for other reasons in the Government's interest",
+        "explanation": "Per FAR 46.402, agencies must perform contract quality assurance at source if conditions such as uneconomical disassembly, considerable loss from unacceptable supplies, special instruments available only at source, or other reasons make it in the Government's interest.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 341,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "A contract specifies delivery and acceptance at destination. The Government inspects the supplies at source. Under FAR Part 46, what should happen when the supplies arrive at destination?",
+        "choices": [
+            "Full reinspection for all contract requirements",
+            "Examination for quantity, damage in transit, and possible substitution or fraud only",
+            "No examination is required since inspection occurred at source",
+            "Only packaging and preservation inspection"
+        ],
+        "answer": "Examination for quantity, damage in transit, and possible substitution or fraud only",
+        "explanation": "Per FAR 46.401(d), if a contract provides for delivery and acceptance at destination and the Government inspects the supplies at a place other than destination, the supplies must not ordinarily be reinspected at destination, but should be examined for quantity, damage in transit, and possible substitution or fraud.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 342,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "Government contract quality assurance on subcontracted supplies must be performed whenever a prime contractor has subcontractors.",
+        "answer": "False",
+        "explanation": "Per FAR 46.405(a), Government contract quality assurance on subcontracted supplies or services must be performed only when required in the Government's interest. It does not relieve the prime contractor of any responsibilities under the contract.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 343,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "What does 'acceptance' mean under FAR Part 46?",
+        "choices": [
+            "The contractor's certification that supplies conform to requirements",
+            "The act of an authorized Government representative assuming ownership or approving services rendered",
+            "The contracting officer's signature on the purchase order",
+            "Payment for delivered supplies or services"
+        ],
+        "answer": "The act of an authorized Government representative assuming ownership or approving services rendered",
+        "explanation": "Per FAR 46.101, acceptance means the act of an authorized representative of the Government by which the Government, for itself or as agent of another, assumes ownership of existing identified supplies tendered or approves specific services rendered as partial or complete performance of the contract.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 344,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "CO Davis discovers that supplies have critical nonconformances but the technical activity advises that the items are safe to use and will perform their intended purpose. The contractor offers a price reduction. Can CO Davis accept the nonconforming supplies?",
+        "choices": [
+            "No, supplies with critical nonconformances must always be rejected",
+            "Yes, if acceptance is in the Government's best interest and proper concurrences are obtained",
+            "Yes, but only if the contractor corrects the defects first",
+            "No, unless the contract is cost-reimbursement"
+        ],
+        "answer": "Yes, if acceptance is in the Government's best interest and proper concurrences are obtained",
+        "explanation": "Per FAR 46.407(c), when nonconformance is critical or major, the contracting officer may accept supplies if it's in the Government's best interest, based on technical advice that the item is safe and will perform its intended purpose, and with proper concurrence from the activity responsible for technical requirements.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 345,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "What is the definition of a 'high-value item' under FAR Part 46?",
+        "choices": [
+            "Any item exceeding $250,000 per unit",
+            "A contract end item with a high unit cost (normally exceeding $100,000) designated by the contracting officer",
+            "Any critical item regardless of cost",
+            "Items requiring higher-level contract quality requirements"
+        ],
+        "answer": "A contract end item with a high unit cost (normally exceeding $100,000) designated by the contracting officer",
+        "explanation": "Per FAR 46.802, high-value item means a contract end item that (1) has a high unit cost (normally exceeding $100,000 per unit), such as an aircraft, engine, communication system, computer system, missile, or ship; and (2) is designated by the contracting officer as a high-value item.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 346,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "Under FAR Part 46, the Government will relieve contractors of liability for loss or damage to high-value items that occurs after acceptance and results from defects.",
+        "answer": "True",
+        "explanation": "Per FAR 46.803(b), in contracts requiring delivery of high-value items, the Government will relieve contractors of contractual liability for loss of or damage to those items, though this relief does not limit the Government's rights to have defective items corrected, repaired, or replaced.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 347,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "CO Martinez is acquiring a $250M aircraft (a high-value item). After acceptance, the aircraft is damaged due to a defect in the contractor's workmanship. Under FAR Part 46, is the contractor liable for the loss?",
+        "choices": [
+            "Yes, the contractor is fully liable for all losses",
+            "No, the Government relieves contractors of liability for loss of or damage to high-value items",
+            "Yes, but only if the contractor had willful misconduct",
+            "No, unless the contract specifically requires contractor liability"
+        ],
+        "answer": "No, the Government relieves contractors of liability for loss of or damage to high-value items",
+        "explanation": "Per FAR 46.803(b), in contracts requiring delivery of high-value items, the Government will relieve contractors of contractual liability for loss of or damage to those items that occurs after acceptance and results from defects or deficiencies.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 348,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 46.502, who has the responsibility for acceptance of supplies or services?",
+        "choices": [
+            "The contractor's quality assurance manager",
+            "The contract administration office in all cases",
+            "The contracting officer (or designated cognizant office)",
+            "The end user or requiring activity"
+        ],
+        "answer": "The contracting officer (or designated cognizant office)",
+        "explanation": "Per FAR 46.502, acceptance of supplies or services is the responsibility of the contracting officer. When this responsibility is assigned to a cognizant contract administration office or to another agency, acceptance by that office or agency is binding on the Government.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 349,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "Under FAR Part 46, title to supplies passes to the Government upon delivery, regardless of when acceptance occurs.",
+        "answer": "False",
+        "explanation": "Per FAR 46.505(a), title to supplies must pass to the Government upon formal acceptance, regardless of when or where the Government takes physical possession, unless the contract specifically provides for earlier passage of title.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 350,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "A contractor has an excellent reputation and past performance. The items being purchased are low-cost with small potential losses if defective. Can the contracting officer use a certificate of conformance instead of source inspection?",
+        "choices": [
+            "No, certificate of conformance is never acceptable",
+            "Yes, if acceptance on this basis is in the Government's interest and the conditions in FAR 46.504 apply",
+            "Yes, but only for commercial products",
+            "No, unless the contract exceeds $10 million"
+        ],
+        "answer": "Yes, if acceptance on this basis is in the Government's interest and the conditions in FAR 46.504 apply",
+        "explanation": "Per FAR 46.504, a certificate of conformance may be used instead of source inspection if (a) acceptance on this basis is in the Government's interest, and (b) either small losses would be incurred in the event of a defect, or the contractor's reputation or past performance makes it likely that supplies will be acceptable and defects would be corrected without contest.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 351,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "What are the two principal purposes of a warranty in a Government contract according to FAR 46.702?",
+        "choices": [
+            "To increase contractor profits and reduce Government risk",
+            "To delineate rights and obligations for defective items and to foster quality performance",
+            "To eliminate the need for Government inspection and reduce contract costs",
+            "To transfer all risk to the contractor and protect the Government from liability"
+        ],
+        "answer": "To delineate rights and obligations for defective items and to foster quality performance",
+        "explanation": "Per FAR 46.702(a), the principal purposes of a warranty in a Government contract are (1) to delineate the rights and obligations of the contractor and the Government for defective items and services; and (2) to foster quality performance.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 352,
+        "far_part": "Part 46",
+        "qtype": "true_false",
+        "question": "Warranties are mandatory for all Government contracts exceeding the simplified acquisition threshold.",
+        "answer": "False",
+        "explanation": "Per FAR 46.703, the use of warranties is not mandatory. In determining whether a warranty is appropriate for a specific acquisition, the contracting officer must consider various factors including nature and use of supplies/services, cost, administration and enforcement, and trade practice.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 353,
+        "far_part": "Part 46",
+        "qtype": "scenario",
+        "question": "CO Thompson is awarding a $5M cost-reimbursement contract for supplies. She wants to include a warranty clause. Under FAR Part 46, what must she do?",
+        "choices": [
+            "Include the warranty without any special authorization",
+            "Obtain authorization in accordance with agency regulations",
+            "Warranties are prohibited in all cost-reimbursement contracts",
+            "Use the standard warranty clause without modification"
+        ],
+        "answer": "Obtain authorization in accordance with agency regulations",
+        "explanation": "Per FAR 46.705(a), except for the warranties in clauses 52.246-3 and 52.246-8, the contracting officer must not include warranties in cost-reimbursement contracts, unless authorized in accordance with agency regulations.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 354,
+        "far_part": "Part 46",
+        "qtype": "multiple_choice",
+        "question": "Under FAR 46.803, when will the Government NOT provide contractual relief from liability for loss or damage?",
+        "choices": [
+            "When the contract value exceeds $100 million",
+            "When contractor liability results from willful misconduct or lack of good faith by managerial personnel",
+            "When supplies are delivered to a destination outside the United States",
+            "When the contract is awarded on a sole-source basis"
+        ],
+        "answer": "When contractor liability results from willful misconduct or lack of good faith by managerial personnel",
+        "explanation": "Per FAR 46.803(d)(2), the relief from liability does not apply when a defect or deficiency in, or Government's acceptance of, the supplies or services results from willful misconduct or lack of good faith on the part of the contractor's managerial personnel.",
+        "difficulty": "foundational",
+        "tags": ["Part 46"]
+    },
+    {
+        "id": 355,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "What is the definition of a 'service contract' under FAR Part 37?",
+        "choices": [
+            "A contract that provides supplies with incidental installation services",
+            "A contract that directly engages the time and effort of a contractor to perform an identifiable task rather than furnish an end item of supply",
+            "A contract solely for construction or architect-engineer services",
+            "A contract that creates an employer-employee relationship with the Government"
+        ],
+        "answer": "A contract that directly engages the time and effort of a contractor to perform an identifiable task rather than furnish an end item of supply",
+        "explanation": "Per FAR 37.001, service contract means a contract that directly engages the time and effort of a contractor whose primary purpose is to perform an identifiable task rather than to furnish an end item of supply. It may be either nonpersonal or personal and can cover services by professional or nonprofessional personnel.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 356,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "Under FAR Part 37, agencies must use performance-based acquisition methods to the maximum extent practicable when acquiring services, including commercial services.",
+        "answer": "True",
+        "explanation": "Per FAR 37.101-1(a), when acquiring services, including acquisition of commercial services using the procedures in Part 12, agencies must use performance-based acquisition methods to the maximum extent practicable, except for architect-engineer services, construction, utility services, or services incidental to supply purchases.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 357,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "What is the order of precedence for service contracts under FAR 37.101-1?",
+        "choices": [
+            "Cost-reimbursement, firm-fixed price, time-and-material",
+            "Firm-fixed price performance-based, performance-based that is not firm-fixed price, non-performance-based",
+            "Performance-based only, then cost-reimbursement, then fixed-price",
+            "Non-performance-based, performance-based, firm-fixed price"
+        ],
+        "answer": "Firm-fixed price performance-based, performance-based that is not firm-fixed price, non-performance-based",
+        "explanation": "Per FAR 37.101-1(b), the order of precedence is: (1) A firm-fixed price performance-based contract or task order, (2) A performance-based contract or task order that is not firm-fixed price, (3) A contract or task order that is not performance-based.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 358,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "CO Lee is acquiring janitorial services. The solicitation includes a Statement of Objectives (SOO) and requests offerors to propose performance standards. After contract award, what becomes part of the contract?",
+        "choices": [
+            "Both the SOO and the Performance Work Statement (PWS)",
+            "Only the SOO",
+            "The PWS with accepted performance standards, but not the SOO",
+            "Neither document becomes part of the contract"
+        ],
+        "answer": "The PWS with accepted performance standards, but not the SOO",
+        "explanation": "Per FAR 37.102-1(a)(1), while the SOO in a solicitation may be used to guide the development of the PWS, the SOO does not become part of the contract. The PWS, which includes the accepted performance standards, becomes part of the contract.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 359,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "A Performance Work Statement (PWS) must describe the outcome required rather than 'how' that outcome is to be achieved.",
+        "answer": "True",
+        "explanation": "Per FAR 37.102-1(a)(2), the PWS must describe the outcome required rather than 'how' that outcome is to be achieved or the estimated level of effort anticipated.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 360,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "Under FAR Part 37, when may agencies contract for personal services?",
+        "choices": [
+            "Whenever the agency determines it is in the Government's best interest",
+            "Only when specifically authorized by statute",
+            "For any service contract exceeding the simplified acquisition threshold",
+            "Never, personal services contracts are prohibited"
+        ],
+        "answer": "Only when specifically authorized by statute",
+        "explanation": "Per FAR 37.201-1, agencies must not contract for personal services unless specifically authorized by statute (e.g., 5 U.S.C. 3109).",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 361,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "The Government exercises relatively continuous supervision and control over multiple contractor personnel working on-site. Under FAR Part 37, what type of contract does this likely indicate?",
+        "choices": [
+            "A valid nonpersonal services contract",
+            "A personal services contract that may circumvent civil service laws",
+            "A performance-based acquisition contract",
+            "An inherently governmental function contract"
+        ],
+        "answer": "A personal services contract that may circumvent civil service laws",
+        "explanation": "Per FAR 37.201-2(b), the Government exercising relatively continuous supervision and control over multiple contractor personnel is frequently a key indicator of a personal services contract, which circumvents civil service laws requiring competitive hiring of Government employees.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 362,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "Under FAR Part 37, agencies may award a contract for the performance of an inherently governmental function.",
+        "answer": "False",
+        "explanation": "Per FAR 37.301-1(a), agencies must not award a contract for the performance of an inherently governmental function.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 363,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 37.301-1, service contracts require special oversight when the work does which of the following?",
+        "choices": [
+            "Exceeds $10 million in value",
+            "Supports an inherently governmental function or may approach becoming inherently governmental",
+            "Involves performance outside the United States",
+            "Requires classified information access"
+        ],
+        "answer": "Supports an inherently governmental function or may approach becoming inherently governmental",
+        "explanation": "Per FAR 37.301-1(b), service contracts require special oversight if the work (1) supports an inherently governmental function, including providing recommendations or analyses that can influence government decision-making; or (2) may approach becoming inherently governmental because of the nature of the function, manner of performance, or manner of administration.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 364,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "A contractor is attending Government meetings where they might be mistaken for Government employees. Under FAR 37.302-1, what must agencies require?",
+        "choices": [
+            "Contractor personnel must wear identification badges at all times",
+            "Contractor personnel must identify themselves as contractors unless the agency determines no confusion or harm would result",
+            "Contractor personnel are prohibited from attending Government meetings",
+            "No special requirements apply if the contractor has a security clearance"
+        ],
+        "answer": "Contractor personnel must identify themselves as contractors unless the agency determines no confusion or harm would result",
+        "explanation": "Per FAR 37.302-1(b), agencies must require contractor personnel to identify themselves as contractors when attending meetings, answering government phones, or in any situation where their status might be unclear to the public or Congress, unless the agency determines no confusion or harm would result.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 365,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "What types of services may agencies acquire through Advisory and Assistance Services (A&AS) contracts under FAR Part 37?",
+        "choices": [
+            "Construction services, architect-engineer services, and utility services",
+            "Management and professional support services, studies and evaluations, and engineering and technical services",
+            "Personal services contracts and inherently governmental functions",
+            "Only services for evaluating proposals"
+        ],
+        "answer": "Management and professional support services, studies and evaluations, and engineering and technical services",
+        "explanation": "Per FAR 37.402-1, when essential to the agency's mission, agencies may contract for A&AS to obtain (a) management and professional support services, (b) studies, analyses, and evaluations, or (c) engineering and technical services.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 366,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "A&AS contracts may be awarded to aid in influencing or enacting legislation.",
+        "answer": "False",
+        "explanation": "Per FAR 37.402-2(c), A&AS contracts must not be awarded for purposes of aiding in influencing or enacting legislation.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 367,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "An agency wants to hire a contractor to perform work of a decision-making nature which is the direct responsibility of agency officials. Under FAR Part 37, is this permissible?",
+        "choices": [
+            "Yes, if the contract value is below the simplified acquisition threshold",
+            "No, A&AS contracts must not be awarded for work of a decision-making nature that is the direct responsibility of agency officials",
+            "Yes, if the agency head approves it in writing",
+            "Yes, as long as it's a performance-based contract"
+        ],
+        "answer": "No, A&AS contracts must not be awarded for work of a decision-making nature that is the direct responsibility of agency officials",
+        "explanation": "Per FAR 37.402-2(a), A&AS contracts must not be awarded for purposes of performing work of a policy-making, decision-making, or managerial nature which is the direct responsibility of agency officials.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 368,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "Under what conditions may agencies contract for A&AS to evaluate proposals for initial contract award?",
+        "choices": [
+            "Never, this is always prohibited",
+            "When the head of the agency determines covered personnel are not readily available, when using an FFRDC as authorized, or when otherwise authorized by law",
+            "Only when the contract value exceeds $10 million",
+            "Whenever the agency determines it would be more efficient than using Government personnel"
+        ],
+        "answer": "When the head of the agency determines covered personnel are not readily available, when using an FFRDC as authorized, or when otherwise authorized by law",
+        "explanation": "Per FAR 37.402-3, agencies must not contract for A&AS to evaluate proposals unless (a) the head of the agency determines covered personnel are not readily available, (b) the contractor is an FFRDC as authorized, or (c) such functions are otherwise authorized by law.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 369,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "When determining whether covered personnel are readily available for proposal evaluation, the head of the agency may consider the administrative burden, including time, cost, and potential travel costs.",
+        "answer": "True",
+        "explanation": "Per FAR 37.402-3(a)(1), the head of the agency may consider the associated administrative burden when assessing the feasibility of using covered personnel from other agencies, including time and cost associated with searching for suitable personnel, potential travel costs, the amount of such costs in relation to the acquisition value, and potential competing demands for the personnel.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 370,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "CO Martinez wants to hire a contractor to conduct routine information technology services. The contractor will also provide some advisory services as an integral part of the contract. Are these services excluded from the definition of A&AS?",
+        "choices": [
+            "Yes, routine IT services are always excluded from A&AS",
+            "No, routine IT services are excluded unless they are an integral part of a contract for A&AS",
+            "Yes, but only if the contract is below the simplified acquisition threshold",
+            "No, all IT services are considered A&AS"
+        ],
+        "answer": "No, routine IT services are excluded unless they are an integral part of a contract for A&AS",
+        "explanation": "Per FAR 37.402-4(a), routine information technology services are excluded from the definition of A&AS unless they are an integral part of a contract for the acquisition of advisory and assistance services.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 371,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "What must agencies ensure regarding contracts for nonpersonal child care services according to FAR 37.502-1?",
+        "choices": [
+            "Criminal history background checks on employees who will perform child care services",
+            "Medical liability insurance for all child care providers",
+            "Performance bonds for facilities exceeding 50 children",
+            "Quarterly inspections by Government personnel"
+        ],
+        "answer": "Criminal history background checks on employees who will perform child care services",
+        "explanation": "Per FAR 37.502-1, agencies must ensure that contracts for nonpersonal child care services include requirements for criminal history background checks on employees who will perform child care services under the contract in accordance with 34 U.S.C. 20351 and agency procedures.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 372,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "Contracts for nonpersonal health care services with physicians and dentists must include indemnification and medical liability insurance.",
+        "answer": "True",
+        "explanation": "Per FAR 37.601-1, agencies must ensure nonpersonal health care services contracts with physicians, dentists and other health care providers include indemnification and medical liability insurance.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 373,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "Before awarding a nonpersonal health care services contract, what must the contracting officer obtain from the apparent successful offeror?",
+        "choices": [
+            "A copy of their medical license",
+            "Proof that they will be able to obtain the required medical liability insurance",
+            "References from three previous patients",
+            "A performance bond equal to the contract value"
+        ],
+        "answer": "Proof that they will be able to obtain the required medical liability insurance",
+        "explanation": "Per FAR 37.602-1, before making award, the contracting officer must obtain proof that the apparent successful offeror will be able to obtain the required medical liability insurance (e.g., letter of intent from a reputable insurer, underwriting approval letter).",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 374,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "Which labor standards statute applies to contracts solely for dismantling, demolition, or removal of improvements under FAR 37.701-1?",
+        "choices": [
+            "Davis-Bacon Act (Construction Wage Rate Requirements)",
+            "Service Contract Labor Standards",
+            "Fair Labor Standards Act",
+            "Walsh-Healey Public Contracts Act"
+        ],
+        "answer": "Service Contract Labor Standards",
+        "explanation": "Per FAR 37.701-1, Service Contract Labor Standards (41 U.S.C. chapter 67) apply when the contract is solely for dismantling, demolition, or removal. However, if the Government plans any follow-on construction work at the same location, then the Construction Wage Rate Requirements apply.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 375,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "The standard bonding requirements in 40 U.S.C. chapter 31, subchapter III apply to contracts solely for dismantling, demolition, or removal of improvements.",
+        "answer": "False",
+        "explanation": "Per FAR 37.701-2, the standard bonding requirements in 40 U.S.C. chapter 31, subchapter III do not apply to contracts solely for dismantling, demolition, or removal of improvements. However, the contracting officer may require the contractor to furnish a performance bond or other security in an amount considered adequate.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 376,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "CO Roberts is awarding a contract for dismantling a building. The contractor will receive title to the salvaged materials and will pay the Government for them. How should this contract be structured?",
+        "choices": [
+            "The Government pays the contractor for performing the work",
+            "The contractor pays the Government for the right to salvage and remove the materials",
+            "No payment in either direction; it's an even exchange",
+            "The Government provides a grant to the contractor"
+        ],
+        "answer": "The contractor pays the Government for the right to salvage and remove the materials",
+        "explanation": "Per FAR 37.701-3(a), contracts for dismantling or demolition may be structured so that either the Government pays the contractor for performing the work, or the contractor pays the Government for the right to salvage and remove the resulting materials.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 377,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "When evaluating salvageable property in a dismantling contract, what must the contracting officer do according to FAR 37.701-3?",
+        "choices": [
+            "Always give all salvageable property to the contractor",
+            "Determine property's usefulness to the Government and designate property worth more than salvage value for Government retention",
+            "Require the contractor to dispose of all property at their expense",
+            "Donate all salvageable property to charity"
+        ],
+        "answer": "Determine property's usefulness to the Government and designate property worth more than salvage value for Government retention",
+        "explanation": "Per FAR 37.701-3(b), the contracting officer must evaluate all salvageable property to determine its usefulness to the Government. When property is worth more to the Government than its salvage value to the contractor, the contract must specifically designate it for Government retention.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 378,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "Under FAR Part 37, 'uncompensated overtime' means hours worked without additional compensation in excess of an average of 40 hours per week by exempt direct charge employees.",
+        "answer": "True",
+        "explanation": "Per FAR 37.801, uncompensated overtime means the hours worked without additional compensation in excess of an average of 40 hours per week by direct charge employees who are exempt from the Fair Labor Standards Act.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 379,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "An offeror proposes that an employee will work 50 hours per week at $25 per hour on a 40-hour work week basis. What is the adjusted hourly rate (including uncompensated overtime)?",
+        "choices": [
+            "$25.00 per hour",
+            "$20.00 per hour",
+            "$31.25 per hour",
+            "$18.75 per hour"
+        ],
+        "answer": "$20.00 per hour",
+        "explanation": "Per FAR 37.801, the adjusted hourly rate is calculated by multiplying the hourly rate for a 40-hour work week by 40, then dividing by the proposed hours per week. In this case: $25.00 × 40/50 = $20.00 per hour.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 380,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 37.802-1, what must agencies ensure regarding uncompensated overtime in solicitations?",
+        "choices": [
+            "Solicitations must require uncompensated overtime to reduce costs",
+            "Solicitations must not incentivize the use of uncompensated overtime",
+            "Solicitations must prohibit all overtime work",
+            "Solicitations must mandate minimum overtime requirements"
+        ],
+        "answer": "Solicitations must not incentivize the use of uncompensated overtime",
+        "explanation": "Per FAR 37.802-1, agencies must ensure solicitations do not incentivize the use of uncompensated overtime (10 U.S.C. 4507).",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 381,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "Agencies may contract with organizations that offer quasi-military armed forces for hire if the contract is for protective services.",
+        "answer": "False",
+        "explanation": "Per FAR 37.802-2, agencies must not contract with organizations that offer quasi-military armed forces for hire, or with their employees, regardless of the contract's character. An organization providing guard or protective services is not considered a quasi-military armed force, even though the guards are armed.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 382,
+        "far_part": "Part 37",
+        "qtype": "scenario",
+        "question": "The head of an agency wants to waive severance cost limitations for foreign nationals under a service contract. The contract provides significant support for military members deployed overseas. Under FAR 37.802-3, when may the waiver be granted?",
+        "choices": [
+            "At any time during contract performance",
+            "Only prior to contract award",
+            "Only after contract award but before performance begins",
+            "Waivers are never permitted for foreign national severance costs"
+        ],
+        "answer": "Only prior to contract award",
+        "explanation": "Per FAR 37.802-3(b)(3), waivers of severance cost limitations may only be granted prior to contract award.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 383,
+        "far_part": "Part 37",
+        "qtype": "multiple_choice",
+        "question": "When evaluating proposals that include uncompensated overtime, what must contracting officers do according to FAR 37.803-1?",
+        "choices": [
+            "Automatically reject proposals with uncompensated overtime",
+            "Use adjusted hourly rates instead of standard hourly rates for all proposed hours",
+            "Accept the proposed rates without adjustment",
+            "Require offerors to eliminate all uncompensated overtime"
+        ],
+        "answer": "Use adjusted hourly rates instead of standard hourly rates for all proposed hours",
+        "explanation": "Per FAR 37.803-1(a), when offerors propose uncompensated overtime, contracting officers must assess potential risks by using adjusted hourly rates instead of standard hourly rates for all proposed hours.",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 384,
+        "far_part": "Part 37",
+        "qtype": "true_false",
+        "question": "Under FAR 37.803-2, the head of an agency may enter into a contract for severable services that begins in one fiscal year and ends in the next fiscal year if the period does not exceed one year.",
+        "answer": "True",
+        "explanation": "Per FAR 37.803-2(b), the head of the agency may enter into a contract, exercise an option, or place an order under a contract for severable services for a period that begins in one fiscal year and ends in the next fiscal year if the period of the contract awarded, option exercised, or order placed does not exceed one year (10 U.S.C. 3133 and 41 U.S.C. 3902).",
+        "difficulty": "foundational",
+        "tags": ["Part 37"]
+    },
+    {
+        "id": 385,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 16.101, what system of contracting must not be used?",
+        "choices": [
+            "Firm-fixed-price",
+            "Cost-plus-a-percentage-of-cost",
+            "Time-and-materials",
+            "Fixed-price incentive"
+        ],
+        "answer": "Cost-plus-a-percentage-of-cost",
+        "explanation": "Per FAR 16.101(b), the cost-plus-a-percentage-of-cost system of contracting must not be used (see 10 U.S.C. 3322(a) and 41 U.S.C. 3905(a)).",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 386,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "Under FAR Part 16, contracting officers may instruct offerors to propose an alternative contract type within their proposals.",
+        "answer": "True",
+        "explanation": "Per FAR 16.102(a)(2), contracting officers may instruct offerors in the solicitation to propose an alternative contract type within their proposals.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 387,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "CO Garcia is selecting a contract type where the risk involved is minimal and can be predicted with an acceptable degree of certainty. Which contract type should be used?",
+        "choices": [
+            "Cost-reimbursement",
+            "Firm-fixed-price",
+            "Time-and-materials",
+            "Cost-plus-incentive-fee"
+        ],
+        "answer": "Firm-fixed-price",
+        "explanation": "Per FAR 16.102(b), a firm-fixed-price contract, which best uses the basic profit motive of business enterprise, must be used when the risk involved is minimal or can be predicted with an acceptable degree of certainty.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 388,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "For contracts other than firm-fixed-price, what must the contracting officer include in the documentation at a minimum according to FAR 16.103?",
+        "choices": [
+            "Only the contract price and delivery schedule",
+            "An analysis of why other than firm-fixed-price is appropriate, rationale with specific facts, assessment of Government resources, and discussion of planned actions to transition to firm-fixed-price",
+            "Just the contractor's accounting system adequacy",
+            "Only approval from the head of the contracting activity"
+        ],
+        "answer": "An analysis of why other than firm-fixed-price is appropriate, rationale with specific facts, assessment of Government resources, and discussion of planned actions to transition to firm-fixed-price",
+        "explanation": "Per FAR 16.103(a)(4), for other than firm-fixed-price contracts, documentation must include at minimum: (i) an analysis of why the use is appropriate, (ii) rationale with specific facts and circumstances, (iii) an assessment of whether Government resources are adequate, and (iv) a discussion of planned actions to minimize use and transition to firm-fixed-price contracts.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 389,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "Documentation of contract type is required for all fixed-price acquisitions made under simplified acquisition procedures.",
+        "answer": "False",
+        "explanation": "Per FAR 16.103(b)(1), documentation of contract type is not required for fixed-price acquisitions made under simplified acquisition procedures.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 390,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "What is the definition of 'established price' under FAR Part 16?",
+        "choices": [
+            "Any price the contractor proposes",
+            "A price that is an established catalog or market price for a commercial product sold in substantial quantities to the general public, which is the net price after standard trade discounts",
+            "The lowest price available in the market",
+            "A price approved by the contracting officer"
+        ],
+        "answer": "A price that is an established catalog or market price for a commercial product sold in substantial quantities to the general public, which is the net price after standard trade discounts",
+        "explanation": "Per FAR 16.001, established price means a price that (1) is an established catalog or market price for a commercial product sold in substantial quantities to the general public; and (2) is the net price after applying any standard trade discounts offered by the contractor.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 391,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "A firm-fixed-price contract is being used in conjunction with an award-fee incentive based solely on technical performance factors. What contract type does this become?",
+        "choices": [
+            "Cost-reimbursement",
+            "The contract type remains firm-fixed-price",
+            "Fixed-price incentive",
+            "Hybrid contract type"
+        ],
+        "answer": "The contract type remains firm-fixed-price",
+        "explanation": "Per FAR 16.202-1, the contracting officer may use a firm-fixed-price contract in conjunction with an award-fee incentive when the award fee is based solely on factors other than cost. The contract type remains firm-fixed-price when used with these incentives.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 392,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "Time-and-materials contracts and labor-hour contracts are considered fixed-price contracts under FAR Part 16.",
+        "answer": "False",
+        "explanation": "Per FAR 16.201(c), time-and-materials contracts and labor-hour contracts are not fixed-price contracts.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 393,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "When is a firm-fixed-price contract suitable according to FAR 16.202-2?",
+        "choices": [
+            "When the contractor's accounting system is adequate",
+            "When acquiring supplies or services on the basis of clearly defined functional or detailed specifications and fair and reasonable prices can be established at the outset",
+            "Only for commercial products",
+            "When cost-reimbursement is not appropriate"
+        ],
+        "answer": "When acquiring supplies or services on the basis of clearly defined functional or detailed specifications and fair and reasonable prices can be established at the outset",
+        "explanation": "Per FAR 16.202-2, a firm-fixed-price contract is suitable for acquiring supplies or services on the basis of clearly defined functional or detailed specifications when the contracting officer can establish fair and reasonable prices at the outset.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 394,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "CO Johnson is contracting for standard supplies with an established catalog price, but there is serious doubt about market stability during the extended contract period. Which contract type should be considered?",
+        "choices": [
+            "Firm-fixed-price only",
+            "Fixed-price contract with economic price adjustment",
+            "Cost-reimbursement",
+            "Time-and-materials"
+        ],
+        "answer": "Fixed-price contract with economic price adjustment",
+        "explanation": "Per FAR 16.203-2(a), a fixed-price contract with economic price adjustment may be used when there is serious doubt concerning the stability of market or labor conditions that will exist during an extended period of contract performance, and contingencies can be identified and covered separately.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 395,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "Under what conditions must the contracting officer use cost-reimbursement contracts according to FAR 16.301-2?",
+        "choices": [
+            "Whenever the contractor requests it",
+            "Only when the requirements cannot be sufficiently defined to allow for a fixed-price type contract, or uncertainties do not permit costs to be estimated with sufficient accuracy",
+            "For all contracts exceeding $10 million",
+            "When the contractor lacks an adequate accounting system"
+        ],
+        "answer": "Only when the requirements cannot be sufficiently defined to allow for a fixed-price type contract, or uncertainties do not permit costs to be estimated with sufficient accuracy",
+        "explanation": "Per FAR 16.301-2(a), the contracting officer must use cost-reimbursement contracts only when (1) the requirements cannot be sufficiently defined to allow for a fixed-price type contract, or (2) uncertainties involved in contract performance do not permit costs to be estimated with sufficient accuracy to use any type of fixed-price contract.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 396,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "Cost-reimbursement contracts may be used for the purchase of commercial products and commercial services.",
+        "answer": "False",
+        "explanation": "Per FAR 16.301-3(b), the use of cost-reimbursement contracts is not allowed for the purchase of commercial products and commercial services.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 397,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "An agency wants to award a cost-reimbursement contract but has not prepared a written acquisition plan. Under FAR 16.301-3, can the contract be awarded?",
+        "choices": [
+            "Yes, if the contract is below the simplified acquisition threshold",
+            "No, a cost-reimbursement contract may be used only when a written acquisition plan has been approved",
+            "Yes, if the head of the agency approves it verbally",
+            "Yes, acquisition plans are optional for cost-reimbursement contracts"
+        ],
+        "answer": "No, a cost-reimbursement contract may be used only when a written acquisition plan has been approved",
+        "explanation": "Per FAR 16.301-3(a)(1), a cost-reimbursement contract may be used only when a written acquisition plan has been approved.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 398,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "What is a cost contract under FAR Part 16?",
+        "choices": [
+            "A contract where the Government reimburses only a portion of allowable costs",
+            "A cost-reimbursement contract that does not include fee",
+            "A contract with a fixed fee that does not change",
+            "A contract that includes both cost and profit"
+        ],
+        "answer": "A cost-reimbursement contract that does not include fee",
+        "explanation": "Per FAR 16.302, a cost contract is a cost-reimbursement contract that does not include fee.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 399,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "In a cost-plus-fixed-fee contract, the fixed fee changes with actual cost but may be adjusted as a result of changes in the work to be performed.",
+        "answer": "False",
+        "explanation": "Per FAR 16.304-1, a cost-plus-fixed-fee contract includes payment of an agreed upon fixed-fee. The fixed fee does not change with actual cost but may be adjusted as a result of changes in the work to be performed under the contract.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 400,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "A cost-plus-fixed-fee contract describes the scope of work by stating a definite goal and specifying an end product. The contractor must complete and deliver the end product within the estimated cost as a condition for payment of the entire fixed fee. What form of contract is this?",
+        "choices": [
+            "Term form",
+            "Completion form",
+            "Level-of-effort form",
+            "Incentive form"
+        ],
+        "answer": "Completion form",
+        "explanation": "Per FAR 16.304-3(a), the completion form describes the scope of work by stating a definite goal or target and specifying an end product. This form normally requires the contractor to complete and deliver the specified end product within the estimated cost, if possible, as a condition for payment of the entire fixed fee.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 401,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 16.401-2, what must be completed for all incentive- and award-fee contracts?",
+        "choices": [
+            "A determination and findings signed by the contracting officer",
+            "A determination and findings signed by the head of the contracting activity justifying that the use is in the best interest of the Government",
+            "Approval from the agency head",
+            "A market research report"
+        ],
+        "answer": "A determination and findings signed by the head of the contracting activity justifying that the use is in the best interest of the Government",
+        "explanation": "Per FAR 16.401-2, a determination and findings, signed by the head of the contracting activity, must be completed for all incentive- and award-fee contracts justifying that the use of this type of contract is in the best interest of the Government.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 402,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "Under FAR Part 16, the use of rollover of unearned award fee is permitted.",
+        "answer": "False",
+        "explanation": "Per FAR 16.402-2(d), the use of rollover of unearned award fee is prohibited.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 403,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "A contractor's overall cost, schedule, and technical performance in the aggregate is below satisfactory. Under FAR 16.402-2, how much award fee can be earned?",
+        "choices": [
+            "Up to 25% of the award fee pool",
+            "Up to 50% of the award fee pool",
+            "Award fee must not be earned",
+            "At the discretion of the Fee-Determining Official"
+        ],
+        "answer": "Award fee must not be earned",
+        "explanation": "Per FAR 16.402-2(b), award fee must not be earned if the contractor's overall cost, schedule, and technical performance in the aggregate is below satisfactory. Additionally, per FAR 16.402-2(c)(5), earning any award fee when performance is below satisfactory is not allowed.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 404,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "What is the award-fee pool percentage range for a 'Good' adjectival rating according to the table in FAR 16.402-2?",
+        "choices": [
+            "91%-100%",
+            "76%-90%",
+            "51%-75%",
+            "No greater than 50%"
+        ],
+        "answer": "51%-75%",
+        "explanation": "Per FAR 16.402-2(c)(4) Table 16-1, the 'Good' adjectival rating corresponds to an award-fee pool available to be earned of 51%-75%. This rating means the contractor has exceeded some of the significant award-fee criteria and has met overall cost, schedule, and technical performance requirements.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 405,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "What is a delivery-order contract according to FAR 16.501-1?",
+        "choices": [
+            "A contract that specifies a firm quantity of property to be delivered",
+            "A contract for property that does not procure or specify a firm quantity and provides for issuance of orders for delivery during the contract period",
+            "A contract for services only",
+            "A contract with a fixed delivery schedule"
+        ],
+        "answer": "A contract for property that does not procure or specify a firm quantity and provides for issuance of orders for delivery during the contract period",
+        "explanation": "Per FAR 16.501-1, delivery-order contract means a contract for property [supplies] that does not procure or specify a firm quantity of property (other than a minimum or maximum quantity) and that provides for the issuance of orders for the delivery of supplies during the period of the contract.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 406,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "Under FAR 16.503-3, no requirements contract in an amount estimated to exceed $150 million (including all options) may be awarded to a single source unless a determination is executed.",
+        "answer": "True",
+        "explanation": "Per FAR 16.503-3(a), no requirements contract in an amount estimated to exceed $150 million (including all options) may be awarded to a single source unless a determination is executed in accordance with 16.504-3(a)(4).",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 407,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "CO Martinez is establishing an indefinite-quantity contract. The contract must require the Government to order at least a stated minimum quantity. What characteristic must this minimum quantity have?",
+        "choices": [
+            "It can be a nominal quantity",
+            "It must be more than a nominal quantity, but should not exceed the amount the Government is fairly certain to order",
+            "It must equal the maximum quantity",
+            "It must be at least 50% of the estimated total"
+        ],
+        "answer": "It must be more than a nominal quantity, but should not exceed the amount the Government is fairly certain to order",
+        "explanation": "Per FAR 16.504-1(b), to ensure that the contract is binding, the minimum quantity must be more than a nominal quantity, but it should not exceed the amount that the Government is fairly certain to order.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 408,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "According to FAR 16.504-3, what is the preference for indefinite-quantity contracts under a single solicitation?",
+        "choices": [
+            "Single award to the lowest bidder",
+            "Multiple awards to more than one source, to the maximum extent practicable",
+            "Awards only to small businesses",
+            "No preference specified"
+        ],
+        "answer": "Multiple awards to more than one source, to the maximum extent practicable",
+        "explanation": "Per FAR 16.504-3(a)(1), except for indefinite-quantity contracts for advisory and assistance services, the contracting officer must, to the maximum extent practicable, give preference to making multiple awards of indefinite-quantity contracts under a single solicitation for the same or similar supplies or services to more than one source.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 409,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "For DoD, NASA, and the Coast Guard, the ordering period of a task or delivery order contract may be extended beyond 10 years if the head of the agency determines in writing that exceptional circumstances necessitate a longer period.",
+        "answer": "True",
+        "explanation": "Per FAR 16.501-2(c)(1), for DoD, NASA, and the Coast Guard, the head of an agency may provide for the contract to cover any period up to five years and may extend the contract period for successive periods. The total contract period as extended may not exceed 10 years unless such head of an agency determines in writing that exceptional circumstances necessitate a longer contract period.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 410,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "CO Williams is placing an order valued at $5,000 against a multiple-award contract. According to FAR 16.507-1, what fair opportunity procedures are required?",
+        "choices": [
+            "Full and open competition per FAR Part 6",
+            "The order may be placed with any contractor that can meet the agency's needs; no specific fair opportunity procedures required",
+            "Written solicitation to all contract holders",
+            "Justification and approval from the head of the contracting activity"
+        ],
+        "answer": "The order may be placed with any contractor that can meet the agency's needs; no specific fair opportunity procedures required",
+        "explanation": "Per FAR 16.507-1, each order valued at or below the micro-purchase threshold may be placed with any multiple-award contractor that can meet the agency's needs. Although not required to solicit from a specific number of contractors, ordering activities should attempt to distribute orders among multiple-award contractors.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 411,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "For orders valued above $7.5 million against a multiple-award contract, what must the fair notice include according to FAR 16.507-5?",
+        "choices": [
+            "Only the estimated cost",
+            "A clear statement of requirements, reasonable response period, and disclosure of significant evaluation factors and their relative importance",
+            "Just the delivery schedule",
+            "Only the contract line item number"
+        ],
+        "answer": "A clear statement of requirements, reasonable response period, and disclosure of significant evaluation factors and their relative importance",
+        "explanation": "Per FAR 16.507-5(a), a fair notice for orders valued above $7.5 million must (1) include a clear statement of the agency's requirements, (2) allow for a reasonable response period, and (3) disclose the significant factors and subfactors, including cost or price, that the agency expects to consider in evaluating quotations and their relative importance.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 412,
+        "far_part": "Part 16",
+        "qtype": "true_false",
+        "question": "A time-and-materials contract may be used when it is possible at the time of placing the contract to estimate accurately the extent or duration of the work.",
+        "answer": "False",
+        "explanation": "Per FAR 16.601-2, a time-and-materials contract may be used only when it is not possible at the time of placing the contract to estimate accurately the extent or duration of the work or to anticipate costs with any reasonable degree of confidence.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 413,
+        "far_part": "Part 16",
+        "qtype": "scenario",
+        "question": "An agency wants to award a time-and-materials contract with a base period of 4 years. Under FAR 16.601-3, what approval is required?",
+        "choices": [
+            "No special approval needed",
+            "Contracting officer approval only",
+            "Head of the contracting activity approval prior to execution of the base period",
+            "Agency head approval"
+        ],
+        "answer": "Head of the contracting activity approval prior to execution of the base period",
+        "explanation": "Per FAR 16.601-3(a)(2), the determination and findings must be approved by the head of the contracting activity prior to the execution of the base period when the base period plus any option periods exceeds three years.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    },
+    {
+        "id": 414,
+        "far_part": "Part 16",
+        "qtype": "multiple_choice",
+        "question": "What is a letter contract according to FAR 16.603-1?",
+        "choices": [
+            "A final contract sent by mail",
+            "A written preliminary contractual instrument that authorizes the contractor to begin immediately manufacturing supplies or performing services",
+            "A contract modification",
+            "A basic ordering agreement"
+        ],
+        "answer": "A written preliminary contractual instrument that authorizes the contractor to begin immediately manufacturing supplies or performing services",
+        "explanation": "Per FAR 16.603-1, a letter contract is a written preliminary contractual instrument that authorizes the contractor to begin immediately manufacturing supplies or performing services.",
+        "difficulty": "foundational",
+        "tags": ["Part 16"]
+    }
 ]

@@ -121,36 +121,50 @@ def quiz():
 @app.route("/study", methods=["GET", "POST"]) #Last commenting for the night to test database
 @login_required
 def study():
-    far_parts = get_far_parts() # list of (name, count) tuples
+    far_parts = get_far_parts()  # list of (name, count) tuples, numerically sorted
+
+    # Identify which Parts are B2B based on the active b2b track
+    b2b_track = get_track("b2b")
+    b2b_tags = set()
+    if b2b_track:
+        for stage in b2b_track["stages"]:
+            for tag in stage["tags"]:
+                b2b_tags.add(tag)
+
+    # Split the Parts list into B2B and other
+    b2b_parts = [(name, count) for name, count in far_parts if name in b2b_tags]
+    other_parts = [(name, count) for name, count in far_parts if name not in b2b_tags]
 
     if request.method == "POST":
         selected_parts = request.form.getlist("parts")
         session_length = int(request.form.get("session_length", 10))
-
         # Validate: must pick at least one Part
         if not selected_parts:
             return render_template(
                 "study.html",
-                far_parts=far_parts,
+                b2b_parts=b2b_parts,
+                other_parts=other_parts,
                 error="Please select at least one FAR Part."
             )
-
-        # Pull matching questions, shuffle,m take the first N
+        # Pull matching questions, shuffle, take the first N
         questions = get_all_questions(far_parts=selected_parts)
         random.shuffle(questions)
         questions = questions[:session_length]
-
         # Lock the question IDs into the session
         session["study_question_ids"] = [q["id"] for q in questions]
         session["question_index"] = 0
         session["score"] = 0
-        # Clear any stale feedback fomr previous quiz
+        # Clear any stale feedback from previous quiz
         for key in ["last_result", "last_correct_answer", "last_explanation"]:
             session.pop(key, None)
-            
+
         return redirect(url_for("quiz"))
-        
-    return render_template("study.html", far_parts=far_parts)
+
+    return render_template(
+        "study.html",
+        b2b_parts=b2b_parts,
+        other_parts=other_parts,
+    )
 
 @app.route("/tracks/<track_id>")
 @login_required

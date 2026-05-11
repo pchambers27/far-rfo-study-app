@@ -135,13 +135,13 @@ def record_attempt(user_id, question_id, user_answer, was_correct):
 
 
 def get_far_parts():
-    """Return a list of (far_part, count) tuples for all Parts in the database, sorted."""
+    """Return a list of (far_part, count) tuples for all Parts in the database, sorted numerically."""
     with get_connection() as conn:
         rows = conn.execute(text("""
             SELECT far_part, COUNT(*) as count
             FROM questions
             GROUP BY far_part
-            ORDER BY far_part
+            ORDER BY CAST(REGEXP_REPLACE(far_part, '[^0-9]', '', 'g') AS INTEGER)
         """)).mappings().all()
     return [(row["far_part"], row["count"]) for row in rows]
 
@@ -241,7 +241,7 @@ def get_far_parts_with_study_facts():
             SELECT far_part, COUNT(*) as count
             FROM study_facts
             GROUP BY far_part
-            ORDER BY far_part
+            ORDER BY CAST(REGEXP_REPLACE(far_part, '[^0-9]', '', 'g') AS INTEGER)
         """)).mappings().all()
     return [(row["far_part"], row["count"]) for row in rows]
 
