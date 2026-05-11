@@ -114,7 +114,9 @@ def quiz():
         last_result=session.get("last_result"),
         last_correct_answer=session.get("last_correct_answer"),
         last_explanation=session.get("last_explanation"),
-        user_email=user["email"]
+        user_email=user["email"],
+        question_number=session["question_index"] + 1,
+        total_questions=len(session["study_question_ids"]),
     )
 
 
@@ -221,10 +223,17 @@ def start_stage_quiz(track_id, stage_id):
     if not stage_data:
         return redirect(url_for("track", track_id=track_id))
 
+    # Optionally filter to a specific Part within the stage
+    part_filter = request.args.get("part")
+    if part_filter and part_filter in stage_data["tags"]:
+        far_parts = [part_filter]
+    else:
+        far_parts = stage_data["tags"]
+
     difficulty = track_data.get("question_filter", {}).get("difficulty")
 
-    # Pull questions matching this stage's tags + track's difficulty
-    questions = get_all_questions(tags=stage_data["tags"], difficulty=difficulty)
+    # Pull questions matching the selected Parts + track's difficulty
+    questions = get_all_questions(far_parts=far_parts, difficulty=difficulty)
 
     if not questions:
         return redirect(url_for("stage", track_id=track_id, stage_id=stage_id))

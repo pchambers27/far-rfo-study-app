@@ -22,6 +22,13 @@
             </div>
         {% endif %}
 
+    <div class="mb-4 flex items-baseline justify-between">
+        <p class="text-sm font-medium text-gray-700">Question {{ question_number }} of {{ total_questions }}</p>
+        <div class="flex-1 mx-4 h-2 bg-gray-200 rounded-full overflow-hidden max-w-xs">
+            <div class="h-full bg-blue-900 transition-all" style="width: {{ (question_number / total_questions * 100)|round }}%"></div>
+        </div>
+    </div>
+    
         <!-- Current questions card -->
         <div class="bg-white rounded-lg shadow-md p-6 sm:p-8">
             <p class="text-xs text-gray-500 uppercase tracking-wide mb-2">{{ question.far_part }} - {{ question.tags[0] if question.tags else question.far_part }}</p>
